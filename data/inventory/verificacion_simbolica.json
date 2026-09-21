@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "fecha": "2026-09-21T06:34:46Z",
+  "total_pasos": 10,
+  "pass": 9,
+  "fail": 1,
+  "duracion_s": 1.841,
+  "detalle": [
+    {
+      "paso": 1,
+      "titulo": "tau_c = sqrt(3) tau",
+      "ok": false
+    },
+    {
+      "paso": 2,
+      "titulo": "Residuo propagador",
+      "ok": true
+    },
+    {
+      "paso": 3,
+      "titulo": "Lambert-W",
+      "ok": true
+    },
+    {
+      "paso": 4,
+      "titulo": "beta function",
+      "ok": true
+    },
+    {
+      "paso": 5,
+      "titulo": "Integral I2(a,b)",
+      "ok": true
+    },
+    {
+      "paso": 6,
+      "titulo": "Condicion N",
+      "ok": true
+    },
+    {
+      "paso": 7,
+      "titulo": "Friedmann κ⁴/6",
+      "ok": true
+    },
+    {
+      "paso": 8,
+      "titulo": "Lambda_THU",
+      "ok": true
+    },
+    {
+      "paso": 9,
+      "titulo": "m_n neutron",
+      "ok": true
+    },
+    {
+      "paso": 10,
+      "titulo": "Coeficiente A",
+      "ok": true
+    }
+  ]
+}

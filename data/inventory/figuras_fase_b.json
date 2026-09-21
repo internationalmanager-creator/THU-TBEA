@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "fecha": "2026-09-21T06:44:41Z",
+  "total_figuras": 6,
+  "duracion_s": 6.02,
+  "figuras": [
+    {
+      "figura": "fig_B-01_beta_function",
+      "path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\paper\\thu\\figures\\fig_B-01_beta_function.png",
+      "sha256": "687f7f5fe700e974c06b7f7d314cb22542e9e077bd30ba00592854f5fc92b993",
+      "descripcion": "β(g)=κ(1+g-g²), g*=φ estable con β'(φ)=-κ√5<0"
+    },
+    {
+      "figura": "fig_B-02_integral_I2",
+      "path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\paper\\thu\\figures\\fig_B-02_integral_I2.png",
+      "sha256": "18e226ae52ef0c42ce8131a785a18263259d22249426744db313ba959ad11d70",
+      "descripcion": "I₂ vs N: se anula en N*≈1.220210"
+    },
+    {
+      "figura": "fig_B-03_lambert_w",
+      "path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\paper\\thu\\figures\\fig_B-03_lambert_w.png",
+      "sha256": "3198edf15faa6dc214b1c994835f6048f7149ff6dc0c4d9ecc84188ce9d94e88",
+      "descripcion": "Ramas W_0 (física) y W_-1 (UV): la rama k=0 es el polo observable"
+    },
+    {
+      "figura": "fig_B-04_jerarquia_aurea",
+      "path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\paper\\thu\\figures\\fig_B-04_jerarquia_aurea.png",
+      "sha256": "b4e9bb6e9739078274cfa79f4f7a688d04d549c8999581b78034f37a84dd70f0",
+      "descripcion": "Λ = M_P φ^(-n) para n=60..99; n=88 da escala hadrónica"
+    },
+    {
+      "figura": "fig_B-05_coeficiente_A",
+      "path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\paper\\thu\\figures\\fig_B-05_coeficiente_A.png",
+      "sha256": "2e81ac1002ba50cfacaf8cb774256544e584203b550dc8224c9369078b24cef6",
+      "descripcion": "A = 5/3 + δA_VL(u,d,e) = 1.819: consistente con PDF"
+    },
+    {
+      "figura": "fig_B-06_residuo_propagador",
+      "path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\paper\\thu\\figures\\fig_B-06_residuo_propagador.png",
+      "sha256": "639642cc4466ae9323b3933dc8b9a4cfc5d252c26f3b6412b043ecda254c8f0a",
+      "descripcion": "Res[Δ] > 0: unitariedad preservada"
+    }
+  ]
+}

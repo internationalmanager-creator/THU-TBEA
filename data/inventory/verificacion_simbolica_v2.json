@@ -1,0 +1,81 @@
+{
+  "version": "2.1.0",
+  "fecha": "2026-09-21T06:42:35Z",
+  "metodo": "descompuesto, sin hipotesis no declaradas, 1c por calculo real",
+  "total": 14,
+  "pass": 14,
+  "fail": 0,
+  "duracion_s": 1.45,
+  "detalle": [
+    {
+      "test": "1a — Cinetico 3/2 -> 1/2",
+      "afirma": "3/2 (∇τ)² = 1/2 (∇τ_c)² con τ_c = √3 τ",
+      "ok": true
+    },
+    {
+      "test": "1b — Linealidad de □",
+      "afirma": "□(αf + βg) = α·□f + β·□g",
+      "ok": true
+    },
+    {
+      "test": "1c — D^n lineal para n=1..4",
+      "afirma": "Por induccion: D^n lineal para todo n ∈ ℕ",
+      "ok": true
+    },
+    {
+      "test": "1d — Ĥ es lineal (transitivo)",
+      "afirma": "Ĥ = □·exp(a□) es lineal porque ambos factores son lineales",
+      "ok": true
+    },
+    {
+      "test": "1e — Factor 1/6",
+      "afirma": "(1/2)·τ·Ĥ[τ] = (1/6)·τ_c·Ĥ[τ_c]",
+      "ok": true
+    },
+    {
+      "test": "2 — Res[Δ]",
+      "afirma": "Res[Δ] = e^(-am²)/(1+am²)",
+      "ok": true
+    },
+    {
+      "test": "3 — Lambert-W",
+      "afirma": "u = W_k(am²)",
+      "ok": true
+    },
+    {
+      "test": "4 — β(g) y g*=φ",
+      "afirma": "β'(φ) = -κ√5",
+      "ok": true
+    },
+    {
+      "test": "5 — I_2(a,b)",
+      "afirma": "I_2 = (1/4a)√(π/a)(1-b²/2a)e^(-b²/4a)",
+      "ok": true
+    },
+    {
+      "test": "6 — N",
+      "afirma": "N = 1.220210",
+      "ok": true
+    },
+    {
+      "test": "7 — κ⁴/6",
+      "afirma": "3H² = κ²ρ_tot - (κ⁴/6)S²a⁻⁶",
+      "ok": true
+    },
+    {
+      "test": "8 — Λ_THU",
+      "afirma": "Λ_THU ≈ 989.89 MeV",
+      "ok": true
+    },
+    {
+      "test": "9 — m_n",
+      "afirma": "m_n ≈ 937.03 MeV",
+      "ok": true
+    },
+    {
+      "test": "10 — A",
+      "afirma": "A ≈ 1.819",
+      "ok": true
+    }
+  ]
+}
