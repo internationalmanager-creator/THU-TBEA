@@ -1,0 +1,73 @@
+{
+  "source": "PROGRAMA_COMPLETO_v5.0.pdf — version final v5.3",
+  "source_doi": "10.5281/zenodo.22009758",
+  "fecha_consolidacion": "2026-09-19",
+  "nota": "Este archivo registra SOLO lo que v5.3 declara explicitamente: retiros del nucleo (Sec. 12.2), tabla de trasplantes (Sec. 2.5) y bitacora de etapas (Sec. 1.2). Los 17 parches viven en patches.json. Los hallazgos nuevos durante el desarrollo se registran en annexes.json como V5.0-AXXX.",
+
+  "retiros": [
+    {
+      "id": "RET-01",
+      "ubicacion": "Cap. 12.2",
+      "afirmacion_retirada": "Diferencia m_n - m_p como derivacion del nucleo",
+      "reemplazo": "Delegado al problema abierto A-6 [F]",
+      "razon": "Frontera QCD reticular; incluye derivacion dinamica del termino phi^-6",
+      "label_final": "F"
+    },
+    {
+      "id": "RET-02",
+      "ubicacion": "Cap. 7 (titulo)",
+      "afirmacion_retirada": "Cancelacion de energia de vacio (generica)",
+      "reemplazo": "Cancelacion del vacio escalar modulado: mecanismo parcial",
+      "razon": "El modulador F(k, phi) es especifico del pseudoescalar; no aplica al vacio SM completo (A-17 [F])",
+      "label_final": "F"
+    },
+    {
+      "id": "RET-03",
+      "ubicacion": "Cap. 8",
+      "afirmacion_retirada": "Ansatz cosmologico directo (H(z) postulado)",
+      "reemplazo": "EOM derivadas desde la accion ECSK",
+      "razon": "Trazabilidad variacional completa en Sec. 8.2 y 8.3",
+      "label_final": "D"
+    }
+  ],
+
+  "trasplantes": [
+    {"fuente": "THUV3SP 1-2",                "destino": "Cap. 1",                "nota": "Historia + nucleo firme"},
+    {"fuente": "THUV3SP 3 / Anexo G",        "destino": "Ap. G (A)",             "nota": "Visualizaciones"},
+    {"fuente": "THUV3SP 4 / Anexo D",        "destino": "Caps. 3-4",             "nota": "Sistema Dirac-KKG"},
+    {"fuente": "THUV3SP 5",                  "destino": "Cap. 12",               "nota": "EFT trans-escalar con g* = phi (el valor 1/4 fue retirado)"},
+    {"fuente": "THUV3SP 6 (V1-V7)",          "destino": "Ap. F (A)",             "nota": "Morfologias"},
+    {"fuente": "THUV3SP 7 (P1-P11)",         "destino": "Cap. 19 + preregistro", "nota": "Predicciones"},
+    {"fuente": "THUV3SP 8 / Anexo E",        "destino": "Cap. 8 (EOM)",          "nota": "Cosmologia: ansatz -> EOM"},
+    {"fuente": "MVSP V.2 / Anexo H",         "destino": "Cap. 3",                "nota": "U4, Palatini"},
+    {"fuente": "MVSP V.3-4 / Anexo I",       "destino": "Caps. 7 / 4",           "nota": "Vacio, convergencia"},
+    {"fuente": "MVSP V.5-6",                 "destino": "Cap. 12",               "nota": "Hadrones"},
+    {"fuente": "MVSP V.13.1-4",              "destino": "Caps. 6, 5, 9, 8",      "nota": "RG, causalidad, chameleon, Noether"},
+    {"fuente": "MVSP Anexo N",               "destino": "Ap. H",                 "nota": "PS-TET (Wu 2026)"},
+    {"fuente": "Anexo Principal",            "destino": "Cap. 10",               "nota": "beta = 0.3610 grados, roadmap"},
+    {"fuente": "Manuscrito V3_0_1",          "destino": "Caps. 3-11",            "nota": "Nucleo falsable"},
+    {"fuente": "CSV Consensus (38 refs)",    "destino": "Caps. 13-16",           "nota": "Evidencia 2019-2026"}
+  ],
+
+  "etapas": [
+    {"n": "I",    "epoch": "2024-2025",    "titulo": "Formacion inicial",                          "tipo": "init",        "label": "A"},
+    {"n": "II",   "epoch": "2025-2026",    "titulo": "Nucleo heuristico (phi, theta_phi, torsion)", "tipo": "shift",       "label": "P"},
+    {"n": "III",  "epoch": "2026",         "titulo": "Cierre formal y falsabilidad (v4.0)",         "tipo": "progressive", "label": "D"},
+    {"n": "IV",   "epoch": "2026",         "titulo": "Correccion estructural y blindaje (v4.1)",    "tipo": "correction",  "label": "D"},
+    {"n": "V",    "epoch": "2026",         "titulo": "Cierre computacional V5.0 (v4.3)",            "tipo": "progressive", "label": "D"},
+    {"n": "VI",   "epoch": "2026",         "titulo": "Cristalizacion del nucleo (v5.0)",            "tipo": "progressive", "label": "D"},
+    {"n": "VII",  "epoch": "2026",         "titulo": "Revision algebraica externa",                 "tipo": "correction",  "label": "D"},
+    {"n": "VIII", "epoch": "2026",         "titulo": "Revision editorial fina",                     "tipo": "correction",  "label": "D"},
+    {"n": "IX",   "epoch": "2026",         "titulo": "Tercera revision tecnica",                    "tipo": "correction",  "label": "D"},
+    {"n": "X",    "epoch": "2026",         "titulo": "Cuarta revision epistemica (v5.3)",           "tipo": "correction",  "label": "P/D"}
+  ],
+
+  "counters": {
+    "retiros": 3,
+    "trasplantes": 15,
+    "etapas": 10,
+    "patches": 17,
+    "problemas_cerrados": 12,
+    "problemas_abiertos": 5
+  }
+}

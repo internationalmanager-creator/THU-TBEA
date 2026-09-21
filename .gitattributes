@@ -1,0 +1,41 @@
+# =====================================================================
+# PIR — .gitattributes
+# Forzar LF en el repositorio para todos los archivos de texto.
+# Esto garantiza que el manifest SHA-256 sea identico en Windows/Linux.
+# =====================================================================
+
+# Por defecto: normalizar a LF al commitear, mantener LF al checkoutear
+* text=auto eol=lf
+
+# Excepciones: binarios
+*.png   binary
+*.jpg   binary
+*.pdf   binary
+*.zip   binary
+*.sqlite binary
+
+# Python: LF estricto
+*.py    text eol=lf
+*.pyi   text eol=lf
+
+# Shell scripts: LF obligatorio
+*.sh    text eol=lf
+
+# PowerShell: LF (PowerShell 7+ lo maneja bien)
+*.ps1   text eol=lf
+
+# Config/Data
+*.json  text eol=lf
+*.jsonl text eol=lf
+*.toml  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.ini   text eol=lf
+
+# Docs
+*.md    text eol=lf
+*.txt   text eol=lf
+
+# LaTeX
+*.tex   text eol=lf
+*.bib   text eol=lf

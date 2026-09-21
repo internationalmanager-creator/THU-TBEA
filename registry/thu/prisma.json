@@ -1,0 +1,39 @@
+{
+  "source": "Ap. C + Cap. 13",
+  "review_id": "REV-THU-BIREFRINGENCIA-2026",
+  "question_pico": {
+    "population": "Mediciones del CMB y LSS con sensibilidad a paridad",
+    "intervention": "Analisis de birefringencia isotropica/anisotropica o tomografia beta(z)",
+    "comparison": "Modelos nulos y competidores (ALPs, quinta fuerza)",
+    "outcome": "Amplitud beta, incertidumbres, robustez"
+  },
+  "search": {
+    "bases": ["arXiv", "INSPIRE-HEP", "ADS", "Web of Science"],
+    "period": ["2019-01", "2026-06"],
+    "keywords": ["cosmic birefringence", "CMB polarization rotation", "parity violation CMB", "beta(z) tomography", "axion-like particles CMB"]
+  },
+  "flow": {
+    "identified": 284,
+    "screened": 173,
+    "eligible": 58,
+    "included": 38
+  },
+  "inclusion_criteria": [
+    "Mediciones con incertidumbres declaradas",
+    "Datos publicos o reproducibles",
+    "Peer-reviewed",
+    "Periodo 2019-2026"
+  ],
+  "exclusion_criteria": [
+    "Sin incertidumbres cuantificadas",
+    "Analisis duplicados sin dato primario",
+    "Sin acceso a datos ni metodologia"
+  ],
+  "extracted_variables": [
+    "beta central",
+    "Incertidumbre estadistica",
+    "Sistematica dominante",
+    "Metodo de calibracion",
+    "Nivel de confianza"
+  ]
+}

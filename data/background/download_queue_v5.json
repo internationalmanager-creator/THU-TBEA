@@ -1,0 +1,77 @@
+[
+  {
+    "d": "pantheon_plus\\light_curves",
+    "f": "JLA2014_SDSS_DS17_HEAD.FITS.gz",
+    "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon+_Data/1_DATA/photometry/JLA2014_SDSS_DS17/JLA2014_SDSS_DS17_HEAD.FITS.gz"
+  },
+  {
+    "d": "pantheon_plus\\light_curves",
+    "f": "JLA2014_SDSS_DS17_PHOT.FITS.gz",
+    "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon+_Data/1_DATA/photometry/JLA2014_SDSS_DS17/JLA2014_SDSS_DS17_PHOT.FITS.gz"
+  },
+  {
+    "d": "pantheon_plus\\light_curves",
+    "f": "SDSS_allCandidates+BOSS_PHOT.FITS.gz",
+    "url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main/Pantheon+_Data/1_DATA/photometry/JLA2014_SDSS_DS17/SDSS_allCandidates+BOSS_PHOT.FITS.gz"
+  },
+  {
+    "d": "planck_pr4\\cb_spectra",
+    "f": "NPIPE_CB_spectra.csv",
+    "url": "https://raw.githubusercontent.com/giorgiazagatti/CB_Planck_maps_spectra/main/CB_spectra/NPIPE_CB_spectra.csv"
+  },
+  {
+    "d": "planck_pr4\\cb_spectra",
+    "f": "NPIPE_alpha_CMB_cc.csv",
+    "url": "https://raw.githubusercontent.com/giorgiazagatti/CB_Planck_maps_spectra/main/cross_corr_spectra/NPIPE_alpha_CMB_cc.csv"
+  },
+  {
+    "d": "planck_pr4\\cb_spectra",
+    "f": "PR3_CB_spectra.csv",
+    "url": "https://raw.githubusercontent.com/giorgiazagatti/CB_Planck_maps_spectra/main/CB_spectra/PR3_CB_spectra.csv"
+  },
+  {
+    "d": "planck_pr4\\hillipop",
+    "f": "hillipop.tar.gz",
+    "url": "https://github.com/planck-npipe/hillipop/archive/refs/heads/master.tar.gz"
+  },
+  {
+    "d": "planck_pr4\\lollipop",
+    "f": "lollipop.tar.gz",
+    "url": "https://github.com/planck-npipe/lollipop/archive/refs/heads/master.tar.gz"
+  },
+  {
+    "d": "planck_pr4\\lensing",
+    "f": "planck_PR4_lensing.tar.gz",
+    "url": "https://github.com/carronj/planck_PR4_lensing/archive/refs/heads/master.tar.gz"
+  },
+  {
+    "d": "cmb_tools\\clik",
+    "f": "clik.tar.gz",
+    "url": "https://github.com/benabed/clik/archive/refs/heads/master.tar.gz"
+  },
+  {
+    "d": "cmb_tools\\planck_lite",
+    "f": "planck-lite-py.tar.gz",
+    "url": "https://github.com/heatherprince/planck-lite-py/archive/refs/heads/master.tar.gz"
+  },
+  {
+    "d": "cmb_tools\\fgbuster",
+    "f": "fgbuster.tar.gz",
+    "url": "https://github.com/fgbuster/fgbuster/archive/refs/heads/master.tar.gz"
+  },
+  {
+    "d": "birefringence\\candl",
+    "f": "candl.tar.gz",
+    "url": "https://github.com/Lbalkenhol/candl/archive/refs/heads/master.tar.gz"
+  },
+  {
+    "d": "birefringence\\spt_data",
+    "f": "spt_candl_data.tar.gz",
+    "url": "https://github.com/SouthPoleTelescope/spt_candl_data/archive/refs/heads/main.tar.gz"
+  },
+  {
+    "d": "litebird",
+    "f": "litebird_sim.tar.gz",
+    "url": "https://github.com/litebird/litebird_sim/archive/refs/heads/master.tar.gz"
+  }
+]

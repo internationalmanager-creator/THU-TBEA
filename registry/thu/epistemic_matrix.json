@@ -1,0 +1,32 @@
+{
+  "source": "Cuadro 1.1 (revision v5.3)",
+  "rows": [
+    {"claim":"Torsion axial como solucion exacta de Palatini","label":"D","chapter":"3"},
+    {"claim":"Normalizacion canonica tau_c = sqrt(3) tau (absorbe coef. 3/2)","label":"D","chapter":"3"},
+    {"claim":"Trazabilidad del factor 1/sqrt(3) en acoplamientos lineales","label":"D","chapter":"3, 10"},
+    {"claim":"Coeficiente no local 1/6 bajo tau_c = sqrt(3) tau","label":"D","chapter":"3"},
+    {"claim":"Propagacion IR de K_mu (Maxwell-Proca emergente)","label":"P","chapter":"3, 8"},
+    {"claim":"Punto fijo IR g_star = phi y estabilidad","label":"D","chapter":"6"},
+    {"claim":"theta_phi = 2pi(2-phi)","label":"D (dado g_star)","chapter":"6"},
+    {"claim":"d_fase = (g_star)^2","label":"P","chapter":"6"},
+    {"claim":"Cancelacion del vacio escalar: medida k^2 dk (reduccion on-shell)","label":"P","chapter":"7"},
+    {"claim":"Sensibilidad a la medida espectral","label":"D","chapter":"7"},
+    {"claim":"Cancelacion aplicada al sector escalar solamente (no SM completo)","label":"F","chapter":"7"},
+    {"claim":"rho_obs ~ 1e-47 GeV^4","label":"F","chapter":"7-8"},
+    {"claim":"Friedmann modificada; w_K = +1","label":"D","chapter":"8"},
+    {"claim":"Termino de spin en Friedmann: kappa^4 S^2 / 6","label":"D","chapter":"8"},
+    {"claim":"Cota chameleon beta_c < 2.1e-4","label":"D","chapter":"9"},
+    {"claim":"8 restricciones de 2a clase; 1 GDL","label":"D","chapter":"5"},
+    {"claim":"A = 1.819 +- 0.19; beta_0 = 0.3803 +- 0.040 deg (requiere VL)","label":"P","chapter":"10"},
+    {"claim":"Tomografia beta(z)/beta_0 robusta; falsable","label":"D","chapter":"11"},
+    {"claim":"mn por jerarquia de correcciones (termino phi^-6)","label":"P","chapter":"12"},
+    {"claim":"mn - mp","label":"F","chapter":"12"},
+    {"claim":"Postulados V1-V7 (morfologias)","label":"A","chapter":"Ap. F"},
+    {"claim":"Predicciones P1-P11","label":"Preregistradas","chapter":"17"},
+    {"claim":"Analogias de coherencia mesoscopica","label":"A","chapter":"Ap. G"},
+    {"claim":"Residuo propagador no local Res[Delta] = e^{-am^2}/(1+am^2)","label":"D","chapter":"4"},
+    {"claim":"Falsabilidad w_phi < -1 (coherencia escalar)","label":"D (prediccion dura)","chapter":"14"},
+    {"claim":"Ramas k != 0 de Lambert-W confinadas por prescripcion de contorno","label":"D","chapter":"3, 4"},
+    {"claim":"Masa de Planck reducida M_P usada consistentemente","label":"D","chapter":"1, 12"}
+  ]
+}

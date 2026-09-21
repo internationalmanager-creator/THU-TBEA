@@ -1,0 +1,342 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\geometry{margin=2.5cm}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+\definecolor{Dgreen}{HTML}{00B894}
+\definecolor{Ppurple}{HTML}{6C5CE7}
+\definecolor{Forange}{HTML}{E17055}
+\definecolor{Ayellow}{HTML}{D4A017}
+
+\title{\textbf{Torsion Axial Helicoidal en Cosmologia Riemann-Cartan} \\[0.5em] \large Fundamentos matematicos, fenomenologia y falsabilidad sistematica (2024-2026)}
+\author{Erick Duque \\ \texttt{0009-0004-1245-5464} \\ \textit{Teoria Helicoidal Universal THU-TBEA 5.3}}
+\date{Version 5.3 · 2026-09-20 \\ \small DOI pendiente (manuscrito en preparacion) \\ \small CC-BY-4.0}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Teoria Helicoidal Universal THU-TBEA 5.3}
+\fancyhead[R]{\small v5.3}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section*{Resumen}
+\addcontentsline{toc}{section}{Resumen}
+
+Esta tesis construye, analiza y somete a pruebas falsables una teoria de campos efectiva sobre una variedad de Riemann-Cartan U4 en la que la torsion axial irreducible es la solucion exacta de Palatini, alimentada por el gradiente de un pseudoescalar con operador cinetico exponencial entero. El trabajo se organiza como un programa de investigacion lakatosiano con estatus epistemico explicito. Se establecen cinco resultados con derivaciones completas: (i) punto fijo IR g\_star = phi; (ii) cancelacion del vacio escalar modulado con N \textasciitilde{} 1.2202; (iii) termino torsional en Friedmann con w\_K = +1 y coeficiente canonico kappa\textasciicircum{}4/6; (iv) analisis Dirac-Bergmann con un grado de libertad y residuo positivo; (v) prediccion de birefringencia cosmica beta\_0 = 0.3803 +- 0.040 deg [P]. La tomografia beta(z) constituye la prediccion central falsable.
+
+\vspace{1em}
+\textbf{Palabras clave:} torsion, Riemann-Cartan, grupo de renormalizacion, birefringencia cosmica, energia de vacio, teoria de campos no local, falsabilidad
+
+\newpage
+\tableofcontents
+\newpage
+
+\section*{Status legend}
+\addcontentsline{toc}{section}{Status legend}
+Leyenda epistemica: [D] derivado, [P] postulado, [F] frontera (abierto), [A] analogia.
+
+\vspace{0.5em}
+\begin{itemize}[leftmargin=*]
+\item \textcolor{Dgreen}{\textbf{[D]}} — Derivado
+\item \textcolor{Ppurple}{\textbf{[P]}} — Postulado
+\item \textcolor{Forange}{\textbf{[F]}} — Frontera
+\item \textcolor{Ayellow}{\textbf{[A]}} — Analogia
+\end{itemize}
+
+\newpage
+
+\section*{Chapters}
+
+\subsection*{Capitulo 1. Introduccion e historia critica}
+\subsection*{Capitulo 2. Marco normativo, reproducibilidad y arquitectura computacional}
+\subsection*{Capitulo 3. Geometria U4: torsion axial como solucion exacta de Palatini}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    T_{\lambda\mu\nu} = \frac{1}{M_P}\varepsilon_{\lambda\mu\nu\rho}\nabla^{\rho}\tau \\
+    \tau_c \equiv \sqrt{3}\,\tau \\
+    \frac{1}{2}\tau\hat{H}_\varphi\tau \xrightarrow{\tau=\tau_c/\sqrt{3}} \frac{1}{6}\tau_c\hat{H}_\varphi\tau_c
+\end{align*}
+
+\subsection*{Capitulo 4. Operadores no locales: analisis funcional, unitariedad y sector trans-escalar}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    \hat{H}_\varphi e^{ik\cdot x} = -k^2 e^{-\frac{\varphi}{M_P^2}k^2}e^{ik\cdot x} \\
+    \mathrm{Res}[\Delta] = \frac{e^{-am^2}}{1+am^2} > 0
+\end{align*}
+
+\subsection*{Capitulo 5. Analisis de Dirac-Bergmann: un grado de libertad y causalidad proyectada}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    \mathrm{GDL} = \frac{1}{2}(10-8) = 1 \\
+    \det M = (\kappa_2^2+\kappa_3^2)^2 \neq 0
+\end{align*}
+
+\subsection*{Capitulo 6. Grupo de renormalizacion a 1-loop: punto fijo aureo}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    \beta_{\mathrm{eff}}(g) = \kappa(1+g-g^2) \\
+    g_\star = \varphi, \quad \beta'(\varphi) = -\kappa\sqrt{5} < 0 \\
+    \theta_\varphi = 2\pi(2-\varphi) \approx 137.507764^\circ
+\end{align*}
+
+\subsection*{Capitulo 7. Cancelacion del vacio escalar modulado: mecanismo parcial}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    \rho_{\mathrm{THU}} = \frac{4\pi}{(2\pi)^3}\int_0^\infty k^2 \cos(k/\kappa_\varphi) e^{-\varphi(k/M_P)^2} dk \\
+    \varphi^{2N} = 2\varphi \Rightarrow N \approx 1.220210
+\end{align*}
+
+\subsection*{Capitulo 8. Cosmologia helicoidal cerrada: Friedmann modificada}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    3H^2 = \kappa^2\rho_{\mathrm{tot}} - \frac{\kappa^4}{6}S^2 a^{-6} \\
+    w_K = +1, \quad \rho_K \propto a^{-6}
+\end{align*}
+
+\subsection*{Capitulo 9. Mecanismo chameleon cuantitativo}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    \beta_c < 2.1\times 10^{-4}
+\end{align*}
+
+\subsection*{Capitulo 10. Exodo quiral y birefringencia cosmica}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    \beta_0 = \frac{\alpha_{\mathrm{em}}}{2} A N_{\mathrm{DW}} \\
+    A = 1.819 \pm 0.19
+\end{align*}
+
+\subsection*{Capitulo 11. Tomografia beta(z) derivada de las EOM}
+\subsection*{Capitulo 12. Espectro hadronico: escala trans-escalar}
+
+\textbf{Ecuaciones clave:}
+\begin{align*}
+    \Lambda_{\mathrm{THU}} = M_P \varphi^{-88} \approx 989.89 \text{ MeV} \\
+    m_n^{\mathrm{THU}} \approx 937.03 \text{ MeV}
+\end{align*}
+
+\subsection*{Capitulo 13. Revision empirica sistematica I (PRISMA)}
+\subsection*{Capitulo 14. Energia oscura dinamica y DESI DR2}
+\subsection*{Capitulo 15. Paridad en el sector gravitacional}
+\subsection*{Capitulo 16. Spin y vorticidad: RHIC, STAR}
+\subsection*{Capitulo 17. Sintesis falsable: predicciones P1-P11}
+\subsection*{Capitulo 18. Ajuste conjunto sobre datos publicos}
+\subsection*{Capitulo 19. Pipeline reproducible y pruebas unitarias}
+\subsection*{Capitulo 20. Problemas abiertos y trabajo futuro}
+\subsection*{Capitulo 21. Conclusiones y evaluacion lakatosiana final}
+\newpage
+
+\section*{Appendices}
+
+\subsection*{Apendice A. Glosario de simbolos y convenciones}
+\subsection*{Apendice B. Demostraciones matematicas completas}
+\subsection*{Apendice C. Protocolo PRISMA: corpus, flujo y extraccion}
+\subsection*{Apendice D. Pipeline reproducible: codigo, hashes y pruebas}
+\subsection*{Apendice E. Atlas de figuras y tabla maestra}
+\subsection*{Apendice F. Bitacora lakatosiana, cierre y trabajo futuro}
+\subsection*{Apendice G. Morfologias aureas en sistemas naturales (V1-V7)}
+\subsection*{Apendice H. Coherencia cuantica a temperatura ambiente: PS-TET y microtubulos}
+\subsection*{Apendice I. Ecuaciones reconstruidas y matriz de Poisson completa}
+\subsection*{Apendice J. Revision algebraica externa: parches aplicados}
+\newpage
+
+\section*{Registro de problemas}
+
+\begin{longtable}{@{}p{1.2cm}p{6.5cm}p{1.8cm}p{2cm}@{}}
+\toprule
+\textbf{ID} & \textbf{Title} & \textbf{Label} & \textbf{Status} \\
+\midrule
+\endhead
+A-1 & Hiperbolicidad global & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-2 & Perturbaciones no lineales & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-3 & Correcciones termicas & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-4 & Backreaction chameleon & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-5 & Ondas gravitacionales & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-6 & QCD reticular mn - mp & \textcolor{Forange}{\textbf{[F]}} & ABIERTO \\
+A-7 & Decoherencia microtubulos & \textcolor{Ayellow}{\textbf{[A]}} & ABIERTO \\
+A-8 & Screening inhomogeneo & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-9 & Funcion beta a 2-loops & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-10 & Residuo de vacio & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-11 & Conteo 4D symplectico & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-12 & Rebote cosmologico ECSK & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-13 & Unitariedad/Analiticidad & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-14 & Geometria de n = 88 & \textcolor{Dgreen}{\textbf{[D]}} & CERRADO \\
+A-15 & Falsabilidad w\_phi < -1 & \textcolor{Forange}{\textbf{[F]}} & ABIERTO \\
+A-16 & Prescripcion de contorno para ramas k != 0 de Lambert-W & \textcolor{Forange}{\textbf{[F]}} & ABIERTO \\
+A-17 & Extension de la cancelacion al vacio completo del SM & \textcolor{Forange}{\textbf{[F]}} & ABIERTO \\
+\bottomrule
+\end{longtable}
+
+\newpage
+\section*{Predicciones falsables}
+
+\begin{longtable}{@{}p{0.8cm}p{5.5cm}p{3.5cm}p{2.5cm}@{}}
+\toprule
+\textbf{ID} & \textbf{Observable} & \textbf{Arbiter} & \textbf{Status} \\
+\midrule
+\endhead
+P1 & Oscilaciones helicoidales en H(z) & BAO DESI/Euclid & Abierta \\
+P2 & Modulacion aurea del CMB & CMB-S4 & Abierta \\
+P3 & Mega-anillos con separacion \textasciitilde{} 137.5 deg & JWST / Euclid & Abierta \\
+P4 & Materia oscura resonante trans-escalar & LZ / XENONnT & Abierta \\
+P5 & Residuo helicoidal de spin (STAR/HADES) & STAR BES-II / HADES & Preregistrada \\
+P6 & Superradiancia sin rotacion (cavidad QED) & Lab QED & Abierta \\
+P7 & Precesion geometrica del spin & RHIC & Abierta \\
+P8 & Espectro de masas gobernado por phi & Lattice QCD & Consistente \\
+P9 & Modulacion helicoidal de campos EM & Optica de precision & Abierta \\
+P10 & Soliton helicoidal estable & Simulacion & Abierta \\
+P11 & Resonancia 1.34 THz en microtubulos & Tres laboratorios independientes & Preregistrada \\
+\bottomrule
+\end{longtable}
+
+\newpage
+\section*{Bitacora de parches}
+
+\begin{longtable}{@{}p{0.7cm}p{1.5cm}p{4.5cm}p{4.5cm}p{1.2cm}@{}}
+\toprule
+\textbf{N} & \textbf{Stage} & \textbf{Before} & \textbf{After} & \textbf{Label} \\
+\midrule
+\endhead
+1 & VII & \texttt{Res[Delta] = e\textasciicircum{}\{+am\textasciicircum{}2\}} & \texttt{Res[Delta] = e\textasciicircum{}\{-am\textasciicircum{}2\}/(1+am\textasciicircum{}2)} & \textcolor{Dgreen}{\textbf{[D]}} \
+2 & VII & \texttt{Coeficiente 3/2 sin absorber} & \texttt{Redefinicion canonica tau\_c = sqrt(3) tau} & \textcolor{Dgreen}{\textbf{[D]}} \
+3 & VII & \texttt{kappa\textasciicircum{}4 S\textasciicircum{}2/18 (mixto)} & \texttt{kappa\textasciicircum{}2 S\textasciicircum{}2/6 (canonico ECSK)} & \textcolor{Dgreen}{\textbf{[D]}} \
+4 & VII & \texttt{= +1 sin w\_K explicito} & \texttt{w\_K = +1 explicito} & \textcolor{Dgreen}{\textbf{[D]}} \
+5 & VII & \texttt{beta(g) sin justificar +1} & \texttt{Justificacion: fondo torsionado <A\_mu> != 0} & \textcolor{Dgreen}{\textbf{[D]}} \
+6 & VII & \texttt{Medida k\textasciicircum{}2 dk como [D]} & \texttt{Medida como postulado [P] de reduccion on-shell} & \textcolor{Ppurple}{\textbf{[P]}} \
+7 & VII & \texttt{phi\textasciicircum{}-6 como [D]} & \texttt{phi\textasciicircum{}-6 como [P]; derivacion dinamica delegada a A-6} & \textcolor{Ppurple}{\textbf{[P]}} \
+8 & VIII & \texttt{Tension DESI DR2 sin declarar} & \texttt{Falsabilidad explicita si w\_Phi < -1 a > 3sigma} & \textcolor{Dgreen}{\textbf{[D/F]}} \
+9 & VIII & \texttt{Sin trazabilidad de 1/sqrt(3)} & \texttt{Factor 1/sqrt(3) explicito en acoplamientos lineales} & \textcolor{Dgreen}{\textbf{[D]}} \
+10 & VIII & \texttt{Variables v\_a, p\_a, lambda\_a sin definir} & \texttt{Definicion canonica explicita del espacio de fases 10D} & \textcolor{Dgreen}{\textbf{[D]}} \
+11 & IX & \texttt{Sin polos de Lee-Wick} & \texttt{Matizacion con ramas k != 0 y prescripcion de contorno} & \textcolor{Dgreen}{\textbf{[D/F]}} \
+12 & IX & \texttt{Coef. no local 1/2 tau\_c H tau\_c} & \texttt{1/6 tau\_c H tau\_c (consistente con tau\_c = sqrt(3) tau)} & \textcolor{Dgreen}{\textbf{[D]}} \
+13 & IX & \texttt{kappa\textasciicircum{}4/18 inconsistente con Ec. 8.1} & \texttt{kappa\textasciicircum{}4/6 unificado} & \textcolor{Dgreen}{\textbf{[D]}} \
+14 & IX & \texttt{M\_P sin aclarar} & \texttt{Nota explicita: M\_P = masa de Planck reducida} & \textcolor{Dgreen}{\textbf{[D]}} \
+15 & X & \texttt{Cancelacion de energia de vacio (generico)} & \texttt{Cancelacion del vacio escalar modulado: mecanismo parci} & \textcolor{Dgreen}{\textbf{[D/F]}} \
+16 & X & \texttt{beta\_0 = 0.3803 como [D] pre-data} & \texttt{beta\_0 como [P], condicional a completitud VL} & \textcolor{Ppurple}{\textbf{[P/D]}} \
+17 & X & \texttt{Sin problema A-17} & \texttt{Nuevo problema A-17 [F]: extension al vacio SM} & \textcolor{Forange}{\textbf{[F]}} \
+\bottomrule
+\end{longtable}
+
+\newpage
+\section*{Bitacora Lakatosiana}
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{v1.0} (2024) --- Intuicion geometrica \textcolor{Ayellow}{\textbf{[A]}}
+\item \textbf{v2.0} (2025) --- Reformulacion rigurosa \textcolor{Ppurple}{\textbf{[P]}}
+\item \textbf{v3.0} (2026-I) --- EFT trans-escalar \textcolor{Dgreen}{\textbf{[D]}}
+\item \textbf{v4.0} (2026-II) --- Derivacion integra de la matriz de Dirac \textcolor{Dgreen}{\textbf{[D]}}
+\item \textbf{v4.1} (2026-III) --- Correccion de la medida espectral \textcolor{Ppurple}{\textbf{[P]}}
+\item \textbf{v4.2} (2026-IV) --- Reorganizacion estructural \textcolor{Dgreen}{\textbf{[D]}}
+\item \textbf{v4.3} (2026-V) --- Cierre computacional A-3,A-4,A-5,A-8,A-10,A-11,A-12 \textcolor{Dgreen}{\textbf{[D]}}
+\item \textbf{v5.0} (2026-VI) --- Cristalizacion del nucleo con A-1,A-2,A-9,A-13,A-14 \textcolor{Dgreen}{\textbf{[D]}}
+\item \textbf{v5.1} (2026-VII-VIII) --- Revisiones algebraica y editorial (residuo, tau\_c, 1/sqrt(3), Dirac-Bergmann) \textcolor{Dgreen}{\textbf{[D]}}
+\item \textbf{v5.2} (2026-IX) --- Tercera revision tecnica (factor 3, masa Planck reducida) \textcolor{Dgreen}{\textbf{[D]}}
+\item \textbf{v5.3} (2026-X) --- Cuarta revision epistemica (reclasificacion beta\_0, A-17, retitulo Cap. 7) \textcolor{Ppurple}{\textbf{[P/D]}}
+\end{itemize}
+
+\newpage
+\section*{Anexos V5.0}
+
+\textit{(no annexes yet)}
+\newpage
+\section*{Referencias}
+
+\begin{thebibliography}{99}
+\bibitem{ref1} E. Cartan, Ann. Sci. Ec. Norm. Sup., \textbf{39}, 17 (1922).
+\bibitem{ref2} F. W. Hehl et al., Rev. Mod. Phys., \textbf{48}, 393 (1976).
+\bibitem{ref3} T. Biswas, A. Mazumdar, W. Siegel, JCAP, \textbf{03}, 009 (2006).
+\bibitem{ref4} L. Modesto, Phys. Rev. D, \textbf{86}, 044005 (2012).
+\bibitem{ref5} E. Tomboulis, Phys. Rev. D, \textbf{92}, 125027 (2015).
+\bibitem{ref6} L. Buoninfante et al., Phys. Rev. D, \textbf{101}, 084019 (2020).
+\bibitem{ref7} A. Bas i Beneito, G. Calcagni, L. Rachwal, arXiv:2211.05606 (2022).
+\bibitem{ref8} Y. Minami, E. Komatsu, Phys. Rev. Lett., \textbf{125}, 221301 (2020).
+\bibitem{ref9} J. R. Eskilt, E. Komatsu, Phys. Rev. D, \textbf{106}, 063503 (2022).
+\bibitem{ref10} R. M. Sullivan et al., JCAP, \textbf{06}, 025 (2025).
+\bibitem{ref11} M. Ballardini et al., JCAP, \textbf{09}, 075 (2025).
+\bibitem{ref12} M. Remazeilles, JCAP, \textbf{12}, 013 (2025).
+\bibitem{ref13} B. Sherwin, T. Namikawa, MNRAS, \textbf{510}, 1234 (2021).
+\bibitem{ref14} LiteBIRD Collab., JCAP, \textbf{07}, 083 (2025).
+\bibitem{ref15} BICEP/Keck XXI, Phys. Rev. D (2026).
+\bibitem{ref16} T. Namikawa, Phys. Rev. D, \textbf{111}, 023501 (2024).
+\bibitem{ref17} T. Namikawa, K. Murai, F. Naokawa, arXiv:2506.20824 (2025).
+\bibitem{ref18} A. Greco, N. Bartolo, A. Gruppuso, JCAP, \textbf{10}, 028 (2024).
+\bibitem{ref19} A. Lonappan, JCAP, \textbf{07}, 009 (2025).
+\bibitem{ref20} Q. Liang et al., Phys. Rev. D, \textbf{109}, 083028 (2023).
+\bibitem{ref21} W. Guo et al., JCAP, \textbf{04}, 066 (2026).
+\bibitem{ref22} S. Zhang et al., Phys. Rev. Lett., \textbf{130}, 201401 (2023).
+\bibitem{ref23} C. Jockel, L. Menger, Phys. Rev. D, \textbf{110}, 104022 (2024).
+\bibitem{ref24} C. Vashistha, R. Gannouji, A. Ganguly, arXiv:2606.09786 (2026).
+\bibitem{ref25} J. Adam et al. (STAR), Phys. Rev. C, \textbf{108}, 014910 (2023).
+\bibitem{ref26} Q. Hu, EPJ Web Conf., \textbf{316}, 06013 (2025).
+\bibitem{ref27} T. Lu, EPJ Web Conf., \textbf{364}, 03001 (2026).
+\bibitem{ref28} H. Li et al., Phys. Lett. B (2022).
+\bibitem{ref29} R. Abou Yassine et al. (HADES), Phys. Lett. B (2022).
+\bibitem{ref30} Z. Wang, J. Zhu, K. Wu, Nat. Mater., \textbf{25}, 1190 (2026).
+\bibitem{ref31} L. Gassab, T. J. Craddock, Proc. SPIE (2026).
+\bibitem{ref32} N. Mavromatos et al., Eur. Phys. J. Plus (2025).
+\bibitem{ref33} M. Rodriguez-Vega, APS Physics, \textbf{17}, s121 (2024).
+\bibitem{ref34} K. Lodha et al., Phys. Rev. D (2025).
+\bibitem{ref35} A. Ormondroyd et al., MNRAS (2025).
+\bibitem{ref36} D. Brout et al. (Pantheon+), ApJ, \textbf{938}, 110 (2022).
+\bibitem{ref37} J. Khoury, A. Weltman, Phys. Rev. D, \textbf{69}, 044026 (2004).
+\bibitem{ref38} M. Pernot-Borras et al., Phys. Rev. D, \textbf{103}, 064070 (2021).
+\bibitem{ref39} I. Lakatos, 	extit{The Methodology of Scientific Research Programmes}, Cambridge (1978).
+\bibitem{ref40} K. Popper, 	extit{The Logic of Scientific Discovery},  (1959).
+\bibitem{ref41} T. W. B. Kibble, J. Math. Phys., \textbf{2}, 1387 (1961).
+\bibitem{ref42} W. H. Zurek, Nature, \textbf{317}, 505 (1985).
+\bibitem{ref43} S. L. Adler, Phys. Rev., \textbf{177}, 2426 (1969).
+\bibitem{ref44} F. Becattini, M. Lisa, Annu. Rev. Nucl. Part. Sci., \textbf{70}, 222 (2020).
+\bibitem{ref45} Yu. B. Ivanov, Phys. Rev. C (2025).
+\bibitem{ref46} P. Diego-Palazuelos, E. Komatsu (ACT DR6) (2025).
+\bibitem{ref47} P. Prusinkiewicz, J. Exp. Bot., \textbf{73}, 1123 (2022).
+\bibitem{ref48} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2025).
+\bibitem{ref49} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2025).
+\bibitem{ref50} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2025).
+\bibitem{ref51} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2025).
+\bibitem{ref52} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2026).
+\bibitem{ref53} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2026).
+\bibitem{ref54} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2026).
+\bibitem{ref55} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2026).
+\bibitem{ref56} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2026).
+\bibitem{ref57} E. Duque, 	extit{THU-TBEA 5.3 (en preparacion, DOI pendiente)},  (2026).
+\bibitem{ref58} E. Duque, 	extit{Trabajos previos THU (manuscrito, sin DOI asignado)},  (2026).
+\bibitem{ref59} M. E. Peskin, D. V. Schroeder, 	extit{An Introduction to QFT}, Westview (1995).
+\bibitem{ref60} H. Kleinert, V. Schulte-Frohlinde, 	extit{Critical Properties of phi\textasciicircum{}4-Theories}, World Scientific (2001).
+\bibitem{ref61} I. S. Gradshteyn, I. M. Ryzhik, 	extit{Table of Integrals}, Academic Press (2015).
+\bibitem{ref62} M. Abramowitz, I. A. Stegun, 	extit{Handbook of Mathematical Functions}, Dover (1972).
+\bibitem{ref63} Particle Data Group, Phys. Rev. D, \textbf{110}, 030001 (2024).
+\bibitem{ref64} N. J. Poplawski, Phys. Lett. B, \textbf{694}, 181 (2010).
+\bibitem{ref65} G. Unger, N. Poplawski, Astrophys. J., \textbf{870}, 78 (2019).
+\bibitem{ref66} J. L. Cubero, N. J. Poplawski, arXiv:1906.11824 (2020).
+\bibitem{ref67} P. Joshi, S. Panda, arXiv:2204.01391 (2022).
+\bibitem{ref68} K. Tomonari, S. Bahamonde, Eur. Phys. J. C, \textbf{84}, 349 (2024).
+\end{thebibliography}
+
+\vspace{2em}
+\begin{center}
+\small
+\textit{End of document}
+\end{center}
+\end{document}

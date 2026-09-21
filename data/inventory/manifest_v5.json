@@ -1,0 +1,14 @@
+{
+  "version": "5.0.0",
+  "raw": {
+    "archivos": 255,
+    "bytes": 2138576971.0
+  },
+  "fecha": "2026-09-21T05:58:40Z",
+  "extracted": {
+    "archivos": 3787,
+    "bytes": 7844156364.0
+  },
+  "tipo": "manifest_final_fase_D",
+  "entidades_inputs": 10
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "query": "unimpeded nested sampling cosmology",
+    "id": 10368148,
+    "title": "schulze61/RhoPop: RhoPop",
+    "doi": "10.5281/zenodo.10368148",
+    "license": "mit-license",
+    "files_api": "https://zenodo.org/api/records/10368148/files"
+  },
+  {
+    "query": "unimpeded nested sampling cosmology",
+    "id": 17131319,
+    "title": "Accelerated Nested Sampling for Future Inference",
+    "doi": "10.5281/zenodo.17131319",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/17131319/files"
+  },
+  {
+    "query": "unimpeded nested sampling cosmology",
+    "id": 11502235,
+    "title": "The Mass Distribution of the First Stars can be Determined via the 21-cm Signal (supplementary inference products)",
+    "doi": "10.5281/zenodo.11502235",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/11502235/files"
+  },
+  {
+    "query": "unimpeded nested sampling cosmology",
+    "id": 8362801,
+    "title": "On the Constraints on Superconducting Cosmic Strings from 21-cm Cosmology (supplementary inference products)",
+    "doi": "10.5281/zenodo.8362801",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/8362801/files"
+  },
+  {
+    "query": "unimpeded nested sampling cosmology",
+    "id": 10026539,
+    "title": "Non-Gaussian Likelihoods for Type Ia Supernovae Cosmology: Nested Sampling Chains",
+    "doi": "10.5281/zenodo.10026539",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/10026539/files"
+  },
+  {
+    "query": "cosmic birefringence likelihood",
+    "id": 20321180,
+    "title": "Shared-Pseudoscalar Spontaneous Baryogenesis and Cosmic Birefringence",
+    "doi": "10.5281/zenodo.20321180",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/20321180/files"
+  },
+  {
+    "query": "cosmic birefringence likelihood",
+    "id": 18928941,
+    "title": "Cosmic Birefringence as a Quantum-Geometric Signature of the Universal Field Φ in MRUV Cosmology",
+    "doi": "10.5281/zenodo.18928941",
+    "license": "cc-by-sa-4.0",
+    "files_api": "https://zenodo.org/api/records/18928941/files"
+  },
+  {
+    "query": "cosmic birefringence likelihood",
+    "id": 10498648,
+    "title": "Precision RPS Calibration for the BICEP3 Telescope",
+    "doi": "10.5281/zenodo.10498648",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/10498648/files"
+  },
+  {
+    "query": "cosmic birefringence likelihood",
+    "id": 19026799,
+    "title": "Geometric Origin of the Effective Axion Field in MRUV Cosmology: Emergent Chern–Simons Structure, the Coupling Parameter ε, and the Polarimetric Mirage Operator",
+    "doi": "10.5281/zenodo.19026799",
+    "license": "cc-by-sa-4.0",
+    "files_api": "https://zenodo.org/api/records/19026799/files"
+  },
+  {
+    "query": "cosmic birefringence likelihood",
+    "id": 19237983,
+    "title": "Non-Local Cosmological Observables in MRUV Cosmology: A Unified Framework for H0 Estimator Drift and Cosmic Birefringence",
+    "doi": "10.5281/zenodo.19237983",
+    "license": "cc-by-sa-4.0",
+    "files_api": "https://zenodo.org/api/records/19237983/files"
+  },
+  {
+    "query": "lattice QCD hadron mass BMW",
+    "id": 17279789,
+    "title": "Topological Projection, Curvature Orientation, and Charge Sign in a Unified QCD Mass Framework",
+    "doi": "10.5281/zenodo.17279789",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/17279789/files"
+  },
+  {
+    "query": "lattice QCD hadron mass BMW",
+    "id": 17279607,
+    "title": "Curvature Projection and Internal Charge Amplitude in Hadron Mass Splitting",
+    "doi": "10.5281/zenodo.17279607",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/17279607/files"
+  },
+  {
+    "query": "lattice QCD hadron mass BMW",
+    "id": 17279518,
+    "title": "Curvature-Projection, Rishon Substructure, and Internal Charge Amplitude: A Unified Mechanism for Leptons, Quarks, and Hadrons",
+    "doi": "10.5281/zenodo.17279518",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/17279518/files"
+  },
+  {
+    "query": "lattice QCD hadron mass BMW",
+    "id": 11619499,
+    "title": "A generic approach in tackling the Yang-Mills Theory's existence and mass gap problem – Conditions found for which the mass gap do not exist in different gauge theories",
+    "doi": "10.5281/zenodo.11619499",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/11619499/files"
+  },
+  {
+    "query": "lattice QCD hadron mass BMW",
+    "id": 10425662,
+    "title": "Finite-volume spectrum of the isosinglet strange channel calculated in lattice QCD",
+    "doi": "10.48550/arXiv.2307.13471",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/10425662/files"
+  },
+  {
+    "query": "SPT-3G bandpowers",
+    "id": 22818351,
+    "title": "SPT-3G D1 T&E likelihood runtime data for SPTLikelihoods.jl",
+    "doi": "10.5281/zenodo.22818351",
+    "license": "cc-zero",
+    "files_api": "https://zenodo.org/api/records/22818351/files"
+  },
+  {
+    "query": "SPT-3G bandpowers",
+    "id": 11372033,
+    "title": "SPT-3G 2019-2022 flaring star lightcurves",
+    "doi": "10.5281/zenodo.11372033",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/11372033/files"
+  },
+  {
+    "query": "SPT-3G bandpowers",
+    "id": 19226440,
+    "title": "Thermal Sunyaev-Zeldovich Power Spectrum from South Pole Telescope 100 sq. deg. megadeep observations",
+    "doi": "10.5281/zenodo.19226440",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/19226440/files"
+  },
+  {
+    "query": "SPT-3G bandpowers",
+    "id": 21799779,
+    "title": "Observational phase-coherent multipole-space residual oscillations in Planck, ACT, and SPT band power",
+    "doi": "10.5281/zenodo.21799779",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/21799779/files"
+  },
+  {
+    "query": "SPT-3G bandpowers",
+    "id": 20988430,
+    "title": "CMB lensing likelihood data: ACT, SPT-3G, and Planck",
+    "doi": "10.5281/zenodo.20988430",
+    "license": "mit-license",
+    "files_api": "https://zenodo.org/api/records/20988430/files"
+  },
+  {
+    "query": "ACT DR6 likelihood",
+    "id": 22845836,
+    "title": "Joint ACT DR6 likelihood runtime data for JointCMBLikelihoods.jl",
+    "doi": "10.5281/zenodo.22845836",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845836/files"
+  },
+  {
+    "query": "ACT DR6 likelihood",
+    "id": 19771461,
+    "title": "ACT DR6 Data",
+    "doi": "10.5281/zenodo.19771461",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/19771461/files"
+  },
+  {
+    "query": "ACT DR6 likelihood",
+    "id": 22821597,
+    "title": "ACT DR6 full multifrequency TT/TE/EE likelihood runtime data for ACTLikelihood.jl",
+    "doi": "10.5281/zenodo.22821597",
+    "license": "cc-zero",
+    "files_api": "https://zenodo.org/api/records/22821597/files"
+  },
+  {
+    "query": "ACT DR6 likelihood",
+    "id": 22845838,
+    "title": "Joint foreground templates for JointCMBLikelihoods.jl",
+    "doi": "10.5281/zenodo.22845838",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845838/files"
+  },
+  {
+    "query": "ACT DR6 likelihood",
+    "id": 22845832,
+    "title": "Joint Planck PR4 likelihood runtime data for JointCMBLikelihoods.jl",
+    "doi": "10.5281/zenodo.22845832",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845832/files"
+  },
+  {
+    "query": "LIGO O4 parity violation",
+    "id": 14207687,
+    "title": "LIGO/Virgo/KAGRA Gravitational Wave O4-O5 simulations",
+    "doi": "10.5281/zenodo.14207687",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/14207687/files"
+  },
+  {
+    "query": "LIGO O4 parity violation",
+    "id": 10384998,
+    "title": "Data Release: \"A New Probe of Gravitational Parity Violation Through (Non-)Observation of the Stochastic Gravitational-Wave Background\"",
+    "doi": "10.5281/zenodo.10384998",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/10384998/files"
+  },
+  {
+    "query": "LIGO O4 parity violation",
+    "id": 18889014,
+    "title": "Atomic Parity Violation: Standard Model Tests",
+    "doi": "10.5281/zenodo.18889014",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/18889014/files"
+  },
+  {
+    "query": "LIGO O4 parity violation",
+    "id": 5834901,
+    "title": "Cavity-Based Chiral Polarimetry: Parity Nonconserving Optical Rotation In Cs, Dy, And HgH",
+    "doi": "10.1088/1361-6455/ab410b",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/5834901/files"
+  },
+  {
+    "query": "LIGO O4 parity violation",
+    "id": 15549006,
+    "title": "Rethinking Parity Interpretation in the Wu Experiment",
+    "doi": "10.31219/osf.io/4tfsy_v1",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/15549006/files"
+  },
+  {
+    "query": "STAR spin polarization",
+    "id": 1059117,
+    "title": "Spin Transfer from an Optically Pumped Alkali Vapor to a Solid",
+    "doi": "10.1103/physrevlett.98.183004",
+    "license": "zenodo-freetoread-1.0",
+    "files_api": "https://zenodo.org/api/records/1059117/files"
+  },
+  {
+    "query": "STAR spin polarization",
+    "id": 4081237,
+    "title": "Coherence Time Extension by Large-Scale Optical Spin Polarization in a Rare-Earth Doped Crystal",
+    "doi": "10.1103/PhysRevX.10.031060",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/4081237/files"
+  },
+  {
+    "query": "STAR spin polarization",
+    "id": 14830609,
+    "title": "Mathematical analysis of spin transport in topological insulators to optimize memory devices performance using numerical simulations",
+    "doi": "10.5281/zenodo.14830609",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/14830609/files"
+  },
+  {
+    "query": "STAR spin polarization",
+    "id": 4282986,
+    "title": "On Guided Remagnetization in Layered Nanoheterostructures",
+    "doi": "10.11648/j.nano.20190704.11",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/4282986/files"
+  },
+  {
+    "query": "STAR spin polarization",
+    "id": 45373,
+    "title": "Cross polarization from (1)H to quadrupolar (6)Li nuclei for dissolution DNP.",
+    "doi": "10.5281/zenodo.45373",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/45373/files"
+  }
+]

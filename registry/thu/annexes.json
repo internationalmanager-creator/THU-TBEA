@@ -1,0 +1,6 @@
+{
+  "version": "5.0",
+  "note": "Anexos incorporados durante el desarrollo del programa. Cada uno lleva ID permanente V5.0-AXXX, etiqueta epistemica [D]/[P]/[F]/[A], hash SHA-256 y cadena al cronolog. Los anexos NO modifican los capitulos originales 1-21; se anexan como extension del programa bajo la figura V5.0.",
+  "next_id": 1,
+  "annexes": []
+}

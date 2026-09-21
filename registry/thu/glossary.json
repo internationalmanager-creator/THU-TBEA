@@ -1,0 +1,46 @@
+{
+  "source": "Ap. A",
+  "geometry": [
+    {"sym":"g_munu","meaning":"Metrica en U4","dim":"0","def":"3.1"},
+    {"sym":"Gamma^lambda_munu","meaning":"Conexion afin completa","dim":"1","def":"3.1"},
+    {"sym":"K^lambda_munu","meaning":"Contorsion","dim":"1","def":"3.1"},
+    {"sym":"T^lambda_munu","meaning":"Torsion","dim":"1","def":"3.1"},
+    {"sym":"V_mu","meaning":"Componente traza","dim":"1","def":"3.1"},
+    {"sym":"A_mu","meaning":"Componente axial","dim":"1","def":"3.1"},
+    {"sym":"q_lambda_mu_nu","meaning":"Componente traza-nula","dim":"1","def":"3.1"},
+    {"sym":"R(g,K)","meaning":"Escalar de curvatura completo","dim":"2","def":"3.2"},
+    {"sym":"tau(x)","meaning":"Pseudoescalar axial (canonico tras tau_c = sqrt(3) tau)","dim":"1","def":"3.2, 3.8"},
+    {"sym":"tau_c(x)","meaning":"Pseudoescalar canonico sqrt(3) tau","dim":"1","def":"3.8"},
+    {"sym":"Phi(x)","meaning":"Campo de coherencia","dim":"1","def":"3.2"},
+    {"sym":"H_phi","meaning":"Operador cinetico entero","dim":"2","def":"3.2"},
+    {"sym":"T_phi","meaning":"Operador trans-escalar","dim":"0","def":"4.5"},
+    {"sym":"a","meaning":"phi/M_P^2","dim":"-2","def":"4.3"},
+    {"sym":"W_k","meaning":"Funcion de Lambert-W, rama k","dim":"0","def":"3.6, 4.3"}
+  ],
+  "constants": [
+    {"sym":"M_P","meaning":"Masa de Planck reducida 1/sqrt(8piG)","dim":"1","def":"1.4, 12.1","value":"2.435e18 GeV"},
+    {"sym":"phi","meaning":"Proporcion aurea","dim":"0","def":"1.4","value":"1.6180339887"},
+    {"sym":"theta_phi","meaning":"Angulo aureo","dim":"0","def":"6.6","value":"137.507764 deg"},
+    {"sym":"kappa_phi","meaning":"Escala helicoidal","dim":"1","def":"3.3"},
+    {"sym":"N","meaning":"Grado espectral","dim":"0","def":"7.5","value":"1.220210"},
+    {"sym":"N_DW","meaning":"Winding topologico","dim":"0","def":"10.1","value":"1"},
+    {"sym":"f_a","meaning":"Escala de ruptura axial","dim":"1","def":"10.1"},
+    {"sym":"g_star","meaning":"Punto fijo IR","dim":"0","def":"6.4","value":"1.6180339887"},
+    {"sym":"alpha_em","meaning":"Constante de estructura fina","dim":"0","def":"10.2","value":"1/137.035999139"},
+    {"sym":"beta_c","meaning":"Acoplamiento chameleon","dim":"0","def":"9.1","value":"< 2.1e-4"},
+    {"sym":"eta","meaning":"Acoplamiento fermionico axial","dim":"0","def":"3.2"},
+    {"sym":"lambda_tau","meaning":"Autoacoplamiento cuartico","dim":"0","def":"3.3"},
+    {"sym":"m_tau","meaning":"Masa del pseudoescalar","dim":"1","def":"3.3"},
+    {"sym":"m_K","meaning":"Masa del campo de contorsion","dim":"1","def":"3.5"}
+  ],
+  "observables": [
+    {"sym":"beta","meaning":"Angulo de birefringencia cosmica","dim":"0","def":"10.2"},
+    {"sym":"beta_0","meaning":"Amplitud en z=0 ([P] condicional a VL)","dim":"0","def":"10.5","value":"0.3803 +- 0.040 deg"},
+    {"sym":"beta(z)","meaning":"Tomografia","dim":"0","def":"11.2"},
+    {"sym":"H(z)","meaning":"Parametro de Hubble","dim":"1","def":"8.2"},
+    {"sym":"w_K","meaning":"Estado del sector stiff","dim":"0","def":"8.3","value":"+1"},
+    {"sym":"rho_obs","meaning":"Densidad de energia oscura","dim":"4","def":"7.6","value":"~1e-47 GeV^4"},
+    {"sym":"Lambda_THU","meaning":"Escala trans-escalar","dim":"1","def":"12.1","value":"989.89 MeV"},
+    {"sym":"m_n_THU","meaning":"Masa del neutron predicha","dim":"1","def":"12.2","value":"937.03 MeV"}
+  ]
+}

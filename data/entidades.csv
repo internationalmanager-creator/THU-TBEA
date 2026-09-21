@@ -1,0 +1,2 @@
+id,categoria,valor_principal,incertidumbre,unidad,fuente,origen,estatus,notas
+TEST-001,test,100.0,0.5,Hz,Example2024,observado,D,Entidad semilla generada por run_all.

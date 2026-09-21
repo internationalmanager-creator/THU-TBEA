@@ -1,0 +1,33 @@
+{
+  "id": "COSM-007",
+  "categoria": "cosmologia",
+  "titulo": "Planck PR4 CamSpec TTTEEE likelihood runtime",
+  "tipo": "likelihood_runtime",
+  "valor_principal": null,
+  "incertidumbre": null,
+  "unidad": "adimensional",
+  "fuente": "PlanckPR4_CamSpec",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Corpus de likelihood extraido. El valor beta se deriva cuando se ejecuta el analisis.",
+  "dataset_ref": {
+    "zenodo_rec_id": "22839906",
+    "files_count": 6,
+    "bytes_total": 786538177.0,
+    "path": "data\\extracted\\zen_runtime\\Planck_NPIPE_CamSpec_PR4_TTTEEE_likelihood_runtime\\CamSpec_PR4_TTTEEE_v1_20260919",
+    "sha256_tarball": "014da657888ca32d90e432589bffc3e7f530a6d7a8d5eeefcb00fc6147cd8071"
+  },
+  "provenance": {
+    "instrumento": "Planck PR4 NPIPE",
+    "ano": 2025,
+    "tipo_publicacion": "dataset publico",
+    "licencia": "CC-BY-4.0",
+    "cita_completa": "Sullivan et al. 2025, JCAP 06, 025 (arXiv:2309.10034)",
+    "reproducibilidad": "Zenodo publico",
+    "extracto": "[F] pendiente extraer beta del likelihood",
+    "fecha_descarga_utc": "2026-09-21T05:31:00Z",
+    "condiciones": "Runtime data para likelihoods conjuntas CMB",
+    "doi": "10.1088/1475-7516/2025/06/025",
+    "hash_pdf": "014da657888ca32d90e432589bffc3e7f530a6d7a8d5eeefcb00fc6147cd8071"
+  }
+}

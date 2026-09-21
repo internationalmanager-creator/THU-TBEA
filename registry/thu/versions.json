@@ -1,0 +1,16 @@
+{
+  "source": "Cap. 1 1.2, Ap. F F.1",
+  "versions": [
+    {"v":"1.0","epoch":"2024","title":"Intuicion geometrica","type":"init","label":"A"},
+    {"v":"2.0","epoch":"2025","title":"Reformulacion rigurosa","type":"shift","label":"P"},
+    {"v":"3.0","epoch":"2026-I","title":"EFT trans-escalar","type":"progressive","label":"D"},
+    {"v":"4.0","epoch":"2026-II","title":"Derivacion integra de la matriz de Dirac","type":"progressive","label":"D"},
+    {"v":"4.1","epoch":"2026-III","title":"Correccion de la medida espectral","type":"correction","label":"P"},
+    {"v":"4.2","epoch":"2026-IV","title":"Reorganizacion estructural","type":"shift","label":"D"},
+    {"v":"4.3","epoch":"2026-V","title":"Cierre computacional A-3,A-4,A-5,A-8,A-10,A-11,A-12","type":"progressive","label":"D"},
+    {"v":"5.0","epoch":"2026-VI","title":"Cristalizacion del nucleo con A-1,A-2,A-9,A-13,A-14","type":"progressive","label":"D"},
+    {"v":"5.1","epoch":"2026-VII-VIII","title":"Revisiones algebraica y editorial (residuo, tau_c, 1/sqrt(3), Dirac-Bergmann)","type":"correction","label":"D"},
+    {"v":"5.2","epoch":"2026-IX","title":"Tercera revision tecnica (factor 3, masa Planck reducida)","type":"correction","label":"D"},
+    {"v":"5.3","epoch":"2026-X","title":"Cuarta revision epistemica (reclasificacion beta_0, A-17, retitulo Cap. 7)","type":"correction","label":"P/D"}
+  ]
+}

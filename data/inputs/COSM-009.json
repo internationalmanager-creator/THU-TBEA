@@ -1,0 +1,33 @@
+{
+  "id": "COSM-009",
+  "categoria": "cosmologia",
+  "titulo": "SPT-3G D1 T&E likelihood runtime",
+  "tipo": "likelihood_runtime",
+  "valor_principal": null,
+  "incertidumbre": null,
+  "unidad": "adimensional",
+  "fuente": "SPT3G_D1",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Corpus de likelihood extraido. El valor beta se deriva cuando se ejecuta el analisis.",
+  "dataset_ref": {
+    "zenodo_rec_id": "",
+    "files_count": 30,
+    "bytes_total": 62194455.0,
+    "path": "data\\extracted\\zen_runtime\\SPT_3G_D1_T_E_likelihood_runtime_data_for_SPTLikel\\SPT3G_D1_TnE_v0_20260917",
+    "sha256_tarball": "2eeabff94fc43c3989bbd57a9328dd3ca097fec3e5123b579fec76dbd587ad6d"
+  },
+  "provenance": {
+    "instrumento": "SPT-3G D1",
+    "ano": 2025,
+    "tipo_publicacion": "dataset publico",
+    "licencia": "por_verificar",
+    "cita_completa": "Balkenhol et al. 2025 (SPT-3G D1 T&E likelihood)",
+    "reproducibilidad": "Zenodo publico",
+    "extracto": "[F] pendiente extraer beta del likelihood",
+    "fecha_descarga_utc": "2026-09-21T05:31:00Z",
+    "condiciones": "Runtime data para likelihoods conjuntas CMB",
+    "doi": "",
+    "hash_pdf": "2eeabff94fc43c3989bbd57a9328dd3ca097fec3e5123b579fec76dbd587ad6d"
+  }
+}

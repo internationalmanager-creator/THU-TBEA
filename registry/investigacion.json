@@ -1,0 +1,48 @@
+{
+  "id": "CLONE-LAB_SECRETO-20260921T023233Z",
+  "nombre": "LaboratorioSecreto",
+  "slug": "lab_secreto",
+  "descripcion": "Laboratorio local para experimentación con problemas abiertos (A-6, A-7, A-15, A-16, A-17) y predicciones P1-P11. Sin exposición pública.",
+  "tipo": "laboratorio_local",
+  "publicacion": false,
+  "template_padre": {
+    "path": "C:\\Users\\kg4tr\\Documents\\Investigacion_Template",
+    "manifest_sha256": "fc93579ea359baf7b8abe995c3995ae390c98c0df46252e4c7acc255c6da59e0",
+    "version_pir": "0.7.0",
+    "version_thu": "5.3"
+  },
+  "timestamp_creacion_utc": "2026-09-21T02:32:33Z",
+  "estado": "activo",
+  "problemas_abiertos_heredados": [
+    "A-6",
+    "A-7",
+    "A-15",
+    "A-16",
+    "A-17"
+  ],
+  "predicciones_heredadas": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "P10",
+    "P11"
+  ],
+  "reglas": {
+    "idioma_defecto": "es",
+    "i18n_disponible": [
+      "es",
+      "en",
+      "de"
+    ],
+    "sin_github": true,
+    "sin_ci_cd": true,
+    "cadena_independiente": true,
+    "hash_todos_los_pasos": true
+  }
+}

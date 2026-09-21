@@ -1,0 +1,581 @@
+{
+  "version": "1.0",
+  "generated_at_utc": "2026-09-20T22:02:29Z",
+  "seed": 20260808,
+  "total": 63,
+  "by_label": {
+    "D": 54,
+    "P": 1,
+    "F": 0,
+    "A": 8
+  },
+  "figures": [
+    {
+      "name": "fig_03-01_helice_aurea",
+      "path": "paper\\thu\\figures\\fig_03-01_helice_aurea.png",
+      "sha256": "983059535fc31223baf8f5bc7dd7d98b46308ca7fc6defe9b5c59addadd19abc",
+      "label": "D",
+      "source": "Fig 3.1: 3D helix + XY spiral projection",
+      "generated_at_utc": "2026-09-20T22:01:49Z",
+      "figura_id": "fig_03-01_helice_aurea"
+    },
+    {
+      "name": "fig_03-02_doble_espiral",
+      "path": "paper\\thu\\figures\\fig_03-02_doble_espiral.png",
+      "sha256": "07a9f43c71dff68f48bbb2762c8d6fe145cf2d528928913c53df27e15fab524c",
+      "label": "D",
+      "source": "Fig 3.2: matter-antimatter spiral",
+      "generated_at_utc": "2026-09-20T22:01:49Z",
+      "figura_id": "fig_03-02_doble_espiral"
+    },
+    {
+      "name": "fig_03-03_mapa_intensidad",
+      "path": "paper\\thu\\figures\\fig_03-03_mapa_intensidad.png",
+      "sha256": "754ed56762124f65284138f089936721ff38df9ff578fdd03155751f68a050c2",
+      "label": "A",
+      "source": "Fig 3.3: coherence field intensity",
+      "generated_at_utc": "2026-09-20T22:01:50Z",
+      "figura_id": "fig_03-03_mapa_intensidad"
+    },
+    {
+      "name": "fig_03-04_sintesis_U4",
+      "path": "paper\\thu\\figures\\fig_03-04_sintesis_U4.png",
+      "sha256": "d8d4db7523c4b6931089fc62d118282ceef2396dca4d23abeee4486e51c1ba35",
+      "label": "A",
+      "source": "Fig 3.4: vertical hierarchical synthesis",
+      "generated_at_utc": "2026-09-20T22:01:51Z",
+      "figura_id": "fig_03-04_sintesis_U4"
+    },
+    {
+      "name": "fig_03-04_sintesis_U4",
+      "path": "paper\\thu\\figures\\fig_03-05_sintesis_U4.png",
+      "sha256": "d8d4db7523c4b6931089fc62d118282ceef2396dca4d23abeee4486e51c1ba35",
+      "label": "A",
+      "source": "Fig 3.4: vertical hierarchical synthesis",
+      "generated_at_utc": "2026-09-20T22:01:52Z",
+      "figura_id": "fig_03-05_sintesis_U4"
+    },
+    {
+      "name": "fig_03-06_cy3_topologia",
+      "path": "paper\\thu\\figures\\fig_03-06_cy3_topologia.png",
+      "sha256": "498833a5ca25c25872f44d28060a0157a46719dbb664596b1b895757c50816e0",
+      "label": "A",
+      "source": "Fig 3.5: CY3 vs T3xSigma3 topology",
+      "generated_at_utc": "2026-09-20T22:01:52Z",
+      "figura_id": "fig_03-06_cy3_topologia"
+    },
+    {
+      "name": "fig_03-07_cadena_cy3_n88",
+      "path": "paper\\thu\\figures\\fig_03-07_cadena_cy3.png",
+      "sha256": "6345da64cf28fab771c62de7ac209a7e0b595a9f01351a09b27b5d544d28248d",
+      "label": "D",
+      "source": "Fig 3.6: chain A-14",
+      "generated_at_utc": "2026-09-20T22:01:53Z",
+      "figura_id": "fig_03-07_cadena_cy3"
+    },
+    {
+      "name": "fig_03-08_h11_22_generaciones",
+      "path": "paper\\thu\\figures\\fig_03-08_h11_22_generaciones.png",
+      "sha256": "6bbd0dca6ee2af6b8d749fade59fb4030fb3fb22a0928e043da6a3002fb7362d",
+      "label": "D",
+      "source": "Fig 3.7: h11=22 and Ngen",
+      "generated_at_utc": "2026-09-20T22:01:54Z",
+      "figura_id": "fig_03-08_h11_22_generaciones"
+    },
+    {
+      "name": "fig_04-01_lambert_w",
+      "path": "paper\\thu\\figures\\fig_04-01_lambert_w.png",
+      "sha256": "53eabac288df5e6bb522e89e530e7e147b17592ee72bd06b38d46d24768ea71d",
+      "label": "D",
+      "source": "Fig 4.2: Lambert-W branches",
+      "generated_at_utc": "2026-09-20T22:01:55Z",
+      "figura_id": "fig_04-01_lambert_w"
+    },
+    {
+      "name": "fig_04-01_rotacion_wick",
+      "path": "paper\\thu\\figures\\fig_04-01_rotacion_wick.png",
+      "sha256": "6aae076c2ae7da185e23ca5c3b1e86a90c3334a7d646e8994779ea3e8da7d9e4",
+      "label": "D",
+      "source": "Fig 4.1: Wick rotation",
+      "generated_at_utc": "2026-09-20T22:01:56Z",
+      "figura_id": "fig_04-01_rotacion_wick"
+    },
+    {
+      "name": "fig_04-01_lambert_w",
+      "path": "paper\\thu\\figures\\fig_04-02_polos_lee_wick.png",
+      "sha256": "53eabac288df5e6bb522e89e530e7e147b17592ee72bd06b38d46d24768ea71d",
+      "label": "D",
+      "source": "Fig 4.2: Lambert-W branches",
+      "generated_at_utc": "2026-09-20T22:01:56Z",
+      "figura_id": "fig_04-02_polos_lee_wick"
+    },
+    {
+      "name": "fig_04-02_residuo",
+      "path": "paper\\thu\\figures\\fig_04-02_residuo.png",
+      "sha256": "fd9ea92aeaa8c7472d66b4227005bd76e9d56b3829c1b857ba37a9abdc2952e9",
+      "label": "D",
+      "source": "Fig 4.3: positive propagator residue",
+      "generated_at_utc": "2026-09-20T22:01:57Z",
+      "figura_id": "fig_04-02_residuo"
+    },
+    {
+      "name": "fig_04-04_unitariedad",
+      "path": "paper\\thu\\figures\\fig_04-04_unitariedad.png",
+      "sha256": "5cc867d282def088d08446910869d7c0f54d1b743282ab1b52b08c33ef81aee3",
+      "label": "D",
+      "source": "Fig 4.4: unitarity convergence",
+      "generated_at_utc": "2026-09-20T22:01:58Z",
+      "figura_id": "fig_04-04_unitariedad"
+    },
+    {
+      "name": "fig_05-01_espacio_fases",
+      "path": "paper\\thu\\figures\\fig_05-01_espacio_fases.png",
+      "sha256": "930095e6a184bf19a14cd34d7835d26da69b1637ad5092c6cc5c8a4ad6a07186",
+      "label": "A",
+      "source": "Fig 5.1: projected phase space",
+      "generated_at_utc": "2026-09-20T22:01:58Z",
+      "figura_id": "fig_05-01_espacio_fases"
+    },
+    {
+      "name": "fig_05-02_matriz_poisson",
+      "path": "paper\\thu\\figures\\fig_05-02_matriz_poisson.png",
+      "sha256": "5d67b8c5bddd810c63d6646e1b7431ad60ac7ada4ba2c1ef10428d6260c65518",
+      "label": "D",
+      "source": "Fig 5.2: 8x8 Poisson matrix",
+      "generated_at_utc": "2026-09-20T22:01:59Z",
+      "figura_id": "fig_05-02_matriz_poisson"
+    },
+    {
+      "name": "fig_05-03_cono_causalidad",
+      "path": "paper\\thu\\figures\\fig_05-03_cono_causalidad.png",
+      "sha256": "e616d91a263bf7c1e5735eed2d0d44c4b54d58d2775ba6c42e04b2719de1cddf",
+      "label": "D",
+      "source": "Fig 5.3: causality cone",
+      "generated_at_utc": "2026-09-20T22:01:59Z",
+      "figura_id": "fig_05-03_cono_causalidad"
+    },
+    {
+      "name": "fig_05-04_grafo_poisson",
+      "path": "paper\\thu\\figures\\fig_05-04_grafo_poisson.png",
+      "sha256": "f3c46497a90b19a5e08b0f22adb2652520b64b5480c78cb3b142456c7066a111",
+      "label": "A",
+      "source": "Fig 5.4: constraint graph",
+      "generated_at_utc": "2026-09-20T22:02:00Z",
+      "figura_id": "fig_05-04_grafo_poisson"
+    },
+    {
+      "name": "fig_06-01_rg_flow",
+      "path": "paper\\thu\\figures\\fig_06-01_rg_flow.png",
+      "sha256": "091f24a1b536e81123c7efc10d3534d29aa5513783a2e3fbfa1ba091bec0341c",
+      "label": "D",
+      "source": "Fig 6.1: 1-loop beta function",
+      "generated_at_utc": "2026-09-20T22:02:00Z",
+      "figura_id": "fig_06-01_rg_flow"
+    },
+    {
+      "name": "fig_06-01_rg_flow",
+      "path": "paper\\thu\\figures\\fig_06-02_flujo_temporal.png",
+      "sha256": "091f24a1b536e81123c7efc10d3534d29aa5513783a2e3fbfa1ba091bec0341c",
+      "label": "D",
+      "source": "Fig 6.1: 1-loop beta function",
+      "generated_at_utc": "2026-09-20T22:02:01Z",
+      "figura_id": "fig_06-02_flujo_temporal"
+    },
+    {
+      "name": "fig_06-03_mapa_fases",
+      "path": "paper\\thu\\figures\\fig_06-03_mapa_fases.png",
+      "sha256": "77d7160e5c8fe3f2469208732b29e3b8e8291cbbd7a70bf0bb82a8a2739cb7ac",
+      "label": "D",
+      "source": "Fig 6.3: RG phase map",
+      "generated_at_utc": "2026-09-20T22:02:02Z",
+      "figura_id": "fig_06-03_mapa_fases"
+    },
+    {
+      "name": "fig_06-04_2loop",
+      "path": "paper\\thu\\figures\\fig_06-04_2loop.png",
+      "sha256": "a84547ff7f1c3cdef990db4b20f8d01086074424098808f8a728091a013de66e",
+      "label": "D",
+      "source": "Fig 6.4: 2-loop corrections",
+      "generated_at_utc": "2026-09-20T22:02:03Z",
+      "figura_id": "fig_06-04_2loop"
+    },
+    {
+      "name": "fig_07-01_cancelacion_vacio",
+      "path": "paper\\thu\\figures\\fig_07-01_cancelacion_vacio.png",
+      "sha256": "cc6ff1a8e8f97d45c02be71431dbb8054ba2aa823ac5f2a7c245ed30fa8ae319",
+      "label": "D",
+      "source": "Fig 7.1: analytic zero at N = 1.220210",
+      "generated_at_utc": "2026-09-20T22:02:04Z",
+      "figura_id": "fig_07-01_cancelacion_vacio"
+    },
+    {
+      "name": "fig_07-02_espectro_modos",
+      "path": "paper\\thu\\figures\\fig_07-02_espectro_modos.png",
+      "sha256": "1b5db1025d886183beb91c72024ee5a44f91e70a985ec0ff2f28d53f3274561c",
+      "label": "D",
+      "source": "Fig 7.2: UV exponential suppression",
+      "generated_at_utc": "2026-09-20T22:02:05Z",
+      "figura_id": "fig_07-02_espectro_modos"
+    },
+    {
+      "name": "fig_07-04_familia_medidas",
+      "path": "paper\\thu\\figures\\fig_07-02_familia_medidas.png",
+      "sha256": "2ecb4b78798de292cf4ac5819f02137faa890fcc09b16c803ce676ca19230e25",
+      "label": "D",
+      "source": "Fig 7.4: N(alpha) sensitivity",
+      "generated_at_utc": "2026-09-20T22:02:05Z",
+      "figura_id": "fig_07-02_familia_medidas"
+    },
+    {
+      "name": "fig_07-03_k2_vs_k3",
+      "path": "paper\\thu\\figures\\fig_07-03_k2_vs_k3.png",
+      "sha256": "a2e4831b53eb72b99e9d43681a782847a65313819095eb86c4eae70cfd713ee5",
+      "label": "A",
+      "source": "Fig 7.3: comparison of spectral measures",
+      "generated_at_utc": "2026-09-20T22:02:06Z",
+      "figura_id": "fig_07-03_k2_vs_k3"
+    },
+    {
+      "name": "fig_07-04_familia_medidas",
+      "path": "paper\\thu\\figures\\fig_07-04_familia_medidas.png",
+      "sha256": "2ecb4b78798de292cf4ac5819f02137faa890fcc09b16c803ce676ca19230e25",
+      "label": "D",
+      "source": "Fig 7.4: N(alpha) sensitivity",
+      "generated_at_utc": "2026-09-20T22:02:06Z",
+      "figura_id": "fig_07-04_familia_medidas"
+    },
+    {
+      "name": "fig_08-01_Hz",
+      "path": "paper\\thu\\figures\\fig_08-01_Hz.png",
+      "sha256": "36100c117757ecef39773c55ff7b6bc5391ce55fe7a8fdcae9048dd2e98e690e",
+      "label": "D",
+      "source": "Fig 8.1: H(z) comparison",
+      "generated_at_utc": "2026-09-20T22:02:07Z",
+      "figura_id": "fig_08-01_Hz"
+    },
+    {
+      "name": "fig_08-02_qz",
+      "path": "paper\\thu\\figures\\fig_08-02_qz.png",
+      "sha256": "7135b1df641615eae332f807f49abe9e24c09d3e1004a9936187f7c9a1327511",
+      "label": "D",
+      "source": "Fig 8.2: golden modulation of q(z)",
+      "generated_at_utc": "2026-09-20T22:02:07Z",
+      "figura_id": "fig_08-02_qz"
+    },
+    {
+      "name": "fig_08-04_bounce",
+      "path": "paper\\thu\\figures\\fig_08-04_bounce.png",
+      "sha256": "66abdcf43c92cba5ab89d01187136d71ce6f9f62b367c7926740f7423801d655",
+      "label": "D",
+      "source": "Fig 8.4: ECSK bounce at a_min = 0.445",
+      "generated_at_utc": "2026-09-20T22:02:08Z",
+      "figura_id": "fig_08-04_bounce"
+    },
+    {
+      "name": "fig_08-04_evolucion_stiff",
+      "path": "paper\\thu\\figures\\fig_08-04_evolucion_stiff.png",
+      "sha256": "e5021a889509ab1dc760ff74ba6a5a8edf9ddc80756aca74b332b081176b493b",
+      "label": "D",
+      "source": "Fig 8.5: stiff sector",
+      "generated_at_utc": "2026-09-20T22:02:09Z",
+      "figura_id": "fig_08-04_evolucion_stiff"
+    },
+    {
+      "name": "fig_09-01_chameleon_perfil",
+      "path": "paper\\thu\\figures\\fig_09-01_chameleon_perfil.png",
+      "sha256": "63a2e4ffb69e8d0c297080960004f468b30ee3376b3b325db08f2ae679036da2",
+      "label": "A",
+      "source": "Fig 9.1: chameleon profile",
+      "generated_at_utc": "2026-09-20T22:02:10Z",
+      "figura_id": "fig_09-01_chameleon_perfil"
+    },
+    {
+      "name": "fig_09-02_masa_efectiva",
+      "path": "paper\\thu\\figures\\fig_09-02_masa_efectiva.png",
+      "sha256": "286942ee27ce937ca69236ea072e274cee2ce3a076a752ea014394337e5bd8f7",
+      "label": "D",
+      "source": "Fig 9.2: effective mass",
+      "generated_at_utc": "2026-09-20T22:02:11Z",
+      "figura_id": "fig_09-02_masa_efectiva"
+    },
+    {
+      "name": "fig_09-03_quinta_fuerza",
+      "path": "paper\\thu\\figures\\fig_09-03_quinta_fuerza.png",
+      "sha256": "d40049ab26eb871efe7d1fe14085a1c48889cffe96ab5b4e6ae61a35616846d3",
+      "label": "D",
+      "source": "Fig 9.3: fifth force bound",
+      "generated_at_utc": "2026-09-20T22:02:12Z",
+      "figura_id": "fig_09-03_quinta_fuerza"
+    },
+    {
+      "name": "fig_10-01_exodo_quiral",
+      "path": "paper\\thu\\figures\\fig_10-01_exodo_quiral.png",
+      "sha256": "a0e27b43b703bd9400da7c65b3bacd633c8c61192d28bf3c5de821f33445bbca",
+      "label": "D",
+      "source": "Fig 10.1: chiral exodus",
+      "generated_at_utc": "2026-09-20T22:02:12Z",
+      "figura_id": "fig_10-01_exodo_quiral"
+    },
+    {
+      "name": "fig_10-02_matching",
+      "path": "paper\\thu\\figures\\fig_10-02_matching.png",
+      "sha256": "9bf25ae9f1ea6f520f84e43d30ea6bbdaa4ab059c83477711ac5dd2e0ce3d632",
+      "label": "D",
+      "source": "Fig 10.2: anomalous matching",
+      "generated_at_utc": "2026-09-20T22:02:13Z",
+      "figura_id": "fig_10-02_matching"
+    },
+    {
+      "name": "fig_10-03_espectro_fermionico",
+      "path": "paper\\thu\\figures\\fig_10-03_espectro_fermionico.png",
+      "sha256": "9b9b4bc80642c02c3e408cd25ee6ece740c856ddda605d0ddb6d777a5d821353",
+      "label": "P",
+      "source": "Fig 10.3: VL spectrum [P]",
+      "generated_at_utc": "2026-09-20T22:02:13Z",
+      "figura_id": "fig_10-03_espectro_fermionico"
+    },
+    {
+      "name": "fig_11-01_tomografia",
+      "path": "paper\\thu\\figures\\fig_11-01_tomografia.png",
+      "sha256": "d043fbc25137763d08e60f2ea1fe6eba210d94867b9c36f6fbc274f6d4beb45f",
+      "label": "D",
+      "source": "Fig 11.1: tomography",
+      "generated_at_utc": "2026-09-20T22:02:14Z",
+      "figura_id": "fig_11-01_tomografia"
+    },
+    {
+      "name": "fig_11-02_comparacion_tomografia",
+      "path": "paper\\thu\\figures\\fig_11-02_comparacion_tomografia.png",
+      "sha256": "87843eb2be47e07b10fac941c156b37441be34e322bdc0c866d75204c2c45971",
+      "label": "D",
+      "source": "Fig 11.2: profile comparison",
+      "generated_at_utc": "2026-09-20T22:02:15Z",
+      "figura_id": "fig_11-02_comparacion_tomografia"
+    },
+    {
+      "name": "fig_11-03_residuo_slowroll",
+      "path": "paper\\thu\\figures\\fig_11-03_residuo_slowroll.png",
+      "sha256": "1f173b390daadeb2572bdab09251d1dfdaff2a7a00c28322378f1cd7548eb7fc",
+      "label": "D",
+      "source": "Fig 11.3: slow-roll residual < 2%",
+      "generated_at_utc": "2026-09-20T22:02:15Z",
+      "figura_id": "fig_11-03_residuo_slowroll"
+    },
+    {
+      "name": "fig_12-01_escala_masas",
+      "path": "paper\\thu\\figures\\fig_12-01_escala_masas.png",
+      "sha256": "865c850d8c9a18eaa9d2c24c698a7ab1544b0fe9925fcffa39b70434da84d393",
+      "label": "D",
+      "source": "Fig 12.1: mass ladder",
+      "generated_at_utc": "2026-09-20T22:02:16Z",
+      "figura_id": "fig_12-01_escala_masas"
+    },
+    {
+      "name": "fig_12-02_jerarquia_neutron",
+      "path": "paper\\thu\\figures\\fig_12-02_jerarquia_neutron.png",
+      "sha256": "d8a00c19d4d0233f6004fae3a27f1bcbab44543586770e7475180f802a67da27",
+      "label": "D",
+      "source": "Fig 12.2: neutron mass hierarchy",
+      "generated_at_utc": "2026-09-20T22:02:17Z",
+      "figura_id": "fig_12-02_jerarquia_neutron"
+    },
+    {
+      "name": "fig_13-01_forest_plot",
+      "path": "paper\\thu\\figures\\fig_13-01_forest_plot.png",
+      "sha256": "92963f39776555bf386c970a3a4eaaa10c8cd8051d8ac0b042c944825ba88572",
+      "label": "D",
+      "source": "Fig 13.1: PRISMA forest plot",
+      "generated_at_utc": "2026-09-20T22:02:17Z",
+      "figura_id": "fig_13-01_forest_plot"
+    },
+    {
+      "name": "fig_13-01_prisma_funnel",
+      "path": "paper\\thu\\figures\\fig_13-01_prisma_funnel.png",
+      "sha256": "997c1c105e1bcdd09f7e7f8946e2fbfbb661f88199e81e44a558d0267b2c1367",
+      "label": "D",
+      "source": "Fig 13.1b: PRISMA funnel",
+      "generated_at_utc": "2026-09-20T22:02:18Z",
+      "figura_id": "fig_13-01_prisma_funnel"
+    },
+    {
+      "name": "fig_13-02_BAO",
+      "path": "paper\\thu\\figures\\fig_13-02_BAO.png",
+      "sha256": "e4b133565cf18b833d3e799f3015a9d54a36301fbf1395e61a2ca66c0eb5b7e6",
+      "label": "D",
+      "source": "Fig 13.2: BAO validation",
+      "generated_at_utc": "2026-09-20T22:02:19Z",
+      "figura_id": "fig_13-02_BAO"
+    },
+    {
+      "name": "fig_13-03_pantheon",
+      "path": "paper\\thu\\figures\\fig_13-03_pantheon.png",
+      "sha256": "2f2be031c0b098930b7bdfb3804fc09e1f3a84a242f215d7173a4190a89728a5",
+      "label": "D",
+      "source": "Fig 13.3: Pantheon+ mocks (helical residual)",
+      "generated_at_utc": "2026-09-20T22:02:20Z",
+      "figura_id": "fig_13-03_pantheon"
+    },
+    {
+      "name": "fig_13-04_tension_ACT",
+      "path": "paper\\thu\\figures\\fig_13-04_tension_ACT.png",
+      "sha256": "89fd185979965fbd672aed6975b8111b00923749ffd5a12ed608bf7a887f9c16",
+      "label": "D",
+      "source": "Fig 13.4: ACT DR6 tension",
+      "generated_at_utc": "2026-09-20T22:02:20Z",
+      "figura_id": "fig_13-04_tension_ACT"
+    },
+    {
+      "name": "fig_14-01_wz_dinamico",
+      "path": "paper\\thu\\figures\\fig_14-01_wz_dinamico.png",
+      "sha256": "cf281501b79568d601e1eeaf4984462b364f0dad5a6aa18a646bfa057f758a66",
+      "label": "D",
+      "source": "Fig 14.1: w_phi lower bound",
+      "generated_at_utc": "2026-09-20T22:02:21Z",
+      "figura_id": "fig_14-01_wz_dinamico"
+    },
+    {
+      "name": "fig_14-02_trivialidad_no_local",
+      "path": "paper\\thu\\figures\\fig_14-02_trivialidad_no_local.png",
+      "sha256": "6d3dc758e18d4f016ea2c788d1a3e78bf213153e350659a019fcc89c01f546dc",
+      "label": "D",
+      "source": "Fig 14.2: operator triviality",
+      "generated_at_utc": "2026-09-20T22:02:22Z",
+      "figura_id": "fig_14-02_trivialidad_no_local"
+    },
+    {
+      "name": "fig_15-01_cotas_paridad",
+      "path": "paper\\thu\\figures\\fig_15-01_cotas_paridad.png",
+      "sha256": "9d91450c93d662e878c107f041af51c9fc2c7135ce62f569462dbd4169e0e67c",
+      "label": "D",
+      "source": "Fig 15.1: LIGO O4 comparison",
+      "generated_at_utc": "2026-09-20T22:02:23Z",
+      "figura_id": "fig_15-01_cotas_paridad"
+    },
+    {
+      "name": "fig_16-01_polarizacion_STAR",
+      "path": "paper\\thu\\figures\\fig_16-01_polarizacion_STAR.png",
+      "sha256": "c004198b20ee5dcc735f33e5bbebeb9f452feaa93be47cee3e75a6051eeb7e08",
+      "label": "D",
+      "source": "Fig 16.1: STAR 2025 comparison",
+      "generated_at_utc": "2026-09-20T22:02:23Z",
+      "figura_id": "fig_16-01_polarizacion_STAR"
+    },
+    {
+      "name": "fig_17-01_matriz_falsacion",
+      "path": "paper\\thu\\figures\\fig_17-01_matriz_falsacion.png",
+      "sha256": "6e97cfe70b4737dfee4a335c74177cc28dc4380a2fe06d5568094d9a32ca5e96",
+      "label": "D",
+      "source": "Fig 17.1: falsification matrix",
+      "generated_at_utc": "2026-09-20T22:02:24Z",
+      "figura_id": "fig_17-01_matriz_falsacion"
+    },
+    {
+      "name": "fig_17-02_bitacora_lakatosiana",
+      "path": "paper\\thu\\figures\\fig_17-02_bitacora_lakatosiana.png",
+      "sha256": "773b881c2c391bdc85d01f7f17da77e5fc081ec057fc3d44316e51ad0402440a",
+      "label": "D",
+      "source": "Fig 17.2: Lakatosian timeline",
+      "generated_at_utc": "2026-09-20T22:02:24Z",
+      "figura_id": "fig_17-02_bitacora_lakatosiana"
+    },
+    {
+      "name": "fig_17-03_patches_por_etapa",
+      "path": "paper\\thu\\figures\\fig_17-03_patches_por_etapa.png",
+      "sha256": "9efa6de971d02aaf91356a9004dabd9842511a19d983755e05423a160fa48de5",
+      "label": "D",
+      "source": "Fig 17.3: patches by stage",
+      "generated_at_utc": "2026-09-20T22:02:24Z",
+      "figura_id": "fig_17-03_patches_por_etapa"
+    },
+    {
+      "name": "fig_18-01_chi2_breakdown",
+      "path": "paper\\thu\\figures\\fig_18-01_chi2_breakdown.png",
+      "sha256": "cea86582bc2a0fd89c4e2305e81831bf3420a7eb620489d78d57592fae753738",
+      "label": "D",
+      "source": "Fig 18.1: $\\chi^2$ breakdown",
+      "generated_at_utc": "2026-09-20T22:02:25Z",
+      "figura_id": "fig_18-01_chi2_breakdown"
+    },
+    {
+      "name": "fig_18-01_contornos",
+      "path": "paper\\thu\\figures\\fig_18-01_contornos.png",
+      "sha256": "581af266f9b3a81a5793d66e84d1e885d5bb87debe4a6468508ab64a8da4ec5d",
+      "label": "D",
+      "source": "Fig 18.2: confidence contours",
+      "generated_at_utc": "2026-09-20T22:02:26Z",
+      "figura_id": "fig_18-01_contornos"
+    },
+    {
+      "name": "fig_18-02_criterios",
+      "path": "paper\\thu\\figures\\fig_18-02_criterios.png",
+      "sha256": "ba25cda953891ee0535db50932a048728e926f75d62b7ed9b23dc7a641a7b7fa",
+      "label": "D",
+      "source": "Fig 18.3: AIC/BIC",
+      "generated_at_utc": "2026-09-20T22:02:27Z",
+      "figura_id": "fig_18-02_criterios"
+    },
+    {
+      "name": "fig_18-03_evidencia_bayesiana",
+      "path": "paper\\thu\\figures\\fig_18-03_evidencia_bayesiana.png",
+      "sha256": "2292b38846e37d25a5dacec791693b074a6ae143a10c451c48d9622d1382cdf1",
+      "label": "D",
+      "source": "Fig 18.4: Bayesian evidence",
+      "generated_at_utc": "2026-09-20T22:02:27Z",
+      "figura_id": "fig_18-03_evidencia_bayesiana"
+    },
+    {
+      "name": "fig_20-01_problemas_status",
+      "path": "paper\\thu\\figures\\fig_20-01_problemas_status.png",
+      "sha256": "bd9ddb24cb503cb96eb990990e72bf139da8d574a14c8597509b295caa215c7b",
+      "label": "D",
+      "source": "Fig 20.1: problems by status",
+      "generated_at_utc": "2026-09-20T22:02:27Z",
+      "figura_id": "fig_20-01_problemas_status"
+    },
+    {
+      "name": "fig_B-01_variacion_palatini",
+      "path": "paper\\thu\\figures\\fig_B-01_variacion_palatini.png",
+      "sha256": "7fb956d6e18af67a9fedbe7aa223dd0ee0a01aafdd4dba37201514ee6caafd42",
+      "label": "D",
+      "source": "tau_c = sqrt(3) tau",
+      "generated_at_utc": "2026-09-20T22:02:28Z",
+      "figura_id": "fig_B-01_variacion_palatini"
+    },
+    {
+      "name": "fig_E-01_metrica_FLRW",
+      "path": "paper\\thu\\figures\\fig_E-01_metrica_FLRW.png",
+      "sha256": "8b9afd9803fcaac89daf6e4c42cf5180d565d76dc66a9ba17eb0e98d3160e7b2",
+      "label": "D",
+      "source": "<h_hel> = 0",
+      "generated_at_utc": "2026-09-20T22:02:28Z",
+      "figura_id": "fig_E-01_metrica_FLRW"
+    },
+    {
+      "name": "fig_J-01_vertices_feynman",
+      "path": "paper\\thu\\figures\\fig_J-01_vertices_feynman.png",
+      "sha256": "ec1805b164689a5873a2969d678696bad5cdfc74de796684db239054cec10da2",
+      "label": "D",
+      "source": "Helical vertices",
+      "generated_at_utc": "2026-09-20T22:02:29Z",
+      "figura_id": "fig_J-01_vertices_feynman"
+    },
+    {
+      "name": "fig_L-01_escalera_transescalar",
+      "path": "paper\\thu\\figures\\fig_L-01_escalera_transescalar.png",
+      "sha256": "492bd8ee794749032ed4ce4ab944115cd6a63f7de7f63b31a4b154191659467f",
+      "label": "D",
+      "source": "n=88 -> Lambda",
+      "generated_at_utc": "2026-09-20T22:02:29Z",
+      "figura_id": "fig_L-01_escalera_transescalar"
+    },
+    {
+      "name": "fig_M-01_PRISMA",
+      "path": "paper\\thu\\figures\\fig_M-01_PRISMA.png",
+      "sha256": "d9b6bd35f9b8681d164d413e97faa46ae5d335a27e3ec2493a4ee477d2817395",
+      "label": "D",
+      "source": "38 peer-reviewed",
+      "generated_at_utc": "2026-09-20T22:02:29Z",
+      "figura_id": "fig_M-01_PRISMA"
+    }
+  ]
+}

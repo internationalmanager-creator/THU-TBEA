@@ -1,0 +1,25 @@
+{
+  "id": "TEST-001",
+  "categoria": "test",
+  "titulo": "TEST-001 (semilla run_all)",
+  "valor_principal": 100.0,
+  "incertidumbre": 0.5,
+  "unidad": "Hz",
+  "fuente": "Example2024",
+  "origen": "observado",
+  "estatus": "D",
+  "notas": "Entidad semilla generada por run_all.",
+  "provenance": {
+    "cita_completa": "Example, A. Test entity for pipeline validation. Journal of Tests, 1, 1-10 (2024).",
+    "doi": "10.0000/test.2024.001",
+    "tipo_publicacion": "revista indexada",
+    "ano": 2024,
+    "instrumento": "Osciloscopio calibrado",
+    "condiciones": "Temperatura ambiente, 1 atm",
+    "reproducibilidad": "Confirmado en laboratorio independiente",
+    "extracto": "The measured frequency was 100.0 Hz with uncertainty 0.5 Hz.",
+    "hash_pdf": null,
+    "fecha_descarga_utc": null,
+    "notas": ""
+  }
+}

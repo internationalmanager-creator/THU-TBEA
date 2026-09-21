@@ -1,0 +1,33 @@
+{
+  "id": "COSM-015",
+  "categoria": "cosmologia",
+  "titulo": "Joint foreground templates for JointCMBLikelihoods",
+  "tipo": "likelihood_runtime",
+  "valor_principal": null,
+  "incertidumbre": null,
+  "unidad": "adimensional",
+  "fuente": "JointCMB_fg",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Corpus de likelihood extraido. El valor beta se deriva cuando se ejecuta el analisis.",
+  "dataset_ref": {
+    "zenodo_rec_id": "22845838",
+    "files_count": 10,
+    "bytes_total": 857789.0,
+    "path": "data\\extracted\\zen_runtime\\Joint_foreground_templates_for_JointCMBLikelihoods\\JointCMB_fg_templates_v1_20260919",
+    "sha256_tarball": "509bf0f495b4f79242507da4a950b8aef88839f838b7228e071c03614d629a7e"
+  },
+  "provenance": {
+    "instrumento": "Foreground templates",
+    "ano": 2026,
+    "tipo_publicacion": "dataset publico",
+    "licencia": "por_verificar",
+    "cita_completa": "JointCMBLikelihoods.jl foreground templates v1 (Zenodo 2026)",
+    "reproducibilidad": "Zenodo publico",
+    "extracto": "[F] pendiente extraer beta del likelihood",
+    "fecha_descarga_utc": "2026-09-21T05:31:00Z",
+    "condiciones": "Runtime data para likelihoods conjuntas CMB",
+    "doi": "",
+    "hash_pdf": "509bf0f495b4f79242507da4a950b8aef88839f838b7228e071c03614d629a7e"
+  }
+}

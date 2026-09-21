@@ -1,0 +1,420 @@
+{
+  "algorithm": "SHA-256",
+  "chain_algorithm": "SHA256(prev_chain || file_sha256), genesis=SHA256('GENESIS')",
+  "chain_root": "9c01e16d3fae10f04327d3a169b919be1d94c3fbfd29d7ca44ab0a88ded32eb9",
+  "file_count": 68,
+  "files": [
+    {
+      "chain_hash": "b3463ff1d56ddf3443822bc4eb656629218e9829c6665dcb7fdfb215535aa790",
+      "path": ".gitignore",
+      "sha256": "f6590ffcfbe8bd3479c9ae20a26a4e44b1b717ab57143c5caa0aa43f2358c9a1",
+      "size_bytes": 1435
+    },
+    {
+      "chain_hash": "d55826518701b3e266416bedece947db5480eebec86c2e3b5d29035f3bb20e00",
+      "path": "app.py",
+      "sha256": "6881515b8504b70a53d68202ba2e90c37c89c9052af45e7f7b93e2dc6a82a30c",
+      "size_bytes": 10477
+    },
+    {
+      "chain_hash": "2e1bd8948e713ae571dcf63321b7e6db0436ead7cf2efb5878fce1bf9db716a5",
+      "path": "app_thu.py",
+      "sha256": "64c6319f4de4665fe1537dfd8e303c67d37e07373320e699192a3f3f0c170df2",
+      "size_bytes": 33971
+    },
+    {
+      "chain_hash": "a24e1b1a434da3451e12e8e8937e3d3dba3b20ad285ba938bb339bf3da8c1481",
+      "path": "data/entidades.csv",
+      "sha256": "a0327fa8054ec503befb2ea7d1e590da49a9a79aa592f8bd4ba3959cf36e539c",
+      "size_bytes": 167
+    },
+    {
+      "chain_hash": "c3d2a6372382cce1eb472e30c515d8e4fbb96955cdbe299c159828ff577413ab",
+      "path": "data/inputs/TEST-001.json",
+      "sha256": "8c72dc16a20b74d15e9edeef3d74693fe50cc647b4c6c0e48fe67a26b67061f4",
+      "size_bytes": 819
+    },
+    {
+      "chain_hash": "50a4b7e3619661a962399c90b383e616fb78762de0db8e7c24ed06f7a3da818e",
+      "path": "data/provenance/TEST-001_example2024.md",
+      "sha256": "c98544f2652bbc32fe9caa8e4f04e9593a83cfeddf63d2960a41d4f38763f738",
+      "size_bytes": 722
+    },
+    {
+      "chain_hash": "f60bad290899d32dc0d5eea36aa186c8c26582c3803965891d2bfc6d3e0f5c47",
+      "path": "paper/thu/figures/figures_manifest.json",
+      "sha256": "9e9556ddc7589f5674e038738a441758740956a99d2790cbed112398425c0950",
+      "size_bytes": 23211
+    },
+    {
+      "chain_hash": "b3a6453ec013c67e5cf4768f7bcac09b97a864760265def96c99a37dd15bc0f0",
+      "path": "README.md",
+      "sha256": "9c5c38653230349ade43a1d8b15920c4c50a6cdab372e2980c2290f0bf0c1a3c",
+      "size_bytes": 3646
+    },
+    {
+      "chain_hash": "8a9238a683b2f2d77b9076500a3478b974ecee7e6eca732f264de3553b3dce1d",
+      "path": "registry/chronolog.md",
+      "sha256": "943516ce47c26a5f7cb0eb01e41fa5b8b2bdcb17d8bbe5af378289a6d3d1d07a",
+      "size_bytes": 1328
+    },
+    {
+      "chain_hash": "11d5f817cd7c7d3f62a0f89cc4ee0f22a3731d33707c13fc261f3c4110389023",
+      "path": "registry/DECISIONS.md",
+      "sha256": "b6b09b0533019c037e26eadb7185f7b563ab9bae15cd00f62fbad2e882795f72",
+      "size_bytes": 11562
+    },
+    {
+      "chain_hash": "b856fddd2d8c36e3811c8ac003df14b343c6f7b1449c391e720aa5a20b0c078c",
+      "path": "registry/epistemic_log.md",
+      "sha256": "8ac22091adc21b473ec0fcd504547a6cdf4c004784f0c8c3e71086a50bb56bef",
+      "size_bytes": 561
+    },
+    {
+      "chain_hash": "2a1c4be4deaf84e7cf7173e700493118971729c47f4839944fb75d4f9cb3ae88",
+      "path": "registry/GLOSARIO.md",
+      "sha256": "e141883911b23ca5904a10b6b3992070d240db1ecdcafbe8362be22055578e09",
+      "size_bytes": 4551
+    },
+    {
+      "chain_hash": "a06a9298cdc581c59b4298dcdea75bbfe86b7167f99fecbef0ce092478296240",
+      "path": "registry/HALLAZGOS_FALSADOS.md",
+      "sha256": "b0b2949437d593d842c82d3cf7f2817a6eb1485ce7ef06481275091733ff5b1e",
+      "size_bytes": 381
+    },
+    {
+      "chain_hash": "3b3c76dcbe76e5be71a64f0af9887f9e43b114a80cd00d23dc0bc62a1930bf32",
+      "path": "registry/investigacion.json",
+      "sha256": "6dc46a293d6480229f359424410f65eac64ab7ac236a2e02f31513959475658e",
+      "size_bytes": 1108
+    },
+    {
+      "chain_hash": "1761e021f684d35474fd1c75cbce7bf256a87764e5f74b017d6e553a53b77438",
+      "path": "registry/project_metadata.json",
+      "sha256": "516aafd91c502f8c98f1c046762f44fa2104cdc214228b07488fcaa7d0c36c6f",
+      "size_bytes": 3013
+    },
+    {
+      "chain_hash": "860b738faf2bce86d2d8ed58a0db14f7b16d1253c6e0e958555c75cad73db787",
+      "path": "registry/README.md",
+      "sha256": "7d106bb546cfa77592c84585cd652849cfc6ca1d9628719bb4ed839eae09f9b4",
+      "size_bytes": 1688
+    },
+    {
+      "chain_hash": "f83130785a01fdf9e32ad5fa07da041723d622df4230a2dccd0033f3196ac15d",
+      "path": "registry/thu/ANEXOS_V5.0.md",
+      "sha256": "2e311ea0b551baf599d81e2cdab833c597d532ac759b7d722080ba1278be0a53",
+      "size_bytes": 1023
+    },
+    {
+      "chain_hash": "64856228a205a6d12c79b40ec28db449be12b36df802313c77822c78b8029e6e",
+      "path": "registry/thu/annexes.json",
+      "sha256": "80c291d05f0d2e0e76644ef71e842b9a8f96bec2c23edcb0df19fec83def3490",
+      "size_bytes": 351
+    },
+    {
+      "chain_hash": "4b38e16658b78cb998f28e3d3abce4a37d99dcf5fb5b03f20c55ee532a09cbb7",
+      "path": "registry/thu/changelog.json",
+      "sha256": "85a0f6057a287ab112ca565a876d598ba26cc20ed86d4492028063902653d50c",
+      "size_bytes": 4754
+    },
+    {
+      "chain_hash": "538c74ffed14dab0e734ef8c57405ae8625353d28a4eecb689596a7733f0df7c",
+      "path": "registry/thu/datasets.json",
+      "sha256": "44f8be277d0876b42720257542734ea0dec3f1dbf1695dfe896cabc2c8f5202f",
+      "size_bytes": 1279
+    },
+    {
+      "chain_hash": "4b4f4bac51f4907997438e219bac4689e19486525a70c814257978c053dd8c6d",
+      "path": "registry/thu/epistemic_matrix.json",
+      "sha256": "fcb5bfb34356fede839f4d9511080c345c9e3099ac88183548a356aa64c3b8ba",
+      "size_bytes": 2454
+    },
+    {
+      "chain_hash": "0f90a0d34e32c5d3f74bbdde363d70b32bbba28e9a8ab49b53a545272b97e4eb",
+      "path": "registry/thu/figures_metadata.json",
+      "sha256": "9569fe6d6e3ebdba39a6c0b0035f4cb7b2776ee2d7d0919eb2d3f07f794df0cc",
+      "size_bytes": 27464
+    },
+    {
+      "chain_hash": "6d71d1a71ced080ed3580ba96cd4236d9e4a75e6710a3b25a86aa56020abf550",
+      "path": "registry/thu/glossary.json",
+      "sha256": "8ffbd4b9c09c4eb0169218ae89b9d6257470396645ec52786e7db04d0381b334",
+      "size_bytes": 3331
+    },
+    {
+      "chain_hash": "ff811ca0a4c23832fdc6bc787fb85b80b959725d891a9f3411e0b6c4c67c2150",
+      "path": "registry/thu/i18n_content.json",
+      "sha256": "d87d834b4143ce07dabf71b8c31e597faaf43f087217014a9dfa2c57a97bfd0b",
+      "size_bytes": 15822
+    },
+    {
+      "chain_hash": "da41c9d89416902f25ecfd3a1ebdc597ef65d21567e4f79c50f1b302302b37be",
+      "path": "registry/thu/patches.json",
+      "sha256": "7c923ccea40f3c0e79595573f9bd23ca5f6c6ab9361f83bbe3662fc11c5d02bf",
+      "size_bytes": 4627
+    },
+    {
+      "chain_hash": "f124c263a09b8894251697687ab7f7fcbd4022fdfb4a53ad4fd4476b90906f9f",
+      "path": "registry/thu/predictions.json",
+      "sha256": "139f13e91a534139b92f32aebed1c8b2713a9962bddc9fd09eebf1acb676f792",
+      "size_bytes": 2011
+    },
+    {
+      "chain_hash": "24b8d5b696f7d133d144c8e1118e73fe8e28476beacfc204d285bd070e7eff53",
+      "path": "registry/thu/prisma.json",
+      "sha256": "d4e1f5c378bcbca7ca46fb378059e9837f6779f4a810ef340b1818ae513c080b",
+      "size_bytes": 1253
+    },
+    {
+      "chain_hash": "0446752313cd03e88ef2f43aaeb5296e2ad751e1582b5c0a79323719ef3478e2",
+      "path": "registry/thu/problems.json",
+      "sha256": "6c79c57f4d6196d251a6c47c2eaa926ba952248de5f9fb97ec0d1a1c7f1c4fad",
+      "size_bytes": 3496
+    },
+    {
+      "chain_hash": "0caf9a7d1f8924013fb17d77d30eb7bc7c11e601e8dc873da83b8d4332cb3569",
+      "path": "registry/thu/project.json",
+      "sha256": "abf4c48b3fd26b161d70d2b4e11b8dc5aa754be2c2965fe16e508a0368755ba6",
+      "size_bytes": 1534
+    },
+    {
+      "chain_hash": "8931ca70a24730336716c9a5664c625a069ca4961c764ad29e7076520669385a",
+      "path": "registry/thu/references.json",
+      "sha256": "bb730c4444782d0aee551dff73a47ca5c3c2f907e9d0e5d36681acb4ce3289f6",
+      "size_bytes": 8688
+    },
+    {
+      "chain_hash": "9813126b6cd115c9100d855887188fa04d67edd2ced16f79dd683e0f326f98a4",
+      "path": "registry/thu/sections.json",
+      "sha256": "4d040b973aea1ca8dc4c2000a5898e9513787759cd2044768b769524aaf6561b",
+      "size_bytes": 3027
+    },
+    {
+      "chain_hash": "6c30b269b92106dc31d13dd73caa6a103af3231f5a28158ae7b9025233c26126",
+      "path": "registry/thu/versions.json",
+      "sha256": "6a9101270e263ae2d977d43e223a00e7319bfa5940bc896cd47b6228068f9cf1",
+      "size_bytes": 1373
+    },
+    {
+      "chain_hash": "46fcbf1ae357296db6c4b02f455580867b4c32cdbb17cd5555a0000cac7ae154",
+      "path": "requirements.txt",
+      "sha256": "ba5ee16ed95a1f810de5e74f7da241032cf1a3ebdf75c07fa7e572514ac85226",
+      "size_bytes": 685
+    },
+    {
+      "chain_hash": "01c1eb8da2eddaf89b7cc54576e15d4c1da0f3d4a5822926274688f23f01b5ab",
+      "path": "src/__init__.py",
+      "sha256": "3f7bce56730924e786be05a8b5250f4d50bb2e160065361e46257492ae9f374b",
+      "size_bytes": 86
+    },
+    {
+      "chain_hash": "988d3996820332361ac4612ee07a2695adba2ecc7ae71451325637950d960940",
+      "path": "src/analisis.py",
+      "sha256": "71ed675a2be506fbeda06364884c1d109a5f97d5e369b7823fef6a03f40ad0ca",
+      "size_bytes": 3084
+    },
+    {
+      "chain_hash": "53b0da9c4744f359db0943083465b5d93b7d9020b8340adea180f68d43a67adc",
+      "path": "src/audit_report.py",
+      "sha256": "41ba09bd61f3e9a4ac16b9b04e47ce3c5eef0abe3af6379b94f375a4a94098dd",
+      "size_bytes": 28631
+    },
+    {
+      "chain_hash": "180170c9f167a159f5d73ffa4811f04a087fc422d62a76f1a8683b963eb3973d",
+      "path": "src/chronolog.py",
+      "sha256": "483241dae7fcd1d1be945264ab740033cfc32d332214de7c71949d0c05606252",
+      "size_bytes": 4187
+    },
+    {
+      "chain_hash": "6bfaaadeddcb35a108c9f5dbb23add97d31e8b8d7115802904fdab2631bb6f3a",
+      "path": "src/clone_investigacion.py",
+      "sha256": "9900a4ea8df73a78489696c60ed8c2f0ba7b9590f04489aaa1e77b373cb3958a",
+      "size_bytes": 12688
+    },
+    {
+      "chain_hash": "198a5ccd9ad71301fbc5260ab5bd5acbac0fdf924d3359bbe5cb02ed0810d174",
+      "path": "src/db_manager.py",
+      "sha256": "b31774055b039429e8b157da833649c71730a543767cde466e84ad3342781b3f",
+      "size_bytes": 17252
+    },
+    {
+      "chain_hash": "94300ebc872a29e40dd5ec00e3da140f7c626dce37ddcd5ea7074409da015c76",
+      "path": "src/estadistica.py",
+      "sha256": "2fc04f8e8af02402477455da14144ccdc7bf332689b0b852bcdbf098078dc9c2",
+      "size_bytes": 16305
+    },
+    {
+      "chain_hash": "789f0f5219c27ae9892ecbe0b7a2a98dfb58f194aeec6c4389c705bead65a171",
+      "path": "src/freeze.py",
+      "sha256": "ba614959df7ee6c50a6ea44f03c8038ee64b05d44d5dd0d327f3fe20b7eae391",
+      "size_bytes": 849
+    },
+    {
+      "chain_hash": "47c2f847caf428bdf385cf35314d1f4fcfa2ce6971f035204d0cb9892017547f",
+      "path": "src/hash_manifest.py",
+      "sha256": "a3595015cc87cf7198dcad46163469afc4cf8230183278a5742324496c3829e9",
+      "size_bytes": 7258
+    },
+    {
+      "chain_hash": "984bfaa90ed23937dd86dcde6321105f2eff0e9c8d733a98e3315030fe2950dd",
+      "path": "src/migrations.py",
+      "sha256": "89e2d75dfb97bcf0e9c06470bf4868e7a5c1c9e87d8b85ad1e0963df38bedc49",
+      "size_bytes": 5527
+    },
+    {
+      "chain_hash": "d294a495c0a732d55a40535bb898fc08cc16e69d3057e4313f704859d1837064",
+      "path": "src/nueva_entidad.py",
+      "sha256": "937d717c9ef37c8d010f21ef4d136cee33c3bbdfbe0a47800753167a67e5fd50",
+      "size_bytes": 3766
+    },
+    {
+      "chain_hash": "23db1cb5f72f79f2a54d04ccafb96d244e95a1896dcedd482eb65e1dce0423b7",
+      "path": "src/preregistro.py",
+      "sha256": "8d08570b92fac0a42e2a4ea4441f15835e68e17985145534e3fbcd4989d99148",
+      "size_bytes": 10730
+    },
+    {
+      "chain_hash": "f41c38a7d86c6c0c07ec101d9208a06b7e78b4cc1872142abe575d830cae8108",
+      "path": "src/registrar_entidad.py",
+      "sha256": "79761494b338817777e7071d5d768a4915cfda57f36888d3cb7154bc19a95d11",
+      "size_bytes": 7522
+    },
+    {
+      "chain_hash": "56ad1d36bda527b56d00c9ada740642d8a72f174e0216501b90199566474432d",
+      "path": "src/run_all.py",
+      "sha256": "d06f5560a64e5682b9633fab7f21d8ba2cc8854e30632c6dac6cea09711c699e",
+      "size_bytes": 12793
+    },
+    {
+      "chain_hash": "86695892ac63e939023317b6daac0a572d0d80e462c22422fb6218b27e8259a5",
+      "path": "src/thu/__init__.py",
+      "sha256": "de0b91bc4d3af4f7bef08400d64370368a6272c0b172ab86af4a25266f96c050",
+      "size_bytes": 83
+    },
+    {
+      "chain_hash": "677b34fe4284ccfb24b253862aeafe46a4a754f04e81efd8f010cd72c091d766",
+      "path": "src/thu/annex.py",
+      "sha256": "5dd2b8695331ffddb6838f2fbc76ac197d1274638ba5c20955b5931ad4ba4541",
+      "size_bytes": 7477
+    },
+    {
+      "chain_hash": "5e28d5a2516901e9a104634c6cb3338df0aa5934f3fd12bc86226251657b35a9",
+      "path": "src/thu/charts.py",
+      "sha256": "546f3353aca0c964c86750369e05209182277634518e50d40e8af842009d43cc",
+      "size_bytes": 6639
+    },
+    {
+      "chain_hash": "5f9f9417a570e67398edc9510e70faf4fa6580a41469fbeaf3d309ec14d80cc9",
+      "path": "src/thu/derivaciones.py",
+      "sha256": "36ba0db026428ad51b1a6f87375f200c405e8f36b316572ad4a53649dafecc41",
+      "size_bytes": 20000
+    },
+    {
+      "chain_hash": "c2346a0b5a3dd6d10ec3562b60bba9ab0b74b28b569f5bf0143aa017f05aeddf",
+      "path": "src/thu/figures.py",
+      "sha256": "79a4ac62b5e3db6f469253c97fe999e9f4fd58b0e57f9eb771328363625e9eb8",
+      "size_bytes": 72808
+    },
+    {
+      "chain_hash": "a6b0b6dc15547439a01c062089dc4c75fae60e7437650936f2e8eaf0e8ecabb3",
+      "path": "src/thu/i18n_thu.py",
+      "sha256": "9ea6ae8e62859424ed1d3c3e99bd57b659567fa6da7a9d4fd16c56bd758fc0fe",
+      "size_bytes": 16727
+    },
+    {
+      "chain_hash": "6c4f828bc85be151fa5bc6a933a7bc00388a740bcbd004d148802a1c02bfafe8",
+      "path": "src/thu/latex_builder.py",
+      "sha256": "2b46c3ec0cc5dee0007414ec9470b8398ffd328a7cba70a33d3a9b823134aee3",
+      "size_bytes": 14997
+    },
+    {
+      "chain_hash": "424944bb479fc7e9d923fee2384a487ebfbe9c2cd686a2fbcd29947c9b78c30a",
+      "path": "src/thu/latex_compile.py",
+      "sha256": "e77fd0017a52f129b315d8c6a43aaead655284225763b9a32e59ecf116e3ef93",
+      "size_bytes": 9410
+    },
+    {
+      "chain_hash": "f1b059874aa127261fee2405863d3804d58a31641dd769ff4144ba5c6199fc1a",
+      "path": "src/thu/loader.py",
+      "sha256": "481386b2b1039d3b44a3bb504270b46f22aef876fa7036a44121c47a27b8f816",
+      "size_bytes": 6683
+    },
+    {
+      "chain_hash": "a46cf9dfe5c2e8f25c3def144daad49c52b729c0d570041bb3709cfe73362ab8",
+      "path": "src/thu/style.py",
+      "sha256": "1254e77f06227c4c92446933c3317cca71f0f23bc46267b87c5461919ca83bd7",
+      "size_bytes": 4842
+    },
+    {
+      "chain_hash": "d8028a530c354ffe57c2b337ed7e3c2f8ad1a21a3f2ba7f31dc47fd5a17d37cd",
+      "path": "src/unidades.py",
+      "sha256": "cf52c8f1067e0d13043f796eea5afedafecf2cac3613f7c1342ac3d3fe163de9",
+      "size_bytes": 3507
+    },
+    {
+      "chain_hash": "5ddedd5295f8462b05b92dd3b698eb18c81b6be002fbe58394b3d7946803077f",
+      "path": "src/viz/__init__.py",
+      "sha256": "513a52c5ee5451c277b23162754d3818818a9f8b9f1a7f6beb44dd04d15151c6",
+      "size_bytes": 34
+    },
+    {
+      "chain_hash": "bf00bc6a85ac5e28a5aa5c039398d575361af789db0b50c83ca16d806b233503",
+      "path": "src/viz/charts.py",
+      "sha256": "cfb70783739da050e39b1c6417282b04d743be1e14b404a1780dd1a8ced00a86",
+      "size_bytes": 5796
+    },
+    {
+      "chain_hash": "1c2cc6fd5944a2e01b306713ed392f6dbfedff1fd6116e7af9d543536c1ced30",
+      "path": "src/viz/data_access.py",
+      "sha256": "a3f830ae99a730502db025d1e741743d91abb09d0e2beb1555dcc6918106295f",
+      "size_bytes": 5256
+    },
+    {
+      "chain_hash": "9aa5d2344b08587155b3604ac82ae5ef6d1dd9fae5d785ce955bbd2c2b3bb573",
+      "path": "src/viz/domains.py",
+      "sha256": "4c0303425c1aeec69f558f587d65e98cc587698fe1c441a07088d538a7e6ed15",
+      "size_bytes": 2562
+    },
+    {
+      "chain_hash": "0cb193b162aa2b574b4a7afa782ff0d6a73dce50d87cc9f8268e3b65fa182bfb",
+      "path": "src/viz/i18n.py",
+      "sha256": "1ed06cd9a1ee8783e7f1936362a7f792c520e279cec0387ef36679db230210c2",
+      "size_bytes": 10064
+    },
+    {
+      "chain_hash": "e384437cb07594a538da3b1b9c20aa9046ce99792a9f2ed165ede3d1bd231adb",
+      "path": "src/viz/styles.py",
+      "sha256": "1b47e745e7bdae435895522f43dc6e0343a6ecb28542b5f042fd80217271fb1d",
+      "size_bytes": 2702
+    },
+    {
+      "chain_hash": "8a33cb7c1c9551760c0d8116d2c580e0f5ff945ada299f418cb009b93d850c5e",
+      "path": "tests/conftest.py",
+      "sha256": "30d11628b4ec57b54547b784cb7684bd01e054ecc6db7cf2a626867354d3a030",
+      "size_bytes": 172
+    },
+    {
+      "chain_hash": "e05c89d59390ee797fb9871ce97fb992ac20d55cc60b12834ec43f472b632b4f",
+      "path": "tests/test_estadistica.py",
+      "sha256": "af5f7239a6721d1408652872ecb5aca64a1ddb3f6c7820a26f714564d1e8aa64",
+      "size_bytes": 2936
+    },
+    {
+      "chain_hash": "20182b56bab319dbe85732fba5f6597dd7b9ff76f186be7296cdd57e4071e6de",
+      "path": "tests/test_manifest.py",
+      "sha256": "b083e2edef4685fe09fb6edf3e7b8495ca780b1219a27d3543d6641150610d2a",
+      "size_bytes": 2408
+    },
+    {
+      "chain_hash": "9c01e16d3fae10f04327d3a169b919be1d94c3fbfd29d7ca44ab0a88ded32eb9",
+      "path": "tests/test_smoke.py",
+      "sha256": "a0980351d0eb0df69af471b086a7d101a885917866316d18a8fb4a114beb7dd4",
+      "size_bytes": 3772
+    }
+  ],
+  "generated_at_utc": "2026-09-21T03:25:22Z",
+  "manifest_sha256": "b7084f1ef9acef2bab504571f9b9c24d01e3ab4e7d1a6adec6cbf24cb6798b5b",
+  "root": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto",
+  "version": "0.7.0"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "COSM-012",
+  "categoria": "cosmologia",
+  "titulo": "Joint P4+ACT+SPT-3G fixtures",
+  "tipo": "likelihood_runtime",
+  "valor_principal": null,
+  "incertidumbre": null,
+  "unidad": "adimensional",
+  "fuente": "JointCMB_fixtures",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Corpus de likelihood extraido. El valor beta se deriva cuando se ejecuta el analisis.",
+  "dataset_ref": {
+    "zenodo_rec_id": "",
+    "files_count": 19,
+    "bytes_total": 97396129.0,
+    "path": "data\\extracted\\zen_runtime\\Joint_Planck_PR4_likelihood_runtime_data_for_Joint",
+    "sha256_tarball": "d1be35bb0d4caf4d52bacfe81a11cf47a0e9845741b4b675336563ec4191e15a"
+  },
+  "provenance": {
+    "instrumento": "Joint P4+ACT+SPT-3G",
+    "ano": 2026,
+    "tipo_publicacion": "dataset publico",
+    "licencia": "por_verificar",
+    "cita_completa": "JointCMBLikelihoods.jl reference fixtures v1 (Zenodo 2026)",
+    "reproducibilidad": "Zenodo publico",
+    "extracto": "[F] pendiente extraer beta del likelihood",
+    "fecha_descarga_utc": "2026-09-21T05:31:00Z",
+    "condiciones": "Runtime data para likelihoods conjuntas CMB",
+    "doi": "",
+    "hash_pdf": "d1be35bb0d4caf4d52bacfe81a11cf47a0e9845741b4b675336563ec4191e15a"
+  }
+}

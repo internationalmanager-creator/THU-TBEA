@@ -1,0 +1,93 @@
+[
+  {
+    "query": "alpha_lm",
+    "name": "dh-orko/Help-me-get-rid-of-unhumans",
+    "clone": "https://github.com/dh-orko/Help-me-get-rid-of-unhumans.git",
+    "stars": 82,
+    "license": "none"
+  },
+  {
+    "query": "alpha_lm",
+    "name": "rbgo404/Starling-LM-7B-alpha-GPTQ",
+    "clone": "https://github.com/rbgo404/Starling-LM-7B-alpha-GPTQ.git",
+    "stars": 2,
+    "license": "none"
+  },
+  {
+    "query": "alpha_lm",
+    "name": "tanmaykaper/Paper-Trading-Bot",
+    "clone": "https://github.com/tanmaykaper/Paper-Trading-Bot.git",
+    "stars": 2,
+    "license": "MIT"
+  },
+  {
+    "query": "alpha_lm",
+    "name": "admineral/Deepseek-LM-Studio-sdk-nextjs",
+    "clone": "https://github.com/admineral/Deepseek-LM-Studio-sdk-nextjs.git",
+    "stars": 2,
+    "license": "none"
+  },
+  {
+    "query": "alpha_lm",
+    "name": "paganol/alpha_lm",
+    "clone": "https://github.com/paganol/alpha_lm.git",
+    "stars": 1,
+    "license": "none"
+  },
+  {
+    "query": "candl cmb",
+    "name": "Lbalkenhol/candl",
+    "clone": "https://github.com/Lbalkenhol/candl.git",
+    "stars": 32,
+    "license": "MIT"
+  },
+  {
+    "query": "candl cmb",
+    "name": "SouthPoleTelescope/spt_candl_data",
+    "clone": "https://github.com/SouthPoleTelescope/spt_candl_data.git",
+    "stars": 5,
+    "license": "none"
+  },
+  {
+    "query": "candl cmb",
+    "name": "Lbalkenhol/candl_data",
+    "clone": "https://github.com/Lbalkenhol/candl_data.git",
+    "stars": 1,
+    "license": "MIT"
+  },
+  {
+    "query": "lattice qcd",
+    "name": "lattice/quda",
+    "clone": "https://github.com/lattice/quda.git",
+    "stars": 367,
+    "license": "NOASSERTION"
+  },
+  {
+    "query": "lattice qcd",
+    "name": "akio-tomiya/LatticeQCD.jl",
+    "clone": "https://github.com/akio-tomiya/LatticeQCD.jl.git",
+    "stars": 177,
+    "license": "MIT"
+  },
+  {
+    "query": "lattice qcd",
+    "name": "JeffersonLab/chroma",
+    "clone": "https://github.com/JeffersonLab/chroma.git",
+    "stars": 73,
+    "license": "NOASSERTION"
+  },
+  {
+    "query": "lattice qcd",
+    "name": "saforem2/l2hmc-qcd",
+    "clone": "https://github.com/saforem2/l2hmc-qcd.git",
+    "stars": 69,
+    "license": "Apache-2.0"
+  },
+  {
+    "query": "lattice qcd",
+    "name": "mspraggs/pyQCD",
+    "clone": "https://github.com/mspraggs/pyQCD.git",
+    "stars": 61,
+    "license": "NOASSERTION"
+  }
+]

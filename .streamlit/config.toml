@@ -1,0 +1,33 @@
+# =====================================================================
+# PIR — Configuracion de Streamlit
+# Aplica a app.py y app_thu.py
+# =====================================================================
+
+[theme]
+base = "dark"
+primaryColor = "#6C5CE7"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1A1D24"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+fileWatcherType = "none"
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"
+
+[logger]
+level = "info"
+
+[runner]
+magicEnabled = false
+fastReruns = true

@@ -1,0 +1,33 @@
+{
+  "id": "COSM-014",
+  "categoria": "cosmologia",
+  "titulo": "CMB Lite CamSpec NPIPE likelihood",
+  "tipo": "likelihood_runtime",
+  "valor_principal": null,
+  "incertidumbre": null,
+  "unidad": "adimensional",
+  "fuente": "CMB_Lite_CamSpec",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Corpus de likelihood extraido. El valor beta se deriva cuando se ejecuta el analisis.",
+  "dataset_ref": {
+    "zenodo_rec_id": "",
+    "files_count": 68,
+    "bytes_total": 348272595.0,
+    "path": "data\\extracted\\zen_runtime\\CMB_Lite_Likelihood_Data\\cmblite_data",
+    "sha256_tarball": "71d298ad2e4a2118936dd0234b0aac7de936460fca44903c30786d614535cfb1"
+  },
+  "provenance": {
+    "instrumento": "Planck PR4 lite",
+    "ano": 2026,
+    "tipo_publicacion": "dataset publico",
+    "licencia": "por_verificar",
+    "cita_completa": "CMB Lite likelihood (Zenodo 2026)",
+    "reproducibilidad": "Zenodo publico",
+    "extracto": "[F] pendiente extraer beta del likelihood",
+    "fecha_descarga_utc": "2026-09-21T05:31:00Z",
+    "condiciones": "Runtime data para likelihoods conjuntas CMB",
+    "doi": "",
+    "hash_pdf": "71d298ad2e4a2118936dd0234b0aac7de936460fca44903c30786d614535cfb1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "chapters": [
+    {"n":1,"title":"Introduccion e historia critica","pages":[13,14,15],"part":"I"},
+    {"n":2,"title":"Marco normativo, reproducibilidad y arquitectura computacional","pages":[17,18],"part":"I"},
+    {"n":3,"title":"Geometria U4: torsion axial como solucion exacta de Palatini","pages":[19,20,21,22,23,24],"part":"II"},
+    {"n":4,"title":"Operadores no locales: analisis funcional, unitariedad y sector trans-escalar","pages":[25,26],"part":"II"},
+    {"n":5,"title":"Analisis de Dirac-Bergmann: un grado de libertad y causalidad proyectada","pages":[28,29,30,31],"part":"II"},
+    {"n":6,"title":"Grupo de renormalizacion a 1-loop: punto fijo aureo","pages":[33,34,35],"part":"II"},
+    {"n":7,"title":"Cancelacion del vacio escalar modulado: mecanismo parcial","pages":[36,37,38],"part":"II"},
+    {"n":8,"title":"Cosmologia helicoidal cerrada: Friedmann modificada","pages":[39,40,41],"part":"III"},
+    {"n":9,"title":"Mecanismo chameleon cuantitativo","pages":[42,43],"part":"III"},
+    {"n":10,"title":"Exodo quiral y birefringencia cosmica: matching anomalo","pages":[44,45],"part":"III"},
+    {"n":11,"title":"Tomografia beta(z) derivada de las EOM","pages":[46],"part":"III"},
+    {"n":12,"title":"Espectro hadronico: escala trans-escalar","pages":[47,48],"part":"III"},
+    {"n":13,"title":"Revision empirica sistematica I (PRISMA)","pages":[49],"part":"IV"},
+    {"n":14,"title":"Energia oscura dinamica y DESI DR2","pages":[50,51],"part":"IV"},
+    {"n":15,"title":"Paridad en el sector gravitacional","pages":[52],"part":"IV"},
+    {"n":16,"title":"Spin y vorticidad: RHIC, STAR","pages":[53],"part":"IV"},
+    {"n":17,"title":"Sintesis falsable: predicciones P1-P11","pages":[54],"part":"V"},
+    {"n":18,"title":"Ajuste conjunto sobre datos publicos","pages":[55],"part":"VI"},
+    {"n":19,"title":"Pipeline reproducible y pruebas unitarias","pages":[56],"part":"VI"},
+    {"n":20,"title":"Problemas abiertos y trabajo futuro","pages":[57],"part":"VI"},
+    {"n":21,"title":"Conclusiones y evaluacion lakatosiana final","pages":[58,59],"part":"VI"}
+  ],
+  "appendices": [
+    {"letter":"A","title":"Glosario de simbolos y convenciones","pages":[64,65]},
+    {"letter":"B","title":"Demostraciones matematicas completas","pages":[66,67]},
+    {"letter":"C","title":"Protocolo PRISMA: corpus, flujo y extraccion","pages":[68]},
+    {"letter":"D","title":"Pipeline reproducible: codigo, hashes y pruebas","pages":[69]},
+    {"letter":"E","title":"Atlas de figuras y tabla maestra","pages":[70,71]},
+    {"letter":"F","title":"Bitacora lakatosiana, cierre y trabajo futuro","pages":[73]},
+    {"letter":"G","title":"Morfologias aureas en sistemas naturales (V1-V7)","pages":[74]},
+    {"letter":"H","title":"Coherencia cuantica a temperatura ambiente: PS-TET y microtubulos","pages":[75,76]},
+    {"letter":"I","title":"Ecuaciones reconstruidas y matriz de Poisson completa","pages":[77,78]},
+    {"letter":"J","title":"Revision algebraica externa: parches aplicados","pages":[79,80,81,82]}
+  ]
+}

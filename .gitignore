@@ -1,0 +1,96 @@
+# =====================================================================
+# PIR — .gitignore
+# =====================================================================
+
+# --- Entorno virtual
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# --- Base de datos SQLite (binaria, regenerable desde dump)
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+data/*.sqlite.bak
+
+# --- Salidas regenerables
+outputs/*
+!outputs/.gitkeep
+
+# --- LaTeX: intermedios (los .tex y .pdf si se versionan)
+paper/thu/build/
+paper/thu/src/*.aux
+paper/thu/src/*.log
+paper/thu/src/*.out
+paper/thu/src/*.toc
+paper/thu/src/*.fls
+paper/thu/src/*.fdb_latexmk
+paper/thu/src/*.synctex.gz
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# --- PDFs finales: versionar los 3 idiomas, no los temporales
+paper/thu/dist/*.pdf
+!paper/thu/dist/tesis_es.pdf
+!paper/thu/dist/tesis_en.pdf
+!paper/thu/dist/tesis_de.pdf
+
+# --- Imagenes regenerables
+*.png
+!paper/**/*.png
+
+# --- Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Excepciones: mantener estructura
+!.gitkeep
+!data/**/*.json
+!seeds/*.json
+!seeds/*.txt
+!seeds/*.asc
+!registry/reports.jsonl
+!registry/thu/*.json
+!registry/preregistro/*.json
+!registry/prisma/**/*.csv
+!registry/prisma/**/*.json
+# --- Excepcion: figuras del paper SI se versionan ---
+!paper/thu/figures/*.png
+!paper/thu/figures/*.json
+
+# === Datos crudos y extraidos (NO van a git, son 10 GB) ===
+data/raw/
+data/extracted/
+data/backups/
+data/discovery/
+data/background/queue_*.json
+data/background/runner_*.ps1
+
+# === Cache y temporales ===
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+
+# === Datos que SI van (pequeños, ya hasheados) ===
+!data/inventory/
+!data/inputs/

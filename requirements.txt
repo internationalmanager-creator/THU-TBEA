@@ -1,0 +1,29 @@
+# =====================================================================
+# PIR — Dependencias
+# =====================================================================
+# Rangos amplios por seguridad. Para reproducibilidad estricta,
+# generar requirements.lock tras la primera instalacion:
+#     python src/freeze.py
+# =====================================================================
+
+# --- Núcleo numérico
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.0,<3
+
+# --- Visualización científica
+matplotlib>=3.8,<4
+plotly>=5.24,<7
+
+# --- Simbólico / matemática
+sympy>=1.12,<2
+mpmath>=1.3,<2
+
+# --- Dashboard
+streamlit>=1.40,<2
+
+# --- Utilidades
+tqdm>=4.66,<5
+
+# --- Testing
+pytest>=8.0,<9

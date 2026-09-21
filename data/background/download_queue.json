@@ -1,0 +1,62 @@
+[
+  {
+    "d": "planck_pr4\\hillipop",
+    "f": "hillipop.tar.gz",
+    "url": "https://github.com/planck-npipe/hillipop/archive/refs/heads/master.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "planck_pr4\\lollipop",
+    "f": "lollipop.tar.gz",
+    "url": "https://github.com/planck-npipe/lollipop/archive/refs/heads/master.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "planck_pr4\\lensing",
+    "f": "planck_PR4_lensing.tar.gz",
+    "url": "https://github.com/carronj/planck_PR4_lensing/archive/refs/heads/master.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "cmb_tools\\clik",
+    "f": "clik.tar.gz",
+    "url": "https://github.com/benabed/clik/archive/refs/heads/master.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "cmb_tools\\planck_lite",
+    "f": "planck-lite-py.tar.gz",
+    "url": "https://github.com/heatherprince/planck-lite-py/archive/refs/heads/master.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "cmb_tools\\fgbuster",
+    "f": "fgbuster.tar.gz",
+    "url": "https://github.com/fgbuster/fgbuster/archive/refs/heads/master.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "birefringence\\candl",
+    "f": "candl.tar.gz",
+    "url": "https://github.com/Lbalkenhol/candl/archive/refs/heads/master.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "birefringence\\spt_data",
+    "f": "spt_candl_data.tar.gz",
+    "url": "https://github.com/SouthPoleTelescope/spt_candl_data/archive/refs/heads/main.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "litebird",
+    "f": "litebird_sim.tar.gz",
+    "url": "https://github.com/litebird/litebird_sim/archive/refs/heads/master.tar.gz",
+    "min": 100000
+  },
+  {
+    "d": "desi_dr2",
+    "f": "desi_gaussian_bao_ALL_GCcomb_cov.txt",
+    "url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+    "min": 500
+  }
+]

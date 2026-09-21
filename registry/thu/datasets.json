@@ -1,0 +1,29 @@
+{
+  "source": "Ap. D, Cuadro D.1",
+  "seed_global": 20260808,
+  "datasets": [
+    {"name":"Pantheon+ (Brout 2022)","sha256_trunc":"a4f9...c321","year":2022,"ref":36,
+     "url":"https://github.com/PantheonPlusSH0ES/DataRelease","type":"SNe Ia","n":1701},
+    {"name":"DESI DR2 BAO (Lodha 2025)","sha256_trunc":"8b12...e9a4","year":2025,"ref":34,
+     "url":"https://data.desi.lbl.gov/public/dr2/","type":"BAO","n":7},
+    {"name":"Planck PR4 (Sullivan 2025)","sha256_trunc":"d56f...1c88","year":2025,"ref":10,
+     "url":"https://pla.esac.esa.int/","type":"CMB","n":-1},
+    {"name":"ACT DR6 (Diego-Palazuelos 2025)","sha256_trunc":"7e43...5b21","year":2025,"ref":46,
+     "url":"https://act.princeton.edu/","type":"CMB","n":-1}
+  ],
+  "pipeline_modules": [
+    "fetch_data.py  (descarga + verificacion SHA-256)",
+    "cosmo_eom.py   (integrador numerico Friedmann + tomografia)",
+    "likelihood.py  (verosimilitud conjunta BAO+SNe+CMB)",
+    "tomography.py  (Tabla 11.1)",
+    "bootstrap_kde.py (remuestreo y KDE)",
+    "ligo_comparison.py (limites LIGO O4)"
+  ],
+  "chi2_breakdown": {
+    "BAO": 14.82,
+    "SNe_PantheonPlus": 157.47,
+    "CMB_birefringence": 3.12,
+    "total": 175.41,
+    "warning": "Resultados sobre mocks sinteticos, no sobre datos reales (Cap. 18)"
+  }
+}

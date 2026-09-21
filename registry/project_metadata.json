@@ -1,0 +1,93 @@
+{
+  "project_name": "Programa de Investigacion Rigurosa",
+  "acronym": "PIR",
+  "version": "0.7.0",
+  "start_date_utc": "2026-09-19",
+  "last_update_utc": "2026-09-19",
+
+  "principal_investigator": {
+    "name": "Erick Duque",
+    "orcid": "0009-0004-1245-5464",
+    "contact": "international_manager@comllcusa.com",
+    "alternate_contact": "comipca@gmail.com",
+    "affiliation": "Investigador independiente"
+  },
+
+  "epistemic_framework": "Lakatosiano (MSRP) con etiquetado [D]/[P]/[F]/[A]",
+  "falsifiability_criterion": "Popperiano: toda hipotesis lleva criterio de falsacion explicito",
+  "reporting_standard": "PRISMA 2020 cuando aplique",
+  "data_quality_standard": "ISO 8000",
+  "data_principles": "FAIR (Findable, Accessible, Interoperable, Reusable)",
+  "citation_standard": "ISO 690:2010",
+  "uncertainty_standard": "ISO-GUM",
+  "ethics_standard": "COPE Core Practices",
+  "auditability": "SHA-256 + cadena de hashes + replay determinista",
+  "visibility": "private-until-publication",
+  "license": "CC-BY-4.0",
+
+  "conventions": {
+    "date_format": "ISO-8601 UTC",
+    "hash_algorithm": "SHA-256",
+    "versioning": "semver",
+    "line_endings": "LF",
+    "encoding": "UTF-8",
+    "units": "SI"
+  },
+
+  "epistemic_labels": {
+    "D": "Derivado (se sigue de matematicas o datos)",
+    "P": "Postulado (ingrediente, no derivado)",
+    "F": "Frontera (problema abierto)",
+    "A": "Analogia (sugiere, no valida)"
+  },
+
+  "lakatosian_structure": {
+    "hard_core": [
+      "Torsion axial como gradiente de pseudoescalar en U4",
+      "Solucion exacta de Palatini",
+      "Redefinicion canonica tau_c = sqrt(3) tau",
+      "Operador cinetico entero exp(a Box)"
+    ],
+    "protective_belt": [
+      "Punto fijo IR g_star = phi",
+      "Cancelacion escalar del vacio modulado (N ~ 1.2202)",
+      "Birefringencia beta_0 = 0.3803 deg [P]",
+      "Chameleon beta_c < 2.1e-4",
+      "w_K = +1, kappa^4/6 en Friedmann"
+    ],
+    "positive_heuristic": "Buscar puntos fijos en el flujo RG inducidos por fondos torsionados no triviales; extender el mecanismo de cancelacion por sector",
+    "negative_heuristic": "No modificar las etiquetas epistemicas sin parche documentado; no reajustar parametros tras comparar con datos"
+  },
+
+  "programs": [
+    {
+      "id": "THU-TBEA",
+      "name": "Teoria Helicoidal Universal",
+      "version": "5.3",
+      "doi_current": "10.5281/zenodo.22009758",
+      "registry_dir": "registry/thu",
+      "dashboard": "app_thu.py",
+      "content_path": "registry/thu"
+    }
+  ],
+
+  "audit": {
+    "report_dir": "outputs",
+    "report_pattern": "audit_report_*.txt",
+    "reports_chain": "registry/reports.jsonl",
+    "checks_total": 46,
+    "checks_thu": 8
+  },
+
+  "ci": {
+    "provider": "github-actions",
+    "workflows": [
+      ".github/workflows/audit.yml",
+      ".github/workflows/chain-guard.yml",
+      ".github/workflows/release.yml",
+      ".github/workflows/preregister.yml"
+    ],
+    "hooks": ".githooks",
+    "blocking_checks": ["chain", "audit", "tests"]
+  }
+}

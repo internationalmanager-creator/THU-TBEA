@@ -1,0 +1,212 @@
+[
+  {
+    "query": "SPT-3G D1 T&E likelihood runtime",
+    "id": 22818351,
+    "title": "SPT-3G D1 T&E likelihood runtime data for SPTLikelihoods.jl",
+    "license": "cc-zero",
+    "files_api": "https://zenodo.org/api/records/22818351/files"
+  },
+  {
+    "query": "SPT-3G D1 T&E likelihood runtime",
+    "id": 22840060,
+    "title": "Joint Planck PR4 + ACT DR6 + SPT-3G D1 likelihood reference fixtures for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22840060/files"
+  },
+  {
+    "query": "SPT-3G D1 T&E likelihood runtime",
+    "id": 20988430,
+    "title": "CMB lensing likelihood data: ACT, SPT-3G, and Planck",
+    "license": "mit-license",
+    "files_api": "https://zenodo.org/api/records/20988430/files"
+  },
+  {
+    "query": "SPT-3G D1 T&E likelihood runtime",
+    "id": 22845832,
+    "title": "Joint Planck PR4 likelihood runtime data for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845832/files"
+  },
+  {
+    "query": "SPT-3G D1 T&E likelihood runtime",
+    "id": 22845836,
+    "title": "Joint ACT DR6 likelihood runtime data for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845836/files"
+  },
+  {
+    "query": "Joint ACT DR6 likelihood runtime",
+    "id": 22845836,
+    "title": "Joint ACT DR6 likelihood runtime data for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845836/files"
+  },
+  {
+    "query": "Joint ACT DR6 likelihood runtime",
+    "id": 22821597,
+    "title": "ACT DR6 full multifrequency TT/TE/EE likelihood runtime data for ACTLikelihood.jl",
+    "license": "cc-zero",
+    "files_api": "https://zenodo.org/api/records/22821597/files"
+  },
+  {
+    "query": "Joint ACT DR6 likelihood runtime",
+    "id": 22840060,
+    "title": "Joint Planck PR4 + ACT DR6 + SPT-3G D1 likelihood reference fixtures for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22840060/files"
+  },
+  {
+    "query": "Joint ACT DR6 likelihood runtime",
+    "id": 19771461,
+    "title": "ACT DR6 Data",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/19771461/files"
+  },
+  {
+    "query": "Joint ACT DR6 likelihood runtime",
+    "id": 22845832,
+    "title": "Joint Planck PR4 likelihood runtime data for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845832/files"
+  },
+  {
+    "query": "Joint Planck PR4 likelihood runtime",
+    "id": 22845832,
+    "title": "Joint Planck PR4 likelihood runtime data for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845832/files"
+  },
+  {
+    "query": "Joint Planck PR4 likelihood runtime",
+    "id": 22839906,
+    "title": "Planck NPIPE CamSpec PR4 TTTEEE likelihood runtime data for CamSpecLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22839906/files"
+  },
+  {
+    "query": "Joint Planck PR4 likelihood runtime",
+    "id": 22840060,
+    "title": "Joint Planck PR4 + ACT DR6 + SPT-3G D1 likelihood reference fixtures for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22840060/files"
+  },
+  {
+    "query": "Joint Planck PR4 likelihood runtime",
+    "id": 22845836,
+    "title": "Joint ACT DR6 likelihood runtime data for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845836/files"
+  },
+  {
+    "query": "Joint Planck PR4 likelihood runtime",
+    "id": 19193579,
+    "title": "Planck PR4 data as from Carron, Mirmelstein, and Lewis (2022).",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/19193579/files"
+  },
+  {
+    "query": "Joint foreground templates for JointCMBLikelihoods",
+    "id": 22845838,
+    "title": "Joint foreground templates for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845838/files"
+  },
+  {
+    "query": "Joint foreground templates for JointCMBLikelihoods",
+    "id": 52674,
+    "title": "Spatiotemporal Algorithm for Joint Video Segmentation and Foreground Detection",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/52674/files"
+  },
+  {
+    "query": "Joint foreground templates for JointCMBLikelihoods",
+    "id": 40142,
+    "title": "Spatiotemporal Algorithm for Joint Video Segmentation and Foreground Detection",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/40142/files"
+  },
+  {
+    "query": "Joint foreground templates for JointCMBLikelihoods",
+    "id": 3665609,
+    "title": "A large joint sound scene and sound event dataset for source separation of foreground sound events",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/3665609/files"
+  },
+  {
+    "query": "Joint foreground templates for JointCMBLikelihoods",
+    "id": 6422102,
+    "title": "Joint FORCE11 & COPE Research Data Publishing Ethics Working Group Policy Templates",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/6422102/files"
+  },
+  {
+    "query": "ACT DR6 full multifrequency TT/TE/EE likelihood runtime",
+    "id": 22821597,
+    "title": "ACT DR6 full multifrequency TT/TE/EE likelihood runtime data for ACTLikelihood.jl",
+    "license": "cc-zero",
+    "files_api": "https://zenodo.org/api/records/22821597/files"
+  },
+  {
+    "query": "ACT DR6 full multifrequency TT/TE/EE likelihood runtime",
+    "id": 22845836,
+    "title": "Joint ACT DR6 likelihood runtime data for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22845836/files"
+  },
+  {
+    "query": "ACT DR6 full multifrequency TT/TE/EE likelihood runtime",
+    "id": 19771461,
+    "title": "ACT DR6 Data",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/19771461/files"
+  },
+  {
+    "query": "ACT DR6 full multifrequency TT/TE/EE likelihood runtime",
+    "id": 22840060,
+    "title": "Joint Planck PR4 + ACT DR6 + SPT-3G D1 likelihood reference fixtures for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22840060/files"
+  },
+  {
+    "query": "ACT DR6 full multifrequency TT/TE/EE likelihood runtime",
+    "id": 22818351,
+    "title": "SPT-3G D1 T&E likelihood runtime data for SPTLikelihoods.jl",
+    "license": "cc-zero",
+    "files_api": "https://zenodo.org/api/records/22818351/files"
+  },
+  {
+    "query": "CMB lensing likelihood data ACT SPT-3G Planck",
+    "id": 20988430,
+    "title": "CMB lensing likelihood data: ACT, SPT-3G, and Planck",
+    "license": "mit-license",
+    "files_api": "https://zenodo.org/api/records/20988430/files"
+  },
+  {
+    "query": "CMB lensing likelihood data ACT SPT-3G Planck",
+    "id": 22840060,
+    "title": "Joint Planck PR4 + ACT DR6 + SPT-3G D1 likelihood reference fixtures for JointCMBLikelihoods.jl",
+    "license": "other-open",
+    "files_api": "https://zenodo.org/api/records/22840060/files"
+  },
+  {
+    "query": "CMB lensing likelihood data ACT SPT-3G Planck",
+    "id": 22818351,
+    "title": "SPT-3G D1 T&E likelihood runtime data for SPTLikelihoods.jl",
+    "license": "cc-zero",
+    "files_api": "https://zenodo.org/api/records/22818351/files"
+  },
+  {
+    "query": "CMB lensing likelihood data ACT SPT-3G Planck",
+    "id": 4073692,
+    "title": "Cross-Correlation of Planck CMB Lensing with DESI-Like LRGs: Derived Data Supplement",
+    "license": "cc-by-4.0",
+    "files_api": "https://zenodo.org/api/records/4073692/files"
+  },
+  {
+    "query": "CMB lensing likelihood data ACT SPT-3G Planck",
+    "id": 20837482,
+    "title": "CMB Lite Likelihood Data",
+    "license": "mit-license",
+    "files_api": "https://zenodo.org/api/records/20837482/files"
+  }
+]

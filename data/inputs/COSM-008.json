@@ -1,0 +1,33 @@
+{
+  "id": "COSM-008",
+  "categoria": "cosmologia",
+  "titulo": "ACT DR6 TT/TE/EE multifrequency likelihood runtime",
+  "tipo": "likelihood_runtime",
+  "valor_principal": null,
+  "incertidumbre": null,
+  "unidad": "adimensional",
+  "fuente": "ACTDR6_TTTEEE",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Corpus de likelihood extraido. El valor beta se deriva cuando se ejecuta el analisis.",
+  "dataset_ref": {
+    "zenodo_rec_id": "",
+    "files_count": 64,
+    "bytes_total": 496775545.0,
+    "path": "data\\extracted\\zen_runtime\\ACT_DR6_full_multifrequency_TT_TE_EE_likelihood_ru\\ACT_DR6_TTTEEE_v1_20260917",
+    "sha256_tarball": "904418cec753af4ecb197861f0eebbccfe41ca3bce6c68ea53b6e3e05a6eae6a"
+  },
+  "provenance": {
+    "instrumento": "ACT DR6",
+    "ano": 2025,
+    "tipo_publicacion": "dataset publico",
+    "licencia": "por_verificar",
+    "cita_completa": "Diego-Palazuelos et al. 2025, ACT DR6 (arXiv:2505.xxxxx)",
+    "reproducibilidad": "Zenodo publico",
+    "extracto": "[F] pendiente extraer beta del likelihood",
+    "fecha_descarga_utc": "2026-09-21T05:31:00Z",
+    "condiciones": "Runtime data para likelihoods conjuntas CMB",
+    "doi": "",
+    "hash_pdf": "904418cec753af4ecb197861f0eebbccfe41ca3bce6c68ea53b6e3e05a6eae6a"
+  }
+}

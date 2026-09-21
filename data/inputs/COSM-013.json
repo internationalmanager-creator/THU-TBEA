@@ -1,0 +1,33 @@
+{
+  "id": "COSM-013",
+  "categoria": "cosmologia",
+  "titulo": "CMB lensing likelihood ACT+SPT-3G+Planck",
+  "tipo": "likelihood_runtime",
+  "valor_principal": null,
+  "incertidumbre": null,
+  "unidad": "adimensional",
+  "fuente": "Lensing_ACT_SPT_Planck",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Corpus de likelihood extraido. El valor beta se deriva cuando se ejecuta el analisis.",
+  "dataset_ref": {
+    "zenodo_rec_id": "",
+    "files_count": 38,
+    "bytes_total": 3646471378.0,
+    "path": "data\\extracted\\zen_runtime\\CMB_lensing_likelihood_data__ACT__SPT_3G__and_Plan\\act_planck_spt3g_lensing_data",
+    "sha256_tarball": "b09b7586736e4c886909c0534468db52887d39c33560f81e5a231c7c6ddf1f55"
+  },
+  "provenance": {
+    "instrumento": "Lensing combined",
+    "ano": 2026,
+    "tipo_publicacion": "dataset publico",
+    "licencia": "por_verificar",
+    "cita_completa": "CMB lensing likelihood ACT+SPT-3G+Planck (Zenodo 2026)",
+    "reproducibilidad": "Zenodo publico",
+    "extracto": "[F] pendiente extraer beta del likelihood",
+    "fecha_descarga_utc": "2026-09-21T05:31:00Z",
+    "condiciones": "Runtime data para likelihoods conjuntas CMB",
+    "doi": "",
+    "hash_pdf": "b09b7586736e4c886909c0534468db52887d39c33560f81e5a231c7c6ddf1f55"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "COSM-016",
+  "categoria": "cosmologia",
+  "titulo": "unimpeded chains (prediccion w(z) dinamico P1)",
+  "tipo": "likelihood_runtime",
+  "valor_principal": null,
+  "incertidumbre": null,
+  "unidad": "adimensional",
+  "fuente": "Handley_unimpeded",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Corpus de likelihood extraido. El valor beta se deriva cuando se ejecuta el analisis.",
+  "dataset_ref": {
+    "zenodo_rec_id": "21960109",
+    "files_count": 94,
+    "bytes_total": 95365414.0,
+    "path": "data\\extracted\\pred_unimpeded\\handley-lab_unimpeded-v1.2.8",
+    "sha256_tarball": "e028e5cc02626dc30ad8ef72c137264411797fff4905eeb9bb72c18b0ed38495"
+  },
+  "provenance": {
+    "instrumento": "Nested sampling chains",
+    "ano": 2025,
+    "tipo_publicacion": "dataset publico",
+    "licencia": "MIT",
+    "cita_completa": "Handley et al. 2025, unimpeded: A Public Nested Sampling Database (Zenodo 21960109)",
+    "reproducibilidad": "Zenodo publico",
+    "extracto": "[F] pendiente extraer beta del likelihood",
+    "fecha_descarga_utc": "2026-09-21T05:31:00Z",
+    "condiciones": "Runtime data para likelihoods conjuntas CMB",
+    "doi": "10.5281/zenodo.21960109",
+    "hash_pdf": "e028e5cc02626dc30ad8ef72c137264411797fff4905eeb9bb72c18b0ed38495"
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "title": {
+    "es": "Torsion Axial Helicoidal en Cosmologia Riemann-Cartan",
+    "en": "Helical Axial Torsion in Riemann-Cartan Cosmology",
+    "de": "Helikale Axialtorsion in der Riemann-Cartan-Kosmologie"
+  },
+  "subtitle": {
+    "es": "Fundamentos matematicos, fenomenologia y falsabilidad sistematica (2024-2026)",
+    "en": "Mathematical foundations, phenomenology and systematic falsifiability (2024-2026)",
+    "de": "Mathematische Grundlagen, Phanomenologie und systematische Falsifizierbarkeit (2024-2026)"
+  },
+  "theory_name": {
+    "es": "Teoria Helicoidal Universal THU-TBEA 5.3",
+    "en": "Universal Helical Theory THU-TBEA 5.3",
+    "de": "Universelle Helikale Theorie THU-TBEA 5.3"
+  },
+  "abstract": {
+    "es": "Esta tesis construye, analiza y somete a pruebas falsables una teoria de campos efectiva sobre una variedad de Riemann-Cartan U4 en la que la torsion axial irreducible es la solucion exacta de Palatini, alimentada por el gradiente de un pseudoescalar con operador cinetico exponencial entero. El trabajo se organiza como un programa de investigacion lakatosiano con estatus epistemico explicito. Se establecen cinco resultados con derivaciones completas: (i) punto fijo IR g_star = phi; (ii) cancelacion del vacio escalar modulado con N ~ 1.2202; (iii) termino torsional en Friedmann con w_K = +1 y coeficiente canonico kappa^4/6; (iv) analisis Dirac-Bergmann con un grado de libertad y residuo positivo; (v) prediccion de birefringencia cosmica beta_0 = 0.3803 +- 0.040 deg [P]. La tomografia beta(z) constituye la prediccion central falsable.",
+    "en": "This thesis constructs, analyzes and subjects to falsifiable tests an effective field theory on a Riemann-Cartan manifold U4 in which the irreducible axial torsion is the exact Palatini solution, sourced by the gradient of a pseudo-scalar with an entire exponential kinetic operator. The work is organized as a Lakatosian research program with explicit epistemic status. Five results are established with complete derivations: (i) IR fixed point g_star = phi; (ii) modulated scalar vacuum cancellation with N ~ 1.2202; (iii) torsional term in Friedmann with w_K = +1 and canonical coefficient kappa^4/6; (iv) Dirac-Bergmann analysis with one degree of freedom and positive residue; (v) cosmic birefringence prediction beta_0 = 0.3803 +- 0.040 deg [P]. The beta(z) tomography constitutes the central falsifiable prediction.",
+    "de": "Diese Arbeit konstruiert, analysiert und unterzieht einer falsifizierbaren Prufung eine effektive Feldtheorie auf einer Riemann-Cartan-Mannigfaltigkeit U4, in der die irreduzible Axialtorsion die exakte Palatini-Losung ist, gespeist durch den Gradienten eines Pseudoskalars mit ganzzahligem exponentiellen kinetischen Operator. Funf Ergebnisse werden aufgestellt: (i) IR-Fixpunkt g_star = phi; (ii) modulierte skalare Vakuumausloschung mit N ~ 1.2202; (iii) Torsionsterm in Friedmann mit w_K = +1 und kanonischem Koeffizienten kappa^4/6; (iv) Dirac-Bergmann-Analyse mit einem Freiheitsgrad und positivem Residuum; (v) kosmische Birefringenz beta_0 = 0.3803 +- 0.040 Grad [P]."
+  },
+  "keywords": {
+    "es": [
+      "torsion",
+      "Riemann-Cartan",
+      "grupo de renormalizacion",
+      "birefringencia cosmica",
+      "energia de vacio",
+      "teoria de campos no local",
+      "falsabilidad"
+    ],
+    "en": [
+      "torsion",
+      "Riemann-Cartan",
+      "renormalization group",
+      "cosmic birefringence",
+      "vacuum energy",
+      "nonlocal field theory",
+      "falsifiability"
+    ],
+    "de": [
+      "Torsion",
+      "Riemann-Cartan",
+      "Renormierungsgruppe",
+      "kosmische Birefringenz",
+      "Vakuumenergie",
+      "nichtlokale Feldtheorie",
+      "Falsifizierbarkeit"
+    ]
+  },
+  "labels": {
+    "es": {
+      "contents": "Indice general",
+      "abstract": "Resumen",
+      "keywords": "Palabras clave",
+      "chapter": "Capitulo",
+      "appendix": "Apendice",
+      "equations": "Ecuaciones clave",
+      "annexes": "Anexos V5.0",
+      "references": "Referencias",
+      "version": "Version",
+      "date": "Fecha",
+      "author": "Autor",
+      "orcid": "ORCID",
+      "doi": "DOI",
+      "license": "Licencia",
+      "epistemic_legend": "Leyenda epistemica: [D] derivado, [P] postulado, [F] frontera (abierto), [A] analogia.",
+      "problems_registry": "Registro de problemas",
+      "predictions": "Predicciones falsables",
+      "patches": "Bitacora de parches",
+      "bitacora": "Bitacora Lakatosiana",
+      "no_doi": "DOI pendiente (manuscrito en preparacion)",
+      "repo_private": "Repositorio privado"
+    },
+    "en": {
+      "contents": "Table of contents",
+      "abstract": "Abstract",
+      "keywords": "Keywords",
+      "chapter": "Chapter",
+      "appendix": "Appendix",
+      "equations": "Key equations",
+      "annexes": "Annexes V5.0",
+      "references": "References",
+      "version": "Version",
+      "date": "Date",
+      "author": "Author",
+      "orcid": "ORCID",
+      "doi": "DOI",
+      "license": "License",
+      "epistemic_legend": "Epistemic legend: [D] derived, [P] postulated, [F] frontier (open), [A] analogy.",
+      "problems_registry": "Problems registry",
+      "predictions": "Falsifiable predictions",
+      "patches": "Patch log",
+      "bitacora": "Lakatosian log",
+      "no_doi": "DOI pending (manuscript in preparation)",
+      "repo_private": "Private repository"
+    },
+    "de": {
+      "contents": "Inhaltsverzeichnis",
+      "abstract": "Zusammenfassung",
+      "keywords": "Schlusselworter",
+      "chapter": "Kapitel",
+      "appendix": "Anhang",
+      "equations": "Schlusselgleichungen",
+      "annexes": "Anhange V5.0",
+      "references": "Referenzen",
+      "version": "Version",
+      "date": "Datum",
+      "author": "Autor",
+      "orcid": "ORCID",
+      "doi": "DOI",
+      "license": "Lizenz",
+      "epistemic_legend": "Epistemische Legende: [D] abgeleitet, [P] postuliert, [F] Grenze (offen), [A] Analogie.",
+      "problems_registry": "Problemregister",
+      "predictions": "Falsifizierbare Vorhersagen",
+      "patches": "Patch-Protokoll",
+      "bitacora": "Lakatos-Protokoll",
+      "no_doi": "DOI ausstehend (Manuskript in Vorbereitung)",
+      "repo_private": "Privates Repository"
+    }
+  },
+  "chapter_titles": {
+    "1": {
+      "es": "Introduccion e historia critica",
+      "en": "Introduction and critical history",
+      "de": "Einleitung und kritische Geschichte"
+    },
+    "2": {
+      "es": "Marco normativo, reproducibilidad y arquitectura computacional",
+      "en": "Normative framework, reproducibility and computational architecture",
+      "de": "Normativer Rahmen, Reproduzierbarkeit und Rechenarchitektur"
+    },
+    "3": {
+      "es": "Geometria U4: torsion axial como solucion exacta de Palatini",
+      "en": "U4 geometry: axial torsion as exact Palatini solution",
+      "de": "U4-Geometrie: Axialtorsion als exakte Palatini-Losung"
+    },
+    "4": {
+      "es": "Operadores no locales: analisis funcional, unitariedad y sector trans-escalar",
+      "en": "Nonlocal operators: functional analysis, unitarity and trans-scale sector",
+      "de": "Nichtlokale Operatoren: Funktionalanalysis, Unitarietat und Trans-Skalen-Sektor"
+    },
+    "5": {
+      "es": "Analisis de Dirac-Bergmann: un grado de libertad y causalidad proyectada",
+      "en": "Dirac-Bergmann analysis: one degree of freedom and projected causality",
+      "de": "Dirac-Bergmann-Analyse: ein Freiheitsgrad und projizierte Kausalitat"
+    },
+    "6": {
+      "es": "Grupo de renormalizacion a 1-loop: punto fijo aureo",
+      "en": "1-loop renormalization group: golden fixed point",
+      "de": "1-Loop-Renormierungsgruppe: goldener Fixpunkt"
+    },
+    "7": {
+      "es": "Cancelacion del vacio escalar modulado: mecanismo parcial",
+      "en": "Modulated scalar vacuum cancellation: partial mechanism",
+      "de": "Modulierte skalare Vakuumausloschung: partieller Mechanismus"
+    },
+    "8": {
+      "es": "Cosmologia helicoidal cerrada: Friedmann modificada",
+      "en": "Closed helical cosmology: modified Friedmann",
+      "de": "Geschlossene helikale Kosmologie: modifizierte Friedmann"
+    },
+    "9": {
+      "es": "Mecanismo chameleon cuantitativo",
+      "en": "Quantitative chameleon mechanism",
+      "de": "Quantitativer Chamaleon-Mechanismus"
+    },
+    "10": {
+      "es": "Exodo quiral y birefringencia cosmica",
+      "en": "Chiral exodus and cosmic birefringence",
+      "de": "Chiraler Exodus und kosmische Birefringenz"
+    },
+    "11": {
+      "es": "Tomografia beta(z) derivada de las EOM",
+      "en": "beta(z) tomography from EOM",
+      "de": "beta(z)-Tomographie aus den Bewegungsgleichungen"
+    },
+    "12": {
+      "es": "Espectro hadronico: escala trans-escalar",
+      "en": "Hadronic spectrum: trans-scale",
+      "de": "Hadronisches Spektrum: Trans-Skala"
+    },
+    "13": {
+      "es": "Revision empirica sistematica I (PRISMA)",
+      "en": "Systematic empirical review I (PRISMA)",
+      "de": "Systematische empirische Uberprufung I (PRISMA)"
+    },
+    "14": {
+      "es": "Energia oscura dinamica y DESI DR2",
+      "en": "Dynamic dark energy and DESI DR2",
+      "de": "Dynamische dunkle Energie und DESI DR2"
+    },
+    "15": {
+      "es": "Paridad en el sector gravitacional",
+      "en": "Parity in the gravitational sector",
+      "de": "Paritat im Gravitationssektor"
+    },
+    "16": {
+      "es": "Spin y vorticidad: RHIC, STAR",
+      "en": "Spin and vorticity: RHIC, STAR",
+      "de": "Spin und Vortizitat: RHIC, STAR"
+    },
+    "17": {
+      "es": "Sintesis falsable: predicciones P1-P11",
+      "en": "Falsifiable synthesis: predictions P1-P11",
+      "de": "Falsifizierbare Synthese: Vorhersagen P1-P11"
+    },
+    "18": {
+      "es": "Ajuste conjunto sobre datos publicos",
+      "en": "Joint fit on public data",
+      "de": "Gemeinsame Anpassung an offentliche Daten"
+    },
+    "19": {
+      "es": "Pipeline reproducible y pruebas unitarias",
+      "en": "Reproducible pipeline and unit tests",
+      "de": "Reproduzierbare Pipeline und Unit-Tests"
+    },
+    "20": {
+      "es": "Problemas abiertos y trabajo futuro",
+      "en": "Open problems and future work",
+      "de": "Offene Probleme und zukunftige Arbeit"
+    },
+    "21": {
+      "es": "Conclusiones y evaluacion lakatosiana final",
+      "en": "Conclusions and final Lakatosian evaluation",
+      "de": "Schlussfolgerungen und abschliessende Lakatos-Bewertung"
+    }
+  },
+  "appendix_titles": {
+    "A": {
+      "es": "Glosario de simbolos y convenciones",
+      "en": "Glossary of symbols and conventions",
+      "de": "Glossar der Symbole und Konventionen"
+    },
+    "B": {
+      "es": "Demostraciones matematicas completas",
+      "en": "Complete mathematical proofs",
+      "de": "Vollstandige mathematische Beweise"
+    },
+    "C": {
+      "es": "Protocolo PRISMA: corpus, flujo y extraccion",
+      "en": "PRISMA protocol: corpus, flow and extraction",
+      "de": "PRISMA-Protokoll: Korpus, Fluss und Extraktion"
+    },
+    "D": {
+      "es": "Pipeline reproducible: codigo, hashes y pruebas",
+      "en": "Reproducible pipeline: code, hashes and tests",
+      "de": "Reproduzierbare Pipeline: Code, Hashes und Tests"
+    },
+    "E": {
+      "es": "Atlas de figuras y tabla maestra",
+      "en": "Figure atlas and master table",
+      "de": "Figurenatlas und Mastertabelle"
+    },
+    "F": {
+      "es": "Bitacora lakatosiana, cierre y trabajo futuro",
+      "en": "Lakatosian log, closure and future work",
+      "de": "Lakatos-Protokoll, Abschluss und zukunftige Arbeit"
+    },
+    "G": {
+      "es": "Morfologias aureas en sistemas naturales (V1-V7)",
+      "en": "Golden morphologies in natural systems (V1-V7)",
+      "de": "Goldene Morphologien in naturlichen Systemen (V1-V7)"
+    },
+    "H": {
+      "es": "Coherencia cuantica a temperatura ambiente: PS-TET y microtubulos",
+      "en": "Room-temperature quantum coherence: PS-TET and microtubules",
+      "de": "Quantenkoharenz bei Raumtemperatur: PS-TET und Mikrotubuli"
+    },
+    "I": {
+      "es": "Ecuaciones reconstruidas y matriz de Poisson completa",
+      "en": "Reconstructed equations and full Poisson matrix",
+      "de": "Rekonstruierte Gleichungen und vollstandige Poisson-Matrix"
+    },
+    "J": {
+      "es": "Revision algebraica externa: parches aplicados",
+      "en": "External algebraic review: applied patches",
+      "de": "Externe algebraische Uberprufung: angewandte Patches"
+    }
+  },
+  "chapter_equations": {
+    "3": [
+      "T_{\\lambda\\mu\\nu} = \\frac{1}{M_P}\\varepsilon_{\\lambda\\mu\\nu\\rho}\\nabla^{\\rho}\\tau",
+      "\\tau_c \\equiv \\sqrt{3}\\,\\tau",
+      "\\frac{1}{2}\\tau\\hat{H}_\\varphi\\tau \\xrightarrow{\\tau=\\tau_c/\\sqrt{3}} \\frac{1}{6}\\tau_c\\hat{H}_\\varphi\\tau_c"
+    ],
+    "4": [
+      "\\hat{H}_\\varphi e^{ik\\cdot x} = -k^2 e^{-\\frac{\\varphi}{M_P^2}k^2}e^{ik\\cdot x}",
+      "\\mathrm{Res}[\\Delta] = \\frac{e^{-am^2}}{1+am^2} > 0"
+    ],
+    "5": [
+      "\\mathrm{GDL} = \\frac{1}{2}(10-8) = 1",
+      "\\det M = (\\kappa_2^2+\\kappa_3^2)^2 \\neq 0"
+    ],
+    "6": [
+      "\\beta_{\\mathrm{eff}}(g) = \\kappa(1+g-g^2)",
+      "g_\\star = \\varphi, \\quad \\beta'(\\varphi) = -\\kappa\\sqrt{5} < 0",
+      "\\theta_\\varphi = 2\\pi(2-\\varphi) \\approx 137.507764^\\circ"
+    ],
+    "7": [
+      "\\rho_{\\mathrm{THU}} = \\frac{4\\pi}{(2\\pi)^3}\\int_0^\\infty k^2 \\cos(k/\\kappa_\\varphi) e^{-\\varphi(k/M_P)^2} dk",
+      "\\varphi^{2N} = 2\\varphi \\Rightarrow N \\approx 1.220210"
+    ],
+    "8": [
+      "3H^2 = \\kappa^2\\rho_{\\mathrm{tot}} - \\frac{\\kappa^4}{6}S^2 a^{-6}",
+      "w_K = +1, \\quad \\rho_K \\propto a^{-6}"
+    ],
+    "9": [
+      "\\beta_c < 2.1\\times 10^{-4}"
+    ],
+    "10": [
+      "\\beta_0 = \\frac{\\alpha_{\\mathrm{em}}}{2} A N_{\\mathrm{DW}}",
+      "A = 1.819 \\pm 0.19"
+    ],
+    "12": [
+      "\\Lambda_{\\mathrm{THU}} = M_P \\varphi^{-88} \\approx 989.89 \\text{ MeV}",
+      "m_n^{\\mathrm{THU}} \\approx 937.03 \\text{ MeV}"
+    ]
+  },
+  "es": {
+    "derivations_title": "Derivaciones Simbólicas",
+    "derivations_theory": "Desarrollo paso a paso de las 20 derivaciones canónicas del núcleo duro (v5.3 + MVSP). Cada derivación incluye punto de partida, transformaciones intermedias, resultado final, verificación numérica y criterio de falsación.",
+    "derivations_reference": "Referencia",
+    "derivations_falsification": "Criterio de falsación",
+    "derivations_steps": "Pasos de la derivación",
+    "derivations_result": "Resultado final",
+    "derivations_summary": "Resumen de etiquetas epistémicas",
+    "nav_derivations": "Derivaciones"
+  },
+  "en": {
+    "derivations_title": "Symbolic Derivations",
+    "derivations_theory": "Step-by-step development of the 20 canonical derivations of the hard core (v5.3 + MVSP). Each derivation includes starting point, intermediate transformations, final result, numerical verification, and falsification criterion.",
+    "derivations_reference": "Reference",
+    "derivations_falsification": "Falsification criterion",
+    "derivations_steps": "Derivation steps",
+    "derivations_result": "Final result",
+    "derivations_summary": "Epistemic labels summary",
+    "nav_derivations": "Derivations"
+  },
+  "de": {
+    "derivations_title": "Symbolische Ableitungen",
+    "derivations_theory": "Schrittweise Entwicklung der 20 kanonischen Ableitungen des harten Kerns (v5.3 + MVSP). Jede Ableitung enthält Ausgangspunkt, Zwischen transformationen, Endergebnis, numerische Überprüfung und Falsifikationskriterium.",
+    "derivations_reference": "Referenz",
+    "derivations_falsification": "Falsifikationskriterium",
+    "derivations_steps": "Ableitungsschritte",
+    "derivations_result": "Endergebnis",
+    "derivations_summary": "Zusammenfassung der epistemischen Labels",
+    "nav_derivations": "Ableitungen"
+  }
+}
