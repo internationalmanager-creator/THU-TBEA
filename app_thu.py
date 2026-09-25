@@ -903,18 +903,21 @@ def main():
                 st.rerun()
 
     st.sidebar.markdown("---")
-    st.sidebar.markdown(
-        "<small>"
-        "<b>Erick Duque</b><br/>"
-        "<i>Investigador Independiente</i><br/>"
-        "ORCID: <code>0009-0004-1245-5464</code><br/>"
-        "Correo: <code>international_manager@comllcusa.com</code><br/>"
-        "<br/>"
-        "<b>THU-TBEA 5.4</b><br/>"
-        "Version 5.4 &middot; 2026-09-24<br/>"
-        "DOI: <code>10.5281/zenodo.22949313</code><br/>"
-        "Repo: <a href="https://github.com/internationalmanager-creator/THU-TBEA">GitHub</a>"
-        "</small>",
+
+          st.sidebar.markdown(
+        """
+        <small>
+        <b>Erick Duque</b><br>
+        <i>Investigador Independiente</i><br>
+        ORCID: <code>0009-0004-1245-5464</code><br>
+        Correo: <code>international_manager@comllcusa.com</code><br>
+        <br>
+        <b>THU-TBEA 5.4</b><br>
+        Version 5.4 &middot; 2026-09-24<br>
+        DOI: <code>10.5281/zenodo.22949313</code><br>
+        Repo: <a href='https://github.com/internationalmanager-creator/THU-TBEA'>GitHub</a>
+        </small>
+        """,
         unsafe_allow_html=True,
     )
 
