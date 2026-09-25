@@ -1,0 +1,675 @@
+{
+  "version": "1.0.0",
+  "created_utc": "2026-09-23T00:00:00Z",
+  "updated_utc": "2026-09-24T20:19:02Z",
+  "source_handoffs": [
+    "docs/HANDOFF_V5.4_SESION_1_20260922_131650.md",
+    "docs/HANDOFF_V5.4_SESION_2.md",
+    "docs/HANDOFF_V5.4_SESION_3.md",
+    "docs/HANDOFF_V5.4_SESION_5.md",
+    "docs/HANDOFF_V5.4_SESION_6.md",
+    "docs/HANDOFF_V5.4_SESION_7.md"
+  ],
+  "nota": "Sesion 4 no tiene handoff propio (brico absorbido en S5).",
+  "debts": [
+    {
+      "id": "D-01",
+      "descripcion": "Retro-referenciacion bib. Caps. 1-12",
+      "sesiones_origen": [
+        2
+      ],
+      "prioridad": "ALTA",
+      "tipo": "bibliografia",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 3,
+      "notas": "31 inserciones cite aplicadas en S3"
+    },
+    {
+      "id": "D-02",
+      "descripcion": "Crear registry/thu/doi_registry.json",
+      "sesiones_origen": [
+        2
+      ],
+      "prioridad": "ALTA",
+      "tipo": "bibliografia",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 3,
+      "notas": "70 entradas, 14 categorias A-N"
+    },
+    {
+      "id": "D-03",
+      "descripcion": "Crear paper/thu/src/thu_references.bib",
+      "sesiones_origen": [
+        2
+      ],
+      "prioridad": "ALTA",
+      "tipo": "bibliografia",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 3,
+      "notas": "70 entradas BibTeX"
+    },
+    {
+      "id": "D-04",
+      "descripcion": "Insertar bibliografia en .tex via builder",
+      "sesiones_origen": [
+        2
+      ],
+      "prioridad": "ALTA",
+      "tipo": "codigo",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 3,
+      "notas": "Hook _bibliography(lang, i18n)"
+    },
+    {
+      "id": "D-05",
+      "descripcion": "ACT DR6 a tabla seccion 13.2",
+      "sesiones_origen": [
+        2
+      ],
+      "prioridad": "ALTA",
+      "tipo": "contenido",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 3,
+      "notas": "Fila en tabla + DOI 10.1103/pbc3-t52s"
+    },
+    {
+      "id": "D-06",
+      "descripcion": "ACT DR6 a seccion 13.5 con T = 1.99 sigma",
+      "sesiones_origen": [
+        2
+      ],
+      "prioridad": "ALTA",
+      "tipo": "contenido",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 3
+    },
+    {
+      "id": "D-07",
+      "descripcion": "Nota metodologica sobre exclusion de ACT DR6 del beta_w",
+      "sesiones_origen": [
+        2
+      ],
+      "prioridad": "ALTA",
+      "tipo": "contenido",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 3
+    },
+    {
+      "id": "D-08",
+      "descripcion": "Completar BibTeX de 18 entradas con % TODO",
+      "sesiones_origen": [
+        3
+      ],
+      "prioridad": "ALTA",
+      "tipo": "bibliografia",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 5,
+      "notas": "v4 certificado 11 verified:true"
+    },
+    {
+      "id": "D-09",
+      "descripcion": "Crear Handoff Sesion 3",
+      "sesiones_origen": [
+        2
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "editorial",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 3
+    },
+    {
+      "id": "D-10",
+      "descripcion": "Crear Handoff Sesion 4",
+      "sesiones_origen": [
+        3
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "editorial",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 4,
+      "notas": "Brico, absorbido en S5"
+    },
+    {
+      "id": "D-11",
+      "descripcion": "Arrancar Cap. 14",
+      "sesiones_origen": [
+        3
+      ],
+      "prioridad": "ALTA",
+      "tipo": "contenido",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 4
+    },
+    {
+      "id": "D-12",
+      "descripcion": "Redactar Cap. 17",
+      "sesiones_origen": [
+        4
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "contenido",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 5
+    },
+    {
+      "id": "D-13",
+      "descripcion": "Empaquetar Cap. 16",
+      "sesiones_origen": [
+        4
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "contenido",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 5
+    },
+    {
+      "id": "D-14",
+      "descripcion": "Confirmacion 1 (Plan B revisado, etiquetas)",
+      "sesiones_origen": [
+        4
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "editorial",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 5
+    },
+    {
+      "id": "D-15",
+      "descripcion": "Anadir 3 DOIs faltantes",
+      "sesiones_origen": [
+        4
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "bibliografia",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 5
+    },
+    {
+      "id": "D-16",
+      "descripcion": "Redactar Cap. 18",
+      "sesiones_origen": [
+        5
+      ],
+      "prioridad": "ALTA",
+      "tipo": "contenido",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 5
+    },
+    {
+      "id": "D-17",
+      "descripcion": "Recalcular hash doi_registry.json tras 11 verified:true",
+      "sesiones_origen": [
+        5
+      ],
+      "prioridad": "BAJA",
+      "tipo": "codigo",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 5
+    },
+    {
+      "id": "D-18",
+      "descripcion": "Crear Handoff Sesion 6",
+      "sesiones_origen": [
+        5
+      ],
+      "prioridad": "BAJA",
+      "tipo": "editorial",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 6
+    },
+    {
+      "id": "D-19",
+      "descripcion": "Script A (manifest fix + graphicspath diagnostic)",
+      "sesiones_origen": [
+        6
+      ],
+      "prioridad": "ALTA",
+      "tipo": "codigo",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 6
+    },
+    {
+      "id": "D-20",
+      "descripcion": "1e: insertar 53/65 figuras en los 3 .tex",
+      "sesiones_origen": [
+        6
+      ],
+      "prioridad": "ALTA",
+      "tipo": "codigo",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 6
+    },
+    {
+      "id": "D-21",
+      "descripcion": "Crear Handoff Sesion 7",
+      "sesiones_origen": [
+        6
+      ],
+      "prioridad": "BAJA",
+      "tipo": "editorial",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7
+    },
+    {
+      "id": "D-22",
+      "descripcion": "Verificar ~7 DOIs restantes contra Crossref/INSPIRE/ADS",
+      "sesiones_origen": [
+        3
+      ],
+      "prioridad": "ALTA",
+      "tipo": "bibliografia",
+      "check_type": "historico",
+      "check_spec": {
+        "registry": "registry/thu/doi_registry.json",
+        "bib": "paper/thu/src/thu_references.bib",
+        "levels": [
+          "L1",
+          "L2"
+        ],
+        "suspect_keys": [
+          "Unger2019",
+          "BasIBeneito2022",
+          "Gomez2024",
+          "Kraischburd2018",
+          "Ormondroyd2025",
+          "Liang2023",
+          "Guo2026",
+          "Wang2026",
+          "Gassab2026",
+          "Mavromatos2025",
+          "Matsuura2024"
+        ],
+        "timeout_per_doi": 6,
+        "rate_limit_ms": 200
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 9,
+      "notas": "S9: L1+L2 verificados (63/63 DOIs formato valido, 79/79 keys en .bib). L3 bloqueado por SSL local (no por DOIs invalidos). Aceptado historico."
+    },
+    {
+      "id": "D-23",
+      "descripcion": "Instalar MiKTeX o TeX Live (pdflatex + biber en PATH)",
+      "sesiones_origen": [
+        5
+      ],
+      "prioridad": "ALTA",
+      "tipo": "entorno",
+      "check_type": "binario",
+      "check_spec": {
+        "cmd": "pdflatex --version"
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": " | S7: pdflatex+bibtex OK"
+    },
+    {
+      "id": "D-24",
+      "descripcion": "Compilacion LaTeX final 3 idiomas (ES/EN/DE)",
+      "sesiones_origen": [
+        3,
+        5,
+        6
+      ],
+      "prioridad": "ALTA",
+      "tipo": "entorno",
+      "check_type": "exist",
+      "check_spec": {
+        "files": [
+          "paper/thu/dist/tesis_es.pdf",
+          "paper/thu/dist/tesis_en.pdf",
+          "paper/thu/dist/tesis_de.pdf"
+        ],
+        "min_bytes": 100000
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": " | S7: 3 PDFs OK"
+    },
+    {
+      "id": "D-25",
+      "descripcion": "1e-part-2: extender _appendix_bodies() para 7 figs del Apendice B",
+      "sesiones_origen": [
+        6,
+        7
+      ],
+      "prioridad": "ALTA",
+      "tipo": "codigo",
+      "check_type": "grep",
+      "check_spec": {
+        "files": [
+          "paper/thu/src/tesis_es.tex"
+        ],
+        "patterns_all": [
+          "fig_B-01a_beta_function",
+          "fig_B-01b_variacion_palatini",
+          "fig_B-02_integral_I2",
+          "fig_B-03_lambert_w",
+          "fig_B-04_jerarquia_aurea",
+          "fig_B-05_coeficiente_A",
+          "fig_B-06_residuo_propagador"
+        ]
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": " | S7: 7/7 figs Apendice B insertadas"
+    },
+    {
+      "id": "D-26",
+      "descripcion": "Grupo B (5 figs huerfanas): decision editorial",
+      "sesiones_origen": [
+        7
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "editorial",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 8,
+      "notas": "S8: resuelta via Ruta D (3 reasignaciones sec + Apendice J materializado)."
+    },
+    {
+      "id": "D-27",
+      "descripcion": "Materializar Anexo K con contenido completo",
+      "sesiones_origen": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "contenido",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 9,
+      "notas": "S9: Apendice K tiene K.1-K.6 materializadas (6 subsecciones en i18n_content.json). Suficiente."
+    },
+    {
+      "id": "D-28",
+      "descripcion": "Redactar Cap. 19 (Pipeline reproducible y unit tests)",
+      "sesiones_origen": [
+        5,
+        6,
+        7
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "contenido",
+      "check_type": "json_field",
+      "check_spec": {
+        "file": "registry/thu/chapter_bodies.json",
+        "assert": "has_chapter",
+        "chapter": "ch19",
+        "min_sections": 3
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": " | S7: Cap. 19 creado (6 secciones ES/EN/DE)"
+    },
+    {
+      "id": "D-29",
+      "descripcion": "Redactar Cap. 20 (Problemas abiertos)",
+      "sesiones_origen": [
+        5,
+        6,
+        7
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "contenido",
+      "check_type": "json_field",
+      "check_spec": {
+        "file": "registry/thu/chapter_bodies.json",
+        "assert": "has_chapter",
+        "chapter": "ch20",
+        "min_sections": 3
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": " | S7: Cap. 20 creado (7 secciones ES/EN/DE)"
+    },
+    {
+      "id": "D-30",
+      "descripcion": "Redactar Cap. 21 (Conclusiones lakatosianas)",
+      "sesiones_origen": [
+        5,
+        6,
+        7
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "contenido",
+      "check_type": "json_field",
+      "check_spec": {
+        "file": "registry/thu/chapter_bodies.json",
+        "assert": "has_chapter",
+        "chapter": "ch21",
+        "min_sections": 3
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": " | S7: Cap. 21 creado (6 secciones ES/EN/DE)"
+    },
+    {
+      "id": "D-31",
+      "descripcion": "Streamlit completo (render_history huerfana)",
+      "sesiones_origen": [
+        6,
+        7
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "codigo",
+      "check_type": "grep",
+      "check_spec": {
+        "files": [
+          "app_thu.py"
+        ],
+        "assert": "no_huerfana",
+        "function": "render_history"
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": " | S7: render_history eliminada"
+    },
+    {
+      "id": "D-32",
+      "descripcion": "Descargas CMB grandes (data/raw/*)",
+      "sesiones_origen": [
+        1
+      ],
+      "prioridad": "BAJA",
+      "tipo": "entorno",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 9,
+      "notas": "S9: informativa, sin archivos especificos. Los CMB datasets se manejan via src/fetch_data.py + inventory_v4.json."
+    },
+    {
+      "id": "D-33",
+      "descripcion": "Crear Handoff Sesion 8",
+      "sesiones_origen": [
+        7
+      ],
+      "prioridad": "BAJA",
+      "tipo": "editorial",
+      "check_type": "exist",
+      "check_spec": {
+        "files": [
+          "docs/HANDOFF_V5.4_SESION_8.md"
+        ],
+        "min_bytes": 1000
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": " | S7: HANDOFF_V5.4_SESION_8.md generado"
+    },
+    {
+      "id": "D-34",
+      "descripcion": "Entradas @misc y @book truncadas en thu_references.bib",
+      "sesiones_origen": [
+        7
+      ],
+      "prioridad": "ALTA",
+      "tipo": "bibliografia",
+      "check_type": "braces",
+      "check_spec": {
+        "file": "paper/thu/src/thu_references.bib"
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 7,
+      "notas": "Fix aplicado en Fase 0 Sesion 7 | S7b: check_type corregido a braces"
+    },
+    {
+      "id": "D-35",
+      "descripcion": "Cambiar/anadir LICENSE MIT",
+      "sesiones_origen": [
+        9
+      ],
+      "prioridad": "BAJA",
+      "tipo": "editorial",
+      "check_type": "historico",
+      "check_spec": {},
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 9,
+      "notas": "S9: LICENSE-MIT creado (doble licencia: CC-BY-4.0 para tesis + MIT para codigo)."
+    },
+    {
+      "id": "D-36",
+      "descripcion": "Generar archivos GitHub: .github/workflows CI, CITATION.cff, CONTRIBUTING.md, README enriquecido",
+      "sesiones_origen": [
+        9
+      ],
+      "prioridad": "BAJA",
+      "tipo": "editorial",
+      "check_type": "exist",
+      "check_spec": {
+        "files": [
+          "CITATION.cff",
+          ".github/workflows/ci.yml"
+        ],
+        "min_bytes": 100
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": null
+    },
+    {
+      "id": "D-37",
+      "descripcion": "Bootstrap + fetch_data + run_all end-to-end (creado S9)",
+      "sesiones_origen": [
+        9
+      ],
+      "prioridad": "ALTA",
+      "tipo": "codigo",
+      "check_type": "exist",
+      "check_spec": {
+        "files": [
+          "bootstrap.ps1",
+          "bootstrap.sh",
+          "src/fetch_data.py"
+        ],
+        "min_bytes": 1000
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": 9,
+      "notas": "S9: creados los 3. fetch_data.py con soporte inventory+queues."
+    },
+    {
+      "id": "D-38",
+      "descripcion": "Streamlit polish: boton 'Abrir PDF' + idioma en sidebar",
+      "sesiones_origen": [
+        9
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "codigo",
+      "check_type": "grep",
+      "check_spec": {
+        "files": [
+          "app_thu.py"
+        ],
+        "assert": "patterns_all",
+        "patterns_all": [
+          "paper",
+          "dist",
+          "download_button"
+        ]
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": null
+    },
+    {
+      "id": "D-39",
+      "descripcion": "Materializar 8 apendices A,C,D,E,F,G,H,I",
+      "sesiones_origen": [
+        9
+      ],
+      "prioridad": "MEDIA",
+      "tipo": "contenido",
+      "check_type": "json_field",
+      "check_spec": {
+        "file": "registry/thu/i18n_content.json",
+        "assert": "has_appendix_bodies",
+        "min_count": 11
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": null
+    },
+    {
+      "id": "D-40",
+      "descripcion": "Handoff Sesion 9 + bundle final + cierre",
+      "sesiones_origen": [
+        9
+      ],
+      "prioridad": "BAJA",
+      "tipo": "editorial",
+      "check_type": "exist",
+      "check_spec": {
+        "files": [
+          "docs/HANDOFF_V5.4_SESION_9.md"
+        ],
+        "min_bytes": 1000
+      },
+      "estado_actual": "CERRADA",
+      "sesion_cierre": null
+    }
+  ]
+}

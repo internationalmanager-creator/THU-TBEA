@@ -1,14 +1,16 @@
 {
   "program": "THU-TBEA",
   "full_name": "Teoria Helicoidal Universal - Teoria de Bucles Espirales Aureos",
-  "version": "5.3",
-  "version_family": "4.3 -> 5.3",
+  "version": "5.4",
+  "version_family": "4.3 -> 5.4",
   "date": "2026",
   "author": {
     "name": "Erick Duque",
     "orcid": "0009-0004-1245-5464",
-    "affiliation": "Investigador independiente",
-    "contact": "comipca@gmail.com"
+    "email": "international_manager@comllcusa.com",
+    "affiliation_es": "Investigador Independiente",
+    "affiliation_en": "Independent Researcher",
+    "affiliation_de": "Unabhängiger Forscher"
   },
   "doi_versions": {
     "current": null,
@@ -39,11 +41,11 @@
     "n_eff": 88
   },
   "key_constants": {
-    "phi": 1.6180339887498949,
+    "phi": 1.618033988749895,
     "theta_phi_deg": 137.507764,
-    "M_Planck_reduced_GeV": 2.435e18,
+    "M_Planck_reduced_GeV": 2.435e+18,
     "Lambda_THU_MeV": 989.89,
-    "N_espectral": 1.220210
+    "N_espectral": 1.22021
   },
   "predictions_count": 11,
   "problems_total": 17,
@@ -51,5 +53,10 @@
   "problems_open": 5,
   "patches_total": 17,
   "references_count": 68,
-  "figures_count": 53
+  "figures_count": 53,
+  "orcid": "0009-0004-1245-5464",
+  "email": "international_manager@comllcusa.com",
+  "affiliation_es": "Investigador Independiente",
+  "affiliation_en": "Independent Researcher",
+  "affiliation_de": "Unabhängiger Forscher"
 }

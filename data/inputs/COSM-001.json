@@ -1,0 +1,40 @@
+{
+  "id": "COSM-001",
+  "categoria": "cosmologia",
+  "titulo": "Pantheon+ SH0ES - H0 de Cefeidas + SNe Ia (1701 SNe)",
+  "valor_principal": 73.04,
+  "incertidumbre": 1.04,
+  "unidad": "km/s/Mpc",
+  "fuente": "Brout2022_PantheonPlus",
+  "origen": "observado",
+  "estatus": "D",
+  "notas": "Compilacion Pantheon+ (1701 SNe Ia, 0.001 < z < 2.26). Calibracion SH0ES con Cefeidas. Dataset crudo + covarianza completa descargados.",
+  "dataset_ref": {
+    "path": "data/raw/",
+    "files": [
+      {
+        "name": "Pantheon+SH0ES.dat",
+        "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+        "size": 579283
+      },
+      {
+        "name": "Pantheon+SH0ES_STAT+SYS.cov",
+        "sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc",
+        "size": 33284960
+      }
+    ]
+  },
+  "provenance": {
+    "instrumento": "Pantheon+ (compilacion 1701 SNe Ia + SH0ES Cepheids)",
+    "ano": 2022,
+    "tipo_publicacion": "revista indexada",
+    "cita_completa": "Brout, D. et al. The Pantheon+ Analysis: Cosmological Constraints. The Astrophysical Journal, 938, 110 (2022).",
+    "reproducibilidad": "Publico via github.com/PantheonPlusSH0ES/DataRelease",
+    "extracto": "H0 = 73.04 +/- 1.04 km/s/Mpc (SH0ES 2022, Pantheon+ compilacion).",
+    "fecha_descarga_utc": "2026-09-21T04:01:39Z",
+    "condiciones": "Muestras 0.001 < z < 2.26. Correccion Malmquist aplicada por la colaboracion.",
+    "doi": "10.3847/1538-4357/ac8e04",
+    "hash_pdf": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+    "notas": ""
+  }
+}

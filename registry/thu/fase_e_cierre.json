@@ -1,0 +1,164 @@
+{
+  "fase": "FASE E",
+  "fecha_cierre": "2026-09-21T19:38:56Z",
+  "estado": "COMPLETADA",
+  "modo": "act_dr6",
+  "medicion_beta": {
+    "valor_deg": 0.207,
+    "sigma_plus_deg": 0.073,
+    "sigma_minus_deg": 0.073,
+    "metodo": "pipeline Eskilt 2026 (arXiv:2608.06480)",
+    "config": {
+      "MASK": "act_dr6",
+      "SAMPLING_MODE": "all",
+      "MCMC_N_STEPS": 3000,
+      "MCMC_N_BURN": 500,
+      "lmax": 8500,
+      "offdiag_cov": false,
+      "n_walkers": 12,
+      "n_parallel_workers": 2
+    },
+    "chi2": 1026.19,
+    "dof": 989,
+    "chi2_dof": 1.0373,
+    "PTE": 0.2
+  },
+  "alphas_calibracion": {
+    "pa4_f220": {
+      "valor": 0.024,
+      "sigma": 0.09
+    },
+    "pa5_f090": {
+      "valor": -0.009,
+      "sigma": 0.073
+    },
+    "pa5_f150": {
+      "valor": 0.027,
+      "sigma": 0.072
+    },
+    "pa6_f090": {
+      "valor": -0.042,
+      "sigma": 0.078
+    },
+    "pa6_f150": {
+      "valor": -0.03,
+      "sigma": 0.075
+    }
+  },
+  "datasets": {
+    "principal": {
+      "nombre": "ACT DR6.02 SACC oficial",
+      "archivo": "dr6_data.fits",
+      "size_mb": 855.31,
+      "sha256": "eca996ddb1fc57750299bf5757a40f5d178c1a8b3446d3341a99ca5ba7378e8b",
+      "url_origen": "https://lambda.gsfc.nasa.gov/data/act/pspipe/sacc_files/dr6_data.tar.gz",
+      "paper_datos": "ACT Collaboration (2025), arXiv:2503.14452"
+    },
+    "comparacion": {
+      "nombre": "Planck PR4 beta_planck_pr4",
+      "valor_deg": 0.3,
+      "sigma_deg": 0.11,
+      "paper": "Diego-Palazuelos et al. (2022), PRL 128, 091302, arXiv:2201.07682",
+      "doi": "10.1103/PhysRevLett.128.091302"
+    }
+  },
+  "comparacion_con_THU": {
+    "beta_THU_deg": 0.3803,
+    "sigma_THU_deg": 0.04,
+    "delta_deg": 0.1733,
+    "sigma_combinada_deg": 0.0832,
+    "tension_sigma": 2.082,
+    "umbral_falsacion_sigma": 3.0,
+    "veredicto": "TENSION MARGINAL — NO FALSADA (umbral 3 sigma no alcanzado)"
+  },
+  "reproduccion_del_paper": {
+    "beta_paper_deg": 0.215,
+    "sigma_paper_deg": 0.074,
+    "paper": "Diego-Palazuelos & Komatsu (2025), arXiv:2509.13654",
+    "delta_vs_paper_deg": 0.008,
+    "delta_vs_paper_sigma": 0.108,
+    "comentario": "Pipeline reproducido con exito; diferencia 0.008 deg << sigma"
+  },
+  "pipeline_modificaciones": [
+    "E.3-C7: anadido HDF5Backend para checkpoint/reanudacion",
+    "E.3-C7c: pspy import hecho opcional (no disponible sin compilador Fortran)",
+    "E.3-C8d: fix bug shapes en mk_chi2 (v_batch[..., None])",
+    "E.3-C8d: flush HDF5 cada 100 pasos",
+    "E.3-C8e: SQLite tracker (mcmc_runs.sqlite) con snapshots por paso"
+  ],
+  "artefactos": {
+    "chain_hdf5": "data/computed/mcmc_chain.h5",
+    "sqlite_tracker": "data/computed/mcmc_runs.sqlite",
+    "corner_plot": "plots/act_dr6/act_dr6_*_corner.png",
+    "trace_plot": "plots/act_dr6/act_dr6_*_trace.png"
+  },
+  "trabajo_futuro": {
+    "modo_joint_ACT_Planck": {
+      "estado": "PENDIENTE",
+      "razon": "Requiere mapas NPIPE (~20 GB) + compilador Fortran (pspy). Migracion a maquina con capacidad.",
+      "prediccion_paper": {
+        "beta_deg": 0.277,
+        "sigma_deg": 0.057,
+        "tension_estimada_con_THU_sigma": 1.48
+      },
+      "documentacion": "data/raw/cosmic-birefringence-planck-act/README.md",
+      "requisitos": [
+        "Mapas NPIPE A/B splits (PLA o NERSC)",
+        "Beams NPIPE (Bl_TEB)",
+        "Mascaras Planck + combinada ACT x Planck",
+        "Compilador Fortran (gfortran o ifort)",
+        "pspy >= 1.8.0",
+        "~50 GB disco libre"
+      ],
+      "instrucciones": [
+        "Clonar repo (ya clonado en data/raw/cosmic-birefringence-planck-act)",
+        "Descargar mapas NPIPE a paths configurados en tools/data_loading.py",
+        "Cambiar config.py: MASK='joint', PP_MASK segun eleccion",
+        "Correr spectrum_pipeline/run_pipeline.py",
+        "Correr spectrum_pipeline/run_coupling.py",
+        "Correr likelihood/run_likelihood.py (genera .npz)",
+        "Correr beta_mcmc/run_beta_mcmc.py (HDF5 checkpoint activo)"
+      ]
+    },
+    "escalado_a_70000_pasos": {
+      "estado": "OPCIONAL",
+      "razon": "3000 pasos ya convergen; sigma actual (0.073) ~ sigma paper (0.074). Escalado mejora autocorrelacion pero no sigma materialmente."
+    },
+    "analisis_anisotropo": {
+      "estado": "PENDIENTE",
+      "razon": "Requiere pipeline alpha_lm + productos de Zagatti et al. (2024).",
+      "recursos": "data/raw/pred_alpha_lm/ (extraido)"
+    }
+  },
+  "limitaciones_declaradas": [
+    "Covarianza EB-TB block-diagonal (no conjunta); modo joint la mejoraria",
+    "Sin marginalizacion de foregrounds Planck NPIPE",
+    "Sin correcciones de beam Planck",
+    "Analisis isotropo unicamente (no tomografia beta(z))",
+    "Tension con THU 2.08 sigma esta por debajo del umbral de falsacion (3 sigma)"
+  ],
+  "mcmc_run_id_3": {
+    "run_id": 3,
+    "status": "completed_90pct_recuperado",
+    "steps_completados": 27100,
+    "steps_objetivo": 30000,
+    "n_walkers": 12,
+    "n_params": 6,
+    "n_burn": 5000,
+    "beta_mean_deg": 0.20962618581600156,
+    "beta_std_deg": 0.07196125318956932,
+    "beta_median_deg": 0.20992331067589043,
+    "beta_p16_deg": 0.13818105652784013,
+    "beta_p84_deg": 0.280777348395258,
+    "n_samples_post_burn": 265332,
+    "chain_shape": [
+      30000,
+      12,
+      6
+    ],
+    "unidad_origen": "radianes -> grados",
+    "fecha_lectura": "2026-09-22T00:10:22.263821+00:00",
+    "h5_path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\data\\raw\\cosmic-birefringence-planck-act\\data\\computed\\mcmc_chain.h5",
+    "nota": "Chain recuperado post crash. Filas post-27100 con logp=0 excluidas del analisis."
+  }
+}

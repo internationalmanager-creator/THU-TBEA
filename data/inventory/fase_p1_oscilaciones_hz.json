@@ -1,0 +1,34 @@
+{
+  "tarea": "A",
+  "prediccion": "P1",
+  "fecha": "2026-09-21T22:39:41Z",
+  "advertencia": "PDF no especifica omega ni A. Test exploratorio.",
+  "datos": {
+    "N_puntos": 13,
+    "z_range": [
+      0.295,
+      2.33
+    ]
+  },
+  "baseline": {
+    "modelo": "w0-wa CPL",
+    "Om": 0.3107826182442653,
+    "w0": -0.8485850079663699,
+    "wa": -0.4177849821752949,
+    "chi2": 8.398267685538153
+  },
+  "oscilacion": {
+    "omega_best": 18.653846153846153,
+    "chi2_best": 5.46935174584115,
+    "delta_chi2": 2.928915939697003
+  },
+  "test_nulo": {
+    "N_sim": 500,
+    "delta_chi2_mean": 3.1830746504325655,
+    "delta_chi2_std": 2.1648581630539705,
+    "delta_chi2_p95": 7.446140337444055,
+    "delta_chi2_p99": 9.856076959307714,
+    "p_value": 0.452
+  },
+  "veredicto": "CONSISTENTE_CON_NULO"
+}

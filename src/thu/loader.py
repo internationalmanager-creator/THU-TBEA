@@ -42,18 +42,53 @@ def annexes():          return _load("annexes.json")
 def changelog():        return _load("changelog.json")
 
 
+def _resolve_i18n(value, lang="es"):
+    """Tolera string (legacy) o dict {es,en,de} (v5.4).
+    Devuelve string del idioma pedido o fallback a 'es'."""
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        if lang in value and value[lang]:
+            return value[lang]
+        if "es" in value and value["es"]:
+            return value["es"]
+        for v in value.values():
+            if v:
+                return v
+        return ""
+    return str(value)
+
+
 @lru_cache(maxsize=None)
-def figure_metadata():
-    """Carga el catalogo de metadata de figuras (equation + theory + demo)."""
+def _figure_metadata_raw():
+    """Carga cruda del JSON (sin resolver i18n). Cacheada."""
     p2 = THU_DIR / "figures_metadata.json"
     if not p2.exists():
         return {"figures": {}, "source": None, "note": None}
     return json.loads(p2.read_text(encoding="utf-8"))
 
 
-def figure_meta(nombre):
-    """Devuelve dict {equation, theory, demo} o None si no existe."""
-    return figure_metadata().get("figures", {}).get(nombre)
+def figure_metadata(lang="es"):
+    """Devuelve el catalogo con theory/demo resueltos al idioma pedido.
+    Acepta string (legacy) o dict {es,en,de} (v5.4)."""
+    raw = _figure_metadata_raw()
+    figs = raw.get("figures", {})
+    resolved = {}
+    for k, v in figs.items():
+        v2 = dict(v)
+        v2["theory"] = _resolve_i18n(v.get("theory"), lang)
+        v2["demo"]   = _resolve_i18n(v.get("demo"), lang)
+        resolved[k] = v2
+    out = dict(raw)
+    out["figures"] = resolved
+    return out
+
+
+def figure_meta(nombre, lang="es"):
+    """Devuelve dict {equation, theory, demo, cap, sec} resuelto o None."""
+    return figure_metadata(lang).get("figures", {}).get(nombre)
 
 
 def stats():
@@ -85,7 +120,7 @@ def stats():
 def clear_cache():
     for f in (project, problems, predictions, patches, versions,
               epistemic_matrix, glossary, references, prisma,
-              datasets, sections, annexes, changelog, figure_metadata):
+              datasets, sections, annexes, changelog, _figure_metadata_raw):
         f.cache_clear()
 
 

@@ -1,0 +1,40 @@
+{
+  "id": "COSM-002",
+  "categoria": "cosmologia",
+  "titulo": "DESI DR2 BAO - escala acustica r_d",
+  "valor_principal": 147.46,
+  "incertidumbre": 0.26,
+  "unidad": "Mpc",
+  "fuente": "DESI2025_DR2_BAO",
+  "origen": "observado",
+  "estatus": "D",
+  "notas": "13 mediciones BAO en 7 bins z (0.295 < z < 2.33). Covarianza completa incluida. Fuente: github.com/CobayaSampler/bao_data",
+  "dataset_ref": {
+    "path": "data/raw/",
+    "files": [
+      {
+        "name": "desi_gaussian_bao_ALL_GCcomb_mean.txt",
+        "sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+        "size": 472
+      },
+      {
+        "name": "desi_gaussian_bao_ALL_GCcomb_cov.txt",
+        "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509",
+        "size": 2547
+      }
+    ]
+  },
+  "provenance": {
+    "instrumento": "DESI (Dark Energy Spectroscopic Instrument)",
+    "ano": 2025,
+    "tipo_publicacion": "preprint arXiv",
+    "cita_completa": "DESI Collaboration. DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints. arXiv:2503.14738 (2025).",
+    "reproducibilidad": "Publico via github.com/CobayaSampler/bao_data",
+    "extracto": "r_d = 147.46 +/- 0.26 Mpc (calibracion BBN + DESI DR2).",
+    "fecha_descarga_utc": "2026-09-21T04:01:39Z",
+    "condiciones": "7 bins redshift 0.295 < z < 2.33. BAO anisotropicos (D_M/r_d + D_H/r_d).",
+    "doi": "",
+    "hash_pdf": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585",
+    "notas": ""
+  }
+}

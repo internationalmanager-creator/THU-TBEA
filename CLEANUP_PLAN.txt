@@ -1,0 +1,128 @@
+==============================================================================
+  CLEANUP PLAN - Investigacion_lab_secreto
+  Fecha: 2026-09-24 18:51:38
+==============================================================================
+
+## 1. SCRIPTS DUPLICADOS: data/background vs src/thu/analysis
+
+  Duplicados (en ambos): 49
+  Solo en data/background: 11
+    - cleanup_run2.py
+    - diag_colisiones.py
+    - fix_figures_orphan.py
+    - fix_tarxz.py
+    - ingest_cosm7_16.py
+    - inspect_figures.py
+    - inspect_npy.py
+    - run_figures.py
+    - run_figures_v2.py
+    - run_verif1_paper.py
+    - run_verif1b_paper.py
+
+  CANDIDATOS A BORRAR: los 49 duplicados en data/background/
+  (ya estan en src/thu/analysis/)
+
+## 2. BACKUPS (candidatos a borrar todos)
+
+  Total: 131 dirs, 51.6 MB
+
+  CANDIDATOS: todos (backups de sesiones previas)
+  Comando: Remove-Item 'data\_backup*' -Recurse -Force
+
+## 3. data/extracted/exp_* (DUPLICADOS)
+
+  exp_cmb_tools               553 files    156.7 MB   duplica: cmb_tools
+  exp_litebird                298 files     28.0 MB   duplica: litebird
+  exp_planck_pr4              159 files     38.8 MB   duplica: planck_pr4
+
+  CANDIDATOS: exp_cmb_tools, exp_litebird, exp_planck_pr4 (duplicados exactos)
+
+## 4. data/raw - DIRECTORIOS VACIOS
+
+  [VACIO] bicep_keck (0 files, 0.0 B)
+  [VACIO] polarbear (1 files, 133.0 B)
+  [VACIO] wmap (0 files, 0.0 B)
+
+  CANDIDATOS: directorios con 0 archivos o <1KB
+
+## 5. SCRIPTS INTERMEDIOS (_v2, _diag, _recon, _inspect, _check, _search, _tracker)
+
+  Encontrados: 45
+    data\background\run_fase_b_v2.py
+    data\background\run_fase_e2b_diag.py
+    data\background\run_fase_e3a2_candl_recon.py
+    data\background\run_fase_e3a_recon.py
+    data\background\run_fase_e3c3a_repo_inspect.py
+    data\background\run_fase_e3c3b_beta_mcmc_inspect.py
+    data\background\run_fase_e3c3c_sacc_check.py
+    data\background\run_fase_e3c3d_sacc_search.py
+    data\background\run_fase_e3c6_prep.py
+    data\background\run_fase_e3c7_patch.py
+    data\background\run_fase_e3c7b_diag.py
+    data\background\run_fase_e3c7c_patch_pspy.py
+    data\background\run_fase_e3c8a_diag.py
+    data\background\run_fase_e3c8b_diag2.py
+    data\background\run_fase_e3c8c_diag_full.py
+    data\background\run_fase_e3c8cbis_diag.py
+    data\background\run_fase_e3c8d_fixes.py
+    data\background\run_fase_e3c8e_tracker.py
+    data\background\run_fase_e_recon.py
+    data\background\run_fase_f2a_inspect.py
+    data\background\run_fase_f2c_recon.py
+    data\background\run_figures_v2.py
+    data\background\run_tarea_a_p1_v2.py
+    src\thu\analysis\run_fase_b_v2.py
+    src\thu\analysis\run_fase_e2b_diag.py
+    src\thu\analysis\run_fase_e3a2_candl_recon.py
+    src\thu\analysis\run_fase_e3a_recon.py
+    src\thu\analysis\run_fase_e3c3a_repo_inspect.py
+    src\thu\analysis\run_fase_e3c3b_beta_mcmc_inspect.py
+    src\thu\analysis\run_fase_e3c3c_sacc_check.py
+    ... y 15 mas
+
+  CANDIDATOS: revisar. Son scripts de diagnostico intermedios.
+
+## 6. SCRIPTS DE RAIZ
+
+  bootstrap.ps1                            3.9 KB
+  consolidar_y_borrar.ps1                  5.2 KB
+  run_all.ps1                              1.4 KB
+  run_h2_all.ps1                           4.6 KB
+  run_h2_mcmc_final.ps1                    7.5 KB
+  run_h2_mcmc_recovery.ps1                 7.1 KB
+
+  Analizar: run_h2_mcmc_final.ps1, run_h2_mcmc_recovery.ps1, run_h2_all.ps1
+  - Probablemente obsoletos (fases H2 cerradas)
+
+==============================================================================
+  RESUMEN DE LIMPIEZA POTENCIAL
+==============================================================================
+
+  Backups:                    51.6 MB
+  data/extracted/exp_*:       223.5 MB
+  data/background (total):    466.3 KB
+  TOTAL CANDIDATO:            275.5 MB
+
+  Zen_runtime (5.9 GB): requiere decision manual
+    - Si solo se uso para analisis ya cerrados: borrar
+    - Si se sigue usando: mantener
+
+==============================================================================
+  COMANDOS DE LIMPIEZA (revisar antes de ejecutar)
+==============================================================================
+
+  # 1. Backups (51.6 MB)
+  Remove-Item 'data\_backup*' -Recurse -Force
+
+  # 2. Duplicados exp_* en extracted
+  Remove-Item 'data\extracted\exp_cmb_tools' -Recurse -Force
+  Remove-Item 'data\extracted\exp_litebird' -Recurse -Force
+  Remove-Item 'data\extracted\exp_planck_pr4' -Recurse -Force
+
+  # 3. Scripts duplicados en data/background/ (ya estan en src/thu/analysis/)
+  # Primero confirmar con: python script_analiza_duplicados.py
+  # Luego:
+  # Remove-Item 'data\background\run_fase_*.py'
+
+  # 4. Zen_runtime (5.9 GB) - PREGUNTAR ANTES
+  # Remove-Item 'data\extracted\zen_runtime' -Recurse -Force

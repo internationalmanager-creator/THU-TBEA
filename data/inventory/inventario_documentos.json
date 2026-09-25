@@ -1,0 +1,129 @@
+{
+  "fecha": "2026-09-21T23:05:52Z",
+  "documentos": [
+    {
+      "id": "doc_01_unificacion",
+      "titulo": "Unificación por la Geometría",
+      "fecha": "2025-11-29",
+      "version_teorica": "pre-v3.0",
+      "contenido": "Verificación computacional (torsión, espectro, g-2)",
+      "formato": "PDF (subido)"
+    },
+    {
+      "id": "doc_02_tbea",
+      "titulo": "Teoría de Bucles Espirales Áureos (TBEA)",
+      "fecha": "2026-05-21",
+      "version_teorica": "TBEA",
+      "contenido": "Marco unificado: espiralones, áureones, modos Higgs",
+      "formato": "PDF (subido)"
+    },
+    {
+      "id": "doc_03_thu_integrada",
+      "titulo": "THU-TBEA Teoría (integrada)",
+      "fecha": "2026-05-29",
+      "version_teorica": "post-v3.0",
+      "contenido": "THU-TBEA integrada + sistema acoplado Ψ-Φ",
+      "formato": "PDF (subido)"
+    },
+    {
+      "id": "doc_04_mvsp",
+      "titulo": "MVSP — Validación Matemática",
+      "fecha": "2026-07-28",
+      "version_teorica": "v3.0 (paralelo)",
+      "contenido": "Validación matemática, física, epistemológica",
+      "formato": "PDF (subido)"
+    },
+    {
+      "id": "doc_05_thuv3sp",
+      "titulo": "THUV3SP — Documento Maestro 3.0",
+      "fecha": "2026 (sin fecha)",
+      "version_teorica": "v3.0",
+      "contenido": "Documento maestro THU-TBEA 3.0",
+      "formato": "PDF (subido)"
+    },
+    {
+      "id": "doc_06_tesis_v4",
+      "titulo": "Tesis_THU_SP_8 — Tesis 4.0",
+      "fecha": "2026 (sin fecha)",
+      "version_teorica": "v4.0",
+      "contenido": "Tesis completa THU-TBEA 4.0",
+      "formato": "PDF (subido)"
+    },
+    {
+      "id": "doc_07_programa_v5",
+      "titulo": "PROGRAMA_COMPLETO_v5.0",
+      "fecha": "2026-09-21",
+      "version_teorica": "v5.0",
+      "contenido": "Programa completo THU-TBEA 5.0 (última versión)",
+      "formato": "PDF (subido)"
+    }
+  ],
+  "datos_duros": [
+    {
+      "path": "data/raw/act_dr6/act_dr6.02_spectra_and_cov_xtra.tar.gz",
+      "descripcion": "ACT DR6 EB/TB xtra",
+      "existe": true,
+      "size_mb": 0.02469921112060547
+    },
+    {
+      "path": "data/raw/act_dr6/act_dr6.02_spectra_and_cov_binning_50.tar.gz",
+      "descripcion": "ACT DR6 binning",
+      "existe": true,
+      "size_mb": 1.0416603088378906
+    },
+    {
+      "path": "data/raw/planck_pr4/beta_planck_pr4.csv",
+      "descripcion": "Planck PR4 beta",
+      "existe": true,
+      "size_mb": 0.0001087188720703125
+    },
+    {
+      "path": "data/raw/planck_pr4/cb_spectra/NPIPE_CB_spectra.csv",
+      "descripcion": "Planck PR4 CB spectra",
+      "existe": true,
+      "size_mb": 0.1817779541015625
+    },
+    {
+      "path": "data/raw/planck_pr4/cb_spectra/PR3_CB_spectra.csv",
+      "descripcion": "Planck PR3 CB spectra",
+      "existe": true,
+      "size_mb": 0.18167877197265625
+    },
+    {
+      "path": "data/raw/desi_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "descripcion": "DESI DR2 BAO mean",
+      "existe": true,
+      "size_mb": 0.00045013427734375
+    },
+    {
+      "path": "data/raw/desi_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "descripcion": "DESI DR2 BAO cov",
+      "existe": true,
+      "size_mb": 0.0024290084838867188
+    },
+    {
+      "path": "data/raw/pantheon_plus/Pantheon+SH0ES.dat",
+      "descripcion": "Pantheon+ SNe",
+      "existe": true,
+      "size_mb": 0.5524473190307617
+    },
+    {
+      "path": "data/raw/pantheon_plus/Pantheon+SH0ES_STAT+SYS.cov",
+      "descripcion": "Pantheon+ cov",
+      "existe": true,
+      "size_mb": 31.743011474609375
+    },
+    {
+      "path": "data/raw/act_dr6_packages/data/ACTDR6MFLike/v1.0/dr6_data.fits",
+      "descripcion": "ACT DR6 SACC oficial",
+      "existe": true,
+      "size_mb": 855.3131103515625
+    }
+  ],
+  "preguntas_abiertas": [
+    "¿Familia THU-TBEA cosmológica y familia TBEA/THU-TBEA unificada son la misma teoría o dos?",
+    "¿Cuál es la versión canónica: v5.0 (cosmológica) o THU_TBEA_Teoria (unificada)?",
+    "¿Los modos Higgs 77/48/29/18 GeV de TBEA son predicción de THU-TBEA o de TBEA?",
+    "¿El sistema acoplado Ψ-Φ de THU_TBEA_Teoria está en v5.0?"
+  ]
+}

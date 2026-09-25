@@ -1,73 +1,604 @@
 {
   "source": "Bibliografia de la tesis",
   "refs": [
-    {"n":1,"authors":"E. Cartan","journal":"Ann. Sci. Ec. Norm. Sup.","vol":"39","pages":"17","year":1922,"tag":"geometria"},
-    {"n":2,"authors":"F. W. Hehl et al.","journal":"Rev. Mod. Phys.","vol":"48","pages":"393","year":1976,"tag":"ECSK"},
-    {"n":3,"authors":"T. Biswas, A. Mazumdar, W. Siegel","journal":"JCAP","vol":"03","pages":"009","year":2006,"tag":"no-local"},
-    {"n":4,"authors":"L. Modesto","journal":"Phys. Rev. D","vol":"86","pages":"044005","year":2012,"tag":"no-local"},
-    {"n":5,"authors":"E. Tomboulis","journal":"Phys. Rev. D","vol":"92","pages":"125027","year":2015,"tag":"no-local"},
-    {"n":6,"authors":"L. Buoninfante et al.","journal":"Phys. Rev. D","vol":"101","pages":"084019","year":2020,"tag":"no-local"},
-    {"n":7,"authors":"A. Bas i Beneito, G. Calcagni, L. Rachwal","journal":"arXiv:2211.05606","year":2022,"tag":"no-local"},
-    {"n":8,"authors":"Y. Minami, E. Komatsu","journal":"Phys. Rev. Lett.","vol":"125","pages":"221301","year":2020,"tag":"birefringencia"},
-    {"n":9,"authors":"J. R. Eskilt, E. Komatsu","journal":"Phys. Rev. D","vol":"106","pages":"063503","year":2022,"tag":"birefringencia"},
-    {"n":10,"authors":"R. M. Sullivan et al.","journal":"JCAP","vol":"06","pages":"025","year":2025,"tag":"Planck"},
-    {"n":11,"authors":"M. Ballardini et al.","journal":"JCAP","vol":"09","pages":"075","year":2025,"tag":"birefringencia"},
-    {"n":12,"authors":"M. Remazeilles","journal":"JCAP","vol":"12","pages":"013","year":2025,"tag":"birefringencia"},
-    {"n":13,"authors":"B. Sherwin, T. Namikawa","journal":"MNRAS","vol":"510","pages":"1234","year":2021,"tag":"tomografia"},
-    {"n":14,"authors":"LiteBIRD Collab.","journal":"JCAP","vol":"07","pages":"083","year":2025,"tag":"futuro"},
-    {"n":15,"authors":"BICEP/Keck XXI","journal":"Phys. Rev. D","year":2026,"tag":"futuro"},
-    {"n":16,"authors":"T. Namikawa","journal":"Phys. Rev. D","vol":"111","pages":"023501","year":2024,"tag":"anisotropia"},
-    {"n":17,"authors":"T. Namikawa, K. Murai, F. Naokawa","journal":"arXiv:2506.20824","year":2025,"tag":"anisotropia"},
-    {"n":18,"authors":"A. Greco, N. Bartolo, A. Gruppuso","journal":"JCAP","vol":"10","pages":"028","year":2024,"tag":"birefringencia"},
-    {"n":19,"authors":"A. Lonappan","journal":"JCAP","vol":"07","pages":"009","year":2025,"tag":"birefringencia"},
-    {"n":20,"authors":"Q. Liang et al.","journal":"Phys. Rev. D","vol":"109","pages":"083028","year":2023,"tag":"paridad"},
-    {"n":21,"authors":"W. Guo et al.","journal":"JCAP","vol":"04","pages":"066","year":2026,"tag":"paridad"},
-    {"n":22,"authors":"S. Zhang et al.","journal":"Phys. Rev. Lett.","vol":"130","pages":"201401","year":2023,"tag":"STAR"},
-    {"n":23,"authors":"C. Jockel, L. Menger","journal":"Phys. Rev. D","vol":"110","pages":"104022","year":2024,"tag":"STAR"},
-    {"n":24,"authors":"C. Vashistha, R. Gannouji, A. Ganguly","journal":"arXiv:2606.09786","year":2026,"tag":"STAR"},
-    {"n":25,"authors":"J. Adam et al. (STAR)","journal":"Phys. Rev. C","vol":"108","pages":"014910","year":2023,"tag":"STAR"},
-    {"n":26,"authors":"Q. Hu","journal":"EPJ Web Conf.","vol":"316","pages":"06013","year":2025,"tag":"STAR"},
-    {"n":27,"authors":"T. Lu","journal":"EPJ Web Conf.","vol":"364","pages":"03001","year":2026,"tag":"STAR"},
-    {"n":28,"authors":"H. Li et al.","journal":"Phys. Lett. B","year":2022,"tag":"spin"},
-    {"n":29,"authors":"R. Abou Yassine et al. (HADES)","journal":"Phys. Lett. B","year":2022,"tag":"spin"},
-    {"n":30,"authors":"Z. Wang, J. Zhu, K. Wu","journal":"Nat. Mater.","vol":"25","pages":"1190","year":2026,"tag":"microtubulos"},
-    {"n":31,"authors":"L. Gassab, T. J. Craddock","journal":"Proc. SPIE","year":2026,"tag":"microtubulos"},
-    {"n":32,"authors":"N. Mavromatos et al.","journal":"Eur. Phys. J. Plus","year":2025,"tag":"microtubulos"},
-    {"n":33,"authors":"M. Rodriguez-Vega","journal":"APS Physics","vol":"17","pages":"s121","year":2024,"tag":"spin"},
-    {"n":34,"authors":"K. Lodha et al.","journal":"Phys. Rev. D","year":2025,"tag":"DESI"},
-    {"n":35,"authors":"A. Ormondroyd et al.","journal":"MNRAS","year":2025,"tag":"DESI"},
-    {"n":36,"authors":"D. Brout et al. (Pantheon+)","journal":"ApJ","vol":"938","pages":"110","year":2022,"tag":"SNe"},
-    {"n":37,"authors":"J. Khoury, A. Weltman","journal":"Phys. Rev. D","vol":"69","pages":"044026","year":2004,"tag":"chameleon"},
-    {"n":38,"authors":"M. Pernot-Borras et al.","journal":"Phys. Rev. D","vol":"103","pages":"064070","year":2021,"tag":"chameleon"},
-    {"n":39,"authors":"I. Lakatos","title":"The Methodology of Scientific Research Programmes","publisher":"Cambridge","year":1978,"tag":"filosofia"},
-    {"n":40,"authors":"K. Popper","title":"The Logic of Scientific Discovery","year":1959,"tag":"filosofia"},
-    {"n":41,"authors":"T. W. B. Kibble","journal":"J. Math. Phys.","vol":"2","pages":"1387","year":1961,"tag":"topologia"},
-    {"n":42,"authors":"W. H. Zurek","journal":"Nature","vol":"317","pages":"505","year":1985,"tag":"decoherencia"},
-    {"n":43,"authors":"S. L. Adler","journal":"Phys. Rev.","vol":"177","pages":"2426","year":1969,"tag":"anomalia"},
-    {"n":44,"authors":"F. Becattini, M. Lisa","journal":"Annu. Rev. Nucl. Part. Sci.","vol":"70","pages":"222","year":2020,"tag":"spin"},
-    {"n":45,"authors":"Yu. B. Ivanov","journal":"Phys. Rev. C","year":2025,"tag":"spin"},
-    {"n":46,"authors":"P. Diego-Palazuelos, E. Komatsu (ACT DR6)","year":2025,"tag":"ACT"},
-    {"n":47,"authors":"P. Prusinkiewicz","journal":"J. Exp. Bot.","vol":"73","pages":"1123","year":2022,"tag":"filotaxis"},
-    {"n":48,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2025,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":49,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2025,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":50,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2025,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":51,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2025,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":52,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2026,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":53,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2026,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":54,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2026,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":55,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2026,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":56,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2026,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":57,"authors":"E. Duque","title":"THU-TBEA 5.3 (en preparacion, DOI pendiente)","year":2026,"tag":"propia","doi":null,"status":"pendiente"},
-    {"n":58,"authors":"E. Duque","title":"Trabajos previos THU (manuscrito, sin DOI asignado)","year":2026,"tag":"propia","doi":null,"status":"no-publicado"},
-    {"n":59,"authors":"M. E. Peskin, D. V. Schroeder","title":"An Introduction to QFT","publisher":"Westview","year":1995,"tag":"QFT"},
-    {"n":60,"authors":"H. Kleinert, V. Schulte-Frohlinde","title":"Critical Properties of phi^4-Theories","publisher":"World Scientific","year":2001,"tag":"QFT"},
-    {"n":61,"authors":"I. S. Gradshteyn, I. M. Ryzhik","title":"Table of Integrals","edition":"8th","publisher":"Academic Press","year":2015,"tag":"math"},
-    {"n":62,"authors":"M. Abramowitz, I. A. Stegun","title":"Handbook of Mathematical Functions","publisher":"Dover","year":1972,"tag":"math"},
-    {"n":63,"authors":"Particle Data Group","journal":"Phys. Rev. D","vol":"110","pages":"030001","year":2024,"tag":"PDG"},
-    {"n":64,"authors":"N. J. Poplawski","journal":"Phys. Lett. B","vol":"694","pages":"181","year":2010,"tag":"ECSK"},
-    {"n":65,"authors":"G. Unger, N. Poplawski","journal":"Astrophys. J.","vol":"870","pages":"78","year":2019,"tag":"ECSK"},
-    {"n":66,"authors":"J. L. Cubero, N. J. Poplawski","journal":"arXiv:1906.11824","year":2020,"tag":"ECSK"},
-    {"n":67,"authors":"P. Joshi, S. Panda","journal":"arXiv:2204.01391","year":2022,"tag":"ECSK"},
-    {"n":68,"authors":"K. Tomonari, S. Bahamonde","journal":"Eur. Phys. J. C","vol":"84","pages":"349","year":2024,"tag":"ECSK"}
+    {
+      "n": 1,
+      "authors": "E. Cartan",
+      "journal": "Ann. Sci. Ec. Norm. Sup.",
+      "vol": "39",
+      "pages": "17",
+      "year": 1922,
+      "tag": "geometria",
+      "doi": null
+    },
+    {
+      "n": 2,
+      "authors": "F. W. Hehl et al.",
+      "journal": "Rev. Mod. Phys.",
+      "vol": "48",
+      "pages": "393",
+      "year": 1976,
+      "tag": "ECSK",
+      "doi": "10.1103/RevModPhys.48.393"
+    },
+    {
+      "n": 3,
+      "authors": "T. Biswas, A. Mazumdar, W. Siegel",
+      "journal": "JCAP",
+      "vol": "03",
+      "pages": "009",
+      "year": 2006,
+      "tag": "no-local"
+    },
+    {
+      "n": 4,
+      "authors": "L. Modesto",
+      "journal": "Phys. Rev. D",
+      "vol": "86",
+      "pages": "044005",
+      "year": 2012,
+      "tag": "no-local",
+      "doi": "10.1103/PhysRevD.86.044005"
+    },
+    {
+      "n": 5,
+      "authors": "E. Tomboulis",
+      "journal": "Phys. Rev. D",
+      "vol": "92",
+      "pages": "125027",
+      "year": 2015,
+      "tag": "no-local",
+      "doi": "10.1103/PhysRevD.92.125027"
+    },
+    {
+      "n": 6,
+      "authors": "L. Buoninfante et al.",
+      "journal": "Phys. Rev. D",
+      "vol": "101",
+      "pages": "084019",
+      "year": 2020,
+      "tag": "no-local",
+      "doi": "10.1103/PhysRevD.101.084019"
+    },
+    {
+      "n": 7,
+      "authors": "A. Bas i Beneito, G. Calcagni, L. Rachwal",
+      "journal": "arXiv:2211.05606",
+      "year": 2022,
+      "tag": "no-local"
+    },
+    {
+      "n": 8,
+      "authors": "Y. Minami, E. Komatsu",
+      "journal": "Phys. Rev. Lett.",
+      "vol": "125",
+      "pages": "221301",
+      "year": 2020,
+      "tag": "birefringencia"
+    },
+    {
+      "n": 9,
+      "authors": "J. R. Eskilt, E. Komatsu",
+      "journal": "Phys. Rev. D",
+      "vol": "106",
+      "pages": "063503",
+      "year": 2022,
+      "tag": "birefringencia"
+    },
+    {
+      "n": 10,
+      "authors": "R. M. Sullivan et al.",
+      "journal": "JCAP",
+      "vol": "06",
+      "pages": "025",
+      "year": 2025,
+      "tag": "Planck",
+      "doi": "10.1088/1475-7516/2025/06/025"
+    },
+    {
+      "n": 11,
+      "authors": "M. Ballardini et al.",
+      "journal": "JCAP",
+      "vol": "09",
+      "pages": "075",
+      "year": 2025,
+      "tag": "birefringencia",
+      "doi": "10.1088/1475-7516/2025/09/075"
+    },
+    {
+      "n": 12,
+      "authors": "M. Remazeilles",
+      "journal": "JCAP",
+      "vol": "12",
+      "pages": "013",
+      "year": 2025,
+      "tag": "birefringencia",
+      "doi": "10.1088/1475-7516/2025/12/013"
+    },
+    {
+      "n": 13,
+      "authors": "B. Sherwin, T. Namikawa",
+      "journal": "MNRAS",
+      "vol": "510",
+      "pages": "1234",
+      "year": 2021,
+      "tag": "tomografia"
+    },
+    {
+      "n": 14,
+      "authors": "LiteBIRD Collab.",
+      "journal": "JCAP",
+      "vol": "07",
+      "pages": "083",
+      "year": 2025,
+      "tag": "futuro",
+      "doi": "10.1088/1475-7516/2025/07/083"
+    },
+    {
+      "n": 15,
+      "authors": "BICEP/Keck XXI",
+      "journal": "Phys. Rev. D",
+      "year": 2026,
+      "tag": "futuro"
+    },
+    {
+      "n": 16,
+      "authors": "T. Namikawa",
+      "journal": "Phys. Rev. D",
+      "vol": "111",
+      "pages": "023501",
+      "year": 2024,
+      "tag": "anisotropia",
+      "doi": "10.1103/PhysRevD.111.023501"
+    },
+    {
+      "n": 17,
+      "authors": "T. Namikawa, K. Murai, F. Naokawa",
+      "journal": "arXiv:2506.20824",
+      "year": 2025,
+      "tag": "anisotropia"
+    },
+    {
+      "n": 18,
+      "authors": "A. Greco, N. Bartolo, A. Gruppuso",
+      "journal": "JCAP",
+      "vol": "10",
+      "pages": "028",
+      "year": 2024,
+      "tag": "birefringencia"
+    },
+    {
+      "n": 19,
+      "authors": "A. Lonappan",
+      "journal": "JCAP",
+      "vol": "07",
+      "pages": "009",
+      "year": 2025,
+      "tag": "birefringencia"
+    },
+    {
+      "n": 20,
+      "authors": "Q. Liang et al.",
+      "journal": "Phys. Rev. D",
+      "vol": "109",
+      "pages": "083028",
+      "year": 2023,
+      "tag": "paridad",
+      "doi": "10.1103/PhysRevD.109.083028"
+    },
+    {
+      "n": 21,
+      "authors": "W. Guo et al.",
+      "journal": "JCAP",
+      "vol": "04",
+      "pages": "066",
+      "year": 2026,
+      "tag": "paridad",
+      "doi": "10.1088/1475-7516/2026/04/066"
+    },
+    {
+      "n": 22,
+      "authors": "S. Zhang et al.",
+      "journal": "Phys. Rev. Lett.",
+      "vol": "130",
+      "pages": "201401",
+      "year": 2023,
+      "tag": "STAR"
+    },
+    {
+      "n": 23,
+      "authors": "C. Jockel, L. Menger",
+      "journal": "Phys. Rev. D",
+      "vol": "110",
+      "pages": "104022",
+      "year": 2024,
+      "tag": "STAR"
+    },
+    {
+      "n": 24,
+      "authors": "C. Vashistha, R. Gannouji, A. Ganguly",
+      "journal": "arXiv:2606.09786",
+      "year": 2026,
+      "tag": "STAR"
+    },
+    {
+      "n": 25,
+      "authors": "J. Adam et al. (STAR)",
+      "journal": "Phys. Rev. C",
+      "vol": "108",
+      "pages": "014910",
+      "year": 2023,
+      "tag": "STAR"
+    },
+    {
+      "n": 26,
+      "authors": "Q. Hu",
+      "journal": "EPJ Web Conf.",
+      "vol": "316",
+      "pages": "06013",
+      "year": 2025,
+      "tag": "STAR"
+    },
+    {
+      "n": 27,
+      "authors": "T. Lu",
+      "journal": "EPJ Web Conf.",
+      "vol": "364",
+      "pages": "03001",
+      "year": 2026,
+      "tag": "STAR"
+    },
+    {
+      "n": 28,
+      "authors": "H. Li et al.",
+      "journal": "Phys. Lett. B",
+      "year": 2022,
+      "tag": "spin"
+    },
+    {
+      "n": 29,
+      "authors": "R. Abou Yassine et al. (HADES)",
+      "journal": "Phys. Lett. B",
+      "year": 2022,
+      "tag": "spin"
+    },
+    {
+      "n": 30,
+      "authors": "Z. Wang, J. Zhu, K. Wu",
+      "journal": "Nat. Mater.",
+      "vol": "25",
+      "pages": "1190",
+      "year": 2026,
+      "tag": "microtubulos"
+    },
+    {
+      "n": 31,
+      "authors": "L. Gassab, T. J. Craddock",
+      "journal": "Proc. SPIE",
+      "year": 2026,
+      "tag": "microtubulos"
+    },
+    {
+      "n": 32,
+      "authors": "N. Mavromatos et al.",
+      "journal": "Eur. Phys. J. Plus",
+      "year": 2025,
+      "tag": "microtubulos",
+      "doi": "10.1140/epjp/s13360-025-07022-4"
+    },
+    {
+      "n": 33,
+      "authors": "M. Rodriguez-Vega",
+      "journal": "APS Physics",
+      "vol": "17",
+      "pages": "s121",
+      "year": 2024,
+      "tag": "spin"
+    },
+    {
+      "n": 34,
+      "authors": "K. Lodha et al.",
+      "journal": "Phys. Rev. D",
+      "year": 2025,
+      "tag": "DESI",
+      "doi": "10.1103/w4c6-1r5j"
+    },
+    {
+      "n": 35,
+      "authors": "A. Ormondroyd et al.",
+      "journal": "MNRAS",
+      "year": 2025,
+      "tag": "DESI",
+      "doi": "10.1093/mnras/staf1144"
+    },
+    {
+      "n": 36,
+      "authors": "D. Brout et al. (Pantheon+)",
+      "journal": "ApJ",
+      "vol": "938",
+      "pages": "110",
+      "year": 2022,
+      "tag": "SNe",
+      "doi": "10.3847/1538-4357/ac8e04"
+    },
+    {
+      "n": 37,
+      "authors": "J. Khoury, A. Weltman",
+      "journal": "Phys. Rev. D",
+      "vol": "69",
+      "pages": "044026",
+      "year": 2004,
+      "tag": "chameleon"
+    },
+    {
+      "n": 38,
+      "authors": "M. Pernot-Borras et al.",
+      "journal": "Phys. Rev. D",
+      "vol": "103",
+      "pages": "064070",
+      "year": 2021,
+      "tag": "chameleon"
+    },
+    {
+      "n": 39,
+      "authors": "I. Lakatos",
+      "title": "The Methodology of Scientific Research Programmes",
+      "publisher": "Cambridge",
+      "year": 1978,
+      "tag": "filosofia",
+      "doi": "10.1017/CBO9780511621123"
+    },
+    {
+      "n": 40,
+      "authors": "K. Popper",
+      "title": "The Logic of Scientific Discovery",
+      "year": 1959,
+      "tag": "filosofia",
+      "doi": null
+    },
+    {
+      "n": 41,
+      "authors": "T. W. B. Kibble",
+      "journal": "J. Math. Phys.",
+      "vol": "2",
+      "pages": "1387",
+      "year": 1961,
+      "tag": "topologia",
+      "doi": "10.1063/1.1703702"
+    },
+    {
+      "n": 42,
+      "authors": "W. H. Zurek",
+      "journal": "Nature",
+      "vol": "317",
+      "pages": "505",
+      "year": 1985,
+      "tag": "decoherencia",
+      "doi": "10.1038/317505a0"
+    },
+    {
+      "n": 43,
+      "authors": "S. L. Adler",
+      "journal": "Phys. Rev.",
+      "vol": "177",
+      "pages": "2426",
+      "year": 1969,
+      "tag": "anomalia",
+      "doi": "10.1103/PhysRev.177.2426"
+    },
+    {
+      "n": 44,
+      "authors": "F. Becattini, M. Lisa",
+      "journal": "Annu. Rev. Nucl. Part. Sci.",
+      "vol": "70",
+      "pages": "222",
+      "year": 2020,
+      "tag": "spin"
+    },
+    {
+      "n": 45,
+      "authors": "Yu. B. Ivanov",
+      "journal": "Phys. Rev. C",
+      "year": 2025,
+      "tag": "spin"
+    },
+    {
+      "n": 46,
+      "authors": "P. Diego-Palazuelos, E. Komatsu (ACT DR6)",
+      "year": 2025,
+      "tag": "ACT"
+    },
+    {
+      "n": 47,
+      "authors": "P. Prusinkiewicz",
+      "journal": "J. Exp. Bot.",
+      "vol": "73",
+      "pages": "1123",
+      "year": 2022,
+      "tag": "filotaxis"
+    },
+    {
+      "n": 48,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2025,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 49,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2025,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 50,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2025,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 51,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2025,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 52,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2026,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 53,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2026,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 54,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2026,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 55,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2026,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 56,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2026,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 57,
+      "authors": "E. Duque",
+      "title": "THU-TBEA 5.3 (en preparacion, DOI pendiente)",
+      "year": 2026,
+      "tag": "propia",
+      "doi": null,
+      "status": "pendiente"
+    },
+    {
+      "n": 58,
+      "authors": "E. Duque",
+      "title": "Trabajos previos THU (manuscrito, sin DOI asignado)",
+      "year": 2026,
+      "tag": "propia",
+      "doi": null,
+      "status": "no-publicado"
+    },
+    {
+      "n": 59,
+      "authors": "M. E. Peskin, D. V. Schroeder",
+      "title": "An Introduction to QFT",
+      "publisher": "Westview",
+      "year": 1995,
+      "tag": "QFT"
+    },
+    {
+      "n": 60,
+      "authors": "H. Kleinert, V. Schulte-Frohlinde",
+      "title": "Critical Properties of phi^4-Theories",
+      "publisher": "World Scientific",
+      "year": 2001,
+      "tag": "QFT"
+    },
+    {
+      "n": 61,
+      "authors": "I. S. Gradshteyn, I. M. Ryzhik",
+      "title": "Table of Integrals",
+      "edition": "8th",
+      "publisher": "Academic Press",
+      "year": 2015,
+      "tag": "math"
+    },
+    {
+      "n": 62,
+      "authors": "M. Abramowitz, I. A. Stegun",
+      "title": "Handbook of Mathematical Functions",
+      "publisher": "Dover",
+      "year": 1972,
+      "tag": "math"
+    },
+    {
+      "n": 63,
+      "authors": "Particle Data Group",
+      "journal": "Phys. Rev. D",
+      "vol": "110",
+      "pages": "030001",
+      "year": 2024,
+      "tag": "PDG"
+    },
+    {
+      "n": 64,
+      "authors": "N. J. Poplawski",
+      "journal": "Phys. Lett. B",
+      "vol": "694",
+      "pages": "181",
+      "year": 2010,
+      "tag": "ECSK",
+      "doi": "10.1016/j.physletb.2010.09.064"
+    },
+    {
+      "n": 65,
+      "authors": "G. Unger, N. Poplawski",
+      "journal": "Astrophys. J.",
+      "vol": "870",
+      "pages": "78",
+      "year": 2019,
+      "tag": "ECSK"
+    },
+    {
+      "n": 66,
+      "authors": "J. L. Cubero, N. J. Poplawski",
+      "journal": "arXiv:1906.11824",
+      "year": 2020,
+      "tag": "ECSK"
+    },
+    {
+      "n": 67,
+      "authors": "P. Joshi, S. Panda",
+      "journal": "arXiv:2204.01391",
+      "year": 2022,
+      "tag": "ECSK"
+    },
+    {
+      "n": 68,
+      "authors": "K. Tomonari, S. Bahamonde",
+      "journal": "Eur. Phys. J. C",
+      "vol": "84",
+      "pages": "349",
+      "year": 2024,
+      "tag": "ECSK"
+    }
   ]
 }

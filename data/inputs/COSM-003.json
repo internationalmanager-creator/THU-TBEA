@@ -1,0 +1,35 @@
+{
+  "id": "COSM-003",
+  "categoria": "cosmologia",
+  "titulo": "DES SN 5YR - Omega_m de Supernovas Tipo Ia",
+  "valor_principal": 0.352,
+  "incertidumbre": 0.017,
+  "unidad": "adimensional",
+  "fuente": "DES2024_SN5YR",
+  "origen": "observado",
+  "estatus": "D",
+  "notas": "1636 SNe Ia fotometricas + espectroscopicas del DES SN Program (5 anios). Fuente: 4_DISTANCES_COVMAT/DES-SN5YR_HD.csv",
+  "dataset_ref": {
+    "path": "data/raw/",
+    "files": [
+      {
+        "name": "DES-SN5YR_HD.csv",
+        "sha256": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf",
+        "size": 148002
+      }
+    ]
+  },
+  "provenance": {
+    "instrumento": "DES SN Program (Blanco 4m + DECam)",
+    "ano": 2024,
+    "tipo_publicacion": "preprint arXiv",
+    "cita_completa": "DES Collaboration. The Dark Energy Survey: Cosmology Results With ~1500 New High-redshift Type Ia Supernovae Using The Full 5-year Dataset. arXiv:2401.02929 (2024).",
+    "reproducibilidad": "Publico via github.com/des-science/DES-SN5YR",
+    "extracto": "Omega_m = 0.352 +/- 0.017 (DES-SN5YR, w = -1 fijo).",
+    "fecha_descarga_utc": "2026-09-21T04:01:39Z",
+    "condiciones": "1636 SNe Ia, z hasta 1.13. Calibracion fotometrica por la colaboracion.",
+    "doi": "10.48550/arXiv.2401.02929",
+    "hash_pdf": "2f57019d783eaa976df80a41b0054171a2d994ee9808d715ce850c2df5720aaf",
+    "notas": ""
+  }
+}

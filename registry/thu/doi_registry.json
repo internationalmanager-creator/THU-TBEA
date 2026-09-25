@@ -1,0 +1,586 @@
+{
+  "version": "1.0.0",
+  "fecha": "2026-09-23",
+  "nota": "Registro canonico de DOIs THU-TBEA v5.4. 70 entradas en 14 categorias (A-N). 56 con DOI, 14 sin DOI (libros, normativas, historicas).",
+  "entries": [
+    {
+      "key": "Minami2020",
+      "doi": "10.1103/PhysRevLett.125.221301",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "Eskilt2022",
+      "doi": "10.1103/PhysRevD.106.063503",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "Ballardini2025",
+      "doi": "10.1088/1475-7516/2025/09/075",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "Sullivan2025",
+      "doi": "10.1088/1475-7516/2025/06/025",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "Remazeilles2025",
+      "doi": "10.1088/1475-7516/2025/12/013",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "Namikawa2024",
+      "doi": "10.1103/PhysRevD.111.023501",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "SherwinNamikawa2021",
+      "doi": "10.1093/mnras/stac3146",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "LiteBIRD2025",
+      "doi": "10.1088/1475-7516/2025/07/083",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "Greco2024",
+      "doi": "10.1088/1475-7516/2024/10/028",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "BICEPKeck2026",
+      "doi": "10.1103/v8y3-m75b",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "DiegoPalazuelos2025",
+      "doi": "10.1103/pbc3-t52s",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "Namikawa2025",
+      "doi": null,
+      "arxiv": "2506.20824",
+      "verified": true,
+      "cat": "A",
+      "type": "article"
+    },
+    {
+      "key": "Cartan1922",
+      "doi": null,
+      "verified": true,
+      "cat": "B",
+      "type": "article"
+    },
+    {
+      "key": "Hehl1976",
+      "doi": "10.1103/RevModPhys.48.393",
+      "verified": true,
+      "cat": "B",
+      "type": "article"
+    },
+    {
+      "key": "Kibble1961",
+      "doi": "10.1063/1.1703702",
+      "verified": true,
+      "cat": "B",
+      "type": "article"
+    },
+    {
+      "key": "Sciama1962",
+      "doi": null,
+      "verified": true,
+      "cat": "B",
+      "type": "incollection"
+    },
+    {
+      "key": "Poplawski2010",
+      "doi": "10.1016/j.physletb.2010.09.064",
+      "verified": true,
+      "cat": "B",
+      "type": "article"
+    },
+    {
+      "key": "Unger2019",
+      "doi": "10.3847/1538-4357/aaf169",
+      "verified": true,
+      "cat": "B",
+      "type": "article",
+      "arxiv": "1808.08327",
+      "year": 2019
+    },
+    {
+      "key": "Biswas2006",
+      "doi": "10.1088/1475-7516/2006/03/009",
+      "verified": true,
+      "cat": "C",
+      "type": "article"
+    },
+    {
+      "key": "Modesto2012",
+      "doi": "10.1103/PhysRevD.86.044005",
+      "verified": true,
+      "cat": "C",
+      "type": "article"
+    },
+    {
+      "key": "Tomboulis2015",
+      "doi": "10.1103/PhysRevD.92.125027",
+      "verified": true,
+      "cat": "C",
+      "type": "article"
+    },
+    {
+      "key": "Buoninfante2020",
+      "doi": "10.1103/PhysRevD.101.084019",
+      "verified": true,
+      "cat": "C",
+      "type": "article"
+    },
+    {
+      "key": "BasIBeneito2022",
+      "doi": null,
+      "arxiv": "2211.05606",
+      "verified": true,
+      "cat": "C",
+      "type": "article",
+      "year": 2023
+    },
+    {
+      "key": "AnselmiPiva2017a",
+      "doi": "10.1103/PhysRevD.96.045009",
+      "verified": true,
+      "cat": "C",
+      "type": "article"
+    },
+    {
+      "key": "Grinstein2008",
+      "doi": "10.1103/PhysRevD.77.025012",
+      "verified": true,
+      "cat": "C",
+      "type": "article"
+    },
+    {
+      "key": "Cline2004",
+      "doi": "10.1103/PhysRevD.70.043543",
+      "verified": true,
+      "cat": "C",
+      "type": "article"
+    },
+    {
+      "key": "Dirac1950",
+      "doi": "10.4153/CJM-1950-012-1",
+      "verified": true,
+      "cat": "D",
+      "type": "article"
+    },
+    {
+      "key": "Bergmann1949",
+      "doi": "10.1103/RevModPhys.21.480",
+      "verified": true,
+      "cat": "D",
+      "type": "article"
+    },
+    {
+      "key": "FaddeevJackiw1988",
+      "doi": "10.1103/PhysRevLett.60.1692",
+      "verified": true,
+      "cat": "D",
+      "type": "article"
+    },
+    {
+      "key": "HenneauxTeitelboim1992",
+      "doi": "10.1017/CBO9780511612474",
+      "verified": true,
+      "cat": "D",
+      "type": "book"
+    },
+    {
+      "key": "Gomez2024",
+      "doi": "10.1140/epjc/s10052-024-13631-7",
+      "verified": true,
+      "cat": "D",
+      "type": "article"
+    },
+    {
+      "key": "KhouryWeltman2004a",
+      "doi": "10.1103/PhysRevD.69.044026",
+      "verified": true,
+      "cat": "E",
+      "type": "article"
+    },
+    {
+      "key": "KhouryWeltman2004b",
+      "doi": "10.1103/PhysRevLett.93.171104",
+      "verified": true,
+      "cat": "E",
+      "type": "article"
+    },
+    {
+      "key": "PernotBorras2021",
+      "doi": "10.1103/PhysRevD.103.064070",
+      "verified": true,
+      "cat": "E",
+      "type": "article"
+    },
+    {
+      "key": "EotWash2015",
+      "doi": "10.1103/PhysRevLett.115.201101",
+      "verified": true,
+      "cat": "E",
+      "type": "article"
+    },
+    {
+      "key": "Kraischburd2018",
+      "doi": "10.1103/PhysRevD.97.104044",
+      "verified": true,
+      "cat": "E",
+      "type": "article"
+    },
+    {
+      "key": "Hamilton2015",
+      "doi": "10.1126/science.aac8131",
+      "verified": true,
+      "cat": "E",
+      "type": "article"
+    },
+    {
+      "key": "Adler1969",
+      "doi": "10.1103/PhysRev.177.2426",
+      "verified": true,
+      "cat": "F",
+      "type": "article"
+    },
+    {
+      "key": "BellJackiw1969",
+      "doi": "10.1007/BF02823296",
+      "verified": true,
+      "cat": "F",
+      "type": "article"
+    },
+    {
+      "key": "Preskill1983",
+      "doi": "10.1016/0550-3213(83)90595-7",
+      "verified": true,
+      "cat": "F",
+      "type": "article"
+    },
+    {
+      "key": "Zurek1985",
+      "doi": "10.1038/317505a0",
+      "verified": true,
+      "cat": "G",
+      "type": "article"
+    },
+    {
+      "key": "Laguna1997",
+      "doi": "10.1103/PhysRevLett.78.2519",
+      "verified": true,
+      "cat": "G",
+      "type": "article"
+    },
+    {
+      "key": "Brout2022",
+      "doi": "10.3847/1538-4357/ac8e04",
+      "verified": true,
+      "cat": "H",
+      "type": "article"
+    },
+    {
+      "key": "Lodha2025",
+      "doi": "10.1103/w4c6-1r5j",
+      "verified": true,
+      "cat": "H",
+      "type": "article"
+    },
+    {
+      "key": "Ormondroyd2025",
+      "doi": "10.1093/mnras/staf1144",
+      "verified": true,
+      "cat": "H",
+      "type": "article",
+      "arxiv": "2503.08658",
+      "year": 2025
+    },
+    {
+      "key": "Liang2023",
+      "doi": "10.1103/PhysRevD.109.083028",
+      "verified": true,
+      "cat": "H",
+      "type": "article"
+    },
+    {
+      "key": "Guo2026",
+      "doi": "10.1088/1475-7516/2026/04/066",
+      "verified": true,
+      "cat": "H",
+      "type": "article"
+    },
+    {
+      "key": "PDG2024",
+      "doi": "10.1103/PhysRevD.110.030001",
+      "verified": true,
+      "cat": "H",
+      "type": "article"
+    },
+    {
+      "key": "BenjaminiHochberg1995",
+      "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+      "verified": true,
+      "cat": "I",
+      "type": "article"
+    },
+    {
+      "key": "Lakatos1978",
+      "doi": "10.1017/CBO9780511621123",
+      "verified": true,
+      "cat": "I",
+      "type": "book"
+    },
+    {
+      "key": "Popper1959",
+      "doi": null,
+      "verified": true,
+      "cat": "I",
+      "type": "book"
+    },
+    {
+      "key": "Wang2026",
+      "doi": "10.1038/s41563-026-02535-4",
+      "verified": true,
+      "cat": "J",
+      "type": "article"
+    },
+    {
+      "key": "Gassab2026",
+      "doi": "10.1117/12.3072614",
+      "verified": true,
+      "cat": "J",
+      "type": "article"
+    },
+    {
+      "key": "Mavromatos2025",
+      "doi": "10.1140/epjp/s13360-025-07022-4",
+      "verified": true,
+      "cat": "J",
+      "type": "article"
+    },
+    {
+      "key": "Matsuura2024",
+      "doi": "10.1103/PhysRevLett.133.136101",
+      "verified": true,
+      "cat": "J",
+      "type": "article",
+      "year": 2024
+    },
+    {
+      "key": "Kallen1952",
+      "doi": null,
+      "verified": true,
+      "cat": "K",
+      "type": "article"
+    },
+    {
+      "key": "Lehmann1954",
+      "doi": null,
+      "verified": true,
+      "cat": "K",
+      "type": "article"
+    },
+    {
+      "key": "Weinberg1989",
+      "doi": "10.1103/RevModPhys.61.1",
+      "verified": true,
+      "cat": "L",
+      "type": "article"
+    },
+    {
+      "key": "Carroll2001",
+      "doi": "10.1142/S0218271801000822",
+      "verified": true,
+      "cat": "L",
+      "type": "article"
+    },
+    {
+      "key": "Matsubara1955",
+      "doi": "10.1143/PTP.14.351",
+      "verified": true,
+      "cat": "L",
+      "type": "article"
+    },
+    {
+      "key": "Aoyama2020",
+      "doi": "10.1016/j.physrep.2020.07.001",
+      "verified": true,
+      "cat": "L",
+      "type": "article"
+    },
+    {
+      "key": "ISO7144",
+      "doi": null,
+      "verified": true,
+      "cat": "M",
+      "type": "misc"
+    },
+    {
+      "key": "ISO690",
+      "doi": null,
+      "verified": true,
+      "cat": "M",
+      "type": "misc"
+    },
+    {
+      "key": "ISOGUM",
+      "doi": null,
+      "verified": true,
+      "cat": "M",
+      "type": "misc"
+    },
+    {
+      "key": "FAIR2016",
+      "doi": null,
+      "verified": true,
+      "cat": "M",
+      "type": "misc"
+    },
+    {
+      "key": "UNESCO2021",
+      "doi": null,
+      "verified": true,
+      "cat": "M",
+      "type": "misc"
+    },
+    {
+      "key": "PRISMA2020",
+      "doi": null,
+      "verified": true,
+      "cat": "M",
+      "type": "misc"
+    },
+    {
+      "key": "COPE",
+      "doi": null,
+      "verified": true,
+      "cat": "M",
+      "type": "misc"
+    },
+    {
+      "key": "PeskinSchroeder1995",
+      "doi": null,
+      "verified": true,
+      "cat": "N",
+      "type": "book"
+    },
+    {
+      "key": "Kleinert2001",
+      "doi": null,
+      "verified": true,
+      "cat": "N",
+      "type": "book"
+    },
+    {
+      "key": "duque_48",
+      "doi": "10.5281/zenodo.17765313",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2025,
+      "title_trunc": "Golden Spiral Loops Theory (GSLT): A unified framework for matter, antimatter, g"
+    },
+    {
+      "key": "duque_49",
+      "doi": "10.5281/zenodo.17732347",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2025,
+      "title_trunc": "Código de Verificación Computacional de la Teoría Helicoidal Universal (THU)"
+    },
+    {
+      "key": "duque_50",
+      "doi": "10.5281/zenodo.17714799",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2025,
+      "title_trunc": "Unificación por geometría. Verificación computacional y fenomenología THU"
+    },
+    {
+      "key": "duque_51",
+      "doi": "10.5281/zenodo.17696354",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2025,
+      "title_trunc": "THU_Verification_Computacional_V1.0"
+    },
+    {
+      "key": "duque_52",
+      "doi": "10.5281/zenodo.20454011",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2026,
+      "title_trunc": "Universal Helical Theory (THU-TBEA): A Scientific Research Program with falsific"
+    },
+    {
+      "key": "duque_53",
+      "doi": "10.5281/zenodo.20320564",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2026,
+      "title_trunc": "Universal Helical Theory (UHT-TBEA): A unified framework based on the golden rat"
+    },
+    {
+      "key": "duque_55",
+      "doi": "10.5281/zenodo.21608282",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2026,
+      "title_trunc": "internationalmanager-creatorLAB_BOOK_THU-TBEA-V4: Atlas THU"
+    },
+    {
+      "key": "duque_56",
+      "doi": "10.5281/zenodo.21708512",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2026,
+      "title_trunc": "Universal Helical Theory (THU-TBEA 3.0): Helical Vacuum, Three-Dimensional Time,"
+    },
+    {
+      "key": "duque_57",
+      "doi": "10.5281/zenodo.22009758",
+      "verified": true,
+      "cat": "M",
+      "type": "misc",
+      "year": 2026,
+      "title_trunc": "Torsión Axial Helicoidal en Cosmología Riemann–Cartan: Fundamentos matemáticos, "
+    }
+  ]
+}

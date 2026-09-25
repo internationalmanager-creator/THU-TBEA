@@ -1,0 +1,61 @@
+{
+  "fecha": "2026-09-21T19:38:56Z",
+  "archivos_certificados": [
+    {
+      "path": "data\\raw\\cosmic-birefringence-planck-act\\data\\act_dr6\\v1.0\\dr6_data.fits",
+      "descripcion": "ACT DR6 SACC oficial",
+      "sha256": "eca996ddb1fc57750299bf5757a40f5d178c1a8b3446d3341a99ca5ba7378e8b",
+      "size_mb": 855.313,
+      "url_origen": "https://lambda.gsfc.nasa.gov/data/act/pspipe/sacc_files/dr6_data.tar.gz"
+    },
+    {
+      "path": "data\\raw\\act_dr6\\act_dr6.02_spectra_and_cov_xtra.tar.gz",
+      "descripcion": "ACT DR6 spectra_and_cov xtra",
+      "sha256": "ad78ca922d1e80f94e3e61c31022bd7ac36716604059147a28bd6c0e0eea05ea",
+      "size_mb": 0.025,
+      "url_origen": "https://lambda.gsfc.nasa.gov/data/act/pspipe/spectra_and_cov/"
+    },
+    {
+      "path": "data\\raw\\act_dr6\\act_dr6.02_spectra_and_cov_binning_50.tar.gz",
+      "descripcion": "ACT DR6 spectra_and_cov binning_50",
+      "sha256": "c4289c259b4b6502bef02775926c153aab12580e0690f2641e36c3407bde6e5e",
+      "size_mb": 1.042,
+      "url_origen": "https://lambda.gsfc.nasa.gov/data/act/pspipe/spectra_and_cov/"
+    },
+    {
+      "path": "data\\raw\\planck_pr4\\beta_planck_pr4.csv",
+      "descripcion": "Planck PR4 beta isotropico",
+      "sha256": "dadb581268adf07ecf4286a3802088b3c705cb58cf664ff6fbd25e1b6620fb5d",
+      "size_mb": 0.0,
+      "url_origen": "Diego-Palazuelos 2022, PRL 128, 091302"
+    },
+    {
+      "path": "data\\intermediate\\cl_lcdm_planck18.npz",
+      "descripcion": "C_l LCDM CAMB (Planck 2018 VI)",
+      "sha256": "00f43e13773eaa6cfe9225fcc45de026941f0e17c34b6f62a6e7189160de52dc",
+      "size_mb": 0.157,
+      "url_origen": null
+    },
+    {
+      "path": "data\\inventory\\resultado_beta_act_dr6_marginalizado.json",
+      "descripcion": "Resultado E.3-C2 (analisis marginalizado)",
+      "sha256": "00b148e58085e920ed6b94fda172bde78945f9eb4e2aee09d8fdd20131f73898",
+      "size_mb": 0.001,
+      "url_origen": null
+    },
+    {
+      "path": "data\\inventory\\certificacion_act_dr6_sacc.json",
+      "descripcion": "Certificacion SACC",
+      "sha256": "2fa8f077ccb4f7fd1ab755b51e787c8bafa14d4c188f4837f2496d21baa112b2",
+      "size_mb": 0.001,
+      "url_origen": null
+    },
+    {
+      "path": "registry\\thu\\fase_e_cierre.json",
+      "descripcion": "Cierre FASE E",
+      "sha256": "1ebe70104b4dfb5024eaba91742f1b1d27bd1410fc2db0a6bb977f94ccf04117",
+      "size_mb": 0.005,
+      "url_origen": null
+    }
+  ]
+}

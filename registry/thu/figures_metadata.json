@@ -1,321 +1,993 @@
 {
-  "source": "PROGRAMA_COMPLETO_v5.0.pdf — Apendice E + Caps. 3-4",
-  "note": "Cada figura tiene: equation (LaTeX), theory (origen teorico + cap.), demo (que demuestra). Sin ad hoc, sin fine-tuning.",
+  "source": "PROGRAMA_COMPLETO_v5.0.pdf - Ap. E + Caps. 3-4 (migrado v5.4)",
+  "note": "Cada figura: equation (LaTeX), theory (ES/EN/DE), demo (ES/EN/DE), cap, sec. i18n completo en las 65 figuras.",
   "figures": {
     "fig_03-01_helice_aurea": {
       "equation": "\\mathbf{H}(\\alpha) = (R\\cos\\alpha,\\, R\\sin\\alpha,\\, k\\alpha), \\quad k = 1/\\varphi",
-      "theory": "Estructura geometrica primaria del vacio helicoidal. El paso k = 1/phi surge del atractor RG g* = phi demostrado en Cap. 6 (calculo 1-loop).",
-      "demo": "Visualiza la curva parametrica fundamental del programa. Cualquier estructura del vacio es deformacion de esta helice. La proyeccion XY (panel derecho) muestra el espiral logaritmico asociado con paso angular phi."
+      "theory": {
+        "es": "Estructura geometrica primaria del vacio helicoidal. El paso k = 1/phi surge del atractor RG g* = phi demostrado en Cap. 6 (calculo 1-loop).",
+        "en": "Primary geometric structure of the helical vacuum. The step k = 1/phi emerges from the RG attractor g* = phi demonstrated in Ch. 6 (1-loop calculation).",
+        "de": "Primaere geometrische Struktur des helikalen Vakuums. Der Schritt k = 1/phi entsteht aus dem RG-Attraktor g* = phi, nachgewiesen in Kap. 6 (1-Loop-Berechnung)."
+      },
+      "demo": {
+        "es": "Visualiza la curva parametrica fundamental del programa. Cualquier estructura del vacio es deformacion de esta helice. La proyeccion XY (panel derecho) muestra el espiral logaritmico asociado con paso angular phi.",
+        "en": "Visualizes the fundamental parametric curve of the program. Any vacuum structure is a deformation of this helix. The XY projection (right panel) shows the logarithmic spiral associated with angular step phi.",
+        "de": "Visualisiert die fundamentale parametrische Kurve des Programms. Jede Vakuumstruktur ist eine Deformation dieser Helix. Die XY-Projektion (rechtes Panel) zeigt die logarithmische Spirale, die mit dem Winkelschritt phi verbunden ist."
+      },
+      "cap": "03",
+      "sec": "03.01"
     },
     "fig_03-02_doble_espiral": {
       "equation": "r(\\theta) = a\\, e^{b\\theta}, \\quad \\theta_2 = \\theta_1 + 2\\pi(2-\\varphi) \\approx \\theta_1 + 137.508°",
-      "theory": "Doble espiral logaritmica materia-antimateria. El desfase entre hebras es exactamente theta_phi = 2pi(2-phi), derivado en Cap. 6.6.",
-      "demo": "Demuestra la separacion angular entre las dos hebras: el angulo aureo emerge como consecuencia dinamica del punto fijo, no como postulado."
+      "theory": {
+        "es": "Doble espiral logaritmica materia-antimateria. El desfase entre hebras es exactamente theta_phi = 2pi(2-phi), derivado en Cap. 6.6.",
+        "en": "Double logarithmic matter-antimatter spiral. The phase offset between the two branches is exactly theta_phi = 2pi(2-phi), derived in Ch. 6.6.",
+        "de": "Doppelte logarithmische Materie-Antimaterie-Spirale. Die Phasenverschiebung zwischen den beiden Zweigen ist genau theta_phi = 2pi(2-phi), hergeleitet in Kap. 6.6."
+      },
+      "demo": {
+        "es": "Demuestra la separacion angular entre las dos hebras: el angulo aureo emerge como consecuencia dinamica del punto fijo, no como postulado.",
+        "en": "Demonstrates the angular separation between the two branches: the golden angle emerges as a dynamical consequence of the fixed point, not as a postulate.",
+        "de": "Zeigt die Winkelaufspaltung zwischen den beiden Zweigen: Der goldene Winkel entsteht als dynamische Konsequenz des Fixpunkts, nicht als Postulat."
+      },
+      "cap": "03",
+      "sec": "03.02"
     },
     "fig_03-03_mapa_intensidad": {
       "equation": "\\Phi(x,y) = \\cos\\left(\\theta_\\varphi \\sqrt{x^2+y^2}\\right), \\quad \\theta_\\varphi = 2\\pi(2-\\varphi)",
-      "theory": "Campo de coherencia 2D. El potencial V(Phi) del Cap. 2.6 genera modulacion angular con frecuencia theta_phi.",
-      "demo": "Muestra la estructura radial de Phi(x,y). La periodicidad angular es theta_phi (no arbitraria)."
+      "theory": {
+        "es": "Campo de coherencia 2D. El potencial V(Phi) del Cap. 2.6 genera modulacion angular con frecuencia theta_phi.",
+        "en": "2D coherence field. The potential V(Phi) of Ch. 2.6 generates angular modulation with frequency theta_phi.",
+        "de": "2D-Kohaerenzfeld. Das Potential V(Phi) aus Kap. 2.6 erzeugt eine Winkelmodulation mit Frequenz theta_phi."
+      },
+      "demo": {
+        "es": "Muestra la estructura radial de Phi(x,y). La periodicidad angular es theta_phi (no arbitraria).",
+        "en": "Shows the radial structure of Phi(x,y). The angular periodicity is theta_phi (not arbitrary).",
+        "de": "Zeigt die radiale Struktur von Phi(x,y). Die Winkelperiodizitaet ist theta_phi (nicht willkuerlich)."
+      },
+      "cap": "03",
+      "sec": "03.03"
     },
     "fig_03-04_sintesis_U4": {
       "equation": "\\Lambda_{THU} = M_P \\varphi^{-88} \\approx 989.89 \\text{ MeV}, \\quad n_{eff} = 4 \\times 22 = 88",
-      "theory": "Cadena deductiva: U4 (variedad Riemann-Cartan con torsion axial) → compactificacion M6 = CY3 (h11=22) → sector espinorial dim(S_4D)=4 → escala trans-escalar n = 4 x h11 = 88.",
-      "demo": "Demuestra que la escala 989.89 MeV emerge de la geometria sin ajuste fino. Cada paso esta derivado: h11=22 de CY3, 4 de dim(S_4D), producto de ambos."
-    },
-    "fig_03-05_sintesis_U4": {
-      "equation": "(alias de fig_03-04)",
-      "theory": "Alias con nombre alternativo para el Apendice E. Misma derivacion.",
-      "demo": "Alias de fig_03-04."
+      "theory": {
+        "es": "Cadena deductiva: U4 (variedad Riemann-Cartan con torsion axial) → compactificacion M6 = CY3 (h11=22) → sector espinorial dim(S_4D)=4 → escala trans-escalar n = 4 x h11 = 88.",
+        "en": "Deductive chain: U4 (Riemann-Cartan manifold with axial torsion) -> compactification M6 = CY3 (h11=22) -> spinorial sector dim(S_4D)=4 -> trans-scale n = 4 x h11 = 88.",
+        "de": "Deduktive Kette: U4 (Riemann-Cartan-Mannigfaltigkeit mit axialer Torsion) -> Kompaktifizierung M6 = CY3 (h11=22) -> spinorieller Sektor dim(S_4D)=4 -> Trans-Skala n = 4 x h11 = 88."
+      },
+      "demo": {
+        "es": "Demuestra que la escala 989.89 MeV emerge de la geometria sin ajuste fino. Cada paso esta derivado: h11=22 de CY3, 4 de dim(S_4D), producto de ambos.",
+        "en": "Demonstrates that the scale 989.89 MeV emerges from geometry without fine-tuning. Each step is derived: h11=22 from CY3, 4 from dim(S_4D), product of both.",
+        "de": "Zeigt, dass die Skala 989.89 MeV ohne Feinabstimmung aus der Geometrie entsteht. Jeder Schritt ist hergeleitet: h11=22 aus CY3, 4 aus dim(S_4D), beides multipliziert."
+      },
+      "cap": "03",
+      "sec": "03.04"
     },
     "fig_03-06_cy3_topologia": {
       "equation": "b_2(T^3\\times\\Sigma_3) = 4b_1 + 3 \\neq 22, \\quad h^{1,1}(CY_3) = 22",
-      "theory": "La topologia CY3 (Calabi-Yau 3-fold) es la unica compatible con h11=22. La alternativa T3 x Sigma3 da b2 distinto.",
-      "demo": "Descarta la topologia T3 x Sigma3 y confirma CY3 por conteo de numeros de Hodge."
+      "theory": {
+        "es": "La topologia CY3 (Calabi-Yau 3-fold) es la unica compatible con h11=22. La alternativa T3 x Sigma3 da b2 distinto.",
+        "en": "CY3 (Calabi-Yau 3-fold) topology is the only one compatible with h11=22. The alternative T3 x Sigma3 gives a different b2.",
+        "de": "Die CY3-Topologie (Calabi-Yau-3-Faltung) ist die einzige, die mit h11=22 kompatibel ist. Die Alternative T3 x Sigma3 ergibt ein anderes b2."
+      },
+      "demo": {
+        "es": "Descarta la topologia T3 x Sigma3 y confirma CY3 por conteo de numeros de Hodge.",
+        "en": "Rules out T3 x Sigma3 topology and confirms CY3 via Hodge number count.",
+        "de": "Schliesst die Topologie T3 x Sigma3 aus und bestaetigt CY3 durch die Zaehlung der Hodge-Zahlen."
+      },
+      "cap": "03",
+      "sec": "03.06"
     },
     "fig_03-07_cadena_cy3_n88": {
       "equation": "h^{1,1}(CY_3) = 22 \\;\\Rightarrow\\; n = 4 \\times 22 = 88 \\;\\Rightarrow\\; \\Lambda_{THU} = M_P\\varphi^{-88}",
-      "theory": "Cadena logica A-14. Seis pasos: axiomas → M6=CY3 → Kodaira → N_gen → h11=22 → n=88.",
-      "demo": "Demuestra la derivacion completa del indice n=88 sin postulados intermedios."
+      "theory": {
+        "es": "Cadena logica A-14. Seis pasos: axiomas → M6=CY3 → Kodaira → N_gen → h11=22 → n=88.",
+        "en": "Logical chain A-14. Six steps: axioms -> M6=CY3 -> Kodaira -> N_gen -> h11=22 -> n=88.",
+        "de": "Logische Kette A-14. Sechs Schritte: Axiome -> M6=CY3 -> Kodaira -> N_gen -> h11=22 -> n=88."
+      },
+      "demo": {
+        "es": "Demuestra la derivacion completa del indice n=88 sin postulados intermedios.",
+        "en": "Demonstrates the complete derivation of index n=88 with no intermediate postulates.",
+        "de": "Zeigt die vollstaendige Herleitung des Index n=88 ohne Zwischenpostulate."
+      },
+      "cap": "03",
+      "sec": "03.07"
     },
     "fig_03-08_h11_22_generaciones": {
       "equation": "N_{gen} = |h^{1,1} - h^{2,1}|, \\quad h^{1,1} = 22 \\Rightarrow N_{gen} = 3 \\text{ (MSSM)}",
-      "theory": "Conteo de generaciones fermionicas desde numeros de Hodge. Ngen=3 coincide con el Modelo Estandar.",
-      "demo": "Verifica que h11=22 da 3 generaciones fermionicas, consistente con observacion."
+      "theory": {
+        "es": "Conteo de generaciones fermionicas desde numeros de Hodge. Ngen=3 coincide con el Modelo Estandar.",
+        "en": "Fermionic generation count from Hodge numbers. Ngen=3 matches the Standard Model.",
+        "de": "Zaehlung der fermionischen Generationen aus Hodge-Zahlen. Ngen=3 stimmt mit dem Standardmodell ueberein."
+      },
+      "demo": {
+        "es": "Verifica que h11=22 da 3 generaciones fermionicas, consistente con observacion.",
+        "en": "Verifies that h11=22 gives 3 fermionic generations, consistent with observation.",
+        "de": "Bestaetigt, dass h11=22 3 fermionische Generationen ergibt, konsistent mit der Beobachtung."
+      },
+      "cap": "03",
+      "sec": "03.08"
     },
     "fig_04-01_rotacion_wick": {
       "equation": "p(k^2) = -k^2 \\exp\\left(-\\frac{\\varphi}{M_P^2}k^2\\right) \\;\\xrightarrow{k_0 \\to ik_4}\\; k_E^2 e^{-\\varphi k_E^2/M_P^2} \\to 0",
-      "theory": "Rotacion de Wick y supresion ultravioleta. El operador entero H_phi = Box exp(phi Box/M_P^2) tiene simbolo p(k) que decae gaussianamente.",
-      "demo": "Demuestra que la teoria es ultravioletamente finita: la exponencial entera anula el espectro euclidiano."
+      "theory": {
+        "es": "Rotacion de Wick y supresion ultravioleta. El operador entero H_phi = Box exp(phi Box/M_P^2) tiene simbolo p(k) que decae gaussianamente.",
+        "en": "Wick rotation and ultraviolet suppression. The entire operator H_phi = Box exp(phi Box/M_P^2) has symbol p(k) decaying Gaussianly.",
+        "de": "Wick-Rotation und Ultraviolett-Unterdrueckung. Der ganzzahlige Operator H_phi = Box exp(phi Box/M_P^2) hat ein Symbol p(k), das gaussisch abfaellt."
+      },
+      "demo": {
+        "es": "Demuestra que la teoria es ultravioletamente finita: la exponencial entera anula el espectro euclidiano.",
+        "en": "Demonstrates that the theory is ultraviolet-finite: the entire exponential kills the Euclidean spectrum.",
+        "de": "Zeigt, dass die Theorie UV-endlich ist: die ganzzahlige Exponentialfunktion toetet das euklidische Spektrum."
+      },
+      "cap": "4",
+      "sec": "4.2"
     },
     "fig_04-01_lambert_w": {
       "equation": "k_k^2 = -\\frac{M_P^2}{\\varphi} W_k\\left(\\frac{\\varphi m^2}{M_P^2}\\right), \\quad k \\in \\mathbb{Z}",
-      "theory": "Espectro de polos del operador no local D(Box) = Box exp(aBox) - m^2. La rama k=0 da el polo fisico; k != 0 dan polos complejos en escala Planck.",
-      "demo": "Demuestra que solo la rama k=0 es observable (Re(k^2) < 0) y las ramas k != 0 quedan confinadas por prescripcion de contorno (A-16 [F])."
-    },
-    "fig_04-02_polos_lee_wick": {
-      "equation": "(misma que fig_04-01_lambert_w)",
-      "theory": "Alias. Los polos de Lee-Wick del sector libre estan ausentes a nivel de arbol, solo aparecen en ramas k != 0 confinadas.",
-      "demo": "Alias de fig_04-01_lambert_w. Justifica parche 10."
+      "theory": {
+        "es": "Espectro de polos del operador no local D(Box) = Box exp(aBox) - m^2. La rama k=0 da el polo fisico; k != 0 dan polos complejos en escala Planck.",
+        "en": "Pole spectrum of the non-local operator D(Box) = Box exp(aBox) - m^2. Branch k=0 gives the physical pole; k != 0 give complex poles at Planck scale.",
+        "de": "Polspektrum des nichtlokalen Operators D(Box) = Box exp(aBox) - m^2. Zweig k=0 ergibt den physikalischen Pol; k != 0 ergeben komplexe Pole auf der Planck-Skala."
+      },
+      "demo": {
+        "es": "Demuestra que solo la rama k=0 es observable (Re(k^2) < 0) y las ramas k != 0 quedan confinadas por prescripcion de contorno (A-16 [F]).",
+        "en": "Demonstrates that only branch k=0 is observable (Re(k^2) < 0); branches k != 0 are confined by contour prescription (A-16 [F]).",
+        "de": "Zeigt, dass nur der Zweig k=0 beobachtbar ist (Re(k^2) < 0); die Zweige k != 0 sind durch die Konturvorschrift eingeschraenkt (A-16 [F])."
+      },
+      "cap": "4",
+      "sec": "4.3"
     },
     "fig_04-02_residuo": {
       "equation": "\\mathrm{Res}[\\Delta] = \\frac{1}{D'(-m^2)} = \\frac{e^{-am^2}}{1+am^2} > 0, \\quad a = \\varphi/M_P^2",
-      "theory": "Residuo del propagador no local en el polo fisico k^2 = -m^2. Derivacion en Cap. 4.3 (parche 1).",
-      "demo": "Demuestra positividad estricta del residuo → unitariedad del sector proyectado. Corrige version previa (parche 1)."
+      "theory": {
+        "es": "Residuo del propagador no local en el polo fisico k^2 = -m^2. Derivacion en Cap. 4.3 (parche 1).",
+        "en": "Residue of the non-local propagator at the physical pole k^2 = -m^2. Derivation in Ch. 4.3 (patch 1).",
+        "de": "Residuum des nichtlokalen Propagators am physikalischen Pol k^2 = -m^2. Herleitung in Kap. 4.3 (Patch 1)."
+      },
+      "demo": {
+        "es": "Demuestra positividad estricta del residuo → unitariedad del sector proyectado. Corrige version previa (parche 1).",
+        "en": "Demonstrates strict positivity of the residue -> unitarity of the projected sector. Corrects previous version (patch 1).",
+        "de": "Zeigt die strikte Positivitaet des Residuums -> Unitaritaet des projizierten Sektors. Korrigiert die vorige Version (Patch 1)."
+      },
+      "cap": "4",
+      "sec": "4.3"
     },
     "fig_04-04_unitariedad": {
       "equation": "\\left\\| S^\\dagger S - \\mathbb{1} \\right\\| \\to 0 \\text{ con truncamiento } T_r \\to \\infty",
-      "theory": "Convergencia de unitariedad con truncamiento perturbativo T_r. La matriz S converge exponencialmente.",
-      "demo": "Demuestra numericamente que la matriz S es unitaria en el sector proyectado con error < 1e-11 para T_r=6."
+      "theory": {
+        "es": "Convergencia de unitariedad con truncamiento perturbativo T_r. La matriz S converge exponencialmente.",
+        "en": "Unitarity convergence with perturbative truncation T_r. The S matrix converges exponentially.",
+        "de": "Unitaritaetskonvergenz mit perturbativer Trunkierung T_r. Die S-Matrix konvergiert exponentiell."
+      },
+      "demo": {
+        "es": "Demuestra numericamente que la matriz S es unitaria en el sector proyectado con error < 1e-11 para T_r=6.",
+        "en": "Numerically demonstrates that the S matrix is unitary in the projected sector with error < 1e-11 for T_r=6.",
+        "de": "Zeigt numerisch, dass die S-Matrix im projizierten Sektor unitaer ist, mit Fehler < 1e-11 fuer T_r=6."
+      },
+      "cap": "04",
+      "sec": "04.04"
     },
     "fig_05-01_espacio_fases": {
       "equation": "\\dim \\Gamma = 2\\times 1_{(\\Phi, \\pi_\\Phi)} + 2\\times 1_{(v_2, p_2)} + 2\\times 1_{(v_3, p_3)} + 2\\times 1_{(\\lambda_1, \\lambda_2)} = 10",
-      "theory": "Espacio de fases proyectado sobre M6 = T^3 x Sigma^3. Variables canonicas definidas en Cap. 5.1: (Phi, pi_Phi), (v_a, p_a) para a in {2,3}, multiplicadores lambda_a.",
-      "demo": "Dimension total 10. Con 8 restricciones de 2a clase, GDL = 1/2(10-8) = 1. Demuestra que el sistema tiene exactamente un grado de libertad fisico."
+      "theory": {
+        "es": "Espacio de fases proyectado sobre M6 = T^3 x Sigma^3. Variables canonicas definidas en Cap. 5.1: (Phi, pi_Phi), (v_a, p_a) para a in {2,3}, multiplicadores lambda_a.",
+        "en": "Projected phase space on M6 = T^3 x Sigma^3. Canonical variables defined in Ch. 5.1: (Phi, pi_Phi), (v_a, p_a) for a in {2,3}, Lagrange multipliers lambda_a.",
+        "de": "Projizierter Phasenraum auf M6 = T^3 x Sigma^3. Kanonische Variablen definiert in Kap. 5.1: (Phi, pi_Phi), (v_a, p_a) fuer a in {2,3}, Lagrange-Multiplikatoren lambda_a."
+      },
+      "demo": {
+        "es": "Dimension total 10. Con 8 restricciones de 2a clase, GDL = 1/2(10-8) = 1. Demuestra que el sistema tiene exactamente un grado de libertad fisico.",
+        "en": "Total dimension 10. With 8 second-class constraints, GDL = 1/2(10-8) = 1. Demonstrates that the system has exactly one physical degree of freedom.",
+        "de": "Gesamtdimension 10. Mit 8 Zwangsbedingungen zweiter Klasse gilt GDL = 1/2(10-8) = 1. Zeigt, dass das System genau einen physikalischen Freiheitsgrad hat."
+      },
+      "cap": "05",
+      "sec": "05.01"
     },
     "fig_05-02_matriz_poisson": {
       "equation": "M = \\begin{pmatrix} A & 0 \\\\ 0 & B \\end{pmatrix}, \\quad \\det M = (\\kappa_2^2 + \\kappa_3^2)^2 \\neq 0",
-      "theory": "Matriz de Poisson 8x8 del analisis Dirac-Bergmann. Bloque A son pares canonicos (rho_i, pi_i); bloque B es la matriz cruzada X = ((k2, k3), (-k3, k2)).",
-      "demo": "Demuestra que el rango es constante 8 para (k2,k3) != (0,0). Todas las restricciones son de 2a clase. No hay grados de libertad ocultos."
+      "theory": {
+        "es": "Matriz de Poisson 8x8 del analisis Dirac-Bergmann. Bloque A son pares canonicos (rho_i, pi_i); bloque B es la matriz cruzada X = ((k2, k3), (-k3, k2)).",
+        "en": "8x8 Poisson matrix of the Dirac-Bergmann analysis. Block A is canonical pairs (rho_i, pi_i); block B is the cross matrix X = ((k2, k3), (-k3, k2)).",
+        "de": "8x8-Poisson-Matrix der Dirac-Bergmann-Analyse. Block A sind kanonische Paare (rho_i, pi_i); Block B ist die Kreuzmatrix X = ((k2, k3), (-k3, k2))."
+      },
+      "demo": {
+        "es": "Demuestra que el rango es constante 8 para (k2,k3) != (0,0). Todas las restricciones son de 2a clase. No hay grados de libertad ocultos.",
+        "en": "Demonstrates that the rank is constant 8 for (k2,k3) != (0,0). All constraints are second class. No hidden degrees of freedom.",
+        "de": "Zeigt, dass der Rang fuer (k2,k3) != (0,0) konstant 8 ist. Alle Zwangsbedingungen sind zweiter Klasse. Keine versteckten Freiheitsgrade."
+      },
+      "cap": "05",
+      "sec": "05.02"
     },
     "fig_05-03_cono_causalidad": {
       "equation": "\\nabla\\tau \\cdot \\nabla\\tau = g^{\\mu\\nu}\\partial_\\mu\\tau\\,\\partial_\\nu\\tau = -1 < 0",
-      "theory": "Causalidad en el fondo proyectado M6. La funcion tau(x) = t_eff es estrictamente temporal y monotona creciente.",
-      "demo": "Demuestra ausencia de curvas temporales cerradas (CTC). Cualquier curva causal incrementa tau estrictamente."
+      "theory": {
+        "es": "Causalidad en el fondo proyectado M6. La funcion tau(x) = t_eff es estrictamente temporal y monotona creciente.",
+        "en": "Causality in the projected background M6. The function tau(x) = t_eff is strictly temporal and monotonically increasing.",
+        "de": "Kausalitaet im projizierten Hintergrund M6. Die Funktion tau(x) = t_eff ist streng zeitlich und monoton wachsend."
+      },
+      "demo": {
+        "es": "Demuestra ausencia de curvas temporales cerradas (CTC). Cualquier curva causal incrementa tau estrictamente.",
+        "en": "Demonstrates absence of closed timelike curves (CTC). Any causal curve strictly increases tau.",
+        "de": "Zeigt die Abwesenheit geschlossener zeitartiger Kurven (CTC). Jede kausale Kurve erhoeht tau streng."
+      },
+      "cap": "05",
+      "sec": "05.03"
     },
     "fig_05-04_grafo_poisson": {
       "equation": "\\{\\chi_a, H_T\\} \\approx 0 \\;\\Rightarrow\\; \\text{sin nuevas ligaduras}",
-      "theory": "Grafo de vinculos entre las 8 restricciones Dirac-Bergmann. Cada arista indica un parentesis de Poisson no nulo.",
-      "demo": "Demuestra que el algebra de restricciones cierra sin generar ligaduras terciarias. Consistencia del sistema canonico."
+      "theory": {
+        "es": "Grafo de vinculos entre las 8 restricciones Dirac-Bergmann. Cada arista indica un parentesis de Poisson no nulo.",
+        "en": "Constraint graph among the 8 Dirac-Bergmann constraints. Each edge indicates a non-zero Poisson bracket.",
+        "de": "Zwangsbedingungsgraph unter den 8 Dirac-Bergmann-Zwangsbedingungen. Jede Kante zeigt eine nichtverschwindende Poisson-Klammer."
+      },
+      "demo": {
+        "es": "Demuestra que el algebra de restricciones cierra sin generar ligaduras terciarias. Consistencia del sistema canonico.",
+        "en": "Demonstrates that the constraint algebra closes without generating tertiary constraints. Consistency of the canonical system.",
+        "de": "Zeigt, dass die Zwangsbedingungsalgebra ohne Erzeugung tertiaerer Zwangsbedingungen schliesst. Konsistenz des kanonischen Systems."
+      },
+      "cap": "05",
+      "sec": "05.04"
     },
     "fig_06-01_rg_flow": {
       "equation": "\\beta_{eff}(g) = \\kappa(1 + g - g^2), \\quad g^* = \\frac{1 \\pm \\sqrt{5}}{2} = \\{\\varphi, -1/\\varphi\\}",
-      "theory": "Funcion beta a 1-loop en fondo torsionado <A_mu> != 0. Derivada en Cap. 6.2-6.3. Los tres diagramas dan +1, +g, -g^2.",
-      "demo": "Demuestra que g* = phi es un atractor infrarrojo: beta'(phi) = -kappa sqrt(5) < 0. El angulo aureo NO es postulado, es consecuencia dinamica."
-    },
-    "fig_06-02_flujo_temporal": {
-      "equation": "(alias de fig_06-01_rg_flow)",
-      "theory": "Alias. Flujo temporal g(t) hacia el atractor g* = phi resuelto en Cap. 6.5.",
-      "demo": "Alias de fig_06-01."
+      "theory": {
+        "es": "Funcion beta a 1-loop en fondo torsionado <A_mu> != 0. Derivada en Cap. 6.2-6.3. Los tres diagramas dan +1, +g, -g^2.",
+        "en": "Effective 1-loop beta function on a torsioned background <A_mu> != 0. Derived in Ch. 6.2-6.3. The three diagrams give +1, +g, -g^2.",
+        "de": "Effektive 1-Loop-Beta-Funktion auf torsioniertem Hintergrund <A_mu> != 0. Hergeleitet in Kap. 6.2-6.3. Die drei Diagramme ergeben +1, +g, -g^2."
+      },
+      "demo": {
+        "es": "Demuestra que g* = phi es un atractor infrarrojo: beta'(phi) = -kappa sqrt(5) < 0. El angulo aureo NO es postulado, es consecuencia dinamica.",
+        "en": "Demonstrates that g* = phi is an infrared attractor: beta'(phi) = -kappa sqrt(5) < 0. The golden angle is NOT postulated, it is a dynamical consequence.",
+        "de": "Zeigt, dass g* = phi ein Infrarot-Attraktor ist: beta'(phi) = -kappa sqrt(5) < 0. Der goldene Winkel ist NICHT postuliert, sondern eine dynamische Konsequenz."
+      },
+      "cap": "6",
+      "sec": "6.2"
     },
     "fig_06-03_mapa_fases": {
       "equation": "\\beta_{eff}(g, \\kappa) = 0 \\;\\Rightarrow\\; \\text{curva en el plano } (g, \\kappa)",
-      "theory": "Mapa de fases del flujo RG en el plano (g, kappa). La curva beta=0 marca la frontera entre UV y IR.",
-      "demo": "Visualiza la estabilidad global del punto fijo para diferentes valores de kappa. Confirma que phi es atractor independiente de la normalizacion."
+      "theory": {
+        "es": "Mapa de fases del flujo RG en el plano (g, kappa). La curva beta=0 marca la frontera entre UV y IR.",
+        "en": "Phase map of the RG flow in the (g, kappa) plane. The beta=0 curve marks the boundary between UV and IR.",
+        "de": "Phasenkarte des RG-Flusses in der (g, kappa)-Ebene. Die beta=0-Kurve markiert die Grenze zwischen UV und IR."
+      },
+      "demo": {
+        "es": "Visualiza la estabilidad global del punto fijo para diferentes valores de kappa. Confirma que phi es atractor independiente de la normalizacion.",
+        "en": "Visualizes the global stability of the fixed point for different kappa values. Confirms that phi is an attractor independent of normalization.",
+        "de": "Visualisiert die globale Stabilitaet des Fixpunkts fuer verschiedene kappa-Werte. Bestaetigt, dass phi ein Attraktor unabhaengig von der Normierung ist."
+      },
+      "cap": "06",
+      "sec": "06.03"
     },
     "fig_06-04_2loop": {
       "equation": "\\delta g^* = \\kappa_{eff}^2 \\cdot O(1) \\approx 1.79 \\times 10^{-5}, \\quad \\kappa_{eff} \\approx 6.3 \\times 10^{-3}",
-      "theory": "Correccion estructural a 2-loops. La cota delta_g* < 1.79e-5 justifica no incluir ordenes superiores (A-9 cerrado).",
-      "demo": "Demuestra que la correccion 2-loop es despreciable (< 2e-5). El punto fijo g*=phi es robusto a ordenes superiores."
+      "theory": {
+        "es": "Correccion estructural a 2-loops. La cota delta_g* < 1.79e-5 justifica no incluir ordenes superiores (A-9 cerrado).",
+        "en": "Structural 2-loop correction. The bound delta_g* < 1.79e-5 justifies omitting higher orders (A-9 closed).",
+        "de": "Strukturelle 2-Loop-Korrektur. Die Schranke delta_g* < 1.79e-5 rechtfertigt das Weglassen hoeherer Ordnungen (A-9 geschlossen)."
+      },
+      "demo": {
+        "es": "Demuestra que la correccion 2-loop es despreciable (< 2e-5). El punto fijo g*=phi es robusto a ordenes superiores.",
+        "en": "Demonstrates that the 2-loop correction is negligible (< 2e-5). The fixed point g*=phi is robust to higher orders.",
+        "de": "Zeigt, dass die 2-Loop-Korrektur vernachlaessigbar ist (< 2e-5). Der Fixpunkt g*=phi ist robust gegenueber hoeheren Ordnungen."
+      },
+      "cap": "6",
+      "sec": "6.7"
     },
     "fig_07-01_cancelacion_vacio": {
       "equation": "I_2(a,b) = \\frac{1}{4a}\\sqrt{\\frac{\\pi}{a}}\\left(1 - \\frac{b^2}{2a}\\right) e^{-b^2/4a}, \\quad a = \\varphi/M_P^2, \\quad b = \\varphi^N/M_P",
-      "theory": "Integral de vacio escalar con factor modulador helicoidal F(k) = cos(k/kappa_phi) exp(-phi(k/M_P)^2). Derivacion exacta en Cap. 7.4. La medida k^2 dk es [P] (reduccion on-shell).",
-      "demo": "Demuestra que existe un cero analitico en N = 1.220210 donde se cancela el termino dominante ~ M_P^4. Residuo observacional ~ 1e-47 GeV^4."
+      "theory": {
+        "es": "Integral de vacio escalar con factor modulador helicoidal F(k) = cos(k/kappa_phi) exp(-phi(k/M_P)^2). Derivacion exacta en Cap. 7.4. La medida k^2 dk es [P] (reduccion on-shell).",
+        "en": "Scalar vacuum integral with helical modulator F(k) = cos(k/kappa_phi) exp(-phi(k/M_P)^2). Exact derivation in Ch. 7.4. The measure k^2 dk is [P] (on-shell reduction).",
+        "de": "Skalares Vakuumintegral mit helikalem Modulator F(k) = cos(k/kappa_phi) exp(-phi(k/M_P)^2). Exakte Herleitung in Kap. 7.4. Das Mass k^2 dk ist [P] (On-Shell-Reduktion)."
+      },
+      "demo": {
+        "es": "Demuestra que existe un cero analitico en N = 1.220210 donde se cancela el termino dominante ~ M_P^4. Residuo observacional ~ 1e-47 GeV^4.",
+        "en": "Demonstrates the existence of an analytic zero at N = 1.220210 where the dominant term ~ M_P^4 cancels. Observational residue ~ 1e-47 GeV^4.",
+        "de": "Zeigt die Existenz einer analytischen Nullstelle bei N = 1.220210, an der der dominante Term ~ M_P^4 ausgeloescht wird. Beobachtungsrest ~ 1e-47 GeV^4."
+      },
+      "cap": "07",
+      "sec": "07.01"
     },
     "fig_07-02_espectro_modos": {
       "equation": "|F(k, \\varphi)| = \\left|\\cos(k/\\kappa_\\varphi)\\right| \\cdot e^{-\\varphi(k/M_P)^2}",
-      "theory": "Espectro de modos del vacio helicoidal. El factor modulador combina oscilacion (cos) con supresion UV (exp).",
-      "demo": "Visualiza la supresion ultravioleta: modos con k > M_P/phi son exponencialmente suprimidos. La teoria es finita en UV."
-    },
-    "fig_07-02_familia_medidas": {
-      "equation": "(alias de fig_07-04_familia_medidas)",
-      "theory": "Alias con nombre alternativo. Misma derivacion N(alpha).",
-      "demo": "Alias."
+      "theory": {
+        "es": "Espectro de modos del vacio helicoidal. El factor modulador combina oscilacion (cos) con supresion UV (exp).",
+        "en": "Mode spectrum of the helical vacuum. The modulator factor combines oscillation (cos) with UV suppression (exp).",
+        "de": "Modenspektrum des helikalen Vakuums. Der Modulatorfaktor kombiniert Oszillation (cos) mit UV-Unterdrueckung (exp)."
+      },
+      "demo": {
+        "es": "Visualiza la supresion ultravioleta: modos con k > M_P/phi son exponencialmente suprimidos. La teoria es finita en UV.",
+        "en": "Visualizes the ultraviolet suppression: modes with k > M_P/phi are exponentially suppressed. The theory is UV-finite.",
+        "de": "Visualisiert die Ultraviolett-Unterdrueckung: Moden mit k > M_P/phi sind exponentiell unterdrueckt. Die Theorie ist UV-endlich."
+      },
+      "cap": "07",
+      "sec": "07.02"
     },
     "fig_07-03_k2_vs_k3": {
       "equation": "d\\mu_{k^2} = k^2\\,dk \\;\\text{(on-shell)} \\quad \\text{vs} \\quad d\\mu_{k^3} = k^3\\,dk \\;\\text{(covariante)}",
-      "theory": "Comparacion de medidas espectrales. La medida k^2 dk se deriva de la reduccion on-shell de la medida 4D covariante k^3 dk.",
-      "demo": "Demuestra que la medida correcta para el sector de coherencia es k^2 dk (Cap. 7.2). La eleccion no es arbitraria sino que surge del espacio de fases."
+      "theory": {
+        "es": "Comparacion de medidas espectrales. La medida k^2 dk se deriva de la reduccion on-shell de la medida 4D covariante k^3 dk.",
+        "en": "Comparison of spectral measures. The measure k^2 dk is derived from the on-shell reduction of the covariant 4D measure k^3 dk.",
+        "de": "Vergleich der Spektralmasse. Das Mass k^2 dk wird aus der On-Shell-Reduktion des kovarianten 4D-Masses k^3 dk hergeleitet."
+      },
+      "demo": {
+        "es": "Demuestra que la medida correcta para el sector de coherencia es k^2 dk (Cap. 7.2). La eleccion no es arbitraria sino que surge del espacio de fases.",
+        "en": "Demonstrates that the correct measure for the coherence sector is k^2 dk (Ch. 7.2). The choice is not arbitrary but emerges from phase space.",
+        "de": "Zeigt, dass das korrekte Mass fuer den Kohaerenzsektor k^2 dk ist (Kap. 7.2). Die Wahl ist nicht willkuerlich, sondern entsteht aus dem Phasenraum."
+      },
+      "cap": "07",
+      "sec": "07.03"
     },
     "fig_07-04_familia_medidas": {
       "equation": "N(\\alpha) = \\frac{1}{2}\\left[1 + \\frac{\\ln(2\\varphi^{1-\\alpha/2})}{\\ln\\varphi}\\right], \\quad \\alpha \\in [1, 3]",
-      "theory": "Sensibilidad del grado espectral N a la familia de medidas d_mu_alpha propto k^alpha dk. Derivacion en Cap. 7.5.1.",
-      "demo": "Demuestra que N varia monotamente entre N(1) = 1.4702 y N(3) = 0.9702 (rango 1.1%). La cancelacion del termino dominante es robusta dentro de esta familia."
+      "theory": {
+        "es": "Sensibilidad del grado espectral N a la familia de medidas d_mu_alpha propto k^alpha dk. Derivacion en Cap. 7.5.1.",
+        "en": "Sensitivity of the spectral degree N to the measure family d_mu_alpha propto k^alpha dk. Derivation in Ch. 7.5.1.",
+        "de": "Empfindlichkeit des spektralen Grades N gegenueber der Massfamilie d_mu_alpha propto k^alpha dk. Herleitung in Kap. 7.5.1."
+      },
+      "demo": {
+        "es": "Demuestra que N varia monotamente entre N(1) = 1.4702 y N(3) = 0.9702 (rango 1.1%). La cancelacion del termino dominante es robusta dentro de esta familia.",
+        "en": "Demonstrates that N varies monotonically between N(1) = 1.4702 and N(3) = 0.9702 (range 1.1%). Cancellation of the dominant term is robust within this family.",
+        "de": "Zeigt, dass N monoton zwischen N(1) = 1.4702 und N(3) = 0.9702 variiert (Bereich 1.1%). Die Ausloeschung des dominanten Terms ist innerhalb dieser Familie robust."
+      },
+      "cap": "07",
+      "sec": "07.04"
     },
     "fig_08-01_Hz": {
       "equation": "H^2(z) = \\frac{8\\pi G}{3}\\rho_{tot} + \\frac{\\tilde{\\tau}^2}{3} = H_0^2\\left[\\Omega_m(1+z)^3 + \\Omega_\\Lambda\\right] - \\frac{\\kappa^4}{6}S^2(1+z)^6",
-      "theory": "Ecuacion de Friedmann modificada por el sector stiff w_K = +1 (Cap. 8.2). El termino -kappa^4/6 S^2 a^-6 es canonico ECSK.",
-      "demo": "Visualiza el efecto de la torsion cosmologica en H(z). En el limite tau -> 0 se recupera exactamente LCDM."
+      "theory": {
+        "es": "Ecuacion de Friedmann modificada por el sector stiff w_K = +1 (Cap. 8.2). El termino -kappa^4/6 S^2 a^-6 es canonico ECSK.",
+        "en": "Friedmann equation modified by the stiff sector w_K = +1 (Ch. 8.2). The term -kappa^4/6 S^2 a^-6 is canonical ECSK.",
+        "de": "Durch den steifen Sektor w_K = +1 modifizierte Friedmann-Gleichung (Kap. 8.2). Der Term -kappa^4/6 S^2 a^-6 ist kanonisch ECSK."
+      },
+      "demo": {
+        "es": "Visualiza el efecto de la torsion cosmologica en H(z). En el limite tau -> 0 se recupera exactamente LCDM.",
+        "en": "Visualizes the effect of cosmological torsion on H(z). In the limit tau -> 0 it recovers LCDM exactly.",
+        "de": "Visualisiert den Effekt der kosmologischen Torsion auf H(z). Im Grenzfall tau -> 0 ergibt sich exakt LCDM."
+      },
+      "cap": "08",
+      "sec": "08.01"
     },
     "fig_08-02_qz": {
       "equation": "q(z) = -\\frac{\\ddot{a}a}{\\dot{a}^2} = q_{\\Lambda CDM}(z) - \\epsilon\\cos\\left(\\theta_\\varphi \\frac{z}{z_0}\\right)",
-      "theory": "Parametro de desaceleracion con modulacion aurea. Prediccion P1 del programa. Falsable con DESI DR3.",
-      "demo": "Demuestra que la modulacion con frecuencia theta_phi es distinguible de LCDM puro. Amplitud epsilon es pre-registrada."
-    },
-    "fig_08-04_bounce": {
-      "equation": "3H^2 = \\kappa^2\\rho_{tot} - \\frac{\\kappa^4}{6}S^2 a^{-6} = 0 \\;\\Rightarrow\\; a_{min} = \\left(\\frac{\\kappa^2 S^2}{6\\rho_{tot}}\\right)^{1/6}",
-      "theory": "Rebote cosmologico ECSK. El termino stiff negativo permite H^2 = 0 sin curvatura positiva ni energia fantasma (Cap. 8.2, A-12 cerrado).",
-      "demo": "Demuestra que existe a_min > 0 donde H = 0. Rebote sin singularidad inicial."
-    },
-    "fig_08-04_evolucion_stiff": {
-      "equation": "\\rho_K \\propto a^{-6}, \\quad w_K = +1 \\;\\Rightarrow\\; P_K = \\rho_K",
-      "theory": "Sector stiff (w_K = +1) derivado de la accion ECSK. Conservacion Noether garantiza nabla_mu T^{mu nu} = 0 (Cap. 8.3).",
-      "demo": "Compara la evolucion de rho_K ~ a^-6 vs radiacion ~ a^-4 y materia ~ a^-3. El sector stiff domina en el universo temprano."
+      "theory": {
+        "es": "Parametro de desaceleracion con modulacion aurea. Prediccion P1 del programa. Falsable con DESI DR3.",
+        "en": "Deceleration parameter with golden modulation. Prediction P1 of the program. Falsifiable with DESI DR3.",
+        "de": "Verzoegerungsparameter mit goldener Modulation. Vorhersage P1 des Programms. Falsifizierbar mit DESI DR3."
+      },
+      "demo": {
+        "es": "Demuestra que la modulacion con frecuencia theta_phi es distinguible de LCDM puro. Amplitud epsilon es pre-registrada.",
+        "en": "Demonstrates that the modulation with frequency theta_phi is distinguishable from pure LCDM. Amplitude epsilon is pre-registered.",
+        "de": "Zeigt, dass die Modulation mit Frequenz theta_phi von reinem LCDM unterscheidbar ist. Die Amplitude epsilon ist vorregistriert."
+      },
+      "cap": "08",
+      "sec": "08.02"
     },
     "fig_09-01_chameleon_perfil": {
       "equation": "V_{eff}(\\Phi) = V(\\Phi) + \\rho\\, e^{\\beta_c \\Phi/M_P}, \\quad m_{eff}^2(\\rho) = V''(\\Phi_{min}) + \\frac{\\beta_c^2 \\rho}{M_P^2}",
-      "theory": "Mecanismo chameleon. El acoplamiento conformal A(Phi) = exp(beta_c Phi/M_P) hace que la masa efectiva dependa de la densidad local. Derivado en Cap. 9.2.",
-      "demo": "Demuestra que en alta densidad (lab) m_eff es grande y el campo se apantalla (Yukawa), y en baja densidad (cosmologico) m_eff ~ 1e-33 eV y el campo es ultraligero."
-    },
-    "fig_09-01_perfil_chameleon": {
-      "equation": "(alias de fig_09-01_chameleon_perfil)",
-      "theory": "Alias. Misma derivacion del mecanismo chameleon (Cap. 9.2-9.3).",
-      "demo": "Alias."
+      "theory": {
+        "es": "Mecanismo chameleon. El acoplamiento conformal A(Phi) = exp(beta_c Phi/M_P) hace que la masa efectiva dependa de la densidad local. Derivado en Cap. 9.2.",
+        "en": "Chameleon mechanism. The conformal coupling A(Phi) = exp(beta_c Phi/M_P) makes the effective mass depend on local density. Derived in Ch. 9.2.",
+        "de": "Chamaeleon-Mechanismus. Die konforme Kopplung A(Phi) = exp(beta_c Phi/M_P) macht die effektive Masse dichteabhaengig. Hergeleitet in Kap. 9.2."
+      },
+      "demo": {
+        "es": "Demuestra que en alta densidad (lab) m_eff es grande y el campo se apantalla (Yukawa), y en baja densidad (cosmologico) m_eff ~ 1e-33 eV y el campo es ultraligero.",
+        "en": "Demonstrates that at high density (lab) m_eff is large and the field is screened (Yukawa), while at low density (cosmological) m_eff ~ 1e-33 eV and the field is ultralight.",
+        "de": "Zeigt, dass bei hoher Dichte (Labor) m_eff gross ist und das Feld abgeschirmt wird (Yukawa), waehrend bei niedriger Dichte (kosmologisch) m_eff ~ 1e-33 eV und das Feld ultraleicht ist."
+      },
+      "cap": "9",
+      "sec": "9.3"
     },
     "fig_09-02_masa_efectiva": {
       "equation": "m_{eff}^2(\\rho) = 4\\lambda\\Phi_0^2 + \\frac{\\beta_c^2\\rho}{M_P^2} e^{\\beta_c\\Phi_{min}/M_P}",
-      "theory": "Masa efectiva del chameleon en funcion de rho. El termino beta_c^2 rho/M_P^2 domina en alta densidad. Cap. 9.2.",
-      "demo": "Visualiza el crecimiento monotono de m_eff con la densidad. Justifica el apantallamiento en laboratorio."
+      "theory": {
+        "es": "Masa efectiva del chameleon en funcion de rho. El termino beta_c^2 rho/M_P^2 domina en alta densidad. Cap. 9.2.",
+        "en": "Effective chameleon mass as a function of rho. The term beta_c^2 rho/M_P^2 dominates at high density. Ch. 9.2.",
+        "de": "Effektive Chamaeleon-Masse als Funktion von rho. Der Term beta_c^2 rho/M_P^2 dominiert bei hoher Dichte. Kap. 9.2."
+      },
+      "demo": {
+        "es": "Visualiza el crecimiento monotono de m_eff con la densidad. Justifica el apantallamiento en laboratorio.",
+        "en": "Visualizes the monotonic growth of m_eff with density. Justifies screening in the laboratory.",
+        "de": "Visualisiert das monotone Wachstum von m_eff mit der Dichte. Rechtfertigt die Abschirmung im Labor."
+      },
+      "cap": "09",
+      "sec": "09.02"
     },
     "fig_09-03_quinta_fuerza": {
       "equation": "\\frac{F_\\Phi}{F_N} = 2\\beta_c^2 \\left(3\\frac{\\Delta R}{R}\\right)^2 < 10^{-7} \\;\\Rightarrow\\; \\beta_c < 2.1 \\times 10^{-4}",
-      "theory": "Razon de quinta fuerza a gravitatoria en regimen thin-shell. Cota derivada de MICROSCOPE + Eot-Wash. Cap. 9.4.",
-      "demo": "Deriva la cota beta_c < 2.1e-4 sin ajuste fino, consistente con todos los limites de laboratorio actuales."
+      "theory": {
+        "es": "Razon de quinta fuerza a gravitatoria en regimen thin-shell. Cota derivada de MICROSCOPE + Eot-Wash. Cap. 9.4.",
+        "en": "Fifth-force to gravitational ratio in the thin-shell regime. Bound derived from MICROSCOPE + Eot-Wash. Ch. 9.4.",
+        "de": "Verhaeltnis von fuenfter Kraft zu Gravitation im Thin-Shell-Regime. Schranke hergeleitet aus MICROSCOPE + Eot-Wash. Kap. 9.4."
+      },
+      "demo": {
+        "es": "Deriva la cota beta_c < 2.1e-4 sin ajuste fino, consistente con todos los limites de laboratorio actuales.",
+        "en": "Derives the bound beta_c < 2.1e-4 without fine-tuning, consistent with all current laboratory limits.",
+        "de": "Leitet die Schranke beta_c < 2.1e-4 ohne Feinabstimmung her, konsistent mit allen aktuellen Laborgrenzen."
+      },
+      "cap": "09",
+      "sec": "09.03"
     },
     "fig_10-01_exodo_quiral": {
       "equation": "\\Delta\\tau = 2\\pi f_a N_{DW}, \\quad N_{DW} = 1, \\quad T_{ex} \\sim 10^{16} \\text{ GeV}",
-      "theory": "Exodo quiral: ruptura espontanea de U(1)_THU con winding topologico N_DW = 1 via Kibble-Zurek. Derivado en Cap. 10.1.",
-      "demo": "Demuestra que Delta_tau esta cuantizado por topologia S^1. No hay paredes de dominio estables."
+      "theory": {
+        "es": "Exodo quiral: ruptura espontanea de U(1)_THU con winding topologico N_DW = 1 via Kibble-Zurek. Derivado en Cap. 10.1.",
+        "en": "Chiral exodus: spontaneous breaking of U(1)_THU with topological winding N_DW = 1 via Kibble-Zurek. Derived in Ch. 10.1.",
+        "de": "Chiraler Exodus: spontane Brechung von U(1)_THU mit topologischer Windungszahl N_DW = 1 via Kibble-Zurek. Hergeleitet in Kap. 10.1."
+      },
+      "demo": {
+        "es": "Demuestra que Delta_tau esta cuantizado por topologia S^1. No hay paredes de dominio estables.",
+        "en": "Demonstrates that Delta_tau is quantized by S^1 topology. No stable domain walls.",
+        "de": "Zeigt, dass Delta_tau durch die S^1-Topologie quantisiert ist. Keine stabilen Domaenenwaende."
+      },
+      "cap": "10",
+      "sec": "10.01"
     },
     "fig_10-02_matching": {
       "equation": "A(\\mu_{ex}) = A_0 + \\sum_i \\frac{N_c^i Q_i^2 y_i^2}{4\\pi^2} \\ln\\left(\\frac{M_i}{\\mu_{ex}}\\right) = 1.667 + 0.152 = 1.819",
-      "theory": "Matching anomalo a 1-loop en MS a mu_ex ~ 1e16 GeV. Tres estados vector-like (VL-u, VL-d, VL-e) con y_i = 2.0. Derivado en Cap. 10.4.",
-      "demo": "Demuestra que la correccion de umbral es 0.152, dando A = 1.819. Prediccion beta_0 = 0.3803° [P] condicional al espectro UV postulado (parche 15)."
+      "theory": {
+        "es": "Matching anomalo a 1-loop en MS a mu_ex ~ 1e16 GeV. Tres estados vector-like (VL-u, VL-d, VL-e) con y_i = 2.0. Derivado en Cap. 10.4.",
+        "en": "Anomalous 1-loop matching in MS at mu_ex ~ 1e16 GeV. Three vector-like states (VL-u, VL-d, VL-e) with y_i = 2.0. Derived in Ch. 10.4.",
+        "de": "Anomales 1-Loop-Matching in MS bei mu_ex ~ 1e16 GeV. Drei vektorartige Zustaende (VL-u, VL-d, VL-e) mit y_i = 2.0. Hergeleitet in Kap. 10.4."
+      },
+      "demo": {
+        "es": "Demuestra que la correccion de umbral es 0.152, dando A = 1.819. Prediccion beta_0 = 0.3803° [P] condicional al espectro UV postulado (parche 15).",
+        "en": "Demonstrates that the threshold correction is 0.152, giving A = 1.819. Prediction beta_0 = 0.3803 deg [P] conditional on the postulated UV spectrum (patch 15).",
+        "de": "Zeigt, dass die Schwellenkorrektur 0.152 betraegt und A = 1.819 ergibt. Vorhersage beta_0 = 0.3803 Grad [P], bedingt durch das postulierte UV-Spektrum (Patch 15)."
+      },
+      "cap": "10",
+      "sec": "10.02"
     },
     "fig_10-03_espectro_fermionico": {
       "equation": "M_{VL-u} = 1.94 \\times 10^{16} \\text{ GeV}, \\quad M_{VL-d} = 2.30 \\times 10^{16}, \\quad M_{VL-e} = 1.40 \\times 10^{16}",
-      "theory": "Espectro VL declarado pre-data. No se deriva de la geometria U4 sino que se postula para completar el matching anomalo (parche 15, A-17 [F]).",
-      "demo": "Visualiza los 3 estados VL. Reconoce explicitamente el estatus [P] del espectro (no [D]): la geometria U4 no fija masas ni Yukawas."
+      "theory": {
+        "es": "Espectro VL declarado pre-data. No se deriva de la geometria U4 sino que se postula para completar el matching anomalo (parche 15, A-17 [F]).",
+        "en": "VL spectrum declared pre-data. It is not derived from U4 geometry but postulated to complete the anomalous matching (patch 15, A-17 [F]).",
+        "de": "VL-Spektrum vorab deklariert. Es wird nicht aus der U4-Geometrie hergeleitet, sondern postuliert, um das anomale Matching zu vervollstaendigen (Patch 15, A-17 [F])."
+      },
+      "demo": {
+        "es": "Visualiza los 3 estados VL. Reconoce explicitamente el estatus [P] del espectro (no [D]): la geometria U4 no fija masas ni Yukawas.",
+        "en": "Visualizes the 3 VL states. Explicitly acknowledges the [P] status of the spectrum (not [D]): U4 geometry does not fix masses or Yukawas.",
+        "de": "Visualisiert die 3 VL-Zustaende. Erkennt ausdruecklich den [P]-Status des Spektrums an (nicht [D]): Die U4-Geometrie legt weder Massen noch Yukawas fest."
+      },
+      "cap": "10",
+      "sec": "10.03"
     },
     "fig_11-01_tomografia": {
       "equation": "\\beta(z) = \\beta_0\\left[1 - \\frac{t(z)}{t_0}\\right], \\quad t(z) = \\int_z^\\infty \\frac{dz'}{(1+z')H(z')}",
-      "theory": "Perfil tomografico derivado de las EOM del sector de coherencia en slow-roll. Integral de tiempo conforme t(z). Cap. 11.2.",
-      "demo": "Prediccion falsable central del programa. La forma normalizada beta(z)/beta_0 es robusta < 5% frente a cambios de Omega_m, Omega_Lambda y V'(Phi)."
+      "theory": {
+        "es": "Perfil tomografico derivado de las EOM del sector de coherencia en slow-roll. Integral de tiempo conforme t(z). Cap. 11.2.",
+        "en": "Tomographic profile derived from the EOM of the coherence sector in slow-roll. Conformal time integral t(z). Ch. 11.2.",
+        "de": "Tomographisches Profil, hergeleitet aus den Bewegungsgleichungen des Kohaerenzsektors im Slow-Roll. Konformzeit-Integral t(z). Kap. 11.2."
+      },
+      "demo": {
+        "es": "Prediccion falsable central del programa. La forma normalizada beta(z)/beta_0 es robusta < 5% frente a cambios de Omega_m, Omega_Lambda y V'(Phi).",
+        "en": "Central falsifiable prediction of the program. The normalized shape beta(z)/beta_0 is robust < 5% against changes in Omega_m, Omega_Lambda and V'(Phi).",
+        "de": "Zentrale falsifizierbare Vorhersage des Programms. Die normierte Form beta(z)/beta_0 ist robust < 5% gegenueber Aenderungen von Omega_m, Omega_Lambda und V'(Phi)."
+      },
+      "cap": "11",
+      "sec": "11.01"
     },
     "fig_11-02_comparacion_tomografia": {
       "equation": "\\beta_{THU}(z) \\propto 1 - t(z)/t_0 \\;\\text{(creciente)} \\quad \\text{vs} \\quad \\beta_{ALP}(z) \\propto \\sin(m_\\phi t)/m_\\phi t_0",
-      "theory": "Comparacion con modelos competidores: rotacion constante (calibracion), ALP ultraligero (oscilatorio), nulo (beta=0). Cap. 11.4.",
-      "demo": "La prediccion THU se distingue por su perfil creciente monotono. Discrimina contra sesgos de calibracion y ALPs de recombinacion."
+      "theory": {
+        "es": "Comparacion con modelos competidores: rotacion constante (calibracion), ALP ultraligero (oscilatorio), nulo (beta=0). Cap. 11.4.",
+        "en": "Comparison with competing models: constant rotation (calibration), ultralight ALP (oscillatory), null (beta=0). Ch. 11.4.",
+        "de": "Vergleich mit konkurrierenden Modellen: konstante Rotation (Kalibrierung), ultraleichtes ALP (oszillatorisch), Nullmodell (beta=0). Kap. 11.4."
+      },
+      "demo": {
+        "es": "La prediccion THU se distingue por su perfil creciente monotono. Discrimina contra sesgos de calibracion y ALPs de recombinacion.",
+        "en": "The THU prediction is distinguished by its monotonically increasing profile. Discriminates against calibration biases and recombination ALPs.",
+        "de": "Die THU-Vorhersage zeichnet sich durch ihr monoton wachsendes Profil aus. Unterscheidet gegen Kalibrierungsverzerrungen und Rekombinations-ALPs."
+      },
+      "cap": "11",
+      "sec": "11.02"
     },
     "fig_11-03_residuo_slowroll": {
       "equation": "\\left|\\frac{\\beta_{num}(z) - \\beta_{slow}(z)}{\\beta_{slow}(z)}\\right| < 2\\%",
-      "theory": "Residuo entre slow-roll analitico y la integracion numerica completa de las EOM. Cap. 11.2.",
-      "demo": "Demuestra que el regimen slow-roll con V' constante es valido al < 2% en todo el rango 0 < z < 3. Justifica la aproximacion analitica."
+      "theory": {
+        "es": "Residuo entre slow-roll analitico y la integracion numerica completa de las EOM. Cap. 11.2.",
+        "en": "Residual between analytic slow-roll and full numerical integration of the EOM. Ch. 11.2.",
+        "de": "Residuum zwischen analytischem Slow-Roll und vollstaendiger numerischer Integration der Bewegungsgleichungen. Kap. 11.2."
+      },
+      "demo": {
+        "es": "Demuestra que el regimen slow-roll con V' constante es valido al < 2% en todo el rango 0 < z < 3. Justifica la aproximacion analitica.",
+        "en": "Demonstrates that the slow-roll regime with constant V' is valid to < 2% over the full range 0 < z < 3. Justifies the analytic approximation.",
+        "de": "Zeigt, dass das Slow-Roll-Regime mit konstantem V' im gesamten Bereich 0 < z < 3 auf < 2% gueltig ist. Rechtfertigt die analytische Naeherung."
+      },
+      "cap": "11",
+      "sec": "11.03"
     },
     "fig_12-02_jerarquia_neutron": {
       "equation": "m_n^{THU} = \\Lambda_{THU} - \\frac{\\Lambda_{THU}}{\\varphi^6} + \\frac{\\alpha_{em}}{\\pi}\\Lambda_{THU} = 937.03 \\text{ MeV}",
-      "theory": "Masa del neutron con jerarquia de correcciones phi^-6 (postulada [P]) + QED. Lambda_THU = M_P phi^-88 = 989.89 MeV. Cap. 12.2.",
-      "demo": "Error 0.27% vs experimental (939.5654 MeV). El termino phi^-6 esta marcado [P] (A-6 [F]); la derivacion dinamica queda pendiente."
-    },
-    "fig_13-01_forest_plot": {
-      "equation": "\\beta_i \\pm \\sigma_i, \\quad i \\in \\{2020, ..., 2026\\}, \\quad \\text{test de consistencia: } \\chi^2 = \\sum_i \\frac{(\\beta_i - \\bar{\\beta})^2}{\\sigma_i^2}",
-      "theory": "Forest plot de 10 mediciones isotropicas de birefringencia cosmica (PRISMA 2020, Cap. 13.2). Familia de senales en 0.30°-0.48°.",
-      "demo": "Muestra el rango observacional y la prediccion THU (0.3803°). Confirma que la prediccion cae dentro del rango dominado por sistematicas de calibracion."
-    },
-    "fig_13-01_prisma_funnel": {
-      "equation": "N_{id} = 284 \\;\\to\\; N_{screen} = 173 \\;\\to\\; N_{elig} = 58 \\;\\to\\; N_{inc} = 38",
-      "theory": "Flujo PRISMA 2020 (Cap. 13.1, Ap. C). Identificacion, cribado, elegibilidad, inclusion.",
-      "demo": "Documenta el proceso de seleccion reproducible. Los 38 registros incluidos tienen DOI verificable."
+      "theory": {
+        "es": "Masa del neutron con jerarquia de correcciones phi^-6 (postulada [P]) + QED. Lambda_THU = M_P phi^-88 = 989.89 MeV. Cap. 12.2.",
+        "en": "Neutron mass with hierarchy of phi^-6 corrections (postulated [P]) + QED. Lambda_THU = M_P phi^-88 = 989.89 MeV. Ch. 12.2.",
+        "de": "Neutronenmasse mit Hierarchie der phi^-6-Korrekturen (postuliert [P]) + QED. Lambda_THU = M_P phi^-88 = 989.89 MeV. Kap. 12.2."
+      },
+      "demo": {
+        "es": "Error 0.27% vs experimental (939.5654 MeV). El termino phi^-6 esta marcado [P] (A-6 [F]); la derivacion dinamica queda pendiente.",
+        "en": "Error 0.27% vs experimental (939.5654 MeV). The phi^-6 term is labeled [P] (A-6 [F]); dynamical derivation pending.",
+        "de": "Fehler 0.27% gegenueber dem Experiment (939.5654 MeV). Der phi^-6-Term ist als [P] gekennzeichnet (A-6 [F]); dynamische Herleitung ausstehend."
+      },
+      "cap": "12",
+      "sec": "12.02"
     },
     "fig_13-02_BAO": {
       "equation": "\\frac{D_M(z)}{r_d} = \\int_0^z \\frac{c\\,dz'}{H(z')r_d}, \\quad \\text{residuo armonico THU vs LCDM}",
-      "theory": "Validacion con datos BAO de DESI DR2. Cap. 13/18. El sector stiff modifica H(z) con frecuencia theta_phi.",
-      "demo": "Muestra el residuo armonico visible entre THU-TBEA y LCDM sobre los datos BAO. Prediccion P1."
+      "theory": {
+        "es": "Validacion con datos BAO de DESI DR2. Cap. 13/18. El sector stiff modifica H(z) con frecuencia theta_phi.",
+        "en": "Validation with BAO data from DESI DR2. Ch. 13/18. The stiff sector modifies H(z) with frequency theta_phi.",
+        "de": "Validierung mit BAO-Daten von DESI DR2. Kap. 13/18. Der steife Sektor modifiziert H(z) mit Frequenz theta_phi."
+      },
+      "demo": {
+        "es": "Muestra el residuo armonico visible entre THU-TBEA y LCDM sobre los datos BAO. Prediccion P1.",
+        "en": "Shows the harmonic residual visible between THU-TBEA and LCDM on BAO data. Prediction P1.",
+        "de": "Zeigt das sichtbare harmonische Residuum zwischen THU-TBEA und LCDM in BAO-Daten. Vorhersage P1."
+      },
+      "cap": "13",
+      "sec": "13.02"
     },
     "fig_13-03_pantheon": {
       "equation": "\\mu(z) = 5\\log_{10}\\left(\\frac{d_L(z)}{10\\text{ pc}}\\right), \\quad \\Delta\\mu = \\mu_{obs} - \\mu_{THU}",
-      "theory": "Modulo de distancia de Supernovas Tipo Ia (Pantheon+). Cap. 13/18. Los datos son sinteticos (mocks), no reales.",
-      "demo": "Visualiza el ajuste de THU-TBEA. NOTA: los datos son sinteticos (mocks calibrados con covarianza de Pantheon+), no observaciones reales."
+      "theory": {
+        "es": "Modulo de distancia de Supernovas Tipo Ia (Pantheon+). Cap. 13/18. Los datos son sinteticos (mocks), no reales.",
+        "en": "Distance modulus of Type Ia supernovae (Pantheon+). Ch. 13/18. The data are synthetic (mocks), not real.",
+        "de": "Entfernungsmodul von Typ-Ia-Supernovae (Pantheon+). Kap. 13/18. Die Daten sind synthetisch (Mocks), nicht real."
+      },
+      "demo": {
+        "es": "Visualiza el ajuste de THU-TBEA. NOTA: los datos son sinteticos (mocks calibrados con covarianza de Pantheon+), no observaciones reales.",
+        "en": "Visualizes the THU-TBEA fit. NOTE: the data are synthetic (mocks calibrated with Pantheon+ covariance), not real observations.",
+        "de": "Visualisiert die THU-TBEA-Anpassung. HINWEIS: Die Daten sind synthetisch (mit Pantheon+-Kovarianz kalibrierte Mocks), nicht reale Beobachtungen."
+      },
+      "cap": "13",
+      "sec": "13.03"
     },
     "fig_13-04_tension_ACT": {
       "equation": "\\beta_{ACT} = 0.215° \\pm 0.074°, \\quad \\beta_{THU} = 0.3803° \\pm 0.040°, \\quad \\text{tension} = 1.96\\sigma",
-      "theory": "Comparacion directa entre la medicion de ACT DR6 (2025) y la prediccion THU. Cap. 13.6.",
-      "demo": "Muestra tension 1.96 sigma (~2 sigma). Atribuible a calibracion. Si la tomografia confirma el perfil creciente, ACT se reinterprete como sistematica."
+      "theory": {
+        "es": "Comparacion directa entre la medicion de ACT DR6 (2025) y la prediccion THU. Cap. 13.6.",
+        "en": "Direct comparison between ACT DR6 (2025) measurement and the THU prediction. Ch. 13.6.",
+        "de": "Direkter Vergleich zwischen der ACT-DR6-Messung (2025) und der THU-Vorhersage. Kap. 13.6."
+      },
+      "demo": {
+        "es": "Muestra tension 1.96 sigma (~2 sigma). Atribuible a calibracion. Si la tomografia confirma el perfil creciente, ACT se reinterprete como sistematica.",
+        "en": "Shows 1.96 sigma tension (~2 sigma). Attributable to calibration. If tomography confirms the increasing profile, ACT is reinterpreted as a systematic.",
+        "de": "Zeigt 1.96-sigma-Spannung (~2 sigma). Der Kalibrierung zuschreibbar. Wenn die Tomographie das steigende Profil bestaetigt, wird ACT als Systematik reinterpretiert."
+      },
+      "cap": "13",
+      "sec": "13.04"
     },
     "fig_14-01_wz_dinamico": {
       "equation": "w_\\Phi(z) \\geq -1 + O(aH^2), \\quad \\forall z \\leq 10^4",
-      "theory": "Teorema 1 del Cap. 14: la cota inferior w_Phi >= -1 es prediccion falsable estricta. Cualquier w < -1 confirma un sector fantasma prohibido en THU.",
-      "demo": "Demuestra la cota inferior. Los datos DESI DR2 muestran tension leve (dentro de sistematica). Si DESI DR3/Euclid confirman cruce fantasma > 3 sigma, el sector Phi queda falsado."
+      "theory": {
+        "es": "Teorema 1 del Cap. 14: la cota inferior w_Phi >= -1 es prediccion falsable estricta. Cualquier w < -1 confirma un sector fantasma prohibido en THU.",
+        "en": "Theorem 1 of Ch. 14: the lower bound w_Phi >= -1 is a strict falsifiable prediction. Any w < -1 confirms a phantom sector forbidden in THU.",
+        "de": "Theorem 1 aus Kap. 14: die untere Schranke w_Phi >= -1 ist eine strikt falsifizierbare Vorhersage. Jedes w < -1 bestaetigt einen im THU verbotenen Phantom-Sektor."
+      },
+      "demo": {
+        "es": "Demuestra la cota inferior. Los datos DESI DR2 muestran tension leve (dentro de sistematica). Si DESI DR3/Euclid confirman cruce fantasma > 3 sigma, el sector Phi queda falsado.",
+        "en": "Demonstrates the lower bound. DESI DR2 data show mild tension (within systematics). If DESI DR3/Euclid confirm phantom crossing > 3 sigma, the Phi sector is falsified.",
+        "de": "Zeigt die untere Schranke. DESI-DR2-Daten zeigen leichte Spannung (innerhalb der Systematiken). Wenn DESI DR3/Euclid einen Phantom-Uebergang > 3 sigma bestaetigen, wird der Phi-Sektor falsifiziert."
+      },
+      "cap": "14",
+      "sec": "14.01"
     },
     "fig_14-02_trivialidad_no_local": {
       "equation": "\\left|1 - e^{a\\Box(z)}\\right| \\sim 10^{-115} \\ll 10^{-50}, \\quad a \\sim 10^{-37}\\text{ GeV}^{-2}",
-      "theory": "Trivialidad del operador no local e^{a Box} en cosmologia tardia. Cap. 14.",
-      "demo": "Demuestra que el operador no local es completamente despreciable en escalas cosmologicas (z < 1e4). El sector Phi se reduce a escalar estandar."
+      "theory": {
+        "es": "Trivialidad del operador no local e^{a Box} en cosmologia tardia. Cap. 14.",
+        "en": "Triviality of the non-local operator e^{a Box} in late cosmology. Ch. 14.",
+        "de": "Trivialitaet des nichtlokalen Operators e^{a Box} in der spaeten Kosmologie. Kap. 14."
+      },
+      "demo": {
+        "es": "Demuestra que el operador no local es completamente despreciable en escalas cosmologicas (z < 1e4). El sector Phi se reduce a escalar estandar.",
+        "en": "Demonstrates that the non-local operator is completely negligible at cosmological scales (z < 1e4). The Phi sector reduces to a standard scalar.",
+        "de": "Zeigt, dass der nichtlokale Operator auf kosmologischen Skalen (z < 1e4) vollstaendig vernachlaessigbar ist. Der Phi-Sektor reduziert sich auf einen Standardskalar."
+      },
+      "cap": "14",
+      "sec": "14.02"
     },
     "fig_15-01_cotas_paridad": {
       "equation": "\\Delta v/c \\sim K_0/M_P \\sim 10^{-18}, \\quad \\alpha_{PV} \\sim 10^{-18}, \\quad \\text{vs cota LIGO O4: } 10^{-15}, 10^{-13}",
-      "theory": "Violacion de paridad en el sector gravitacional. Cap. 15, A-5 cerrado. La torsion axial escalar no induce birefringencia tensorial a orden lider.",
-      "demo": "Demuestra que la prediccion THU esta 3 ordenes debajo de la cota LIGO O4. No hay senal detectable con sensibilidad actual."
+      "theory": {
+        "es": "Violacion de paridad en el sector gravitacional. Cap. 15, A-5 cerrado. La torsion axial escalar no induce birefringencia tensorial a orden lider.",
+        "en": "Parity violation in the gravitational sector. Ch. 15, A-5 closed. Scalar axial torsion does not induce tensor birefringence at leading order.",
+        "de": "Paritaetsverletzung im Gravitationssektor. Kap. 15, A-5 geschlossen. Skalare axiale Torsion induziert bei führender Ordnung keine Tensordoppelbrechung."
+      },
+      "demo": {
+        "es": "Demuestra que la prediccion THU esta 3 ordenes debajo de la cota LIGO O4. No hay senal detectable con sensibilidad actual.",
+        "en": "Demonstrates that the THU prediction is 3 orders below the LIGO O4 bound. No detectable signal with current sensitivity.",
+        "de": "Zeigt, dass die THU-Vorhersage 3 Groessenordnungen unter der LIGO-O4-Schranke liegt. Kein nachweisbares Signal mit aktueller Sensitivitaet."
+      },
+      "cap": "15",
+      "sec": "15.01"
     },
     "fig_16-01_polarizacion_STAR": {
       "equation": "P_\\Lambda^{THU} = 0.92\\% \\pm 0.10\\%, \\quad P_\\Lambda^{STAR} = 1.05\\% \\pm 0.15\\%, \\quad \\Delta P = 0.13\\% \\;(< 1\\sigma)",
-      "theory": "Correlacion de spin en colisiones relativistas. Cap. 16, predicciones P5/P7. Analisis actualizado con STAR 2025.",
-      "demo": "Demuestra consistencia dentro de 1 sigma con datos STAR 2025. Prediccion falsable a 3 sigma con umbral pre-registrado."
+      "theory": {
+        "es": "Correlacion de spin en colisiones relativistas. Cap. 16, predicciones P5/P7. Analisis actualizado con STAR 2025.",
+        "en": "Spin correlation in relativistic collisions. Ch. 16, predictions P5/P7. Updated analysis with STAR 2025.",
+        "de": "Spin-Korrelation in relativistischen Kollisionen. Kap. 16, Vorhersagen P5/P7. Aktualisierte Analyse mit STAR 2025."
+      },
+      "demo": {
+        "es": "Demuestra consistencia dentro de 1 sigma con datos STAR 2025. Prediccion falsable a 3 sigma con umbral pre-registrado.",
+        "en": "Demonstrates consistency within 1 sigma with STAR 2025 data. Falsifiable prediction at 3 sigma with pre-registered threshold.",
+        "de": "Zeigt Konsistenz innerhalb 1 sigma mit STAR-2025-Daten. Falsifizierbare Vorhersage bei 3 sigma mit vorregistrierter Schwelle."
+      },
+      "cap": "16",
+      "sec": "16.01"
     },
     "fig_17-01_matriz_falsacion": {
       "equation": "\\text{Test duro: } \\Delta\\chi^2 > 9 \\;(3\\sigma), \\quad \\text{Test de forma: } \\Delta\\chi^2_{shape} > 4 \\;(2\\sigma)",
-      "theory": "Matriz de falsacion P1-P11 (Cap. 17). Cada prediccion con observable, arbitro y umbral pre-registrado.",
-      "demo": "Visualiza el estado de las 11 predicciones: Abierta, Pre-registrada o Consistente. Define el protocolo de decision lakatosiano."
+      "theory": {
+        "es": "Matriz de falsacion P1-P11 (Cap. 17). Cada prediccion con observable, arbitro y umbral pre-registrado.",
+        "en": "Falsification matrix P1-P11 (Ch. 17). Each prediction with observable, arbiter, and pre-registered threshold.",
+        "de": "Falsifikationsmatrix P1-P11 (Kap. 17). Jede Vorhersage mit Observable, Schiedsrichter und vorregistrierter Schwelle."
+      },
+      "demo": {
+        "es": "Visualiza el estado de las 11 predicciones: Abierta, Pre-registrada o Consistente. Define el protocolo de decision lakatosiano.",
+        "en": "Visualizes the status of the 11 predictions: Open, Pre-registered, or Consistent. Defines the Lakatosian decision protocol.",
+        "de": "Visualisiert den Status der 11 Vorhersagen: Offen, Vorregistriert oder Konsistent. Definiert das lakatosianische Entscheidungsprotokoll."
+      },
+      "cap": "17",
+      "sec": "17.2"
     },
     "fig_17-02_bitacora_lakatosiana": {
       "equation": "1.0 \\to 2.0 \\to 3.0 \\to 4.0 \\to 4.1 \\to 4.2 \\to 4.3 \\to 5.0 \\to 5.1 \\to 5.2 \\to 5.3",
-      "theory": "Bitacora lakatosiana (Cap. 1.2). Once desplazamientos de problema desde 2024 hasta v5.3.",
-      "demo": "Visualiza la progresividad en el sentido de Lakatos: cada version anadio contenido predictivo nuevo (progressive) o corrigio defecto reproducible (correction)."
+      "theory": {
+        "es": "Bitacora lakatosiana (Cap. 1.2). Once desplazamientos de problema desde 2024 hasta v5.3.",
+        "en": "Lakatosian log (Ch. 1.2). Eleven problem shifts from 2024 to v5.3.",
+        "de": "Lakatos-Protokoll (Kap. 1.2). Elf Problemverschiebungen von 2024 bis v5.3."
+      },
+      "demo": {
+        "es": "Visualiza la progresividad en el sentido de Lakatos: cada version anadio contenido predictivo nuevo (progressive) o corrigio defecto reproducible (correction).",
+        "en": "Visualizes progressivity in the Lakatosian sense: each version added new predictive content (progressive) or corrected a reproducible defect (correction).",
+        "de": "Visualisiert die Progressivitaet im lakatosianischen Sinne: Jede Version fuegte neuen vorhersagenden Inhalt hinzu (progressiv) oder korrigierte einen reproduzierbaren Defekt (Korrektur)."
+      },
+      "cap": "17",
+      "sec": "17.4"
     },
     "fig_17-03_patches_por_etapa": {
       "equation": "\\text{Etapa VII: 7 parches}, \\quad \\text{VIII: 3}, \\quad \\text{IX: 3}, \\quad \\text{X: 4}",
-      "theory": "Distribucion de los 17 parches por etapa de revision externa (Cap. 1.2, Ap. J).",
-      "demo": "Documenta la trazabilidad de las correcciones: algebraica (VII), editorial (VIII), tecnica (IX), epistemica (X)."
-    },
-    "fig_18-01_chi2_breakdown": {
-      "equation": "\\chi^2_{total} = \\chi^2_{BAO} + \\chi^2_{SNe} + \\chi^2_{CMB} = 14.82 + 157.47 + 3.12 = 175.41",
-      "theory": "Desglose de chi^2 sobre mocks sinteticos. NO sobre datos reales (Cap. 18.3, advertencia metodologica).",
-      "demo": "Muestra la contribucion de cada dataset al chi^2 total. ADVERTENCIA: son mocks calibrados, no observaciones reales."
-    },
-    "fig_18-01_contornos": {
-      "equation": "\\mathcal{L}(\\Omega_m, \\xi) \\propto e^{-\\chi^2(\\Omega_m, \\xi)/2}, \\quad \\text{posterior via MCMC}",
-      "theory": "Contornos de confianza 2D sobre (Omega_m, xi). xi es la torsion efectiva en la ecuacion de Friedmann. Cap. 18.4.",
-      "demo": "Best-fit: Omega_m = 0.31, xi = 0.0198 +/- 0.005. Significancia de xi != 0 al 95%: xi > 0.0104."
+      "theory": {
+        "es": "Distribucion de los 17 parches por etapa de revision externa (Cap. 1.2, Ap. J).",
+        "en": "Distribution of the 17 patches by external review stage (Ch. 1.2, Ap. J).",
+        "de": "Verteilung der 17 Patches nach externer Ueberpruefungsstufe (Kap. 1.2, Anh. J)."
+      },
+      "demo": {
+        "es": "Documenta la trazabilidad de las correcciones: algebraica (VII), editorial (VIII), tecnica (IX), epistemica (X).",
+        "en": "Documents the traceability of corrections: algebraic (VII), editorial (VIII), technical (IX), epistemic (X).",
+        "de": "Dokumentiert die Rueckverfolgbarkeit der Korrekturen: algebraisch (VII), redaktionell (VIII), technisch (IX), epistemisch (X)."
+      },
+      "cap": "17",
+      "sec": "17.03"
     },
     "fig_18-02_criterios": {
       "equation": "AIC = \\chi^2 + 2k, \\quad BIC = \\chi^2 + k\\ln N",
-      "theory": "Comparacion de modelos: LCDM (6 params), w0waCDM (8 params), THU_Phi (8 params). Cap. 18.2.",
-      "demo": "THU_Phi tiene chi^2 bajo (17.0) pero AIC/BIC penalizan la complejidad. LCDM sigue siendo competitivo en criterios bayesianos."
+      "theory": {
+        "es": "Comparacion de modelos: LCDM (6 params), w0waCDM (8 params), THU_Phi (8 params). Cap. 18.2.",
+        "en": "Model comparison: LCDM (6 params), w0waCDM (8 params), THU_Phi (8 params). Ch. 18.2.",
+        "de": "Modellvergleich: LCDM (6 Parameter), w0waCDM (8 Parameter), THU_Phi (8 Parameter). Kap. 18.2."
+      },
+      "demo": {
+        "es": "THU_Phi tiene chi^2 bajo (17.0) pero AIC/BIC penalizan la complejidad. LCDM sigue siendo competitivo en criterios bayesianos.",
+        "en": "THU_Phi has low chi^2 (17.0) but AIC/BIC penalize complexity. LCDM remains competitive in Bayesian criteria.",
+        "de": "THU_Phi hat niedriges chi^2 (17.0), aber AIC/BIC bestrafen die Komplexitaet. LCDM bleibt in Bayes-Kriterien konkurrenzfaehig."
+      },
+      "cap": "18",
+      "sec": "18.2"
     },
     "fig_18-03_evidencia_bayesiana": {
       "equation": "\\ln Z_i - \\ln Z_{LCDM}, \\quad \\text{evidencia relativa}",
-      "theory": "Evidencia bayesiana via nested sampling. Valores: LCDM=0, w0waCDM=-8.5, THU_Phi=-3.2. Cap. 18.2.",
-      "demo": "w0waCDM penalizado fuerte. THU_Phi intermedio. LCDM sigue siendo referencia por simplicidad."
+      "theory": {
+        "es": "Evidencia bayesiana via nested sampling. Valores: LCDM=0, w0waCDM=-8.5, THU_Phi=-3.2. Cap. 18.2.",
+        "en": "Bayesian evidence via nested sampling. Values: LCDM=0, w0waCDM=-8.5, THU_Phi=-3.2. Ch. 18.2.",
+        "de": "Bayes-Evidenz via Nested Sampling. Werte: LCDM=0, w0waCDM=-8.5, THU_Phi=-3.2. Kap. 18.2."
+      },
+      "demo": {
+        "es": "w0waCDM penalizado fuerte. THU_Phi intermedio. LCDM sigue siendo referencia por simplicidad.",
+        "en": "w0waCDM heavily penalized. THU_Phi intermediate. LCDM remains the reference for simplicity.",
+        "de": "w0waCDM stark bestraft. THU_Phi intermediär. LCDM bleibt die Referenz aus Einfachheitsgruenden."
+      },
+      "cap": "18",
+      "sec": "18.2"
     },
     "fig_20-01_problemas_status": {
       "equation": "\\{A_1, ..., A_{17}\\}, \\quad |\\{A_i : \\text{CERRADO}\\}| = 12, \\quad |\\{A_j : \\text{ABIERTO}\\}| = 5",
-      "theory": "Registro de problemas abiertos/cerrados (Cap. 20.1). 12 cerrados con [D], 5 abiertos [F]/[A].",
-      "demo": "Visualiza los 17 problemas: 12 cerrados por derivacion, 5 abiertos como fronteras declaradas (A-6 [F], A-7 [A], A-15 [F], A-16 [F], A-17 [F])."
-    },
-    "fig_B-01_variacion_palatini": {
-      "equation": "-\\frac{3}{2}M_P^2 A_\\mu A^\\mu + 3M_P A^\\mu\\nabla_\\mu\\tau \\xrightarrow{A_\\mu = \\nabla_\\mu\\tau/M_P} +\\frac{3}{2}(\\nabla\\tau)^2 \\xrightarrow{\\tau_c = \\sqrt{3}\\tau} +\\frac{1}{2}(\\nabla\\tau_c)^2",
-      "theory": "Variacion Palatini integra (Ap. B.1). El coeficiente 3/2 se reabsorbe por redefinicion canonica tau_c = sqrt(3) tau (parche 2).",
-      "demo": "Demuestra que la normalizacion canonica se obtiene sin ajuste fino. Coeficiente no local se convierte en 1/6 bajo la misma redefinicion (parche 11)."
+      "theory": {
+        "es": "Registro de problemas abiertos/cerrados (Cap. 20.1). 12 cerrados con [D], 5 abiertos [F]/[A].",
+        "en": "Registry of open/closed problems (Ch. 20.1). 12 closed with [D], 5 open [F]/[A].",
+        "de": "Register offener/geschlossener Probleme (Kap. 20.1). 12 geschlossen mit [D], 5 offen [F]/[A]."
+      },
+      "demo": {
+        "es": "Visualiza los 17 problemas: 12 cerrados por derivacion, 5 abiertos como fronteras declaradas (A-6 [F], A-7 [A], A-15 [F], A-16 [F], A-17 [F]).",
+        "en": "Visualizes the 17 problems: 12 closed by derivation, 5 open as declared frontiers (A-6 [F], A-7 [A], A-15 [F], A-16 [F], A-17 [F]).",
+        "de": "Visualisiert die 17 Probleme: 12 durch Herleitung geschlossen, 5 offen als erklaerte Grenzen (A-6 [F], A-7 [A], A-15 [F], A-16 [F], A-17 [F])."
+      },
+      "cap": "20",
+      "sec": "20.1"
     },
     "fig_E-01_metrica_FLRW": {
       "equation": "ds^2 = -dt^2 + a(t)^2\\left[\\frac{dr^2}{1-kr^2} + r^2 d\\Omega^2\\right] + h_{\\mu\\nu}^{hel} dx^\\mu dx^\\nu",
-      "theory": "Metrica FLRW con correccion helicoidal. La correccion <h_hel> = 0 preserva isotropia macroscopica (Ap. E.1, Cap. 8).",
-      "demo": "Demuestra que la adicion de la metrica helicoidal no rompe isotropia FLRW a escala macroscopica. Solo fluctua a escala de Planck."
+      "theory": {
+        "es": "Metrica FLRW con correccion helicoidal. La correccion <h_hel> = 0 preserva isotropia macroscopica (Ap. E.1, Cap. 8).",
+        "en": "FLRW metric with helical correction. The correction <h_hel> = 0 preserves macroscopic isotropy (Ap. E.1, Ch. 8).",
+        "de": "FLRW-Metrik mit helikaler Korrektur. Die Korrektur <h_hel> = 0 erhaelt die makroskopische Isotropie (Anh. E.1, Kap. 8)."
+      },
+      "demo": {
+        "es": "Demuestra que la adicion de la metrica helicoidal no rompe isotropia FLRW a escala macroscopica. Solo fluctua a escala de Planck.",
+        "en": "Demonstrates that adding the helical metric does not break FLRW isotropy at macroscopic scale. It only fluctuates at Planck scale.",
+        "de": "Zeigt, dass das Hinzufuegen der helikalen Metrik die FLRW-Isotropie auf makroskopischer Skala nicht bricht. Sie fluktuiert nur auf Planck-Skala."
+      },
+      "cap": "E",
+      "sec": "8.2"
     },
     "fig_J-01_vertices_feynman": {
       "equation": "\\Gamma_{\\Phi\\tau^2} = -2i\\mu_\\varphi\\, e^{-\\varphi \\sum p_i^2/(2M_P^2)}, \\quad \\Gamma_{\\Phi^2\\tau^2} = -2i\\eta_\\varphi\\, e^{-\\varphi \\sum p_i^2/(2M_P^2)}",
-      "theory": "Vertices de Feynman helicoidales (Ap. J.4). Cada vertice tiene supresion exponencial UV por el operador entero.",
-      "demo": "Demuestra que los vertices son UV-finitos: la exponencial suprime contribuciones de alta energia. Todas las integrales de loop convergen."
+      "theory": {
+        "es": "Vertices de Feynman helicoidales (Ap. J.4). Cada vertice tiene supresion exponencial UV por el operador entero.",
+        "en": "Helical Feynman vertices (Ap. J.4). Each vertex has exponential UV suppression due to the entire operator.",
+        "de": "Helikale Feynman-Vertizes (Anh. J.4). Jeder Vertex hat exponentielle UV-Unterdrueckung durch den ganzzahligen Operator."
+      },
+      "demo": {
+        "es": "Demuestra que los vertices son UV-finitos: la exponencial suprime contribuciones de alta energia. Todas las integrales de loop convergen.",
+        "en": "Demonstrates that the vertices are UV-finite: the exponential suppresses high-energy contributions. All loop integrals converge.",
+        "de": "Zeigt, dass die Vertizes UV-endlich sind: Die Exponentialfunktion unterdrueckt Hochenergiebeitraege. Alle Loop-Integrale konvergieren."
+      },
+      "cap": "J",
+      "sec": "J.4"
     },
     "fig_L-01_escalera_transescalar": {
       "equation": "m_n = M_P \\varphi^{-n}, \\quad n \\in \\mathbb{N}_0, \\quad \\Lambda_{THU} = M_P \\varphi^{-88}",
-      "theory": "Escalera trans-escalar (Ap. L). El operador T_phi = phi^{-Box/M_P^2} tiene autovalores phi^{k^2/M_P^2}.",
-      "demo": "Visualiza la jerarquia m_n. El nivel n=88 da Lambda_THU = 989.89 MeV. Escala QCD emerge de jerarquia aurea sin ajuste."
+      "theory": {
+        "es": "Escalera trans-escalar (Ap. L). El operador T_phi = phi^{-Box/M_P^2} tiene autovalores phi^{k^2/M_P^2}.",
+        "en": "Trans-scale ladder (Ap. L). The operator T_phi = phi^{-Box/M_P^2} has eigenvalues phi^{k^2/M_P^2}.",
+        "de": "Trans-Skalen-Leiter (Anh. L). Der Operator T_phi = phi^{-Box/M_P^2} hat Eigenwerte phi^{k^2/M_P^2}."
+      },
+      "demo": {
+        "es": "Visualiza la jerarquia m_n. El nivel n=88 da Lambda_THU = 989.89 MeV. Escala QCD emerge de jerarquia aurea sin ajuste.",
+        "en": "Visualizes the m_n hierarchy. Level n=88 gives Lambda_THU = 989.89 MeV. QCD scale emerges from the golden hierarchy without fine-tuning.",
+        "de": "Visualisiert die m_n-Hierarchie. Stufe n=88 ergibt Lambda_THU = 989.89 MeV. Die QCD-Skala entsteht aus der goldenen Hierarchie ohne Feinabstimmung."
+      },
+      "cap": "L",
+      "sec": "4.5"
     },
     "fig_M-01_PRISMA": {
       "equation": "N_{inc} = 38, \\quad \\text{peer-reviewed, 2019-2026}",
-      "theory": "Flujo PRISMA 2020 final (Ap. C). Los 38 registros tienen DOI verificable.",
-      "demo": "Documenta la trazabilidad del corpus. Todos los registros con hashes SHA-256 en el repositorio v4."
+      "theory": {
+        "es": "Flujo PRISMA 2020 final (Ap. C). Los 38 registros tienen DOI verificable.",
+        "en": "Final PRISMA 2020 flow (Ap. C). The 38 records have verifiable DOI.",
+        "de": "Finaler PRISMA-2020-Fluss (Anh. C). Die 38 Datensaetze haben verifizierbare DOI."
+      },
+      "demo": {
+        "es": "Documenta la trazabilidad del corpus. Todos los registros con hashes SHA-256 en el repositorio v4.",
+        "en": "Documents the traceability of the corpus. All records with SHA-256 hashes in the v4 repository.",
+        "de": "Dokumentiert die Rueckverfolgbarkeit des Korpus. Alle Datensaetze mit SHA-256-Hashes im v4-Repository."
+      },
+      "cap": "M",
+      "sec": "13.1"
+    },
+    "fig_08-04a_bounce": {
+      "equation": "3H^2 = \\kappa^2\\rho_{tot} - \\frac{\\kappa^4}{6}S^2 a^{-6} = 0 \\;\\Rightarrow\\; a_{min} = \\left(\\frac{\\kappa^2 S^2}{6\\rho_{tot}}\\right)^{1/6}",
+      "theory": {
+        "es": "Rebote cosmologico ECSK. El termino stiff negativo permite H^2 = 0 sin curvatura positiva ni energia fantasma (Cap. 8.2, A-12 cerrado).",
+        "en": "ECSK cosmological bounce. The negative stiff term allows H^2 = 0 without positive curvature or phantom energy (Ch. 8.2, A-12 closed).",
+        "de": "ECSK-kosmologischer Rueckprall. Der negative steife Term erlaubt H^2 = 0 ohne positive Kruemmung oder Phantom-Energie (Kap. 8.2, A-12 geschlossen)."
+      },
+      "demo": {
+        "es": "Demuestra que existe a_min > 0 donde H = 0. Rebote sin singularidad inicial.",
+        "en": "Demonstrates that there exists a_min > 0 where H = 0. Bounce without initial singularity.",
+        "de": "Zeigt, dass ein a_min > 0 existiert, bei dem H = 0 gilt. Rueckprall ohne Anfangssingularitaet."
+      },
+      "cap": "08",
+      "sec": "08.04"
+    },
+    "fig_08-04b_evolucion_stiff": {
+      "equation": "\\rho_K \\propto a^{-6}, \\quad w_K = +1 \\;\\Rightarrow\\; P_K = \\rho_K",
+      "theory": {
+        "es": "Sector stiff (w_K = +1) derivado de la accion ECSK. Conservacion Noether garantiza nabla_mu T^{mu nu} = 0 (Cap. 8.3).",
+        "en": "Stiff sector (w_K = +1) derived from the ECSK action. Noether conservation guarantees nabla_mu T^{mu nu} = 0 (Ch. 8.3).",
+        "de": "Steifer Sektor (w_K = +1), hergeleitet aus der ECSK-Wirkung. Noether-Erhaltung garantiert nabla_mu T^{mu nu} = 0 (Kap. 8.3)."
+      },
+      "demo": {
+        "es": "Compara la evolucion de rho_K ~ a^-6 vs radiacion ~ a^-4 y materia ~ a^-3. El sector stiff domina en el universo temprano.",
+        "en": "Compares the evolution rho_K ~ a^-6 vs radiation ~ a^-4 and matter ~ a^-3. The stiff sector dominates in the early universe.",
+        "de": "Vergleicht die Evolution rho_K ~ a^-6 mit Strahlung ~ a^-4 und Materie ~ a^-3. Der steife Sektor dominiert im fruehen Universum."
+      },
+      "cap": "08",
+      "sec": "08.04"
+    },
+    "fig_13-01a_forest_plot": {
+      "equation": "\\beta_i \\pm \\sigma_i, \\quad i \\in \\{2020, ..., 2026\\}, \\quad \\text{test de consistencia: } \\chi^2 = \\sum_i \\frac{(\\beta_i - \\bar{\\beta})^2}{\\sigma_i^2}",
+      "theory": {
+        "es": "Forest plot de 10 mediciones isotropicas de birefringencia cosmica (PRISMA 2020, Cap. 13.2). Familia de senales en 0.30°-0.48°.",
+        "en": "Forest plot of 10 isotropic cosmic birefringence measurements (PRISMA 2020, Ch. 13.2). Signal family in 0.30 deg - 0.48 deg.",
+        "de": "Forest-Plot von 10 isotropen Messungen der kosmischen Doppelbrechung (PRISMA 2020, Kap. 13.2). Signalfamilie in 0.30 Grad - 0.48 Grad."
+      },
+      "demo": {
+        "es": "Muestra el rango observacional y la prediccion THU (0.3803°). Confirma que la prediccion cae dentro del rango dominado por sistematicas de calibracion.",
+        "en": "Shows the observational range and the THU prediction (0.3803 deg). Confirms the prediction falls within the calibration-systematics-dominated range.",
+        "de": "Zeigt den Beobachtungsbereich und die THU-Vorhersage (0.3803 Grad). Bestaetigt, dass die Vorhersage in den von Kalibrierungssystematiken dominierten Bereich faellt."
+      },
+      "cap": "13",
+      "sec": "13.2"
+    },
+    "fig_13-01b_prisma_funnel": {
+      "equation": "N_{id} = 284 \\;\\to\\; N_{screen} = 173 \\;\\to\\; N_{elig} = 58 \\;\\to\\; N_{inc} = 38",
+      "theory": {
+        "es": "Flujo PRISMA 2020 (Cap. 13.1, Ap. C). Identificacion, cribado, elegibilidad, inclusion.",
+        "en": "PRISMA 2020 flow (Ch. 13.1, Ap. C). Identification, screening, eligibility, inclusion.",
+        "de": "PRISMA 2020-Fluss (Kap. 13.1, Anh. C). Identifikation, Screening, Eignung, Einschluss."
+      },
+      "demo": {
+        "es": "Documenta el proceso de seleccion reproducible. Los 38 registros incluidos tienen DOI verificable.",
+        "en": "Documents the reproducible selection process. The 38 included records have verifiable DOI.",
+        "de": "Dokumentiert den reproduzierbaren Auswahlprozess. Die 38 eingeschlossenen Datensaetze haben verifizierbare DOI."
+      },
+      "cap": "13",
+      "sec": "13.1"
+    },
+    "fig_18-01a_chi2_breakdown": {
+      "equation": "\\chi^2_{total} = \\chi^2_{BAO} + \\chi^2_{SNe} + \\chi^2_{CMB} = 14.82 + 157.47 + 3.12 = 175.41",
+      "theory": {
+        "es": "Desglose de chi^2 sobre mocks sinteticos. NO sobre datos reales (Cap. 18.3, advertencia metodologica).",
+        "en": "chi^2 breakdown on synthetic mocks. NOT on real data (Ch. 18.3, methodological warning).",
+        "de": "chi^2-Aufschluesselung auf synthetischen Mocks. NICHT auf realen Daten (Kap. 18.3, methodische Warnung)."
+      },
+      "demo": {
+        "es": "Muestra la contribucion de cada dataset al chi^2 total. ADVERTENCIA: son mocks calibrados, no observaciones reales.",
+        "en": "Shows the contribution of each dataset to the total chi^2. WARNING: these are calibrated mocks, not real observations.",
+        "de": "Zeigt den Beitrag jedes Datensatzes zum gesamten chi^2. WARNUNG: Dies sind kalibrierte Mocks, keine realen Beobachtungen."
+      },
+      "cap": "18",
+      "sec": "18.3"
+    },
+    "fig_18-01b_contornos": {
+      "equation": "\\mathcal{L}(\\Omega_m, \\xi) \\propto e^{-\\chi^2(\\Omega_m, \\xi)/2}, \\quad \\text{posterior via MCMC}",
+      "theory": {
+        "es": "Contornos de confianza 2D sobre (Omega_m, xi). xi es la torsion efectiva en la ecuacion de Friedmann. Cap. 18.4.",
+        "en": "2D confidence contours on (Omega_m, xi). xi is the effective torsion in the Friedmann equation. Ch. 18.4.",
+        "de": "2D-Konfidenzkonturen auf (Omega_m, xi). xi ist die effektive Torsion in der Friedmann-Gleichung. Kap. 18.4."
+      },
+      "demo": {
+        "es": "Best-fit: Omega_m = 0.31, xi = 0.0198 +/- 0.005. Significancia de xi != 0 al 95%: xi > 0.0104.",
+        "en": "Best-fit: Omega_m = 0.31, xi = 0.0198 +/- 0.005. Significance of xi != 0 at 95%: xi > 0.0104.",
+        "de": "Beste Anpassung: Omega_m = 0.31, xi = 0.0198 +/- 0.005. Signifikanz von xi != 0 bei 95%: xi > 0.0104."
+      },
+      "cap": "18",
+      "sec": "18.3"
+    },
+    "fig_B-01b_variacion_palatini": {
+      "equation": "-\\frac{3}{2}M_P^2 A_\\mu A^\\mu + 3M_P A^\\mu\\nabla_\\mu\\tau \\xrightarrow{A_\\mu = \\nabla_\\mu\\tau/M_P} +\\frac{3}{2}(\\nabla\\tau)^2 \\xrightarrow{\\tau_c = \\sqrt{3}\\tau} +\\frac{1}{2}(\\nabla\\tau_c)^2",
+      "theory": {
+        "es": "Variacion Palatini integra (Ap. B.1). El coeficiente 3/2 se reabsorbe por redefinicion canonica tau_c = sqrt(3) tau (parche 2).",
+        "en": "Full Palatini variation (Ap. B.1). The coefficient 3/2 is reabsorbed by canonical redefinition tau_c = sqrt(3) tau (patch 2).",
+        "de": "Vollstaendige Palatini-Variation (Anh. B.1). Der Koeffizient 3/2 wird durch die kanonische Neudefinition tau_c = sqrt(3) tau absorbiert (Patch 2)."
+      },
+      "demo": {
+        "es": "Demuestra que la normalizacion canonica se obtiene sin ajuste fino. Coeficiente no local se convierte en 1/6 bajo la misma redefinicion (parche 11).",
+        "en": "Demonstrates that the canonical normalization is obtained without fine-tuning. The non-local coefficient becomes 1/6 under the same redefinition (patch 11).",
+        "de": "Zeigt, dass die kanonische Normierung ohne Feinabstimmung erhalten wird. Der nichtlokale Koeffizient wird unter derselben Neudefinition zu 1/6 (Patch 11)."
+      },
+      "cap": "B",
+      "sec": "B.01"
+    },
+    "fig_12-01_escala_masas": {
+      "cap": "12",
+      "sec": "12.1",
+      "equation": "m_n = M_P\\,\\varphi^{-n}, \\quad n \\in \\mathbb{Z}, \\quad \\Lambda_{\\mathrm{THU}} = M_P\\,\\varphi^{-88} \\approx 989.89\\text{ MeV}",
+      "theory": {
+        "es": "Escalera trans-escalar derivada del espectro del operador T_phi = phi^{-Box/M_P^2} (Cap. 4.5). Cada nivel n corresponde a un autovalor entero del operador. La escala QCD emerge del nivel n=88, identificado por el conteo geometrico N_eff = dim(S_4D) x h^{1,1} = 4 x 22.",
+        "en": "Trans-scale ladder derived from the spectrum of the operator T_phi = phi^{-Box/M_P^2} (Ch. 4.5). Each level n corresponds to an integer eigenvalue. The QCD scale emerges from level n=88, identified by the geometric count N_eff = dim(S_4D) x h^{1,1} = 4 x 22.",
+        "de": "Trans-Skalen-Leiter, abgeleitet aus dem Spektrum des Operators T_phi = phi^{-Box/M_P^2} (Kap. 4.5). Jede Stufe n entspricht einem ganzzahligen Eigenwert. Die QCD-Skala entsteht aus der Stufe n=88, identifiziert durch die Zählung N_eff = dim(S_4D) x h^{1,1} = 4 x 22."
+      },
+      "demo": {
+        "es": "Visualiza la jerarquia geometrica m_n = M_P phi^{-n}. El nivel n=88 da Lambda_THU = 989.89 MeV, consistente con QCD, sin ajuste fino.",
+        "en": "Visualizes the geometric hierarchy m_n = M_P phi^{-n}. Level n=88 yields Lambda_THU = 989.89 MeV, consistent with QCD, without fine-tuning.",
+        "de": "Visualisiert die geometrische Hierarchie m_n = M_P phi^{-n}. Die Stufe n=88 ergibt Lambda_THU = 989.89 MeV, konsistent mit QCD, ohne Feinabstimmung."
+      }
+    },
+    "fig_B-01a_beta_function": {
+      "cap": "B",
+      "sec": "B.1",
+      "equation": "\\beta_{\\mathrm{eff}}(g) = \\kappa(1 + g - g^2), \\quad g_\\star^{\\pm} = \\frac{1 \\pm \\sqrt{5}}{2}",
+      "theory": {
+        "es": "Funcion beta efectiva 1-loop en fondo torsionado <A_mu> != 0. Los tres diagramas dan (1, +1, -1). Puntos fijos g_+ = phi, g_- = -1/phi.",
+        "en": "Effective 1-loop beta function on a torsioned background <A_mu> != 0. The three diagrams give (1, +1, -1). Fixed points g_+ = phi, g_- = -1/phi.",
+        "de": "Effektive 1-Loop-Beta-Funktion auf torsioniertem Hintergrund <A_mu> != 0. Die drei Diagramme ergeben (1, +1, -1). Fixpunkte g_+ = phi, g_- = -1/phi."
+      },
+      "demo": {
+        "es": "Demuestra graficamente el atractor IR g_+ = phi y el repulsor g_- = -1/phi.",
+        "en": "Graphically demonstrates the IR attractor g_+ = phi and repeller g_- = -1/phi.",
+        "de": "Zeigt grafisch den IR-Attraktor g_+ = phi und den Repeller g_- = -1/phi."
+      }
+    },
+    "fig_B-02_integral_I2": {
+      "cap": "B",
+      "sec": "B.5",
+      "equation": "I_2(a,b) = \\frac{1}{4a}\\sqrt{\\frac{\\pi}{a}}\\left(1 - \\frac{b^2}{2a}\\right)e^{-b^2/4a}, \\quad a = \\frac{\\varphi}{M_P^2}, \\quad b = \\frac{\\varphi^N}{M_P}",
+      "theory": {
+        "es": "Evaluacion exacta de la integral de vacio escalar con modulador F(k) = cos(k/kappa_phi) exp(-phi(k/M_P)^2). Condicion de cancelacion: b^2 = 2a.",
+        "en": "Exact evaluation of the scalar vacuum integral with modulator F(k) = cos(k/kappa_phi) exp(-phi(k/M_P)^2). Cancellation condition: b^2 = 2a.",
+        "de": "Exakte Auswertung des skalaren Vakuumintegrals mit Modulator F(k) = cos(k/kappa_phi) exp(-phi(k/M_P)^2). Ausloeschungsbedingung: b^2 = 2a."
+      },
+      "demo": {
+        "es": "Muestra el cero analitico I_2 = 0 en b^2 = 2a, equivalente a phi^{2N} = 2 phi, fijando N = 1.220210.",
+        "en": "Shows the analytic zero I_2 = 0 at b^2 = 2a, equivalent to phi^{2N} = 2 phi, fixing N = 1.220210.",
+        "de": "Zeigt die analytische Nullstelle I_2 = 0 bei b^2 = 2a, aequivalent zu phi^{2N} = 2 phi, was N = 1.220210 festlegt."
+      }
+    },
+    "fig_B-03_lambert_w": {
+      "cap": "B",
+      "sec": "B.3",
+      "equation": "k_k^2 = -\\frac{M_P^2}{\\varphi}\\,W_k\\!\\left(+\\frac{\\varphi m^2}{M_P^2}\\right), \\quad k \\in \\mathbb{Z}",
+      "theory": {
+        "es": "Ramas W_k de Lambert-W. Rama k=0: polo fisico. Ramas k != 0: polos complejos a escala Planck, confinados por prescripcion fakeon (A-16 [F]).",
+        "en": "Branches W_k of Lambert-W. Branch k=0: physical pole. Branches k != 0: complex poles at Planck scale, confined by fakeon prescription (A-16 [F]).",
+        "de": "Zweige W_k der Lambert-W-Funktion. Zweig k=0: physikalischer Pol. Zweige k != 0: komplexe Pole auf Planck-Skala, eingeschraenkt durch Fakeon-Vorschrift (A-16 [F])."
+      },
+      "demo": {
+        "es": "Demuestra que solo k=0 es accesible al regimen observable (E << M_P).",
+        "en": "Demonstrates that only k=0 is accessible to the observable regime (E << M_P).",
+        "de": "Zeigt, dass nur k=0 dem beobachtbaren Regime zugaenglich ist (E << M_P)."
+      }
+    },
+    "fig_B-04_jerarquia_aurea": {
+      "cap": "B",
+      "sec": "B.5",
+      "equation": "m_n = M_P\\,\\varphi^{-n}, \\quad \\Lambda_{\\mathrm{THU}} = M_P\\,\\varphi^{-88} \\approx 989.89\\text{ MeV}",
+      "theory": {
+        "es": "Jerarquia aurea desde M_P (2.435e18 GeV) hasta QCD (989.89 MeV) via 88 niveles phi^{-n}. Exponente n=88 = dim(S_4D) x h^{1,1}.",
+        "en": "Golden hierarchy from M_P (2.435e18 GeV) down to QCD (989.89 MeV) via 88 levels phi^{-n}. Exponent n=88 = dim(S_4D) x h^{1,1}.",
+        "de": "Goldene Hierarchie von M_P (2.435e18 GeV) bis QCD (989.89 MeV) ueber 88 Stufen phi^{-n}. Exponent n=88 = dim(S_4D) x h^{1,1}."
+      },
+      "demo": {
+        "es": "Visualiza el descenso exponencial. Razon entre niveles consecutivos: exactamente phi.",
+        "en": "Visualizes the exponential descent. Ratio between consecutive levels: exactly phi.",
+        "de": "Visualisiert den exponentiellen Abstieg. Verhaeltnis zwischen aufeinanderfolgenden Stufen: genau phi."
+      }
+    },
+    "fig_B-05_coeficiente_A": {
+      "cap": "B",
+      "sec": "B.5",
+      "equation": "A = A_0 + \\sum_{i \\in \\mathrm{VL}} \\frac{N_c^i Q_i^2 y_i^2}{4\\pi^2} \\ln\\!\\left(\\frac{M_i}{\\mu_{\\mathrm{ex}}}\\right) = \\frac{5}{3} + 0.152 = 1.819",
+      "theory": {
+        "es": "Coeficiente anomalo tras matching 1-loop. A_0 = 5/3 del doblete quiral. Correcciones VL suman 0.152. Postulado UV [P].",
+        "en": "Anomalous coefficient after 1-loop matching. A_0 = 5/3 from the chiral doublet. VL corrections sum to 0.152. UV postulate [P].",
+        "de": "Anomaler Koeffizient nach 1-Loop-Matching. A_0 = 5/3 vom chiralen Dublett. VL-Korrekturen summieren zu 0.152. UV-Postulat [P]."
+      },
+      "demo": {
+        "es": "Descomposicion de A: barra base 1.667 + correcciones umbral 0.152 = 1.819.",
+        "en": "Decomposition of A: base bar 1.667 + threshold corrections 0.152 = 1.819.",
+        "de": "Zerlegung von A: Basisleiste 1.667 + Schwellenkorrekturen 0.152 = 1.819."
+      }
+    },
+    "fig_B-06_residuo_propagador": {
+      "cap": "B",
+      "sec": "B.2",
+      "equation": "\\mathrm{Res}[\\Delta] = \\frac{1}{D'(-m^2)} = \\frac{e^{-am^2}}{1 + am^2} > 0, \\quad a = \\frac{\\varphi}{M_P^2}",
+      "theory": {
+        "es": "Residuo del propagador no local en el polo fisico. Derivacion exacta con D'(k^2) = e^{-ak^2}(1 - ak^2). Corrige parche 1.",
+        "en": "Residue of the non-local propagator at the physical pole. Exact derivation with D'(k^2) = e^{-ak^2}(1 - ak^2). Corrects patch 1.",
+        "de": "Residuum des nichtlokalen Propagators am physikalischen Pol. Exakte Ableitung mit D'(k^2) = e^{-ak^2}(1 - ak^2). Korrigiert Patch 1."
+      },
+      "demo": {
+        "es": "Positividad estricta: Res > 0 para todo m^2 > 0. Condicion Kallen-Lehmann de unitariedad.",
+        "en": "Strict positivity: Res > 0 for all m^2 > 0. Kallen-Lehmann unitarity condition.",
+        "de": "Strikte Positivitaet: Res > 0 fuer alle m^2 > 0. Kallen-Lehmann-Unitaritaetsbedingung."
+      }
     }
-  }
+  },
+  "fecha_migracion": "2026-09-23T16:14:08Z",
+  "fecha_i18n_b1": "2026-09-23T16:18:22Z",
+  "fecha_i18n_b2": "2026-09-23T16:20:32Z",
+  "fecha_i18n_b3": "2026-09-23T16:22:36Z",
+  "fecha_i18n_b4": "2026-09-23T16:23:32Z",
+  "fecha_i18n_b5": "2026-09-23T16:24:28Z",
+  "i18n_estado": "COMPLETO",
+  "i18n_idiomas": [
+    "es",
+    "en",
+    "de"
+  ]
 }

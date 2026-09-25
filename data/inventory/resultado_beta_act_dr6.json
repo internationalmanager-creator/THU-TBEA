@@ -1,0 +1,16 @@
+{
+  "beta_best_deg": 0.20399999999999996,
+  "sigma_avg_deg": 0.030000000000000027,
+  "sigma_lo_deg": 0.030000000000000027,
+  "sigma_hi_deg": 0.030000000000000027,
+  "chi2_min": 126.3431944583266,
+  "dof": 94,
+  "chi2_dof": 1.3440765367907084,
+  "n_bins_eb": 47,
+  "n_bins_tb": 47,
+  "beta_thu_deg": 0.3803,
+  "sigma_thu_deg": 0.04,
+  "tension_sigma": 3.5260000000000002,
+  "fuente_datos": "ACT DR6.02 spectra_and_cov_xtra",
+  "paper_beta": "Diego-Palazuelos & Komatsu, arXiv:2509.13654"
+}

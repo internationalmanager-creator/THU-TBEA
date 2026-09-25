@@ -10,14 +10,14 @@
     "de": "Mathematische Grundlagen, Phanomenologie und systematische Falsifizierbarkeit (2024-2026)"
   },
   "theory_name": {
-    "es": "Teoria Helicoidal Universal THU-TBEA 5.3",
-    "en": "Universal Helical Theory THU-TBEA 5.3",
-    "de": "Universelle Helikale Theorie THU-TBEA 5.3"
+    "es": "Teoria Helicoidal Universal THU-TBEA 5.4",
+    "en": "Universal Helical Theory THU-TBEA 5.4",
+    "de": "Universelle Helikale Theorie THU-TBEA 5.4"
   },
   "abstract": {
-    "es": "Esta tesis construye, analiza y somete a pruebas falsables una teoria de campos efectiva sobre una variedad de Riemann-Cartan U4 en la que la torsion axial irreducible es la solucion exacta de Palatini, alimentada por el gradiente de un pseudoescalar con operador cinetico exponencial entero. El trabajo se organiza como un programa de investigacion lakatosiano con estatus epistemico explicito. Se establecen cinco resultados con derivaciones completas: (i) punto fijo IR g_star = phi; (ii) cancelacion del vacio escalar modulado con N ~ 1.2202; (iii) termino torsional en Friedmann con w_K = +1 y coeficiente canonico kappa^4/6; (iv) analisis Dirac-Bergmann con un grado de libertad y residuo positivo; (v) prediccion de birefringencia cosmica beta_0 = 0.3803 +- 0.040 deg [P]. La tomografia beta(z) constituye la prediccion central falsable.",
-    "en": "This thesis constructs, analyzes and subjects to falsifiable tests an effective field theory on a Riemann-Cartan manifold U4 in which the irreducible axial torsion is the exact Palatini solution, sourced by the gradient of a pseudo-scalar with an entire exponential kinetic operator. The work is organized as a Lakatosian research program with explicit epistemic status. Five results are established with complete derivations: (i) IR fixed point g_star = phi; (ii) modulated scalar vacuum cancellation with N ~ 1.2202; (iii) torsional term in Friedmann with w_K = +1 and canonical coefficient kappa^4/6; (iv) Dirac-Bergmann analysis with one degree of freedom and positive residue; (v) cosmic birefringence prediction beta_0 = 0.3803 +- 0.040 deg [P]. The beta(z) tomography constitutes the central falsifiable prediction.",
-    "de": "Diese Arbeit konstruiert, analysiert und unterzieht einer falsifizierbaren Prufung eine effektive Feldtheorie auf einer Riemann-Cartan-Mannigfaltigkeit U4, in der die irreduzible Axialtorsion die exakte Palatini-Losung ist, gespeist durch den Gradienten eines Pseudoskalars mit ganzzahligem exponentiellen kinetischen Operator. Funf Ergebnisse werden aufgestellt: (i) IR-Fixpunkt g_star = phi; (ii) modulierte skalare Vakuumausloschung mit N ~ 1.2202; (iii) Torsionsterm in Friedmann mit w_K = +1 und kanonischem Koeffizienten kappa^4/6; (iv) Dirac-Bergmann-Analyse mit einem Freiheitsgrad und positivem Residuum; (v) kosmische Birefringenz beta_0 = 0.3803 +- 0.040 Grad [P]."
+    "es": "Esta tesis construye, analiza y somete a pruebas falsables una teoria de campos efectiva sobre una variedad de Riemann-Cartan U4 en la que la torsion axial irreducible es la solucion exacta de Palatini, alimentada por el gradiente de un pseudoescalar con operador cinetico exponencial entero. El trabajo se organiza como un programa de investigacion lakatosiano con estatus epistemico explicito. Se establecen cinco resultados con derivaciones completas: (i) punto fijo IR g_star = phi; (ii) cancelacion del vacio escalar modulado con N ~ 1.2202; (iii) termino torsional en Friedmann con w_K = +1 y coeficiente canonico kappa^4/6; (iv) analisis Dirac-Bergmann con un grado de libertad y residuo positivo; (v) prediccion de birefringencia cosmica beta_0 = 0.3803 +- 0.040 deg [P]. La tomografia beta(z) constituye la prediccion central falsable. El programa demuestra rigor autocorrectivo, ejemplificado por el retiro formal de la derivacion de $m_n - m_p$ y la declaracion explicita de las fronteras de validez de la EFT, priorizando la falsabilidad sobre la completitud prematura.",
+    "en": "This thesis constructs, analyzes and subjects to falsifiable tests an effective field theory on a Riemann-Cartan manifold U4 in which the irreducible axial torsion is the exact Palatini solution, sourced by the gradient of a pseudo-scalar with an entire exponential kinetic operator. The work is organized as a Lakatosian research program with explicit epistemic status. Five results are established with complete derivations: (i) IR fixed point g_star = phi; (ii) modulated scalar vacuum cancellation with N ~ 1.2202; (iii) torsional term in Friedmann with w_K = +1 and canonical coefficient kappa^4/6; (iv) Dirac-Bergmann analysis with one degree of freedom and positive residue; (v) cosmic birefringence prediction beta_0 = 0.3803 +- 0.040 deg [P]. The beta(z) tomography constitutes the central falsifiable prediction. The program demonstrates self-corrective rigor, exemplified by the formal retirement of the $m_n - m_p$ derivation and the explicit declaration of the EFT validity boundaries, prioritizing falsifiability over premature completeness.",
+    "de": "Diese Arbeit konstruiert, analysiert und unterzieht einer falsifizierbaren Prufung eine effektive Feldtheorie auf einer Riemann-Cartan-Mannigfaltigkeit U4, in der die irreduzible Axialtorsion die exakte Palatini-Losung ist, gespeist durch den Gradienten eines Pseudoskalars mit ganzzahligem exponentiellen kinetischen Operator. Funf Ergebnisse werden aufgestellt: (i) IR-Fixpunkt g_star = phi; (ii) modulierte skalare Vakuumausloschung mit N ~ 1.2202; (iii) Torsionsterm in Friedmann mit w_K = +1 und kanonischem Koeffizienten kappa^4/6; (iv) Dirac-Bergmann-Analyse mit einem Freiheitsgrad und positivem Residuum; (v) kosmische Birefringenz beta_0 = 0.3803 +- 0.040 Grad [P]. Das Programm zeigt selbstkorrigierende Strenge, exemplifiziert durch den formellen Rückzug der $m_n - m_p$-Ableitung und die explizite Erklärung der Gültigkeitsgrenzen der EFT, wobei die Falsifizierbarkeit vor vorzeitiger Vollständigkeit priorisiert wird."
   },
   "keywords": {
     "es": [
@@ -64,13 +64,15 @@
       "orcid": "ORCID",
       "doi": "DOI",
       "license": "Licencia",
-      "epistemic_legend": "Leyenda epistemica: [D] derivado, [P] postulado, [F] frontera (abierto), [A] analogia.",
+      "epistemic_legend": "Leyenda: [D] derivado; [D parcial] subregimen; [D condicional X] hipotesis; [P] postulado; [F] frontera; [F parcial] subproblemas cerrados; [A] analogia.",
       "problems_registry": "Registro de problemas",
       "predictions": "Predicciones falsables",
       "patches": "Bitacora de parches",
       "bitacora": "Bitacora Lakatosiana",
       "no_doi": "DOI pendiente (manuscrito en preparacion)",
-      "repo_private": "Repositorio privado"
+      "repo_private": "Repositorio privado",
+      "affiliation": "Investigador Independiente",
+      "email_label": "Correo"
     },
     "en": {
       "contents": "Table of contents",
@@ -87,13 +89,15 @@
       "orcid": "ORCID",
       "doi": "DOI",
       "license": "License",
-      "epistemic_legend": "Epistemic legend: [D] derived, [P] postulated, [F] frontier (open), [A] analogy.",
+      "epistemic_legend": "Legend: [D] derived; [D partial] sub-regime; [D conditional X] hypothesis; [P] postulated; [F] frontier; [F partial] closed sub-problems; [A] analogy.",
       "problems_registry": "Problems registry",
       "predictions": "Falsifiable predictions",
       "patches": "Patch log",
       "bitacora": "Lakatosian log",
       "no_doi": "DOI pending (manuscript in preparation)",
-      "repo_private": "Private repository"
+      "repo_private": "Private repository",
+      "affiliation": "Independent Researcher",
+      "email_label": "Email"
     },
     "de": {
       "contents": "Inhaltsverzeichnis",
@@ -110,18 +114,20 @@
       "orcid": "ORCID",
       "doi": "DOI",
       "license": "Lizenz",
-      "epistemic_legend": "Epistemische Legende: [D] abgeleitet, [P] postuliert, [F] Grenze (offen), [A] Analogie.",
+      "epistemic_legend": "Legende: [D] abgeleitet; [D partiell] Subregime; [D bedingt X] Hypothese; [P] postuliert; [F] Grenze; [F partiell] geschlossene Teilprobleme; [A] Analogie.",
       "problems_registry": "Problemregister",
       "predictions": "Falsifizierbare Vorhersagen",
       "patches": "Patch-Protokoll",
       "bitacora": "Lakatos-Protokoll",
       "no_doi": "DOI ausstehend (Manuskript in Vorbereitung)",
-      "repo_private": "Privates Repository"
+      "repo_private": "Privates Repository",
+      "affiliation": "Unabhaengiger Forscher",
+      "email_label": "E-Mail"
     }
   },
   "chapter_titles": {
     "1": {
-      "es": "Introduccion e historia critica",
+      "es": "Introducción e historia crítica",
       "en": "Introduction and critical history",
       "de": "Einleitung und kritische Geschichte"
     },
@@ -131,9 +137,9 @@
       "de": "Normativer Rahmen, Reproduzierbarkeit und Rechenarchitektur"
     },
     "3": {
-      "es": "Geometria U4: torsion axial como solucion exacta de Palatini",
+      "es": "Geometría U4: torsión axial como solución exacta de Palatini",
       "en": "U4 geometry: axial torsion as exact Palatini solution",
-      "de": "U4-Geometrie: Axialtorsion als exakte Palatini-Losung"
+      "de": "U4-Geometrie: Axiale Torsion als exakte Palatini-Lösung"
     },
     "4": {
       "es": "Operadores no locales: analisis funcional, unitariedad y sector trans-escalar",
@@ -193,7 +199,7 @@
     "15": {
       "es": "Paridad en el sector gravitacional",
       "en": "Parity in the gravitational sector",
-      "de": "Paritat im Gravitationssektor"
+      "de": "Parität im Gravitationssektor"
     },
     "16": {
       "es": "Spin y vorticidad: RHIC, STAR",
@@ -201,14 +207,14 @@
       "de": "Spin und Vortizitat: RHIC, STAR"
     },
     "17": {
-      "es": "Sintesis falsable: predicciones P1-P11",
-      "en": "Falsifiable synthesis: predictions P1-P11",
-      "de": "Falsifizierbare Synthese: Vorhersagen P1-P11"
+      "es": "Síntesis falsable: predicciones P1-P12",
+      "en": "Falsifiable synthesis: predictions P1-P12",
+      "de": "Falsifizierbare Synthese: Vorhersagen P1-P12"
     },
     "18": {
-      "es": "Ajuste conjunto sobre datos publicos",
+      "es": "Ajuste conjunto sobre datos públicos",
       "en": "Joint fit on public data",
-      "de": "Gemeinsame Anpassung an offentliche Daten"
+      "de": "Gemeinsame Anpassung an öffentliche Daten"
     },
     "19": {
       "es": "Pipeline reproducible y pruebas unitarias",
@@ -276,6 +282,11 @@
       "es": "Revision algebraica externa: parches aplicados",
       "en": "External algebraic review: applied patches",
       "de": "Externe algebraische Uberprufung: angewandte Patches"
+    },
+    "K": {
+      "es": "Hiperbolicidad local y causalidad proyectada",
+      "en": "Local hyperbolicity and projected causality",
+      "de": "Lokale Hyperbolizitat und projizierte Kausalitat"
     }
   },
   "chapter_equations": {
@@ -315,6 +326,28 @@
     "12": [
       "\\Lambda_{\\mathrm{THU}} = M_P \\varphi^{-88} \\approx 989.89 \\text{ MeV}",
       "m_n^{\\mathrm{THU}} \\approx 937.03 \\text{ MeV}"
+    ],
+    "14": [
+      "w_\\\\Phi(z) = -1 + \\\\frac{\\\\dot\\\\Phi^2}{2V(\\\\Phi)} + \\\\mathcal{O}(aH^2)",
+      "w_\\\\Phi(z) \\\\geq -1 + \\\\mathcal{O}(aH^2) \\\\quad \\\\text{para todo } z \\\\leq 10^4"
+    ],
+    "15": [
+      "\\\\Delta v \\\\sim \\\\frac{K_0}{M_P} \\\\sim 10^{-18}\\\\,c",
+      "\\\\alpha_{PV} \\\\sim \\\\frac{K_0}{M_P} \\\\sim 10^{-18}",
+      "\\\\Delta v \\\\lesssim 10^{-15}\\\\,c \\\\quad \\\\text{(cota LIGO O4)}"
+    ],
+    "16": [
+      "R_H = \\\\frac{\\\\hbar}{\\\\pi \\\\Lambda_{\\\\text{QCD}}}",
+      "P_\\\\Lambda = 2\\\\pi(2-\\\\varphi)^2",
+      "\\\\frac{\\\\chi^2}{\\\\mathrm{dof}} = 401.59"
+    ],
+    "17": [
+      "\\chi^2/\\mathrm{dof} = 401.59 \\quad (\\text{falsaci\\'on de P12})",
+      "\\sigma_A = 0.18",
+      "\\beta_w' = 0.314^\\circ"
+    ],
+    "18": [
+      "\\ln\\mathcal{L} = \\ln\\mathcal{L}_{\\mathrm{BAO}} + \\ln\\mathcal{L}_{\\mathrm{SNe}} + \\ln\\mathcal{L}_{\\mathrm{CMB}}"
     ]
   },
   "es": {
@@ -346,5 +379,884 @@
     "derivations_result": "Endergebnis",
     "derivations_summary": "Zusammenfassung der epistemischen Labels",
     "nav_derivations": "Ableitungen"
+  },
+  "appendix_bodies": {
+    "B": {
+      "es": {
+        "title": "Apéndice B: Demostraciones matemáticas completas",
+        "sections": [
+          {
+            "n": "B.1",
+            "title": "Derivación Palatini",
+            "body": "Ver §3.8. \\textbf{[D]}"
+          },
+          {
+            "n": "B.2",
+            "title": "Análisis funcional",
+            "body": "Ver §4.1-§4.2. \\textbf{[D]}"
+          },
+          {
+            "n": "B.3",
+            "title": "Matriz Dirac-Bergmann 8x8",
+            "body": "det(M)>0, rango 8. Ver §5.3. \\textbf{[D]}"
+          },
+          {
+            "n": "B.4",
+            "title": "Finitud UV y Ward-Takahashi",
+            "body": "Decaimiento gaussiano. Ver §4.4. \\textbf{[D]}"
+          },
+          {
+            "n": "B.5",
+            "title": "Flujo RG exacto",
+            "body": "Punto fijo áureo. Ver Cap. 6. \\textbf{[D]}"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix B: Complete proofs",
+        "sections": [
+          {
+            "n": "B.1",
+            "title": "Palatini derivation",
+            "body": "See §3.8. \\textbf{[D]}"
+          },
+          {
+            "n": "B.2",
+            "title": "Functional analysis",
+            "body": "See §4.1-§4.2. \\textbf{[D]}"
+          },
+          {
+            "n": "B.3",
+            "title": "8x8 Dirac-Bergmann matrix",
+            "body": "det(M)>0. See §5.3. \\textbf{[D]}"
+          },
+          {
+            "n": "B.4",
+            "title": "UV finiteness",
+            "body": "Gaussian decay. See §4.4. \\textbf{[D]}"
+          },
+          {
+            "n": "B.5",
+            "title": "Exact RG flow",
+            "body": "Golden fixed point. See Ch. 6. \\textbf{[D]}"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang B: Vollständige Beweise",
+        "sections": [
+          {
+            "n": "B.1",
+            "title": "Palatini-Ableitung",
+            "body": "Siehe §3.8. \\textbf{[D]}"
+          },
+          {
+            "n": "B.2",
+            "title": "Funktionalanalysis",
+            "body": "Siehe §4.1-§4.2. \\textbf{[D]}"
+          },
+          {
+            "n": "B.3",
+            "title": "8x8 Dirac-Bergmann-Matrix",
+            "body": "det(M)>0. Siehe §5.3. \\textbf{[D]}"
+          },
+          {
+            "n": "B.4",
+            "title": "UV-Endlichkeit",
+            "body": "Gaußscher Zerfall. Siehe §4.4. \\textbf{[D]}"
+          },
+          {
+            "n": "B.5",
+            "title": "RG-Fluss",
+            "body": "Goldener Fixpunkt. Siehe Kap. 6. \\textbf{[D]}"
+          }
+        ]
+      }
+    },
+    "K": {
+      "es": {
+        "title": "Apéndice K: Hiperbolicidad local",
+        "sections": [
+          {
+            "n": "K.1",
+            "title": "Símbolo principal",
+            "body": "$\\sigma(k)=-k^2 e^{-\\varphi k^2/M_P^2}$. \\textbf{[D]}"
+          },
+          {
+            "n": "K.2",
+            "title": "Cono de características",
+            "body": "Coincide con $\\Box$ en IR. \\textbf{[D]}"
+          },
+          {
+            "n": "K.3",
+            "title": "No linealidad algebraica",
+            "body": "$\\tau^3$ no deforma el cono. \\textbf{[D]}"
+          },
+          {
+            "n": "K.4",
+            "title": "Hiperbolicidad local no lineal",
+            "body": "$\\sigma_{total}$ mantiene cono. \\textbf{[D]}"
+          },
+          {
+            "n": "K.5",
+            "title": "Frontera: existencia global",
+            "body": "Strauss/John aplican a cuasilineal; no local abierta. \\textbf{[F]}"
+          },
+          {
+            "n": "K.6",
+            "title": "Conclusiones",
+            "body": "K.1-K.4=[D]; K.5=[F]. A-1: \\textbf{[D parcial / F global]}"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix K: Local hyperbolicity",
+        "sections": [
+          {
+            "n": "K.1",
+            "title": "Principal symbol",
+            "body": "$\\sigma(k)=-k^2 e^{-\\varphi k^2/M_P^2}$. \\textbf{[D]}"
+          },
+          {
+            "n": "K.2",
+            "title": "Characteristic cone",
+            "body": "Coincides with $\\Box$ in IR. \\textbf{[D]}"
+          },
+          {
+            "n": "K.3",
+            "title": "Algebraic nonlinearity",
+            "body": "$\\tau^3$ does not deform cone. \\textbf{[D]}"
+          },
+          {
+            "n": "K.4",
+            "title": "Local nonlinear hyperbolicity",
+            "body": "$\\sigma_{total}$ maintains cone. \\textbf{[D]}"
+          },
+          {
+            "n": "K.5",
+            "title": "Frontier: global existence",
+            "body": "Strauss/John for quasilinear; non-local open. \\textbf{[F]}"
+          },
+          {
+            "n": "K.6",
+            "title": "Conclusions",
+            "body": "K.1-K.4=[D]; K.5=[F]. A-1: \\textbf{[D partial / F global]}"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang K: Lokale Hyperbolizität",
+        "sections": [
+          {
+            "n": "K.1",
+            "title": "Hauptsymbol",
+            "body": "$\\sigma(k)=-k^2 e^{-\\varphi k^2/M_P^2}$. \\textbf{[D]}"
+          },
+          {
+            "n": "K.2",
+            "title": "Charakteristikenkegel",
+            "body": "Stimmt mit $\\Box$ überein. \\textbf{[D]}"
+          },
+          {
+            "n": "K.3",
+            "title": "Algebraische Nichtlinearität",
+            "body": "$\\tau^3$ deformiert Kegel nicht. \\textbf{[D]}"
+          },
+          {
+            "n": "K.4",
+            "title": "Lokale nichtlineare Hyperbolizität",
+            "body": "$\\sigma_{total}$ erhält Kegel. \\textbf{[D]}"
+          },
+          {
+            "n": "K.5",
+            "title": "Grenze: globale Existenz",
+            "body": "Strauss/John für quasilinear; nichtlokal offen. \\textbf{[F]}"
+          },
+          {
+            "n": "K.6",
+            "title": "Schlussfolgerungen",
+            "body": "K.1-K.4=[D]; K.5=[F]. A-1: \\textbf{[D partiell / F global]}"
+          }
+        ]
+      }
+    },
+    "J": {
+      "es": {
+        "title": "Apendice J: Revision algebraica externa",
+        "sections": [
+          {
+            "n": "J.4",
+            "title": "Vertices de Feynman y resumen de parches",
+            "body": "Este apendice recopila visualmente los vertices de interaccion modificados por los 24 parches aplicados en las Etapas VII-XII. La figura muestra los vertices helicoidales correspondientes a las interacciones $\\Phi\\tau^2$ y $\\Phi^2\\tau^2$, cuya estructura esta protegida por la supresion exponencial ultravioleta del operador cinetico de funcion entera $\\hat{H}_\\varphi$. Cada vertice conserva la paridad compensada del acoplamiento y respeta las identidades de Ward-Takahashi a un loop. El apendice sirve como referencia rapida para la revision algebraica externa documentada en el registro canonico de parches. \\textbf{[D]}"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix J: External algebraic review",
+        "sections": [
+          {
+            "n": "J.4",
+            "title": "Feynman vertices and patch summary",
+            "body": "This appendix visually compiles the interaction vertices modified by the 24 patches applied in Stages VII-XII. The figure shows the helical vertices corresponding to the $\\Phi\\tau^2$ and $\\Phi^2\\tau^2$ interactions, whose structure is protected by the ultraviolet exponential suppression of the entire-function kinetic operator $\\hat{H}_\\varphi$. Each vertex preserves the compensated parity of the coupling and satisfies the Ward-Takahashi identities at one loop. The appendix serves as a quick reference for the external algebraic review documented in the canonical patch log. \\textbf{[D]}"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang J: Externe algebraische Uberprufung",
+        "sections": [
+          {
+            "n": "J.4",
+            "title": "Feynman-Vertizes und Patch-Zusammenfassung",
+            "body": "Dieser Anhang stellt visuell die Wechselwirkungsvertizes zusammen, die durch die 24 in den Stufen VII-XII angewandten Patches modifiziert wurden. Die Abbildung zeigt die helikalen Vertizes der Wechselwirkungen $\\Phi\\tau^2$ und $\\Phi^2\\tau^2$, deren Struktur durch die ultraviolette exponentielle Unterdruckung des ganzzahligen kinetischen Operators $\\hat{H}_\\varphi$ geschutzt ist. Jeder Vertex bewahrt die kompensierte Paritat der Kopplung und erfullt die Ward-Takahashi-Identitaten auf Einschleifen-Niveau. Der Anhang dient als schnelle Referenz fur die im kanonischen Patch-Register dokumentierte externe algebraische Uberprufung. \\textbf{[D]}"
+          }
+        ]
+      }
+    },
+    "A": {
+      "es": {
+        "title": "Apendice A: Glosario de simbolos y convenciones",
+        "sections": [
+          {
+            "n": "A.1",
+            "title": "Geometria y campos",
+            "body": "Simbolos geometricos del nucleo: $g_{\\mu\\nu}$ (metrica en $U_4$), $\\Gamma^\\lambda_{\\\\ \\mu\\nu}$ (conexion afin completa), $K^\\lambda_{\\\\ \\mu\\nu}$ (contorsion), $T^\\lambda_{\\\\ \\mu\\nu}$ (torsion), $\\tau(x)$ (pseudoescalar axial), $\\tau_c = \\sqrt{3}\\tau$ (campo canonico), $\\Phi(x)$ (campo de coherencia), $\\hat{H}_\\varphi = \\Box e^{\\varphi\\Box/M_P^2}$ (operador cinetico entero), $\\hat{T}_\\varphi = \\varphi^{-\\Box/M_P^2}$ (operador trans-escalar), $\\varepsilon^{\\lambda\\mu\\nu\\rho}$ (tensor de Levi-Civita). $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.2",
+            "title": "Parametros y constantes",
+            "body": "$M_P = 2{,}435 \\times 10^{18}$ GeV (masa de Planck reducida, $1/\\sqrt{8\\pi G}$); $\\varphi = (1+\\sqrt{5})/2 \\approx 1{,}6180$ (proporcion aurea); $\\theta_\\varphi = 2\\pi(2-\\varphi) \\approx 137{,}507764^\\circ$ (angulo aureo); $\\kappa_\\varphi = M_P\\varphi^{-N}$ (escala helicoidal); $N \\approx 1{,}220210$ (grado espectral); $N_{\\mathrm{DW}} = 1$ (winding topologico); $A = 1{,}819 \\pm 0{,}19$ (coeficiente anomalo); $\\alpha_{\\mathrm{em}}$ (constante de estructura fina). $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.3",
+            "title": "Observables y derivadas",
+            "body": "$\\beta$ (angulo de birefringencia cosmica), $\\beta_0 = 0{,}3803^\\circ \\pm 0{,}040^\\circ$ (amplitud en $z=0$; estatus $\\textbf{[P]}$ condicional); $H(z)$ (parametro de Hubble); $w_K = +1$ (ecuacion de estado del sector stiff); $\\rho_{\\mathrm{obs}} \\approx 10^{-47}$ GeV$^4$ (densidad de energia oscura; entrada fenomenologica $\\textbf{[F]}$); $\\Lambda_{\\mathrm{THU}} = M_P\\varphi^{-88} \\approx 989{,}89$ MeV (escala trans-escalar); $m_n^{\\mathrm{THU}} \\approx 937{,}03$ MeV (masa del neutron). $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.4",
+            "title": "Estatus epistemico",
+            "body": "Etiquetas: $\\textbf{[D]}$ derivado; $\\textbf{[D parcial]}$ derivado en subregimen declarado; $\\textbf{[D condicional X]}$ derivado bajo hipotesis $X$; $\\textbf{[P]}$ postulado; $\\textbf{[F]}$ frontera abierta; $\\textbf{[F parcial]}$ frontera con subproblemas cerrados; $\\textbf{[A]}$ analogia; $\\textbf{[D empirica]}$ verificado numericamente sin derivacion desde el nucleo. $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix A: Glossary of symbols and conventions",
+        "sections": [
+          {
+            "n": "A.1",
+            "title": "Geometry and fields",
+            "body": "Geometric symbols of the core: $g_{\\mu\\nu}$ (metric on $U_4$), $\\Gamma^\\lambda_{\\\\ \\mu\\nu}$ (full affine connection), $K^\\lambda_{\\\\ \\mu\\nu}$ (contorsion), $T^\\lambda_{\\\\ \\mu\\nu}$ (torsion), $\\tau(x)$ (axial pseudo-scalar), $\\tau_c = \\sqrt{3}\\tau$ (canonical field), $\\Phi(x)$ (coherence field), $\\hat{H}_\\varphi = \\Box e^{\\varphi\\Box/M_P^2}$ (entire kinetic operator), $\\hat{T}_\\varphi = \\varphi^{-\\Box/M_P^2}$ (trans-scale operator), $\\varepsilon^{\\lambda\\mu\\nu\\rho}$ (Levi-Civita tensor). $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.2",
+            "title": "Parameters and constants",
+            "body": "$M_P = 2{.}435 \\times 10^{18}$ GeV (reduced Planck mass); $\\varphi = (1+\\sqrt{5})/2 \\approx 1{.}6180$ (golden ratio); $\\theta_\\varphi = 2\\pi(2-\\varphi) \\approx 137{.}507764^\\circ$ (golden angle); $\\kappa_\\varphi = M_P\\varphi^{-N}$ (helical scale); $N \\approx 1{.}220210$ (spectral degree); $N_{\\mathrm{DW}} = 1$ (topological winding); $A = 1{.}819 \\pm 0{.}19$ (anomalous coefficient). $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.3",
+            "title": "Observables and derived",
+            "body": "$\\beta$ (cosmic birefringence angle), $\\beta_0 = 0{.}3803^\\circ \\pm 0{.}040^\\circ$ ($\\textbf{[P]}$ conditional); $H(z)$ (Hubble parameter); $w_K = +1$ (stiff sector equation of state); $\\Lambda_{\\mathrm{THU}} = M_P\\varphi^{-88} \\approx 989{.}89$ MeV (trans-scale); $m_n^{\\mathrm{THU}} \\approx 937{.}03$ MeV (neutron mass). $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.4",
+            "title": "Epistemic status",
+            "body": "Labels: $\\textbf{[D]}$ derived; $\\textbf{[D partial]}$ derived in declared sub-regime; $\\textbf{[D conditional X]}$ derived under hypothesis $X$; $\\textbf{[P]}$ postulated; $\\textbf{[F]}$ open frontier; $\\textbf{[F partial]}$ frontier with closed sub-problems; $\\textbf{[A]}$ analogy; $\\textbf{[D empirical]}$ numerically verified. $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang A: Glossar der Symbole",
+        "sections": [
+          {
+            "n": "A.1",
+            "title": "Geometrie und Felder",
+            "body": "Geometrische Symbole: $g_{\\mu\\nu}$ (Metrik auf $U_4$), $\\Gamma^\\lambda_{\\\\ \\mu\\nu}$ (affine Verbindung), $K^\\lambda_{\\\\ \\mu\\nu}$ (Kontorsion), $T^\\lambda_{\\\\ \\mu\\nu}$ (Torsion), $\\tau(x)$ (axialer Pseudoskalar), $\\tau_c = \\sqrt{3}\\tau$ (kanonisches Feld), $\\Phi(x)$ (Kohaerenzfeld). $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.2",
+            "title": "Parameter und Konstanten",
+            "body": "$M_P = 2{,}435 \\times 10^{18}$ GeV; $\\varphi \\approx 1{,}6180$; $\\theta_\\varphi \\approx 137{,}507764^\\circ$; $N \\approx 1{,}220210$; $A = 1{,}819 \\pm 0{,}19$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.3",
+            "title": "Observablen",
+            "body": "$\\beta_0 = 0{,}3803^\\circ \\pm 0{,}040^\\circ$ ($\\textbf{[P]}$); $\\Lambda_{\\mathrm{THU}} \\approx 989{,}89$ MeV; $m_n^{\\mathrm{THU}} \\approx 937{,}03$ MeV. $\\textbf{[D]}$"
+          },
+          {
+            "n": "A.4",
+            "title": "Epistemischer Status",
+            "body": "Labels: $\\textbf{[D]}$ abgeleitet; $\\textbf{[P]}$ postuliert; $\\textbf{[F]}$ offene Grenze; $\\textbf{[A]}$ Analogie. $\\textbf{[D]}$"
+          }
+        ]
+      }
+    },
+    "C": {
+      "es": {
+        "title": "Apendice C: Protocolo PRISMA",
+        "sections": [
+          {
+            "n": "C.1",
+            "title": "Pregunta de investigacion (PICO)",
+            "body": "Poblacion: mediciones del CMB con sensibilidad a violacion de paridad. Intervencion: analisis de birefringencia isotropica/anisotropica/tomografia $\\beta(z)$. Comparacion: prediccion THU-TBEA $\\beta_0 = 0{,}3803^\\circ \\pm 0{,}040^\\circ$. Resultado: consistencia, tension o falsacion a $3\\sigma$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.2",
+            "title": "Estrategia de busqueda",
+            "body": "Cuatro bases consultadas (arXiv, INSPIRE-HEP, ADS, Web of Science) con consultas literales. Periodo: enero 2019 - junio 2026. Total identificados: 284 registros. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.3",
+            "title": "Criterios de inclusion/exclusion",
+            "body": "Inclusion I1-I4: medicion directa de $\\beta$ con incertidumbre cuantificada; datos publicos; peer-reviewed o arXiv con datos verificables; periodo 2019-2026. Exclusion E1-E4: preprints sin datos; estudios puramente teoricos; resumenes de conferencia; sistematicas dominantes no cuantificadas. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.4",
+            "title": "Diagrama de flujo PRISMA",
+            "body": "Identificados: 284 $\\to$ cribados: 173 $\\to$ elegibles: 58 $\\to$ incluidos: 38. Los 38 registros completos se preservan en \\texttt{prisma\\\\_2026.csv} con hashes SHA-256 encadenados al log criptografico. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.5",
+            "title": "Extraccion de datos",
+            "body": "Ocho campos por estudio: (1) DOI/arXiv; (2) ano; (3) tipo; (4) valor central de $\\beta$ o cota superior; (5) $\\sigma_{\\mathrm{stat}}$; (6) $\\sigma_{\\mathrm{syst}}$; (7) metodo de calibracion; (8) dataset fuente. Evaluacion de riesgo de sesgo en 3 niveles (bajo/medio/alto). $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix C: PRISMA protocol",
+        "sections": [
+          {
+            "n": "C.1",
+            "title": "Research question (PICO)",
+            "body": "Population: CMB measurements with parity sensitivity. Intervention: birefringence analysis (isotropic/anisotropic/tomography). Comparison: THU-TBEA $\\beta_0 = 0{.}3803^\\circ \\pm 0{.}040^\\circ$. Outcome: consistency, tension, or falsification. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.2",
+            "title": "Search strategy",
+            "body": "Four databases (arXiv, INSPIRE-HEP, ADS, Web of Science), literal queries, period January 2019 to June 2026. Total identified: 284 records. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.3",
+            "title": "Inclusion/exclusion criteria",
+            "body": "Inclusion I1-I4: direct $\\beta$ measurement with quantified uncertainty; public data; peer-reviewed or verifiable arXiv; 2019-2026. Exclusion E1-E4: preprints without data; purely theoretical; conference abstracts; unquantified systematics. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.4",
+            "title": "PRISMA flow diagram",
+            "body": "Identified: 284 $\\to$ screened: 173 $\\to$ eligible: 58 $\\to$ included: 38. Preserved in \\texttt{prisma\\\\_2026.csv} with SHA-256 hashes. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.5",
+            "title": "Data extraction",
+            "body": "Eight fields per study: DOI/arXiv, year, type, central $\\beta$ or upper bound, statistical and systematic uncertainties, calibration method, dataset. Risk-of-bias evaluation in three levels. $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang C: PRISMA-Protokoll",
+        "sections": [
+          {
+            "n": "C.1",
+            "title": "Forschungsfrage (PICO)",
+            "body": "Population: CMB-Messungen mit Paritaetssensitivitaet. Intervention: Birefringenzanalyse. Vergleich: THU-TBEA $\\beta_0 = 0{,}3803^\\circ$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.2",
+            "title": "Suchstrategie",
+            "body": "Vier Datenbanken, Zeitraum Januar 2019 bis Juni 2026. 284 identifizierte Datensaetze. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.3",
+            "title": "Ein-/Ausschlusskriterien",
+            "body": "I1-I4 und E1-E4 wie in der ES-Version definiert. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.4",
+            "title": "PRISMA-Flussdiagramm",
+            "body": "284 $\\to$ 173 $\\to$ 58 $\\to$ 38 Datensaetze. $\\textbf{[D]}$"
+          },
+          {
+            "n": "C.5",
+            "title": "Datenextraktion",
+            "body": "Acht Felder pro Studie: DOI, Jahr, Typ, zentrales $\\beta$, Unsicherheiten, Kalibrierung, Datensatz. $\\textbf{[D]}$"
+          }
+        ]
+      }
+    },
+    "D": {
+      "es": {
+        "title": "Apendice D: Pipeline reproducible",
+        "sections": [
+          {
+            "n": "D.1",
+            "title": "Arquitectura del repositorio",
+            "body": "Pipeline modular en Python 3.10+ con semilla global 20260808. Licencia CC-BY-4.0 para tesis + MIT para codigo. Estructura: \\texttt{src/} (codigo), \\texttt{registry/thu/} (JSONs), \\texttt{paper/thu/} (LaTeX + figuras), \\texttt{data/} (inventario + datasets), \\texttt{docs/} (handoffs + bundle). $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.2",
+            "title": "Modulos principales",
+            "body": "1. \\texttt{loader.py}: API estable para JSONs. 2. \\texttt{latex\\\\_builder.py}: genera los 3 \\texttt{.tex} con figuras insertadas. 3. \\texttt{figures.py}: 65 generadores, 195 artefactos. 4. \\texttt{run\\\\_all.py}: orquestador de 16 fases (PIR + THU-TBEA). 5. \\texttt{fetch\\\\_data.py}: descarga con verificacion SHA-256. 6. \\texttt{check\\\\_debts.py}: verifica 40 deudas. $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.3",
+            "title": "Hashes SHA-256 de datasets",
+            "body": "Datasets publicos verificados: Pantheon+ (Brout 2022), DESI DR2 BAO (Lodha 2025), Planck PR4 (Sullivan 2025), ACT DR6 (Diego-Palazuelos 2025). Los hashes completos se preservan en \\texttt{data/inventory/inventory\\\\_v4.json} con verificacion reproducible. $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.4",
+            "title": "Pruebas unitarias",
+            "body": "22 tests en \\texttt{tests/} con pytest: 12 en \\texttt{test\\\\_estadistica.py}, 5 en \\texttt{test\\\\_manifest.py}, 5 en \\texttt{test\\\\_smoke.py}. Ademas, verificacion simbolica 16/16 (SymPy). Pipeline bootstrap 1-click: \\texttt{bootstrap.ps1} (Windows) y \\texttt{bootstrap.sh} (Linux/Mac). $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix D: Reproducible pipeline",
+        "sections": [
+          {
+            "n": "D.1",
+            "title": "Repository architecture",
+            "body": "Modular Python 3.10+ pipeline, global seed 20260808. License: CC-BY-4.0 (thesis) + MIT (code). Structure: \\texttt{src/}, \\texttt{registry/thu/}, \\texttt{paper/thu/}, \\texttt{data/}, \\texttt{docs/}. $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.2",
+            "title": "Main modules",
+            "body": "1. \\texttt{loader.py}: stable JSON API. 2. \\texttt{latex\\\\_builder.py}: generates the 3 \\texttt{.tex} files. 3. \\texttt{figures.py}: 65 generators, 195 artifacts. 4. \\texttt{run\\\\_all.py}: 16-phase orchestrator. 5. \\texttt{fetch\\\\_data.py}: SHA-256 verified downloads. 6. \\texttt{check\\\\_debts.py}: 40-debt checker. $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.3",
+            "title": "SHA-256 dataset hashes",
+            "body": "Verified public datasets: Pantheon+, DESI DR2 BAO, Planck PR4, ACT DR6. Full hashes in \\texttt{inventory\\\\_v4.json}. $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.4",
+            "title": "Unit tests",
+            "body": "22 pytest tests (12 + 5 + 5). Symbolic verification 16/16 (SymPy). Bootstrap 1-click: \\texttt{bootstrap.ps1} / \\texttt{bootstrap.sh}. $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang D: Reproduzierbare Pipeline",
+        "sections": [
+          {
+            "n": "D.1",
+            "title": "Repository-Architektur",
+            "body": "Modulare Python 3.10+ Pipeline, globaler Seed 20260808. Lizenzen: CC-BY-4.0 + MIT. $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.2",
+            "title": "Hauptmodule",
+            "body": "1. \\texttt{loader.py}. 2. \\texttt{latex\\\\_builder.py}. 3. \\texttt{figures.py} (65 Generatoren). 4. \\texttt{run\\\\_all.py} (16 Phasen). 5. \\texttt{fetch\\\\_data.py}. 6. \\texttt{check\\\\_debts.py}. $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.3",
+            "title": "SHA-256-Hashes",
+            "body": "Verifizierte Datensaetze: Pantheon+, DESI DR2, Planck PR4, ACT DR6. $\\textbf{[D]}$"
+          },
+          {
+            "n": "D.4",
+            "title": "Unit-Tests",
+            "body": "22 pytest Tests, symbolische Verifikation 16/16. Bootstrap 1-Klick. $\\textbf{[D]}$"
+          }
+        ]
+      }
+    },
+    "E": {
+      "es": {
+        "title": "Apendice E: Atlas de figuras y tabla maestra",
+        "sections": [
+          {
+            "n": "E.1",
+            "title": "Traza figura-cap-prediccion-script",
+            "body": "Las 65 figuras del programa se organizan en una tabla maestra que mapea cada figura a su capitulo, su prediccion asociada (si aplica) y su generador Python en \\texttt{figures.py}. Formato: \\texttt{fig\\\\_CAP-SEQ\\\\_desc.pdf}. Los 65 PDFs vectoriales + 65 PNG-300 + 65 PNG-150 = 195 artefactos, todos con hashes SHA-256 registrados en \\texttt{figures\\\\_manifest.json}. Distribucion por capitulo: Cap. 3 (8 figs), Cap. 4 (4), Cap. 5 (4), Cap. 6 (4), Cap. 7 (4), Cap. 8 (4), Cap. 9 (3), Cap. 10 (3), Cap. 11 (3), Cap. 12 (2), Cap. 13 (6), Cap. 14 (2), Cap. 15 (1), Cap. 16 (1), Cap. 17 (3), Cap. 18 (4), Cap. 20 (1), Apendices (6). $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix E: Figure atlas and master table",
+        "sections": [
+          {
+            "n": "E.1",
+            "title": "Figure-chapter-prediction-script trace",
+            "body": "The 65 figures are organized in a master table mapping each figure to its chapter, associated prediction, and Python generator. Format: \\texttt{fig\\\\_CAP-SEQ\\\\_desc.pdf}. 195 artifacts (65 PDFs + 65 PNG-300 + 65 PNG-150), all SHA-256 hashed in \\texttt{figures\\\\_manifest.json}. Distribution: Ch. 3 (8 figs), Ch. 4 (4), Ch. 5 (4), Ch. 6 (4), Ch. 7 (4), Ch. 8 (4), Ch. 9 (3), Ch. 10 (3), Ch. 11 (3), Ch. 12 (2), Ch. 13 (6), Ch. 14 (2), Ch. 15 (1), Ch. 16 (1), Ch. 17 (3), Ch. 18 (4), Ch. 20 (1), Appendices (6). $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang E: Abbildungsatlas",
+        "sections": [
+          {
+            "n": "E.1",
+            "title": "Abbildung-Kapitel-Vorhersage-Skript",
+            "body": "65 Abbildungen, jede mit Kapitel, Vorhersage und Python-Generator zugeordnet. 195 Artefakte (65 PDF + 65 PNG-300 + 65 PNG-150), alle mit SHA-256-Hashes in \\texttt{figures\\\\_manifest.json}. $\\textbf{[D]}$"
+          }
+        ]
+      }
+    },
+    "F": {
+      "es": {
+        "title": "Apendice F: Bitacora lakatosiana",
+        "sections": [
+          {
+            "n": "F.1",
+            "title": "Desplazamientos de problema 1.0 -> 5.4",
+            "body": "1.0 (2024): intuicion geometrica. 2.0 (2025): reformulacion rigurosa. 3.0 (2026-I): EFT trans-escalar. 4.0: derivacion completa de la matriz de Dirac. 4.1: correccion de la medida espectral a $k^2 dk$ y correccion aritmetica de $\\Lambda_{\\mathrm{THU}}$. 4.3: cierre computacional de A-3, A-4, A-5, A-8, A-10, A-11, A-12. 5.0: cristalizacion del nucleo con A-1, A-2, A-9, A-13, A-14 por cota estructural. 5.1-5.2: revisiones algebraica y editorial (residuo, $\\tau_c$, Dirac-Bergmann, ramas $k \\neq 0$). 5.3: cuarta revision epistémica (retitulo Cap. 7, reclasificacion de $\\beta_0$ de [D] a [P], nuevo A-17). 5.4: bootstrap + fetch + run_all end-to-end. $\\textbf{[D]}$"
+          },
+          {
+            "n": "F.2",
+            "title": "Contrato epistemic",
+            "body": "Cuatro compromisos: (1) transparencia radical; (2) reproducibilidad integral; (3) falsabilidad; (4) no sobreventa del alcance. Toda afirmacion tecnica lleva etiqueta explicita; toda transicion de estatus se registra en \\texttt{docs/debts\\\\_history.json}; ningun parametro libre se introduce sin declararlo como [P]. $\\textbf{[D]}$"
+          },
+          {
+            "n": "F.3",
+            "title": "Cierre operativo del programa",
+            "body": "La v5.4 entrega a la comunidad: nucleo geometrico derivado, apendices materializados A-K, 3 PDFs (ES/EN/DE) con 0 errores LaTeX, 80 referencias en bibliografia, 65/65 figuras insertadas, bootstrap 1-click reproducible. El pipeline \\texttt{run\\\\_all.py} ejecuta 16 fases (PIR + THU-TBEA) end-to-end y deja todos los artefactos verificables. $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix F: Lakatosian logbook",
+        "sections": [
+          {
+            "n": "F.1",
+            "title": "Problem shifts 1.0 -> 5.4",
+            "body": "1.0 (2024): geometric intuition. 2.0 (2025): rigorous reformulation. 3.0 (2026-I): trans-scale EFT. 4.0: complete Dirac matrix derivation. 4.1: spectral measure correction to $k^2 dk$. 4.3: computational closure. 5.0: core crystallization. 5.1-5.2: algebraic and editorial revisions. 5.3: fourth epistemic review. 5.4: bootstrap + fetch + run_all end-to-end. $\\textbf{[D]}$"
+          },
+          {
+            "n": "F.2",
+            "title": "Epistemic contract",
+            "body": "Four commitments: radical transparency, reproducibility, falsifiability, no overselling. Every technical claim carries an explicit label. $\\textbf{[D]}$"
+          },
+          {
+            "n": "F.3",
+            "title": "Program operational closure",
+            "body": "v5.4 delivers: derived geometric core, appendices A-K materialized, 3 PDFs (ES/EN/DE) with 0 LaTeX errors, 80 bibliography references, 65/65 figures. The \\texttt{run\\\\_all.py} executes 16 phases end-to-end. $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang F: Lakatos-Protokoll",
+        "sections": [
+          {
+            "n": "F.1",
+            "title": "Problemverschiebungen 1.0 -> 5.4",
+            "body": "1.0 (2024): geometrische Intuition. 2.0 (2025): rigorose Neuformulierung. 3.0: transskalare EFT. 4.0: Dirac-Matrix-Ableitung. 4.1: Spektralmass-Korrektur. 4.3: rechnerischer Abschluss. 5.0: Kristallisation des Kerns. 5.1-5.2: algebraische und redaktionelle Ueberarbeitungen. 5.3: vierte epistemische Pruefung. 5.4: Bootstrap + Fetch + Run\\_all. $\\textbf{[D]}$"
+          },
+          {
+            "n": "F.2",
+            "title": "Epistemischer Vertrag",
+            "body": "Vier Verpflichtungen: radikale Transparenz, Reproduzierbarkeit, Falsifizierbarkeit, keine Ueberverkaufung. $\\textbf{[D]}$"
+          },
+          {
+            "n": "F.3",
+            "title": "Operativer Abschluss",
+            "body": "v5.4 liefert: abgeleiteter geometrischer Kern, materialisierte Anhaenge A-K, 3 PDFs (0 LaTeX-Fehler), 80 Referenzen, 65/65 Abbildungen. $\\textbf{[D]}$"
+          }
+        ]
+      }
+    },
+    "G": {
+      "es": {
+        "title": "Apendice G: Morfologias aureas en sistemas naturales [A]",
+        "sections": [
+          {
+            "n": "G.1",
+            "title": "Estatus epistémico",
+            "body": "[A] Este apendice presenta extensiones heuristicas o analogias del programa. No constituye una derivacion del nucleo geometrico [D] ni una prediccion fisica validada. Los postulados V1-V7 se declaran explicitamente con etiqueta [A]: patrones de autosimilitud que otorgan plausibilidad heuristica pero no validan el nucleo. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.2",
+            "title": "Corpus 2019-2026",
+            "body": "V3 (cuasicristales): cuantizacion aurea de modos fononicos en AlPdMn (Matsuura 2024). V1 (filotaxis): angulo de divergencia $\\approx 137{,}5^\\circ$ en girasoles y pinas. V2 (helices biologicas): ADN y caparazon de caracol. V4-V7: patrones de Turing, mosaicos de Penrose, espirales galacticasy estructuras de gran escala. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.3",
+            "title": "Condicion de ascenso de estatus",
+            "body": "Una morfologia asciende de [A] a [P] unicamente si produce una prediccion cuantitativa arriesgada que sea falsable por observacion independiente. Ninguna de las V1-V7 ha alcanzado este umbral hasta la fecha de cierre v5.4. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.4",
+            "title": "Limitaciones declaradas",
+            "body": "La presencia ubicua de $\\varphi$ en la naturaleza no implica geometria helicoidal del vacio. Se trata de un patron matematico observado, no de una derivacion fisica. Este apendice es heuristico. $\\textbf{[A]}$"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix G: Golden morphologies in natural systems [A]",
+        "sections": [
+          {
+            "n": "G.1",
+            "title": "Epistemic status",
+            "body": "[A] This appendix presents heuristic extensions or analogies of the program. It does not constitute a derivation of the geometric core [D] nor a validated physical prediction. Postulates V1-V7 are labeled [A]: self-similarity patterns that grant heuristic plausibility but do not validate the core. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.2",
+            "title": "Corpus 2019-2026",
+            "body": "V3 (quasicrystals): golden quantization in AlPdMn (Matsuura 2024). V1 (phyllotaxis): divergence angle $\\approx 137{.}5^\\circ$. V2 (biological helices): DNA and snail shell. V4-V7: Turing patterns, Penrose tilings, galactic spirals, large-scale structure. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.3",
+            "title": "Status promotion condition",
+            "body": "A morphology ascends from [A] to [P] only if it produces a risky quantitative prediction falsifiable by independent observation. None of V1-V7 has reached this threshold. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.4",
+            "title": "Declared limitations",
+            "body": "The ubiquitous presence of $\\varphi$ does not imply helical geometry of the vacuum. This is a mathematical pattern, not a physical derivation. $\\textbf{[A]}$"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang G: Goldene Morphologien [A]",
+        "sections": [
+          {
+            "n": "G.1",
+            "title": "Epistemischer Status",
+            "body": "[A] Dieser Anhang praesentiert heuristische Erweiterungen oder Analogien des Programms. Er stellt keine Ableitung des geometrischen Kerns [D] dar. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.2",
+            "title": "Korpus 2019-2026",
+            "body": "V3 (Quasikristalle): AlPdMn. V1 (Phyllotaxis): $\\approx 137{,}5^\\circ$. V2 (biologische Helices): DNA. V4-V7: Turing-Muster, Penrose-Parkettierung, Galaxienspiralen. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.3",
+            "title": "Statuserhoehungsbedingung",
+            "body": "Aufstieg von [A] zu [P] nur bei risikoreicher quantitativer Vorhersage. $\\textbf{[A]}$"
+          },
+          {
+            "n": "G.4",
+            "title": "Erklaerte Einschraenkungen",
+            "body": "$\\varphi$ in der Natur impliziert keine helikale Vakuumgeometrie. $\\textbf{[A]}$"
+          }
+        ]
+      }
+    },
+    "H": {
+      "es": {
+        "title": "Apendice H: Coherencia cuantica a temperatura ambiente [A]",
+        "sections": [
+          {
+            "n": "H.1",
+            "title": "Transferencia de triplete asistida por shuttle protonico (Wu 2026)",
+            "body": "[A] Este apendice presenta extensiones heuristicas o analogias del programa. No constituye una derivacion del nucleo geometrico [D] ni una prediccion fisica validada. Wang, Zhu y Wu documentan transferencia de energia de triplete en puntos cuanticos de ZnSe via shuttle protonico (PS-TET). El mecanismo podria conectar con el sector de coherencia mesoscopica del cinturon protector. $\\textbf{[A]}$"
+          },
+          {
+            "n": "H.2",
+            "title": "Superradiancia y microtubulos como cavidades QED",
+            "body": "Gassab-Craddock 2026 y Mavromatos et al. 2025 modelan el interior del microtubulo como cavidad QED de alto factor Q. En el marco THU-TBEA, el sector de coherencia podria potenciar la emision superradiante, aunque esta conexion no esta derivada desde el nucleo. $\\textbf{[A]}$"
+          },
+          {
+            "n": "H.3",
+            "title": "Prediccion falsable P11 y protocolo",
+            "body": "Prediccion P11: resonancia de absorcion diferencial en microtubulos aislados a $f_\\varphi \\approx 1{,}34$ THz. Umbral de falsacion: ausencia del pico diferencial a $3\\sigma$ en tres laboratorios independientes. Estado pre-registrado. El apendice no valida el nucleo gravitacional. $\\textbf{[A]}$"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix H: Room-temperature quantum coherence [A]",
+        "sections": [
+          {
+            "n": "H.1",
+            "title": "Triplet transfer via protonic shuttle (Wu 2026)",
+            "body": "[A] This appendix presents heuristic extensions or analogies of the program. It does not constitute a derivation of the geometric core [D] nor a validated physical prediction. Wang, Zhu and Wu document triplet energy transfer in ZnSe quantum dots via protonic shuttle (PS-TET). The mechanism could connect to the mesoscopic coherence sector of the protective belt. $\\textbf{[A]}$"
+          },
+          {
+            "n": "H.2",
+            "title": "Superradiance and microtubules as QED cavities",
+            "body": "Gassab-Craddock 2026 and Mavromatos et al. 2025 model the microtubule interior as a high-Q QED cavity. Within THU-TBEA, the coherence sector could enhance superradiant emission. This connection is not derived from the core. $\\textbf{[A]}$"
+          },
+          {
+            "n": "H.3",
+            "title": "Falsifiable prediction P11 and protocol",
+            "body": "P11: differential absorption resonance in isolated microtubules at $f_\\varphi \\approx 1{.}34$ THz. Falsification threshold: absence of differential peak at $3\\sigma$ in three independent labs. Pre-registered. $\\textbf{[A]}$"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang H: Quantenkohaerenz bei Raumtemperatur [A]",
+        "sections": [
+          {
+            "n": "H.1",
+            "title": "Triplett-Transfer via Protonen-Shuttle (Wu 2026)",
+            "body": "[A] Dieser Anhang praesentiert heuristische Erweiterungen oder Analogien des Programms. Er stellt keine Ableitung des geometrischen Kerns [D] dar. $\\textbf{[A]}$"
+          },
+          {
+            "n": "H.2",
+            "title": "Superradianz und Mikrotubuli als QED-Kavitaeten",
+            "body": "Gassab-Craddock 2026 und Mavromatos et al. 2025. $\\textbf{[A]}$"
+          },
+          {
+            "n": "H.3",
+            "title": "Falsifizierbare Vorhersage P11",
+            "body": "$f_\\varphi \\approx 1{,}34$ THz. Vorregistriert. $\\textbf{[A]}$"
+          }
+        ]
+      }
+    },
+    "I": {
+      "es": {
+        "title": "Apendice I: Ecuaciones reconstruidas y matriz de Poisson",
+        "sections": [
+          {
+            "n": "I.1",
+            "title": "Convenciones de signo y notacion",
+            "body": "Signatura $(-,+,+,+)$ en $U_4$; $\\varepsilon^{0123} = +1$; $\\Box = g^{\\mu\\nu}\\nabla_\\mu\\nabla_\\nu$; convencion de Feynman $k^2 + m^2 - i\\epsilon$; $M_P = 2{,}435 \\times 10^{18}$ GeV (reducida). $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.2",
+            "title": "Matriz de Poisson 8x8 explicita",
+            "body": "$\\mathcal{M} = \\mathrm{diag}(A, B)$, con $A = \\begin{pmatrix} 0 & -I_2 \\\\\\\\ I_2 & 0 \\end{pmatrix}$ y $B = \\begin{pmatrix} 0 & X \\\\\\\\ -X^\\top & 0 \\end{pmatrix}$ donde $X = \\begin{pmatrix} \\kappa_2 & \\kappa_3 \\\\\\\\ -\\kappa_3 & \\kappa_2 \\end{pmatrix}$. $\\det\\mathcal{M} = (\\kappa_2^2 + \\kappa_3^2)^2 > 0$. Rango constante 8 para $(\\kappa_2, \\kappa_3) \\neq (0,0)$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.3",
+            "title": "Variables canonicas Dirac-Bergmann",
+            "body": "Sobre $M_6 = T^3 \\times \\Sigma_3$: $(\\Phi, \\pi_\\Phi; v_2, v_3, p_2, p_3; \\lambda_1, \\lambda_2)$, dimension total 10. Restricciones geometricas $\\chi_a \\equiv v_{a+1} - \\kappa_{a+1}\\partial_{t_1}\\Phi \\approx 0$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.4",
+            "title": "Residuo del propagador no local",
+            "body": "$\\Delta(k) = -i e^{-ak^2}/(k^2 e^{-ak^2} + m^2 - i\\epsilon)$, con residuo $\\mathrm{Res}[\\Delta] = e^{-am^2}/(1+am^2) > 0$. Para $a \\approx 10^{-37}$ GeV$^{-2}$ y $m^2 \\ll M_P^2$: $\\mathrm{Res} \\approx 1 - am^2 > 0$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.5",
+            "title": "Reduccion canonica de tau y trazabilidad de 1/sqrt(3)",
+            "body": "$-\\tfrac{3}{2}M_P^2 A^2 + 3M_P A \\cdot \\nabla\\tau \\xrightarrow{A=\\nabla\\tau/M_P} +\\tfrac{3}{2}(\\nabla\\tau)^2 \\xrightarrow{\\tau_c=\\sqrt{3}\\tau} +\\tfrac{1}{2}(\\nabla\\tau_c)^2$. Termino no local: $\\tfrac{1}{2}\\tau\\hat{H}_\\varphi\\tau \\to \\tfrac{1}{6}\\tau_c\\hat{H}_\\varphi\\tau_c$. Acoplamientos lineales: $g_{\\mathrm{eff}} = g_{\\mathrm{bare}}/\\sqrt{3}$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.6",
+            "title": "Coeficiente del termino de espin en Friedmann",
+            "body": "$3H^2 = \\kappa^2(\\rho_{\\mathrm{mat}} + \\rho_\\Phi + \\tfrac{1}{2}m_K^2\\psi^2 - \\tfrac{\\kappa^2}{6}S^2 a^{-6}) = \\kappa^2\\rho_{\\mathrm{tot}} - \\tfrac{\\kappa^4}{6}S^2 a^{-6}$. Coeficiente canonico: $\\kappa^4/6$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.7",
+            "title": "Ramas de Lambert-W y prescripcion de contorno",
+            "body": "$k_k^2 = -(M_P^2/\\varphi)W_k(+\\varphi m^2/M_P^2)$, $k \\in \\mathbb{Z}$. Rama $k=0$: polo fisico. Ramas $k \\neq 0$: $\\mathrm{Re}(k_k^2) > 0$ en escala Planck, desacopladas por prescripcion fakeon. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.8",
+            "title": "Masa de Planck reducida (convencion global)",
+            "body": "$M_P \\equiv 1/\\sqrt{8\\pi G} = 2{,}435 \\times 10^{18}$ GeV $= 2{,}435 \\times 10^{21}$ MeV. Usada consistentemente en Caps. 3, 4, 6, 12, 14. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.9",
+            "title": "Cancelacion sectorial del vacio",
+            "body": "$\\rho_{\\mathrm{THU}}^{\\mathrm{escalar}} = (4\\pi/(2\\pi)^3)\\int_0^\\infty k^2 \\cos(k/\\kappa_\\varphi) e^{-\\varphi(k/M_P)^2} dk$, que se anula para $\\varphi^{2N} = 2\\varphi$. Extension al SM completo: problema abierto A-17 [F]. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.10",
+            "title": "Estatus de la amplitud de birefringencia",
+            "body": "$\\beta_0 = (\\alpha_{\\mathrm{em}}/2) A N_{\\mathrm{DW}}$ con $A = 1{,}819 \\pm 0{,}19$. Valor $\\beta_0 = 0{,}3803^\\circ$ clasificado como [P] porque depende del espectro fermionico VL postulado a escala GUT. Forma funcional $\\beta(z)/\\beta_0$ es [D]. $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "en": {
+        "title": "Appendix I: Reconstructed equations and Poisson matrix",
+        "sections": [
+          {
+            "n": "I.1",
+            "title": "Sign conventions",
+            "body": "Signature $(-,+,+,+)$; $\\varepsilon^{0123} = +1$; Feynman $k^2 + m^2 - i\\epsilon$; $M_P = 2{.}435 \\times 10^{18}$ GeV. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.2",
+            "title": "Explicit 8x8 Poisson matrix",
+            "body": "$\\det\\mathcal{M} = (\\kappa_2^2 + \\kappa_3^2)^2 > 0$, rank 8. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.3",
+            "title": "Dirac-Bergmann canonical variables",
+            "body": "$(\\Phi, \\pi_\\Phi; v_2, v_3, p_2, p_3; \\lambda_1, \\lambda_2)$, dim 10. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.4",
+            "title": "Non-local propagator residue",
+            "body": "$\\mathrm{Res}[\\Delta] = e^{-am^2}/(1+am^2) > 0$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.5",
+            "title": "Canonical reduction and 1/sqrt(3)",
+            "body": "$\\tau_c = \\sqrt{3}\\tau$; $\\tfrac{1}{2}\\tau\\hat{H}_\\varphi\\tau \\to \\tfrac{1}{6}\\tau_c\\hat{H}_\\varphi\\tau_c$; $g_{\\mathrm{eff}} = g_{\\mathrm{bare}}/\\sqrt{3}$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.6",
+            "title": "Spin term in Friedmann",
+            "body": "$\\kappa^4/6$ canonical. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.7",
+            "title": "Lambert-W branches",
+            "body": "$k_k^2 = -(M_P^2/\\varphi)W_k(+\\varphi m^2/M_P^2)$, $k \\in \\mathbb{Z}$. Fakeon prescription. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.8",
+            "title": "Reduced Planck mass",
+            "body": "$M_P = 2{.}435 \\times 10^{18}$ GeV. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.9",
+            "title": "Sectorial vacuum cancellation",
+            "body": "Scalar sector only; SM extension is open problem A-17 [F]. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.10",
+            "title": "Birefringence amplitude status",
+            "body": "$\\beta_0 = 0{.}3803^\\circ$ classified as [P]. Shape is [D]. $\\textbf{[D]}$"
+          }
+        ]
+      },
+      "de": {
+        "title": "Anhang I: Rekonstruierte Gleichungen",
+        "sections": [
+          {
+            "n": "I.1",
+            "title": "Vorzeichenkonventionen",
+            "body": "$M_P = 2{,}435 \\times 10^{18}$ GeV. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.2",
+            "title": "8x8 Poisson-Matrix",
+            "body": "$\\det\\mathcal{M} = (\\kappa_2^2 + \\kappa_3^2)^2 > 0$, Rang 8. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.3",
+            "title": "Dirac-Bergmann-Variablen",
+            "body": "Dimension 10. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.4",
+            "title": "Nichtlokaler Propagator",
+            "body": "$\\mathrm{Res}[\\Delta] = e^{-am^2}/(1+am^2) > 0$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.5",
+            "title": "Kanonische Reduktion",
+            "body": "$\\tau_c = \\sqrt{3}\\tau$; $g_{\\mathrm{eff}} = g_{\\mathrm{bare}}/\\sqrt{3}$. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.6",
+            "title": "Spin-Term in Friedmann",
+            "body": "$\\kappa^4/6$ kanonisch. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.7",
+            "title": "Lambert-W-Zweige",
+            "body": "Fakeon-Vorschrift. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.8",
+            "title": "Reduzierte Planck-Masse",
+            "body": "$2{,}435 \\times 10^{18}$ GeV. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.9",
+            "title": "Sektorale Vakuumausloeschung",
+            "body": "Nur skalarer Sektor; SM-Erweiterung A-17 [F]. $\\textbf{[D]}$"
+          },
+          {
+            "n": "I.10",
+            "title": "Birefringenz-Amplitude",
+            "body": "$\\beta_0 = 0{,}3803^\\circ$ als [P]. $\\textbf{[D]}$"
+          }
+        ]
+      }
+    }
   }
 }

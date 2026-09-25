@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-09-22T00:02:29.2963805Z",
+  "A_ruta": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto",
+  "B_ruta": "C:\\Users\\kg4tr\\Documents\\Investigacion_LaboratorioSecreto",
+  "A_stats": {
+    "ruta": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto",
+    "archivos": 5127,
+    "carpetas": 834,
+    "mb_total": 11663.79,
+    "ultimo": "2026-09-21T20:00:49.837088-04:00"
+  },
+  "B_stats": {
+    "ruta": "C:\\Users\\kg4tr\\Documents\\Investigacion_LaboratorioSecreto",
+    "archivos": 171,
+    "carpetas": 27,
+    "mb_total": 5.49,
+    "ultimo": "2026-09-21T19:55:33.0707948-04:00"
+  },
+  "solo_en_B": [
+    "data\\inputs\\COSM-001.json",
+    "data\\inputs\\COSM-002.json",
+    "data\\inputs\\COSM-003.json",
+    "data\\inputs\\COSM-004.json",
+    "data\\inputs\\COSM-005.json",
+    "data\\inputs\\COSM-006.json",
+    "seeds\\seed_v0.7.0_20260920.json"
+  ],
+  "solo_en_A_count": 4963,
+  "carpetas_raiz_A": [
+    ".githooks",
+    ".pytest_cache",
+    ".streamlit",
+    "data",
+    "docs",
+    "outputs",
+    "paper",
+    "registry",
+    "replication",
+    "scripts",
+    "seeds",
+    "src",
+    "tests"
+  ],
+  "carpetas_raiz_B": [
+    ".pytest_cache",
+    ".streamlit",
+    "data",
+    "docs",
+    "outputs",
+    "paper",
+    "registry",
+    "replication",
+    "seeds",
+    "src",
+    "tests"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "fecha": "2026-09-22T00:10:22.258357+00:00",
+  "h5_path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\data\\raw\\cosmic-birefringence-planck-act\\data\\computed\\mcmc_chain.h5",
+  "run_id": 3,
+  "current_step_sqlite": 27100,
+  "n_walkers": 12,
+  "n_params": 6,
+  "n_burn": 5000,
+  "valid_rows_used": 22111,
+  "n_samples_post_burn": 265332,
+  "beta_mean_deg": 0.20962618581600156,
+  "beta_std_deg": 0.07196125318956932,
+  "beta_median_deg": 0.20992331067589043,
+  "beta_p16_deg": 0.13818105652784013,
+  "beta_p84_deg": 0.280777348395258,
+  "unidad_origen_chain": "radianes (convertido a grados)",
+  "nota": "Chain recuperado post PermissionError. Filas post-crash (logp=0) excluidas."
+}

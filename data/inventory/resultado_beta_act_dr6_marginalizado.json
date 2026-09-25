@@ -1,0 +1,29 @@
+{
+  "beta_marginalized_deg": 0.28826472796992986,
+  "sigma_total_deg": 0.046573529301956004,
+  "sigma_within_deg": 0.0463162870075117,
+  "sigma_between_deg": 0.004888270601957026,
+  "n_samples": 500,
+  "params_marginalized": [
+    "As",
+    "ns",
+    "H0",
+    "ombh2",
+    "omch2"
+  ],
+  "param_sigmas": {
+    "H0": 0.54,
+    "ombh2": 0.00015,
+    "omch2": 0.0012,
+    "ns": 0.0042,
+    "As": 3e-11
+  },
+  "lmax_camb": 8000,
+  "beta_thu_deg": 0.3803,
+  "sigma_thu_deg": 0.04,
+  "tension_sigma": 1.4991180633716386,
+  "metodo": "Taylor linear expansion + Planck 2018 Gaussian prior",
+  "cov_note": "Block-diagonal EB/TB (no hay archivo conjunto en xtra/)",
+  "seed": 20260921,
+  "fecha": "2026-09-21T07:23:42Z"
+}

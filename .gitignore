@@ -94,3 +94,8 @@ __pycache__/
 # === Datos que SI van (pequeños, ya hasheados) ===
 !data/inventory/
 !data/inputs/
+data/_backup*
+data/_backup_borrado/
+outputs/run_log_*.txt
+CLEANUP_BACKUP_*.zip
+

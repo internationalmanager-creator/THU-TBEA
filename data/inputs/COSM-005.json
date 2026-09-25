@@ -1,0 +1,35 @@
+{
+  "id": "COSM-005",
+  "categoria": "cosmologia",
+  "titulo": "POLARBEAR birefringence cosmica",
+  "valor_principal": 1.5,
+  "incertidumbre": 1.2,
+  "unidad": "grados",
+  "fuente": "POLARBEAR2015",
+  "origen": "observado",
+  "estatus": "D",
+  "notas": "Primera medicion de birefringencia por POLARBEAR. Dato puntual declarado en el paper publicado.",
+  "dataset_ref": {
+    "path": "data/raw/",
+    "files": [
+      {
+        "name": "beta_polarbear_2015.csv",
+        "sha256": "1b3349f2b51f8c0e0dae97686d899fda533fa6570f6cdede5e1b4e6202d5eda0",
+        "size": 133
+      }
+    ]
+  },
+  "provenance": {
+    "instrumento": "POLARBEAR (Huan Tran Telescope, Atacama)",
+    "ano": 2015,
+    "tipo_publicacion": "revista indexada",
+    "cita_completa": "POLARBEAR Collaboration. A Measurement of the Cosmic Microwave Background B-Mode Polarization Power Spectrum at Sub-Degree Scales with POLARBEAR. Physical Review D, 92, 123509 (2015).",
+    "reproducibilidad": "Publico via LAMBDA/NASA + arXiv",
+    "extracto": "beta = 1.5 +/- 1.2 grados (68% CL, estadistico).",
+    "fecha_descarga_utc": "2026-09-21T04:01:39Z",
+    "condiciones": "150 GHz, region 6.5 deg^2, multipolos 500 < l < 2100.",
+    "doi": "10.1103/PhysRevD.92.123509",
+    "hash_pdf": "1b3349f2b51f8c0e0dae97686d899fda533fa6570f6cdede5e1b4e6202d5eda0",
+    "notas": ""
+  }
+}

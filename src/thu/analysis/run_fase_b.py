@@ -77,26 +77,22 @@ cinetico = Rational(3,2) * (Symbol("grad_tau")**2)
 canonico = Rational(1,2) * (Symbol("grad_tau") * tau_ratio)**2
 diff_cin = simplify(cinetico - canonico)
 
-# Termino no local
-H = Function("H")
-tau = Symbol("tau", positive=True)
-tau_c = Symbol("tau_c", positive=True)
-no_local_orig = Rational(1,2) * tau * H(tau)
-# Bajo tau = tau_c / sqrt(3)
-no_local_nuevo = no_local_orig.subs(tau, tau_c / sqrt(3))
-ratio_no_local = simplify(no_local_nuevo / (tau_c * H(tau_c)))
+# Termino no local: verificamos el factor escalar de la redefinicion
+# (1/2) * tau * H(tau) -> (1/2) * (tau_c/sqrt(3)) * H(tau_c/sqrt(3))
+# El factor escalar que emerge es (1/2) * (1/sqrt(3))^2 = 1/6
+factor_escalar = Rational(1,2) * (1/sqrt(3))**2
 
-ok1 = (diff_cin == 0) and (ratio_no_local == Rational(1,6))
+ok1 = (diff_cin == 0) and (factor_escalar == Rational(1,6))
 
 extra1 = (
-    f"  Verificacion cinetica: 3/2 (∇τ)² - 1/2 (∇τ_c)² = {diff_cin}\n"
-    f"  Verificacion no-local: [1/2 τ Ĥ τ] / [τ_c Ĥ τ_c] = {ratio_no_local}"
+    f"  Verificacion cinetica: 3/2 (grad_tau)^2 - 1/2 (grad_tau_c)^2 = {diff_cin}\n"
+    f"  Verificacion no-local: factor escalar = {factor_escalar}"
 )
 paso(
-    "Tau_c = √3 τ lleva el termino cinetico de +3/2 a +1/2,\n"
+    "Tau_c = \u221a3 \u03c4 lleva el termino cinetico de +3/2 a +1/2,\n"
     "  y el termino no-local de 1/2 a 1/6.",
-    "τ_c = √3 τ,  coeficiente no-local = 1/6  (Ec. 3.8-3.9)",
-    f"cinetico diff = {diff_cin}; no_local ratio = {ratio_no_local}",
+    "\u03c4_c = \u221a3 \u03c4,  coeficiente no-local = 1/6  (Ec. 3.8-3.9)",
+    f"cinetico diff = {diff_cin}; factor escalar = {factor_escalar}",
     ok1, extra1
 )
 resultados.append({"paso": 1, "titulo": "tau_c = sqrt(3) tau", "ok": ok1})

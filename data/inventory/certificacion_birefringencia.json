@@ -1,0 +1,37 @@
+{
+  "fecha": "2026-09-21T07:14:06Z",
+  "beta_thu": {
+    "valor": 0.3803,
+    "sigma": 0.04,
+    "estatus": "[P]"
+  },
+  "beta_obs_planck_pr4": {
+    "valor": 0.3,
+    "sigma": 0.11,
+    "fuente": "Diego-Palazuelos et al. (2022), PRL 128, 091302",
+    "doi": "10.1103/PhysRevLett.128.091302"
+  },
+  "tension_sigma": 0.686,
+  "archivos_certificados": [
+    {
+      "nombre": "beta_planck_pr4.csv",
+      "sha256": "dadb581268adf07ecf4286a3802088b3c705cb58cf664ff6fbd25e1b6620fb5d",
+      "size_kb": 0.111328125
+    },
+    {
+      "nombre": "NPIPE_CB_spectra.csv",
+      "sha256": "c632e783107df2af519df0ac72b68c34a36d5cb0eca520bd2b47205f32f35d8c",
+      "size_kb": 186.140625
+    },
+    {
+      "nombre": "PR3_CB_spectra.csv",
+      "sha256": "8b2aea52000a109761c25ee92274e74af422a922bb698283ba3002544bbe2297",
+      "size_kb": 186.0390625
+    },
+    {
+      "nombre": "NPIPE_alpha_CMB_cc.csv",
+      "sha256": "c1b863275e933fb1e95ec278ee4c198501bb88c527687d6b5eb9207846b15656",
+      "size_kb": 2.3251953125
+    }
+  ]
+}

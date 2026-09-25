@@ -1,0 +1,82 @@
+{
+  "id": "P5",
+  "titulo_original": "Residuo helicoidal de espin (STAR/HADES)",
+  "version_declarada": "v5.0 (PDF PROGRAMA_COMPLETO_v5.0.pdf)",
+  "fecha_retiro": "2026-09-21T22:44:33Z",
+  "estado": "RETIRADA DE PREDICCIONES FALSABLES",
+  "razon_retiro": "La prediccion P5 tal como aparece en el PDF v5.0 no cumple los estandares minimos de falsabilidad y trazabilidad exigidos por el propio contrato epistemico del programa. Se retira del registro de predicciones falsables hasta que cumpla esos estandares.",
+  "problemas_identificados": [
+    {
+      "id": "P5-1",
+      "severidad": "ALTA",
+      "problema": "Valor STAR citado no verificado",
+      "detalle": "El PDF v5.0 §16.4 cita 'STAR (1.05 ± 0.15) %'. El paper referenciado en el PDF (J. Adam et al., PRC 108, 014910, 2023) NO reporta ese valor en su abstract. Reporta cotas superiores (<0.24%, <0.35%) y limites de campo magnetico, no un valor central de polarizacion global.",
+      "evidencia": "Consulta al abstract del paper citado (verificado en linea)",
+      "impacto": "El valor contra el que se compara no es verificable desde la fuente citada"
+    },
+    {
+      "id": "P5-2",
+      "severidad": "ALTA",
+      "problema": "Prediccion THU sin derivacion",
+      "detalle": "El PDF v5.0 §16.4 afirma '(0.92 ± 0.10) %' como prediccion THU. No aparece en el texto ninguna derivacion, formula o calculo que produzca ese valor ni su incertidumbre. Tampoco hay referencia a un apendice o seccion previa del PDF que lo derive.",
+      "evidencia": "Busqueda exhaustiva en el PDF v5.0",
+      "impacto": "Sin derivacion, no es una prediccion [D]; tampoco cumple [P] que exigiria postulado explicito"
+    },
+    {
+      "id": "P5-3",
+      "severidad": "MEDIA",
+      "problema": "Inconsistencia con el estatus epistemico declarado",
+      "detalle": "El PDF v5.0 clasifica las morfologias de espin como [A] analogias (§16.3) y declara que 'ninguna analogia cuenta como corroboracion' (§17.5). Sin embargo, la Tabla 17.1 lista P5 como prediccion pre-registrada ('Prereg.'), lo cual la eleva de facto al nivel de prediccion falsable sin la derivacion correspondiente.",
+      "evidencia": "§16.3 + §17.5 + Tabla 17.1 del PDF v5.0",
+      "impacto": "Contradiccion interna entre el estatus declarado y el uso en tabla"
+    },
+    {
+      "id": "P5-4",
+      "severidad": "MEDIA",
+      "problema": "Comparacion '1 sigma' no significativa",
+      "detalle": "El PDF afirma 'dentro de 1 sigma'. Aun aceptando los valores citados sin verificacion, THU predice 0.92 ± 0.10% mientras STAR mide 1.05 ± 0.15%. La tension es 0.13% / sqrt(0.10^2 + 0.15^2) = 0.13 / 0.18 = 0.72 sigma. Tecnicamente 'dentro de 1 sigma' es correcto, pero el acuerdo NO es evidencia de nada: dos modelos sin relacion con el mismo valor central tambien estarian 'dentro de 1 sigma'.",
+      "evidencia": "Calculo aritmetico simple",
+      "impacto": "El 'exito' reportado no es discriminante entre THU y una prediccion nula"
+    }
+  ],
+  "verificaciones_fallidas": [
+    {
+      "verificacion": "Origen del valor 1.05% STAR",
+      "resultado": "NO ENCONTRADO en abstract del paper citado",
+      "accion_sugerida": "Identificar la fuente exacta o eliminar la comparacion"
+    },
+    {
+      "verificacion": "Origen del valor 0.92% THU",
+      "resultado": "NO ENCONTRADO en PDF v5.0",
+      "accion_sugerida": "Documentar derivacion o eliminar el valor"
+    },
+    {
+      "verificacion": "Derivacion de incertidumbre +/- 0.10% THU",
+      "resultado": "NO ENCONTRADO",
+      "accion_sugerida": "Justificar o eliminar"
+    }
+  ],
+  "acciones_tomadas": [
+    "Marcar P5 en el registro de predicciones como RETIRADA",
+    "Documentar las razones en este archivo (trazabilidad completa)",
+    "Sugerir al autor (Erick Duque) revisar si existe version intermedia con la derivacion",
+    "No incluir P5 en futuras publicaciones hasta resolver los 4 problemas"
+  ],
+  "acciones_NO_tomadas": [
+    "NO se modifica el PDF v5.0 original (queda como registro historico)",
+    "NO se borra P5 del historial del programa (queda documentada su retirada)",
+    "NO se reescribe la seccion §16.4 del PDF v5.0",
+    "NO se retira el Apendice G (las morfologias como analogias siguen siendo validas)"
+  ],
+  "recomendacion_para_reversion": {
+    "condiciones": [
+      "Localizar la fuente exacta del valor STAR citado (puede ser un paper distinto o una agregacion)",
+      "Documentar la derivacion de 0.92% +/- 0.10% desde el nucleo teorico",
+      "Justificar por que esta prediccion es [D] o [P] y no [A] analogia",
+      "Realizar un test discriminante (no solo 'dentro de 1 sigma')"
+    ],
+    "si_se_cumplen": "P5 puede reintegrarse como prediccion falsable",
+    "si_no_se_cumplen": "P5 permanece retirada indefinidamente"
+  },
+  "contrato_epistemico": "Este retiro es consistente con el contrato epistemico declarado en el PDF v5.0 (Capitulo 1, Apendice F.2). El propio programa exige: (1) transparencia radical, (2) reproducibilidad, (3) falsabilidad, (4) no sobreventa del alcance. Retirar P5 es un acto de cumplimiento de esos cuatro compromisos, no una debilidad del programa."
+}

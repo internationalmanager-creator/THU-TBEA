@@ -1,0 +1,20 @@
+{
+  "fecha": "2026-09-21T16:57:01Z",
+  "archivo": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\data\\raw\\act_dr6_packages\\data\\ACTDR6MFLike\\v1.0\\dr6_data.fits",
+  "sha256": "eca996ddb1fc57750299bf5757a40f5d178c1a8b3446d3341a99ca5ba7378e8b",
+  "size_mb": 855.31,
+  "url_origen": "https://lambda.gsfc.nasa.gov/data/act/pspipe/sacc_files/dr6_data.tar.gz",
+  "data_types": {
+    "cl_00": 855,
+    "cl_0e": 1425,
+    "cl_0b": 1425,
+    "cl_ee": 855,
+    "cl_eb": 855,
+    "cl_be": 570,
+    "cl_bb": 855
+  },
+  "tiene_eb": true,
+  "tiene_be": true,
+  "tiene_tb": false,
+  "sirve_birefringencia": true
+}

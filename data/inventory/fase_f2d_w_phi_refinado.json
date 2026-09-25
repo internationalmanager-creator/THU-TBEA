@@ -1,0 +1,26 @@
+{
+  "fase": "F.2d",
+  "fecha": "2026-09-21T20:06:34Z",
+  "datos": {
+    "DESI_DR2": {
+      "n": 13,
+      "sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585"
+    },
+    "Pantheon_plus": {
+      "n": 1588,
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8",
+      "cov_sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+    }
+  },
+  "ajuste": {
+    "Om": 0.3122696974069664,
+    "w0": -0.8370382979156303,
+    "wa": -0.4968544695429449,
+    "sigma_Om": 0.012477479144864901,
+    "sigma_w0": 0.054996493532579155,
+    "sigma_wa": 0.4186613023859461,
+    "chi2": 1441.0137708249736,
+    "chi2_LCDM": 1471.1377460314052
+  },
+  "veredicto": "NO_FALSACION"
+}

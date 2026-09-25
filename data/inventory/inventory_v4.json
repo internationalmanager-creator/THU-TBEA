@@ -157,13 +157,13 @@
       "archivo": "JointCMB_planck_v1_20260919.tar.xz",
       "grupo": "zen_runtime\\Joint_Planck_PR4_likelihood_runtime_data_for_Joint",
       "url": "https://zenodo.org/api/records/22845832/files/JointCMB_planck_v1_20260919.tar.xz/content",
-      "sha256": "",
-      "bytes": 0,
+      "sha256": "d1be35bb0d4caf4d52bacfe81a11cf47a0e9845741b4b675336563ec4191e15a",
+      "bytes": 91184524,
       "licencia": "other-open",
       "colaboracion_indirecta": true,
       "investigacion_ampliada": "Joint Planck PR4 likelihood runtime data for JointCMBLikelihoods.jl",
       "fecha": "2026-09-21T05:44:24Z",
-      "status": "http_206"
+      "status": "ok"
     },
     {
       "id": "INV-D8-012",

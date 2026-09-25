@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tesis_es.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Database file #1: thu_references.bib
+Warning--to sort, need author or key in KibbleZurek
+Warning--empty booktitle in BasIBeneito2022
+Warning--empty publisher in BasIBeneito2022
+You've used 82 entries,
+            2118 wiz_defined-function locations,
+            1053 strings with 16722 characters,
+and the built_in function-call counts, 23907 in all, are:
+= -- 2416
+> -- 969
+< -- 1
++ -- 386
+- -- 304
+* -- 1463
+:= -- 4117
+add.period$ -- 302
+call.type$ -- 82
+change.case$ -- 374
+chr.to.int$ -- 0
+cite$ -- 85
+duplicate$ -- 846
+empty$ -- 2001
+format.name$ -- 304
+if$ -- 4980
+int.to.chr$ -- 0
+int.to.str$ -- 82
+missing$ -- 68
+newline$ -- 468
+num.names$ -- 162
+pop$ -- 335
+preamble$ -- 1
+purify$ -- 297
+quote$ -- 0
+skip$ -- 626
+stack$ -- 0
+substring$ -- 1515
+swap$ -- 90
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 318
+warning$ -- 3
+while$ -- 240
+width$ -- 84
+write$ -- 987
+(There were 3 warnings)

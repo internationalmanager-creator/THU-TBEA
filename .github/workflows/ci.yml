@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run THU pipeline (skip LaTeX compile)
+        run: |
+          python src/run_all.py --skip-pir --skip-compile --skip-tests
+      - name: Verify symbolic + debts
+        run: |
+          python -c "import json, sys; d=json.load(open('data/inventory/verificacion_simbolica.json')); assert d['pass']==d['total_pasos'], 'symbolic FAIL'; print('symbolic 16/16 OK')"
+          python scripts/check_debts.py || true

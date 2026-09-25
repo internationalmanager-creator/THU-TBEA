@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "fecha": "2026-09-22T00:37:28.5050730Z",
+    "duracion_s": 1349.1,
+    "origen": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto",
+    "destino": "\\\\Atila\\f\\THU-TBEA_Lab",
+    "modo": "copiar"
+  },
+  "origen_gb": 11.39,
+  "origen_n": 5107,
+  "destino_gb": 11.39,
+  "criticos": [
+    {
+      "ruta": "data\\raw\\pantheon_plus\\Pantheon+SH0ES.dat",
+      "bytes": 579283,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\pantheon_plus\\Pantheon+SH0ES_STAT+SYS.cov",
+      "bytes": 33284960,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\desi_dr2\\desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "bytes": 472,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\desi_dr2\\desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "bytes": 2547,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\act_dr6\\act_dr6.02_spectra_and_cov_xtra.tar.gz",
+      "bytes": 25899,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\act_dr6\\act_dr6.02_spectra_and_cov_binning_50.tar.gz",
+      "bytes": 1092260,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\planck_pr4\\beta_planck_pr4.csv",
+      "bytes": 114,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\planck_pr4\\cb_spectra\\NPIPE_CB_spectra.csv",
+      "bytes": 190608,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\planck_pr4\\cb_spectra\\PR3_CB_spectra.csv",
+      "bytes": 190504,
+      "estado": "ok"
+    },
+    {
+      "ruta": "data\\raw\\act_dr6_packages\\data\\ACTDR6MFLike\\v1.0\\dr6_data.fits",
+      "bytes": 896860800,
+      "estado": "ok"
+    }
+  ],
+  "errores": 0
+}

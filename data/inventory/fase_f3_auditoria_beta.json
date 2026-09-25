@@ -1,0 +1,123 @@
+{
+  "fase": "F.3",
+  "fecha": "2026-09-21T20:17:43Z",
+  "beta_thu": {
+    "valor": 0.3803,
+    "sigma": 0.04
+  },
+  "mediciones": [
+    {
+      "id": "minami_komatsu_2020",
+      "paper": "Minami & Komatsu 2020, PRL 125, 221301, arXiv:2011.11254",
+      "beta": 0.35,
+      "sigma": 0.14,
+      "dataset": "Planck PR3",
+      "estatus": "reportado_pdf",
+      "notas": "Primera deteccion significativa (~2.4 sigma)",
+      "delta": 0.03030000000000005,
+      "tension_sigma": 0.2081012543822642,
+      "tension_signed": 0.2081012543822642
+    },
+    {
+      "id": "eskilt_komatsu_2022",
+      "paper": "Eskilt & Komatsu 2022, PRD 106, 063503, arXiv:2205.13962",
+      "beta": 0.342,
+      "sigma": 0.094,
+      "dataset": "Planck PR3 (reanalisis)",
+      "estatus": "reportado_pdf",
+      "notas": "Refinamiento con correccion de calibracion",
+      "delta": 0.0383,
+      "tension_sigma": 0.37491406962313356,
+      "tension_signed": 0.37491406962313356
+    },
+    {
+      "id": "diego_palazuelos_2022",
+      "paper": "Diego-Palazuelos et al. 2022, PRL 128, 091302, arXiv:2201.07682",
+      "beta": 0.3,
+      "sigma": 0.11,
+      "dataset": "Planck PR4 (NPIPE)",
+      "estatus": "verificado_disco",
+      "notas": "beta_planck_pr4.csv certificado",
+      "delta": 0.08030000000000004,
+      "tension_sigma": 0.6860491991465594,
+      "tension_signed": 0.6860491991465594
+    },
+    {
+      "id": "ballardini_2025",
+      "paper": "Ballardini et al. 2025, JCAP 09, 075",
+      "beta": 0.3,
+      "sigma": 0.05,
+      "dataset": "Planck PR4 + otras",
+      "estatus": "reportado_pdf",
+      "notas": "Sigma muy pequena - verificar paper (posible distinto dataset)",
+      "delta": 0.08030000000000004,
+      "tension_sigma": 1.2540753079655074,
+      "tension_signed": 1.2540753079655074
+    },
+    {
+      "id": "remazeilles_2025",
+      "paper": "Remazeilles 2025, JCAP 12, 013",
+      "beta": 0.32,
+      "sigma": 0.12,
+      "dataset": "Planck ILC",
+      "estatus": "reportado_pdf",
+      "notas": "Analisis con ILC component separation",
+      "delta": 0.06030000000000002,
+      "tension_sigma": 0.4767133572703834,
+      "tension_signed": 0.4767133572703834
+    },
+    {
+      "id": "act_dr6_2025_paper",
+      "paper": "Diego-Palazuelos & Komatsu 2025, arXiv:2509.13654",
+      "beta": 0.215,
+      "sigma": 0.074,
+      "dataset": "ACT DR6",
+      "estatus": "verificado_paper",
+      "notas": "Valor oficial del paper - replicado en E.3-C8f",
+      "delta": 0.16530000000000003,
+      "tension_sigma": 1.9650741445153221,
+      "tension_signed": 1.9650741445153221
+    },
+    {
+      "id": "planck_pr4_maps_2025",
+      "paper": "Scott et al. 2025/2026 (map-space)",
+      "beta": 0.46,
+      "sigma": 0.07,
+      "dataset": "Planck PR4 (map-space)",
+      "estatus": "reportado_pdf",
+      "notas": "Metodologia map-space - sigma solo estadistico",
+      "delta": -0.0797,
+      "tension_sigma": 0.9885568346759913,
+      "tension_signed": -0.9885568346759913
+    },
+    {
+      "id": "E3_C8f_thu",
+      "paper": "Este analisis (FASE E, E.3-C8f)",
+      "beta": 0.207,
+      "sigma": 0.073,
+      "dataset": "ACT DR6 (SACC oficial)",
+      "estatus": "verificado_disco",
+      "notas": "Pipeline Eskilt 2026 ejecutado localmente, chi2/dof=1.04",
+      "delta": 0.17330000000000004,
+      "tension_sigma": 2.081916379638111,
+      "tension_signed": 2.081916379638111
+    }
+  ],
+  "weighted_average": {
+    "beta": 0.30648697224210675,
+    "sigma": 0.027835484430799414,
+    "tension_vs_THU": 1.5146706223988284,
+    "nota": "sin correlaciones - cota inferior"
+  },
+  "veredicto": "TENSION_MODERADA",
+  "max_tension": {
+    "medicion": "E3_C8f_thu",
+    "tension_sigma": 2.081916379638111
+  },
+  "advertencias": [
+    "Las mediciones NO son independientes (Planck y ACT comparten datos)",
+    "El weighted average es una cota inferior de la tension real",
+    "Ballardini 2025 tiene sigma=0.05 (verificar paper)",
+    "Planck PR4 map-space tiene sigma solo estadistico"
+  ]
+}

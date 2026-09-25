@@ -1,0 +1,24 @@
+{
+  "fecha": "2026-09-21T06:53:30Z",
+  "camb_version": "2.0.4",
+  "params": {
+    "H0": 67.36,
+    "ombh2": 0.02237,
+    "omch2": 0.12,
+    "tau": 0.0544,
+    "mnu": 0.06,
+    "ns": 0.9649,
+    "As": 2.1e-09,
+    "lmax": 4000
+  },
+  "source": "Planck 2018 VI (A&A 641, A6)",
+  "lmax": 4000,
+  "unit": "muK^2",
+  "spectra": [
+    "TT",
+    "EE",
+    "BB",
+    "TE"
+  ],
+  "t_camb_seconds": 9.636
+}

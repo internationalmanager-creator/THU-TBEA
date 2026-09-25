@@ -1,39 +1,205 @@
 {
   "source": "Cap. 20, Cuadro 20.1 (v5.3)",
   "problems": [
-    {"id":"A-1","title":"Hiperbolicidad global","status":"CERRADO","label":"D",
-     "justification":"Crossover UV en E ~ M_P/sqrt(phi).","chapter":"5","figure":"fig_05-01_espacio_fases"},
-    {"id":"A-2","title":"Perturbaciones no lineales","status":"CERRADO","label":"D",
-     "justification":"Supresion EFT (E/Lambda)^2.","chapter":"8","figure":"fig_08-01_Hz"},
-    {"id":"A-3","title":"Correcciones termicas","status":"CERRADO","label":"D",
-     "justification":"Supresion exponencial Matsubara (V5.0).","chapter":"7","figure":"fig_07-01_cancelacion_vacio"},
-    {"id":"A-4","title":"Backreaction chameleon","status":"CERRADO","label":"D",
-     "justification":"Zona estable de Mathieu (V5.0).","chapter":"9","figure":"fig_09-01_perfil_chameleon"},
-    {"id":"A-5","title":"Ondas gravitacionales","status":"CERRADO","label":"D",
-     "justification":"Cotas LIGO O4 (V5.0).","chapter":"15","figure":"fig_15-01_cotas_paridad"},
-    {"id":"A-6","title":"QCD reticular mn - mp","status":"ABIERTO","label":"F",
-     "justification":"Frontera delegada a QCD reticular; incluye derivacion dinamica de phi^-6.","chapter":"12","figure":"fig_12-02_jerarquia_neutron"},
-    {"id":"A-7","title":"Decoherencia microtubulos","status":"ABIERTO","label":"A",
-     "justification":"Cuarentena biologica (Ap. H).","chapter":"-","figure":"fig_H.2"},
-    {"id":"A-8","title":"Screening inhomogeneo","status":"CERRADO","label":"D",
-     "justification":"Adiabaticidad local (V5.0).","chapter":"9","figure":"fig_09-03_quinta_fuerza"},
-    {"id":"A-9","title":"Funcion beta a 2-loops","status":"CERRADO","label":"D",
-     "justification":"Cota estructural delta_g ~ 1.79e-5.","chapter":"6","figure":"fig-06-04_2loop"},
-    {"id":"A-10","title":"Residuo de vacio","status":"CERRADO","label":"D",
-     "justification":"Medida espectral [P] + cancelacion escalar (V5.0).","chapter":"7","figure":"fig_07-02_espectro_modos"},
-    {"id":"A-11","title":"Conteo 4D symplectico","status":"CERRADO","label":"D",
-     "justification":"Reduccion Faddeev-Jackiw (V5.0).","chapter":"5","figure":"fig_05-02_matriz_poisson"},
-    {"id":"A-12","title":"Rebote cosmologico ECSK","status":"CERRADO","label":"D",
-     "justification":"Condicion de rebote (V5.0).","chapter":"8","figure":"fig_08-03_bounce"},
-    {"id":"A-13","title":"Unitariedad/Analiticidad","status":"CERRADO","label":"D",
-     "justification":"Esquema Tn, Kallen-Lehmann; residuo e^{-am^2}/(1+am^2) > 0.","chapter":"4","figure":"fig_04-02_polos_lee_wick"},
-    {"id":"A-14","title":"Geometria de n = 88","status":"CERRADO","label":"D",
-     "justification":"CY3 (h^{1,1} = 22).","chapter":"12","figure":"fig_03-07_cadena_cy3_n88"},
-    {"id":"A-15","title":"Falsabilidad w_phi < -1","status":"ABIERTO","label":"F",
-     "justification":"Cota dura del sector de coherencia; DESI DR3/Euclid deciden.","chapter":"14","figure":"fig_14-01_wz_dinamico"},
-    {"id":"A-16","title":"Prescripcion de contorno para ramas k != 0 de Lambert-W","status":"ABIERTO","label":"F",
-     "justification":"Consistencia no perturbativa de fakeons en EFT no local.","chapter":"3-4","figure":"fig_04-01_rotacion_wick"},
-    {"id":"A-17","title":"Extension de la cancelacion al vacio completo del SM","status":"ABIERTO","label":"F",
-     "justification":"Generalizacion por sector (fermiones, gauge, Higgs); el modulador F(k,phi) actual es especifico del pseudoescalar.","chapter":"7","figure":"fig_07-04_familia_medidas"}
+    {
+      "id": "A-1",
+      "title": "Hiperbolicidad global",
+      "status": "ABIERTO",
+      "label": "D parcial / F global",
+      "justification": "Hiperbolicidad local derivada (Anexo K). Hiperbolicidad global abierta (K.5).",
+      "chapter": "5",
+      "figure": "fig_05-01_espacio_fases",
+      "subestructura": {
+        "K.1": {
+          "status": "CERRADO",
+          "label": "D",
+          "desc": "Operador cinetico y simbolo principal"
+        },
+        "K.2": {
+          "status": "CERRADO",
+          "label": "D",
+          "desc": "Cono de caracteristicas coincide con Box"
+        },
+        "K.3": {
+          "status": "CERRADO",
+          "label": "D",
+          "desc": "No linealidad algebraica"
+        },
+        "K.3bis": {
+          "status": "CERRADO",
+          "label": "D",
+          "desc": "Simbolo principal EOM efectiva"
+        },
+        "K.4": {
+          "status": "CERRADO",
+          "label": "D",
+          "desc": "Hiperbolicidad local no lineal"
+        },
+        "K.5": {
+          "status": "ABIERTO",
+          "label": "F",
+          "desc": "Existencia global"
+        },
+        "K.6": {
+          "status": "MIXTO",
+          "label": "D parcial / F global",
+          "desc": "K.1-K.4=[D]; K.5=[F]"
+        }
+      },
+      "anexo": "K"
+    },
+    {
+      "id": "A-2",
+      "title": "Perturbaciones no lineales",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Supresion EFT (E/Lambda)^2.",
+      "chapter": "8",
+      "figure": "fig_08-01_Hz"
+    },
+    {
+      "id": "A-3",
+      "title": "Correcciones termicas",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Supresion exponencial Matsubara (V5.0).",
+      "chapter": "7",
+      "figure": "fig_07-01_cancelacion_vacio"
+    },
+    {
+      "id": "A-4",
+      "title": "Backreaction chameleon",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Zona estable de Mathieu (V5.0).",
+      "chapter": "9",
+      "figure": "fig_09-01_perfil_chameleon"
+    },
+    {
+      "id": "A-5",
+      "title": "Ondas gravitacionales",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Cotas LIGO O4 (V5.0).",
+      "chapter": "15",
+      "figure": "fig_15-01_cotas_paridad"
+    },
+    {
+      "id": "A-6",
+      "title": "QCD reticular mn - mp",
+      "status": "ABIERTO",
+      "label": "F",
+      "justification": "Frontera delegada a QCD reticular; incluye derivacion dinamica de phi^-6.",
+      "chapter": "12",
+      "figure": "fig_12-02_jerarquia_neutron"
+    },
+    {
+      "id": "A-7",
+      "title": "Decoherencia microtubulos",
+      "status": "ABIERTO",
+      "label": "A",
+      "justification": "Cuarentena biologica (Ap. H).",
+      "chapter": "-",
+      "figure": "fig_H.2"
+    },
+    {
+      "id": "A-8",
+      "title": "Screening inhomogeneo",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Adiabaticidad local (V5.0).",
+      "chapter": "9",
+      "figure": "fig_09-03_quinta_fuerza"
+    },
+    {
+      "id": "A-9",
+      "title": "Funcion beta a 2-loops",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Cota estructural delta_g ~ 1.79e-5.",
+      "chapter": "6",
+      "figure": "fig-06-04_2loop"
+    },
+    {
+      "id": "A-10",
+      "title": "Residuo de vacio",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Medida espectral [P] + cancelacion escalar (V5.0).",
+      "chapter": "7",
+      "figure": "fig_07-02_espectro_modos"
+    },
+    {
+      "id": "A-11",
+      "title": "Conteo 4D symplectico",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Reduccion Faddeev-Jackiw (V5.0).",
+      "chapter": "5",
+      "figure": "fig_05-02_matriz_poisson"
+    },
+    {
+      "id": "A-12",
+      "title": "Rebote cosmologico ECSK",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Condicion de rebote (V5.0).",
+      "chapter": "8",
+      "figure": "fig_08-03_bounce"
+    },
+    {
+      "id": "A-13",
+      "title": "Unitariedad/Analiticidad",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "Esquema Tn, Kallen-Lehmann; residuo e^{-am^2}/(1+am^2) > 0.",
+      "chapter": "4",
+      "figure": "fig_04-02_polos_lee_wick"
+    },
+    {
+      "id": "A-14",
+      "title": "Geometria de n = 88",
+      "status": "CERRADO",
+      "label": "D",
+      "justification": "CY3 (h^{1,1} = 22).",
+      "chapter": "12",
+      "figure": "fig_03-07_cadena_cy3_n88"
+    },
+    {
+      "id": "A-15",
+      "title": "Falsabilidad w_phi < -1",
+      "status": "ABIERTO",
+      "label": "F",
+      "justification": "Cota dura del sector de coherencia; DESI DR3/Euclid deciden.",
+      "chapter": "14",
+      "figure": "fig_14-01_wz_dinamico"
+    },
+    {
+      "id": "A-16",
+      "title": "Prescripcion de contorno para ramas k != 0 de Lambert-W",
+      "status": "ABIERTO",
+      "label": "F",
+      "justification": "Consistencia no perturbativa de fakeons en EFT no local.",
+      "chapter": "3-4",
+      "figure": "fig_04-01_rotacion_wick"
+    },
+    {
+      "id": "A-17",
+      "title": "Extension de la cancelacion al vacio completo del SM",
+      "status": "ABIERTO",
+      "label": "F",
+      "justification": "Generalizacion por sector (fermiones, gauge, Higgs); el modulador F(k,phi) actual es especifico del pseudoescalar.",
+      "chapter": "7",
+      "figure": "fig_07-04_familia_medidas"
+    },
+    {
+      "id": "RCI-44",
+      "title": "Derivacion de P_Lambda^THU, omega^THU y R_H desde primeros principios",
+      "status": "ABIERTO",
+      "label": "F",
+      "justification": "Los valores P_Lambda^THU = 0.92% y omega^THU = 8.7e21 s^-1 satisfacen R_H = hbar/(pi Lambda_QCD) (match 0.9%) y P_Lambda = 2pi(2-phi)^2 % (match 0.4%) pero no se derivan del acoplamiento espin-torsion del Cap. 3. Gap de 38-43 ordenes. Seis rutas candidatas: (A) renormalizacion termica; (B) sector ALP; (C) efectos topologicos; (D) nuevo acoplamiento g_T tau psibar gamma_5 psi (especulativo); (E) relacion empirica pura; (F) dualidad THU-QCD. Test universalidad falsado: chi2/dof = 401.59.",
+      "chapter": "16",
+      "figure": "fig_16-01_polarizacion_STAR"
+    }
   ]
 }

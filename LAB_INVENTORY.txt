@@ -1,0 +1,396 @@
+==============================================================================
+  LAB INVENTORY - Investigacion_lab_secreto
+  Fecha: 2026-09-24 18:50:18
+  Raiz: C:\Users\kg4tr\Documents\Investigacion_lab_secreto
+==============================================================================
+
+## RESUMEN GLOBAL
+  Archivos (sin .git/.venv/__pycache__): 6177
+  Tamano total: 11.5 GB
+
+## DIRECTORIOS DE TOP-LEVEL (por tamaño)
+
+  data                               5499 files       11.6 GB
+  paper                               553 files       58.2 MB
+  outputs                              73 files        4.6 MB
+  docs                                 13 files        1.2 MB
+  src                                 101 files     1018.1 KB
+  registry                             38 files      917.7 KB
+  seeds                                 5 files      810.1 KB
+  tests                                 9 files       41.6 KB
+  scripts                               6 files       30.4 KB
+  replication                           1 files         0.0 B
+
+## BACKUPS (candidatos a limpieza)
+
+  Total backups: 131
+
+  _backup_borrado                                        1 files      4.7 MB
+  _backup_v5.4_figures_20260923_121035                  73 files      5.3 MB
+  _backup_v5.4_figures_20260923_121143                  68 files      5.0 MB
+  _backup_v5.4_figures_20260923_121406                  67 files      5.0 MB
+  _backup_v5.4_figures_regen_20260923_123121            65 files      4.9 MB
+
+  TOTAL BACKUPS: 518 files, 51.6 MB
+
+## DATA/RAW - DATASETS DESCARGADOS
+
+  act_dr6                                               223 files      2.7 MB
+  act_dr6_mflike                                         43 files    193.6 KB
+  act_dr6_packages                                      200 files    879.6 MB
+  bicep_keck                                              0 files       0.0 B
+  birefringence                                           2 files    201.5 MB
+  candl_data                                            210 files    323.7 MB
+  cmb_tools                                               3 files     37.7 MB
+  cosmic-birefringence-planck-act                        97 files    981.9 MB
+  des_sn_5yr                                              3 files    159.1 KB
+  desi_dr2                                                5 files      3.6 KB
+  exp_cmb_tools                                           3 files     37.7 MB
+  exp_desi_dr2                                            1 files      2.5 KB
+  exp_litebird                                            1 files     18.7 MB
+  exp_pantheon_lc                                         1 files     39.6 MB
+  exp_planck_pr4                                          3 files     15.0 MB
+  exp_spt_data                                            1 files    166.6 MB
+  litebird                                                2 files     18.7 MB
+  pantheon_plus                                           6 files    111.6 MB
+  planck_pr4                                              7 files     15.3 MB
+  polarbear                                               1 files     133.0 B
+  pred_alpha_lm                                           1 files      2.4 MB
+  pred_birefringence                                      1 files     34.9 MB
+  pred_planck_pr4                                         3 files    374.5 KB
+  pred_unimpeded                                          3 files     15.5 MB
+  spt                                                   213 files    324.0 MB
+  wmap                                                    0 files       0.0 B
+  zen_runtime                                            12 files      1.0 GB
+
+## DATA/EXTRACTED - DATOS EXTRAIDOS
+
+  birefringence                                         594 files    454.3 MB
+  cmb_tools                                             553 files    156.7 MB
+  exp_cmb_tools                                         553 files    156.7 MB
+  exp_litebird                                          298 files     28.0 MB
+  exp_planck_pr4                                        159 files     38.8 MB
+  exp_spt_data                                          512 files    417.6 MB
+  litebird                                              298 files     28.0 MB
+  planck_pr4                                            159 files     38.8 MB
+  pred_alpha_lm                                          18 files      3.0 MB
+  pred_birefringence                                     82 files     36.7 MB
+  pred_unimpeded                                         94 files     90.9 MB
+  zen_runtime                                           465 files      5.9 GB
+
+## SCRIPTS PYTHON (todos los .py del repo, sin .venv)
+
+  app.py                                                               10477 B
+  app_thu.py                                                           35054 B
+  data\background\cleanup_run2.py                                        846 B
+  data\background\diag_colisiones.py                                    1369 B
+  data\background\fix_figures_orphan.py                                 1546 B
+  data\background\fix_tarxz.py                                          3333 B
+  data\background\ingest_cosm7_16.py                                    2517 B
+  data\background\inspect_figures.py                                    2145 B
+  data\background\inspect_npy.py                                        1105 B
+  data\background\run_fase_b.py                                        20034 B
+  data\background\run_fase_b_figuras.py                                11356 B
+  data\background\run_fase_b_v2.py                                     11881 B
+  data\background\run_fase_e2_camb.py                                   4984 B
+  data\background\run_fase_e2b_diag.py                                  4189 B
+  data\background\run_fase_e3a1_chi2_spt.py                             4645 B
+  data\background\run_fase_e3a2_candl_recon.py                          4115 B
+  data\background\run_fase_e3a3_buscar_ebtb.py                          3880 B
+  data\background\run_fase_e3a4_planck_cb.py                            4123 B
+  data\background\run_fase_e3a_recon.py                                 8115 B
+  data\background\run_fase_e3b_beta.py                                  4773 B
+  data\background\run_fase_e3c2_beta_marginalizado.py                   8000 B
+  data\background\run_fase_e3c3a_repo_inspect.py                        2714 B
+  data\background\run_fase_e3c3b_beta_mcmc_inspect.py                   1993 B
+  data\background\run_fase_e3c3c_sacc_check.py                          4206 B
+  data\background\run_fase_e3c3d_sacc_search.py                         5469 B
+  data\background\run_fase_e3c5_sacc_verify.py                          3730 B
+  data\background\run_fase_e3c6_prep.py                                 3291 B
+  data\background\run_fase_e3c7_patch.py                                7478 B
+  data\background\run_fase_e3c7b_diag.py                                2058 B
+  data\background\run_fase_e3c7c_patch_pspy.py                          4023 B
+  data\background\run_fase_e3c8a_diag.py                                2798 B
+  data\background\run_fase_e3c8b_diag2.py                               2229 B
+  data\background\run_fase_e3c8c_diag_full.py                          10098 B
+  data\background\run_fase_e3c8cbis_diag.py                             7899 B
+  data\background\run_fase_e3c8d_fixes.py                               6853 B
+  data\background\run_fase_e3c8e_tracker.py                            11944 B
+  data\background\run_fase_e3c_beta_act.py                              7591 B
+  data\background\run_fase_e3d1_verificar_urls.py                       5377 B
+  data\background\run_fase_e3d2_descargar_act.py                        5730 B
+  data\background\run_fase_e4a_cierre.py                               11852 B
+  data\background\run_fase_e_recon.py                                   5535 B
+  data\background\run_fase_f1_cbl_alpha.py                              5207 B
+  data\background\run_fase_f2_cov_test.py                               3211 B
+  data\background\run_fase_f2_verify.py                                 7757 B
+  data\background\run_fase_f2_w_phi.py                                 17432 B
+  data\background\run_fase_f2a_inspect.py                               2427 B
+  data\background\run_fase_f2b_w_phi.py                                11858 B
+  data\background\run_fase_f2c_recon.py                                 2851 B
+  data\background\run_fase_f2c_w_phi_refinado.py                       16924 B
+  data\background\run_fase_f2d_control.py                               2886 B
+  data\background\run_fase_f2d_w_phi.py                                12377 B
+  data\background\run_fase_f2e_w_phi_final.py                          11505 B
+  data\background\run_fase_f3_auditoria.py                              9858 B
+  data\background\run_fase_f4_cierre.py                                10081 B
+  data\background\run_fase_h1_inventario.py                             5531 B
+  data\background\run_figures.py                                        3675 B
+  data\background\run_figures_v2.py                                     3523 B
+  data\background\run_retiro_p5.py                                     13868 B
+  data\background\run_tarea_a_p1.py                                    12040 B
+  data\background\run_tarea_a_p1_v2.py                                  9467 B
+  data\background\run_verif1_paper.py                                   2367 B
+  data\background\run_verif1b_paper.py                                  5471 B
+  data\backups\figures_20260921_020230.py                              72808 B
+  data\raw\act_dr6_mflike\act_dr6_mflike\__init__.py                     221 B
+  data\raw\act_dr6_mflike\act_dr6_mflike\act_dr6_mflike.py               432 B
+  data\raw\act_dr6_mflike\act_dr6_mflike\tests\test_act_dr6_mflike.py     5095 B
+  data\raw\act_dr6_packages\code\CAMB\.agents\skills\isolate-accuracy-fix\scripts\make_tmp_tracked_copy.py     6614 B
+  data\raw\act_dr6_packages\code\CAMB\camb\__init__.py                  1484 B
+  data\raw\act_dr6_packages\code\CAMB\camb\_command_line.py             2307 B
+  data\raw\act_dr6_packages\code\CAMB\camb\_compilers.py                5486 B
+  data\raw\act_dr6_packages\code\CAMB\camb\_config.py                   3380 B
+  data\raw\act_dr6_packages\code\CAMB\camb\_ini.py                     10878 B
+  data\raw\act_dr6_packages\code\CAMB\camb\baseconfig.py               33537 B
+  data\raw\act_dr6_packages\code\CAMB\camb\bbn.py                      10314 B
+  data\raw\act_dr6_packages\code\CAMB\camb\bispectrum.py               11684 B
+  data\raw\act_dr6_packages\code\CAMB\camb\camb.py                     19419 B
+  data\raw\act_dr6_packages\code\CAMB\camb\check_accuracy.py           96181 B
+  data\raw\act_dr6_packages\code\CAMB\camb\constants.py                 1706 B
+  data\raw\act_dr6_packages\code\CAMB\camb\correlations.py             37791 B
+  data\raw\act_dr6_packages\code\CAMB\camb\dark_energy.py              10254 B
+  data\raw\act_dr6_packages\code\CAMB\camb\emission_angle.py           10054 B
+  data\raw\act_dr6_packages\code\CAMB\camb\inifile.py                  14142 B
+  data\raw\act_dr6_packages\code\CAMB\camb\initialpower.py              8651 B
+  data\raw\act_dr6_packages\code\CAMB\camb\mathutils.py                14405 B
+  data\raw\act_dr6_packages\code\CAMB\camb\model.py                    52363 B
+  data\raw\act_dr6_packages\code\CAMB\camb\nonlinear.py                18381 B
+  data\raw\act_dr6_packages\code\CAMB\camb\postborn.py                  9864 B
+  data\raw\act_dr6_packages\code\CAMB\camb\recombination.py             7404 B
+  data\raw\act_dr6_packages\code\CAMB\camb\reionization.py              8319 B
+  data\raw\act_dr6_packages\code\CAMB\camb\results.py                  86419 B
+  data\raw\act_dr6_packages\code\CAMB\camb\sources.py                   4415 B
+  data\raw\act_dr6_packages\code\CAMB\camb\symbolic.py                 38444 B
+  data\raw\act_dr6_packages\code\CAMB\camb\tests\__init__.py               0 B
+  data\raw\act_dr6_packages\code\CAMB\camb\tests\camb_test.py          60973 B
+  data\raw\act_dr6_packages\code\CAMB\camb\tests\camb_test_slow.py      9480 B
+  data\raw\act_dr6_packages\code\CAMB\camb\tests\hmcode_test.py         8522 B
+  data\raw\act_dr6_packages\code\CAMB\camb\tests\mathutils_test.py     15513 B
+  data\raw\act_dr6_packages\code\CAMB\camb\tests\spk_test.py           12011 B
+  data\raw\act_dr6_packages\code\CAMB\docs\markdown_builder.py         10956 B
+  data\raw\act_dr6_packages\code\CAMB\docs\source\conf.py               9937 B
+  data\raw\act_dr6_packages\code\CAMB\fortran\tests\CAMB_test_files.py    69308 B
+  data\raw\act_dr6_packages\code\CAMB\fortran\tests\run_tests.py        6738 B
+  data\raw\act_dr6_packages\code\CAMB\scripts\nu_background_quadrature.py    14547 B
+  data\raw\act_dr6_packages\code\CAMB\scripts\nu_integration_kernels.py    42643 B
+  data\raw\act_dr6_packages\code\CAMB\scripts\run_and_update_notebook.py     7051 B
+  data\raw\act_dr6_packages\code\CAMB\setup.py                         19709 B
+  data\raw\candl_data\candl_data\__init__.py                             277 B
+  data\raw\candl_data\candl_data\candl_data.py                          5535 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\__init__.py           0 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\act_dr6\__init__.py       37 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\act_dr6\core.py     9542 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\birefringence_likelihood.py    14456 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\config.py          4218 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\mk_analysis.py     7320 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\precomputed_loader.py     5824 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\rotation.py        6507 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\run_beta_mcmc.py    25884 B
+  data\raw\cosmic-birefringence-planck-act\beta_mcmc\run_tracker.py     4518 B
+  data\raw\cosmic-birefringence-planck-act\data\masks\make_npipe_act_window.py     5255 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\__init__.py          0 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\compute_psi_ell.py     5385 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\covariance.py    21929 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\covariance_corrections.py    16935 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\likelihood_config.py     4931 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\power_spectrum_corrections.py    10287 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\run_likelihood.py    68851 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\spectrum_loader.py      920 B
+  data\raw\cosmic-birefringence-planck-act\likelihood\validate.py       6987 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\__init__.py        0 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\compute_coupling.py     4450 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\compute_spectra.py    15990 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\map_loader.py     4554 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\mask_builder.py     2074 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\output_formatter.py     7000 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\pipeline_config.py     3141 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\run_coupling.py     2924 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\run_pipeline.py    22306 B
+  data\raw\cosmic-birefringence-planck-act\spectrum_pipeline\theory_spectra.py     7777 B
+  data\raw\cosmic-birefringence-planck-act\tools\__init__.py               0 B
+  data\raw\cosmic-birefringence-planck-act\tools\binning.py             3240 B
+  data\raw\cosmic-birefringence-planck-act\tools\data_loading.py        6416 B
+  data\raw\cosmic-birefringence-planck-act\tools\masks.py               1172 B
+  data\raw\cosmic-birefringence-planck-act\tools\naming.py              2695 B
+  data\raw\cosmic-birefringence-planck-act\tools\spectra.py             2435 B
+  data\raw\spt\candl_data\candl_data\__init__.py                         283 B
+  data\raw\spt\candl_data\candl_data\candl_data.py                      5700 B
+  docs\_bundle.py                                                       3854 B
+  scripts\check_debts.py                                               13331 B
+  scripts\diag_h5_2.py                                                  2149 B
+  scripts\diag_mcmc_h5.py                                               4014 B
+  scripts\fix_mcmc_read.py                                              4573 B
+  scripts\read_mcmc_h5_v2.py                                            3099 B
+  scripts\read_mcmc_state.py                                            3961 B
+  src\__init__.py                                                         86 B
+  src\analisis.py                                                       3084 B
+  src\audit_report.py                                                  28631 B
+  src\chronolog.py                                                      4187 B
+  src\clone_investigacion.py                                           12688 B
+  src\db_manager.py                                                    17252 B
+  src\estadistica.py                                                   16305 B
+  src\fetch_data.py                                                     6938 B
+  src\freeze.py                                                          849 B
+  src\hash_manifest.py                                                  7258 B
+  src\migrations.py                                                     5527 B
+  src\nueva_entidad.py                                                  3766 B
+  src\preregistro.py                                                   10730 B
+  src\registrar_entidad.py                                              7522 B
+  src\run_all.py                                                       22009 B
+  src\thu\__init__.py                                                     83 B
+  src\thu\analysis\__init__.py                                            46 B
+  src\thu\analysis\run_fase_b.py                                       20034 B
+  src\thu\analysis\run_fase_b_figuras.py                               11356 B
+  src\thu\analysis\run_fase_b_v2.py                                    11881 B
+  src\thu\analysis\run_fase_e2_camb.py                                  4984 B
+  src\thu\analysis\run_fase_e2b_diag.py                                 4189 B
+  src\thu\analysis\run_fase_e3a1_chi2_spt.py                            4645 B
+  src\thu\analysis\run_fase_e3a2_candl_recon.py                         4115 B
+  src\thu\analysis\run_fase_e3a3_buscar_ebtb.py                         3880 B
+  src\thu\analysis\run_fase_e3a4_planck_cb.py                           4123 B
+  src\thu\analysis\run_fase_e3a_recon.py                                8115 B
+  src\thu\analysis\run_fase_e3b_beta.py                                 4773 B
+  src\thu\analysis\run_fase_e3c2_beta_marginalizado.py                  8000 B
+  src\thu\analysis\run_fase_e3c3a_repo_inspect.py                       2714 B
+  src\thu\analysis\run_fase_e3c3b_beta_mcmc_inspect.py                  1993 B
+  src\thu\analysis\run_fase_e3c3c_sacc_check.py                         4206 B
+  src\thu\analysis\run_fase_e3c3d_sacc_search.py                        5469 B
+  src\thu\analysis\run_fase_e3c5_sacc_verify.py                         3730 B
+  src\thu\analysis\run_fase_e3c6_prep.py                                3291 B
+  src\thu\analysis\run_fase_e3c7_patch.py                               7478 B
+  src\thu\analysis\run_fase_e3c7b_diag.py                               2058 B
+  src\thu\analysis\run_fase_e3c7c_patch_pspy.py                         4023 B
+  src\thu\analysis\run_fase_e3c8a_diag.py                               2798 B
+  src\thu\analysis\run_fase_e3c8b_diag2.py                              2229 B
+  src\thu\analysis\run_fase_e3c8c_diag_full.py                         10098 B
+  src\thu\analysis\run_fase_e3c8cbis_diag.py                            7899 B
+  src\thu\analysis\run_fase_e3c8d_fixes.py                              6853 B
+  src\thu\analysis\run_fase_e3c8e_tracker.py                           11944 B
+  src\thu\analysis\run_fase_e3c_beta_act.py                             7591 B
+  src\thu\analysis\run_fase_e3d1_verificar_urls.py                      5377 B
+  src\thu\analysis\run_fase_e3d2_descargar_act.py                       5730 B
+  src\thu\analysis\run_fase_e4a_cierre.py                              11852 B
+  src\thu\analysis\run_fase_e_recon.py                                  5535 B
+  src\thu\analysis\run_fase_f1_cbl_alpha.py                             5207 B
+  src\thu\analysis\run_fase_f2_cov_test.py                              3211 B
+  src\thu\analysis\run_fase_f2_verify.py                                7757 B
+  src\thu\analysis\run_fase_f2_w_phi.py                                17432 B
+  src\thu\analysis\run_fase_f2a_inspect.py                              2427 B
+  src\thu\analysis\run_fase_f2b_w_phi.py                               11858 B
+  src\thu\analysis\run_fase_f2c_recon.py                                2851 B
+  src\thu\analysis\run_fase_f2c_w_phi_refinado.py                      16924 B
+  src\thu\analysis\run_fase_f2d_control.py                              2886 B
+  src\thu\analysis\run_fase_f2d_w_phi.py                               12377 B
+  src\thu\analysis\run_fase_f2e_w_phi_final.py                         11505 B
+  src\thu\analysis\run_fase_f3_auditoria.py                             9858 B
+  src\thu\analysis\run_fase_f4_cierre.py                               10081 B
+  src\thu\analysis\run_fase_h1_inventario.py                            5531 B
+  src\thu\analysis\run_retiro_p5.py                                    13868 B
+  src\thu\analysis\run_tarea_a_p1.py                                   12040 B
+  src\thu\analysis\run_tarea_a_p1_v2.py                                 9467 B
+  src\thu\annex.py                                                      7477 B
+  src\thu\charts.py                                                     6639 B
+  src\thu\derivaciones.py                                              20000 B
+  src\thu\figures.py                                                   82789 B
+  src\thu\i18n_thu.py                                                  16727 B
+  src\thu\latex_builder.py                                             31542 B
+  src\thu\latex_compile.py                                              9410 B
+  src\thu\loader.py                                                     7744 B
+  src\thu\style.py                                                      4842 B
+  src\unidades.py                                                       3507 B
+  src\viz\__init__.py                                                     34 B
+  src\viz\charts.py                                                     5796 B
+  src\viz\data_access.py                                                5256 B
+  src\viz\domains.py                                                    2562 B
+  src\viz\i18n.py                                                      10064 B
+  src\viz\styles.py                                                     2702 B
+  tests\conftest.py                                                      172 B
+  tests\test_estadistica.py                                             2936 B
+  tests\test_manifest.py                                                2408 B
+  tests\test_smoke.py                                                   3772 B
+
+  TOTAL: 239 scripts
+
+## ARCHIVOS > 5 MB (sin data/raw, data/extracted, .venv, .git)
+
+  data\inventory\pantheon_cov_used.npy                                   13.1 MB
+
+## DATA/INVENTORY - JSONs de resultados
+
+  _disc_github.json                                        2430 B
+  _disc_zenodo.json                                       10820 B
+  _disc_zenodo_files.json                                 21169 B
+  _disc_zenodo_v2.json                                     8172 B
+  certificacion_act_dr6_sacc.json                           632 B
+  certificacion_birefringencia.json                        1055 B
+  certificacion_h2.json                                    3012 B
+  compare_dirs.json                                        1378 B
+  fase_f1_cbl_alpha.json                                    946 B
+  fase_f2b_w_phi_desi.json                                 1187 B
+  fase_f2d_w_phi_refinado.json                              760 B
+  fase_f3_auditoria_beta.json                              4110 B
+  fase_f4_cierre_final.json                                9608 B
+  fase_p1_oscilaciones_hz.json                              831 B
+  fase_p5_retiro.json                                      5197 B
+  figuras_fase_b.json                                      2171 B
+  figuras_manifest.json                                   24349 B
+  h5_diag.json                                             1204 B
+  inventario_documentos.json                               4243 B
+  inventory_v3.json                                        9265 B
+  inventory_v4.json                                        8734 B
+  manifest_v5.json                                          268 B
+  mcmc_h5_diag.json                                        9249 B
+  mcmc_run_id_3_final.json                                  719 B
+  mcmc_state_h2.json                                        822 B
+  pantheon_cov_used.npy                                13749896 B
+  recon_fase_e.json                                       20102 B
+  resultado_beta_act_dr6.json                               503 B
+  resultado_beta_act_dr6_marginalizado.json                 740 B
+  verificacion_simbolica.json                              1780 B
+  verificacion_simbolica_v2.json                           1927 B
+  verify_beta_z.json                                        988 B
+  verify_ctop.json                                          380 B
+
+## ARCHIVOS TOP-LEVEL
+
+  .editorconfig                                         820.0 B
+  .gitattributes                                        914.0 B
+  .gitignore                                             1.8 KB
+  app.py                                                10.2 KB
+  app_thu.py                                            34.2 KB
+  bootstrap.ps1                                          3.9 KB
+  bootstrap.sh                                           2.4 KB
+  CITATION.cff                                          724.0 B
+  consolidar_y_borrar.ps1                                5.2 KB
+  LICENSE                                                2.4 KB
+  LICENSE-MIT                                            1.0 KB
+  pytest.ini                                            489.0 B
+  README.md                                              3.6 KB
+  requirements.txt                                      685.0 B
+  run_all.ps1                                            1.4 KB
+  run_all.sh                                             1.2 KB
+  run_h2_all.ps1                                         4.6 KB
+  run_h2_mcmc_final.ps1                                  7.5 KB
+  run_h2_mcmc_recovery.ps1                               7.1 KB
+
+==============================================================================
+  CANDIDATOS A LIMPIEZA
+==============================================================================
+
+  Backups (data/_backup_*):            51.6 MB en 131 dirs
+  Archivos > 5MB (fuera de data/):     1 archivos
+  data/extracted (si no se usa):       (ver seccion DATA/EXTRACTED)
+
+  Para limpiar backups:
+    Remove-Item 'data\_backup_*' -Recurse -Force

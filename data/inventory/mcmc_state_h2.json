@@ -1,0 +1,24 @@
+{
+  "fecha": "2026-09-21T23:52:19.627329Z",
+  "h5_path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\data\\raw\\cosmic-birefringence-planck-act\\data\\computed\\mcmc_chain.h5",
+  "sqlite_path": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\data\\raw\\cosmic-birefringence-planck-act\\data\\computed\\mcmc_runs.sqlite",
+  "h5_ok": false,
+  "h5_shape": null,
+  "h5_error": "'Group' object has no attribute 'shape'",
+  "sqlite_ok": true,
+  "run_id_3": {
+    "snapshot_id": 323,
+    "run_id": 3,
+    "step": 27100,
+    "timestamp": "2026-09-21T23:34:02Z",
+    "beta_mean": 0.2090401684083868,
+    "beta_std": 0.07229676598387652,
+    "chain_file_size": 129323640
+  },
+  "sqlite_error": null,
+  "sqlite_tables": [
+    "mcmc_runs",
+    "sqlite_sequence",
+    "mcmc_snapshots"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "COSM-004",
+  "categoria": "cosmologia",
+  "titulo": "SPT birefringence likelihoods (SPT-3G D1 + SPTpol)",
+  "valor_principal": 1.0,
+  "incertidumbre": 1.0,
+  "unidad": "grados",
+  "fuente": "Balkenhol2025_candl",
+  "origen": "observado",
+  "estatus": "F",
+  "notas": "Valor [F] pendiente de extraccion del clone candl_data (68.86 MiB, 182 archivos). Cuando se ejecute la ingesta de likelihoods, se actualiza el valor.",
+  "dataset_ref": {
+    "path": "data/raw/",
+    "files": [
+      {
+        "name": "candl_data/ (clone completo)",
+        "sha256": "",
+        "size": 267467326.0
+      }
+    ]
+  },
+  "provenance": {
+    "instrumento": "SPT-3G (2019-2020) + SPTpol (2012-2016)",
+    "ano": 2025,
+    "tipo_publicacion": "repositorio publico",
+    "cita_completa": "Balkenhol, L. et al. Constraints on Parity-Violating Physics from the Cosmic Microwave Background. arXiv preprint (2025). Repositorio: github.com/Lbalkenhol/candl_data",
+    "reproducibilidad": "Publico via github.com/Lbalkenhol/candl_data",
+    "extracto": "[F] pendiente — valor beta_SPT por extraer del likelihood",
+    "fecha_descarga_utc": "2026-09-21T04:01:39Z",
+    "condiciones": "Likelihoods aniso + isótropo. Pending extraer valor puntual.",
+    "doi": "",
+    "hash_pdf": "",
+    "notas": ""
+  }
+}

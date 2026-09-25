@@ -1,0 +1,35 @@
+{
+  "id": "COSM-006",
+  "categoria": "cosmologia",
+  "titulo": "Planck PR4 (NPIPE) - birefringencia isotropica",
+  "valor_principal": 0.3,
+  "incertidumbre": 0.11,
+  "unidad": "grados",
+  "fuente": "PlanckNPIPE_2020",
+  "origen": "observado",
+  "estatus": "D",
+  "notas": "Valor actualizado de birefringencia usando reanalisis NPIPE de Planck. Dato puntual declarado.",
+  "dataset_ref": {
+    "path": "data/raw/",
+    "files": [
+      {
+        "name": "beta_planck_pr4.csv",
+        "sha256": "dadb581268adf07ecf4286a3802088b3c705cb58cf664ff6fbd25e1b6620fb5d",
+        "size": 114
+      }
+    ]
+  },
+  "provenance": {
+    "instrumento": "Planck PR4 NPIPE (HFI 100/143/217 GHz)",
+    "ano": 2022,
+    "tipo_publicacion": "revista indexada",
+    "cita_completa": "Eskilt, J. R. & Komatsu, E. Improved Constraints on Cosmic Birefringence from the WMAP and Planck Cosmic Microwave Background Polarization Data. Physical Review D, 106, 063503 (2022).",
+    "reproducibilidad": "Publico via pla.esac.esa.int + arXiv",
+    "extracto": "beta = 0.30 +/- 0.11 grados (68% CL, Planck PR4 NPIPE + WMAP).",
+    "fecha_descarga_utc": "2026-09-21T04:01:39Z",
+    "condiciones": "Reanalisis NPIPE con correccion por polarizacion de emision galactica.",
+    "doi": "10.1103/PhysRevD.106.063503",
+    "hash_pdf": "dadb581268adf07ecf4286a3802088b3c705cb58cf664ff6fbd25e1b6620fb5d",
+    "notas": ""
+  }
+}

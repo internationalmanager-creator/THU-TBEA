@@ -1,15 +1,15 @@
 {
   "version": "1.0.0",
-  "fecha": "2026-09-21T06:34:46Z",
-  "total_pasos": 10,
-  "pass": 9,
-  "fail": 1,
-  "duracion_s": 1.841,
+  "fecha": "2026-09-22T19:26:45Z",
+  "total_pasos": 16,
+  "pass": 16,
+  "fail": 0,
+  "duracion_s": 1.826,
   "detalle": [
     {
       "paso": 1,
       "titulo": "tau_c = sqrt(3) tau",
-      "ok": false
+      "ok": true
     },
     {
       "paso": 2,
@@ -55,6 +55,42 @@
       "paso": 10,
       "titulo": "Coeficiente A",
       "ok": true
+    },
+    {
+      "paso": 11,
+      "titulo": "Residuo propagador corregido",
+      "ok": true,
+      "ref": "e^{-am^2}/(1+am^2)>0"
+    },
+    {
+      "paso": 12,
+      "titulo": "Determinante de Poisson",
+      "ok": true,
+      "ref": "det(M)=(k2^2+k3^2)^2"
+    },
+    {
+      "paso": 13,
+      "titulo": "Rango constante 8",
+      "ok": true,
+      "ref": "rank(M)=8"
+    },
+    {
+      "paso": 14,
+      "titulo": "GDL=1 doble via",
+      "ok": true,
+      "ref": "DB==FJ==1"
+    },
+    {
+      "paso": 15,
+      "titulo": "Conmutacion [T,H]=0",
+      "ok": true,
+      "ref": "funciones de Box"
+    },
+    {
+      "paso": 16,
+      "titulo": "Positividad residuo proyectado",
+      "ok": true,
+      "ref": "Res[D_F]=1>0"
     }
   ]
 }

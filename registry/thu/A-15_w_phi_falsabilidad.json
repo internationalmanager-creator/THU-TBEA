@@ -1,0 +1,86 @@
+{
+  "id": "A-15",
+  "titulo": "Falsabilidad w_phi < -1 (sector de coherencia escalar)",
+  "estatus": "[F] observacion activa",
+  "fecha_actualizacion": "2026-09-21T19:59:06Z",
+  "prediccion_THU": {
+    "cota": "w_Phi(z) >= -1 para todo z <= 10^4",
+    "fuente": "PDF v5.3 §14, Teorema 1"
+  },
+  "observacion_actual": {
+    "datos": "DESI DR2 BAO (13 mediciones) + Pantheon+ (1588 SNe, z>0.01)",
+    "modelo": "w0-wa CPL (Chevallier-Polarski-Linder)",
+    "resultado": {
+      "Om": 0.3135,
+      "sigma_Om": 0.0117,
+      "w0": -0.8115,
+      "sigma_w0": 0.0562,
+      "wa": -0.6209,
+      "sigma_wa": 0.4196,
+      "chi2_w0wa": 730.82,
+      "chi2_LCDM": 767.09,
+      "delta_chi2": 36.27,
+      "dof": 1598
+    },
+    "test_falsacion": {
+      "umbral_3sigma": "cruce fantasma w < -1 a >3 sigma",
+      "maxima_tension_con_cota": -0.97,
+      "unidad": "sigma",
+      "puntos_con_falsacion": 0
+    },
+    "veredicto": "NO_FALSACION",
+    "tension_residual": "w0 = -0.81 +/- 0.06 (compatible con -1 a 3.35 sigma en direccion opuesta)"
+  },
+  "limitaciones": [
+    "Analisis aproximado, no oficial de DESI",
+    "Covarianza Pantheon+ solo diagonal en F.2b (mejorado en F.2c)",
+    "Sin marginalizacion sobre r_d",
+    "Sin BAO Lyman-alpha",
+    "Sin priors BBN explicitos"
+  ],
+  "proximo_decisor": "DESI DR3 (~2027) + Euclid",
+  "riesgo_estimado": "MODERADO-ALTO",
+  "nota": "Resultado central cruza w=-1 entre z=0.3 y z=0.5. No significativo (>1 sigma) pero cualitativamente en tension con cota THU.",
+  "observacion_refinada_F2d": {
+    "fecha": "2026-09-21T20:06:34Z",
+    "datos": "DESI DR2 + Pantheon+ (covarianza completa STAT+SYS)",
+    "N_sne": 1588,
+    "resultado": {
+      "Om": 0.3122696974069664,
+      "sigma_Om": 0.012477479144864901,
+      "w0": -0.8370382979156303,
+      "sigma_w0": 0.054996493532579155,
+      "wa": -0.4968544695429449,
+      "sigma_wa": 0.4186613023859461,
+      "chi2": 1441.0137708249736,
+      "chi2_LCDM": 1471.1377460314052,
+      "delta_chi2": 30.123975206431624
+    },
+    "veredicto": "NO_FALSACION",
+    "puntos_falsacion": []
+  },
+  "observacion_final_F2e": {
+    "fecha": "2026-09-21T20:15:16Z",
+    "datos": "DESI DR2 + Pantheon+ (covarianza version B: STATSYS * outer(scale,scale))",
+    "N_sne": 1311,
+    "chi2_verificacion": {
+      "chi2_LCDM": 1375.1697461165631,
+      "dof": 1323,
+      "chi2_dof": 1.0394329146761627,
+      "veredicto_cov": "version B correcta (chi2/dof ~ 1)"
+    },
+    "resultado": {
+      "Om": 0.30942007235432323,
+      "w0": -0.8423545930821156,
+      "wa": -0.414028346112164,
+      "sigma_Om": 0.013158209207971389,
+      "sigma_w0": 0.05362734470766562,
+      "sigma_wa": 0.41023573964092014,
+      "chi2_best": 1344.8520056714935,
+      "delta_chi2_vs_LCDM": 30.317740445069603
+    },
+    "veredicto": "NO_FALSACION",
+    "puntos_falsacion": [],
+    "metodo_validado": true
+  }
+}

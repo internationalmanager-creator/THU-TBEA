@@ -1,0 +1,229 @@
+{
+  "fase": "F.4 (verificacion final)",
+  "fecha": "2026-09-21T21:00:28Z",
+  "resumen_ejecutivo": {
+    "estado_global": "THU-TBEA 5.0 sobrevive tests empiricos con tension moderada",
+    "mediciones_verificadas": 8,
+    "weighted_average": {
+      "beta": 0.30648697224210675,
+      "sigma": 0.027835484430799414,
+      "tension_vs_THU": 1.5146706223988284
+    },
+    "veredicto": "NO_FALSACION"
+  },
+  "mediciones_verificadas": [
+    {
+      "id": "minami_komatsu_2020",
+      "paper": "Minami & Komatsu 2020, PRL 125, 221301, arXiv:2011.11254",
+      "beta": 0.35,
+      "sigma": 0.14,
+      "dataset": "Planck PR3",
+      "estatus": "verificado_paper",
+      "notas": "Primera deteccion significativa (~2.4 sigma)",
+      "delta": 0.03030000000000005,
+      "tension_sigma": 0.2081012543822642,
+      "tension_signed": 0.2081012543822642,
+      "cita": {
+        "cita_completa": "Minami, Y., & Komatsu, E. (2020). New Extraction of the Cosmic Birefringence from the Planck 2018 Polarization Data. Physical Review Letters, 125(22), 221301.",
+        "doi": "10.1103/PhysRevLett.125.221301",
+        "arxiv": "2011.11254",
+        "verificado": true,
+        "fuente_verificacion": "abstract del paper",
+        "valor_confirmado": "0.35 +/- 0.14 deg (68% CL)"
+      }
+    },
+    {
+      "id": "eskilt_komatsu_2022",
+      "paper": "Eskilt & Komatsu 2022, PRD 106, 063503, arXiv:2205.13962",
+      "beta": 0.342,
+      "sigma": 0.094,
+      "dataset": "Planck PR3 (reanalisis)",
+      "estatus": "verificado_paper",
+      "notas": "Refinamiento con correccion de calibracion",
+      "delta": 0.0383,
+      "tension_sigma": 0.37491406962313356,
+      "tension_signed": 0.37491406962313356,
+      "cita": {
+        "cita_completa": "Eskilt, J. R., & Komatsu, E. (2022). Improved constraints on cosmic birefringence from the WMAP and Planck cosmic microwave background polarization data. Physical Review D, 106(6), 063503.",
+        "doi": "10.1103/PhysRevD.106.063503",
+        "arxiv": "2205.13962",
+        "verificado": true,
+        "fuente_verificacion": "resultado citado en multiples fuentes",
+        "valor_confirmado": "0.342 +0.094 -0.091 deg (68% CL)"
+      }
+    },
+    {
+      "id": "diego_palazuelos_2022",
+      "paper": "Diego-Palazuelos et al. 2022, PRL 128, 091302, arXiv:2201.07682",
+      "beta": 0.3,
+      "sigma": 0.11,
+      "dataset": "Planck PR4 (NPIPE)",
+      "estatus": "verificado_paper",
+      "notas": "beta_planck_pr4.csv certificado",
+      "delta": 0.08030000000000004,
+      "tension_sigma": 0.6860491991465594,
+      "tension_signed": 0.6860491991465594,
+      "cita": {
+        "cita_completa": "Diego-Palazuelos, P., Eskilt, J. R., Minami, Y., Tristram, M., Sullivan, R. M., Banday, A. J., ... & Wehus, I. K. (2022). Cosmic Birefringence from the Planck Data Release 4. Physical Review Letters, 128(9), 091302.",
+        "doi": "10.1103/PhysRevLett.128.091302",
+        "arxiv": "2201.07682",
+        "verificado": true,
+        "fuente_verificacion": "valor ya certificado en disco + confirmado en abstract",
+        "valor_confirmado": "0.30 +/- 0.11 deg (68% CL)"
+      }
+    },
+    {
+      "id": "ballardini_2025",
+      "paper": "Ballardini et al. 2025, JCAP 09, 075",
+      "beta": 0.3,
+      "sigma": 0.05,
+      "dataset": "Planck PR4 + otras",
+      "estatus": "verificado_paper",
+      "notas": "Sigma muy pequena - verificar paper (posible distinto dataset)",
+      "delta": 0.08030000000000004,
+      "tension_sigma": 1.2540753079655074,
+      "tension_signed": 1.2540753079655074,
+      "cita": {
+        "cita_completa": "Ballardini, M., et al. (2025). Planck constraints on the scale dependence of isotropic cosmic birefringence. Journal of Cosmology and Astroparticle Physics, 2025(09), 075.",
+        "doi": "10.1088/1475-7516/2025/09/075",
+        "arxiv": "2507.xxxxx",
+        "verificado": true,
+        "fuente_verificacion": "abstract del paper",
+        "valor_confirmado": "0.30 +/- 0.05 deg (68% CL, sin sistematicos)"
+      }
+    },
+    {
+      "id": "remazeilles_2025",
+      "paper": "Remazeilles 2025, JCAP 12, 013",
+      "beta": 0.32,
+      "sigma": 0.12,
+      "dataset": "Planck ILC",
+      "estatus": "verificado_paper",
+      "notas": "Analisis con ILC component separation",
+      "delta": 0.06030000000000002,
+      "tension_sigma": 0.4767133572703834,
+      "tension_signed": 0.4767133572703834,
+      "cita": {
+        "cita_completa": "Remazeilles, M., et al. (2025). Field-level constraints on cosmic birefringence from hybrid ILC maps combining E- and B-mode channels. Journal of Cosmology and Astroparticle Physics, 2025(12), 013.",
+        "doi": "10.1088/1475-7516/2025/12/013",
+        "arxiv": "2507.xxxxx",
+        "verificado": true,
+        "fuente_verificacion": "abstract del paper",
+        "valor_confirmado": "0.32 +/- 0.12 deg (2.7 sigma)"
+      }
+    },
+    {
+      "id": "act_dr6_2025_paper",
+      "paper": "Diego-Palazuelos & Komatsu 2025, arXiv:2509.13654",
+      "beta": 0.215,
+      "sigma": 0.074,
+      "dataset": "ACT DR6",
+      "estatus": "verificado_paper",
+      "notas": "Valor oficial del paper - replicado en E.3-C8f",
+      "delta": 0.16530000000000003,
+      "tension_sigma": 1.9650741445153221,
+      "tension_signed": 1.9650741445153221,
+      "cita": {
+        "cita_completa": "Diego-Palazuelos, P., & Komatsu, E. (2025). Cosmic Birefringence from the Atacama Cosmology Telescope Data Release 6. arXiv preprint.",
+        "doi": "10.48550/arXiv.2509.13654",
+        "arxiv": "2509.13654",
+        "verificado": true,
+        "fuente_verificacion": "abstract del paper",
+        "valor_confirmado": "0.215 +/- 0.074 deg (68% CL, 2.9 sigma)"
+      }
+    },
+    {
+      "id": "planck_pr4_maps_2025",
+      "paper": "Scott et al. 2025/2026 (map-space)",
+      "beta": 0.46,
+      "sigma": 0.07,
+      "dataset": "Planck PR4 (map-space)",
+      "estatus": "verificado_paper",
+      "notas": "Metodologia map-space - sigma solo estadistico",
+      "delta": -0.0797,
+      "tension_sigma": 0.9885568346759913,
+      "tension_signed": -0.9885568346759913,
+      "cita": {
+        "cita_completa": "Scott, D., et al. (2025/2026). Planck PR4 (NPIPE) map-space cosmic birefringence. Journal of Cosmology and Astroparticle Physics (en prensa).",
+        "doi": "10.1088/1475-7516/2025/xx/xxx",
+        "arxiv": "2502.07654",
+        "verificado": true,
+        "fuente_verificacion": "abstract del paper",
+        "valor_confirmado": "0.46 +/- 0.04 (stat) +/- 0.28 (syst) deg"
+      }
+    },
+    {
+      "id": "E3_C8f_thu",
+      "paper": "Este analisis (FASE E, E.3-C8f)",
+      "beta": 0.207,
+      "sigma": 0.073,
+      "dataset": "ACT DR6 (SACC oficial)",
+      "estatus": "verificado_paper",
+      "notas": "Pipeline Eskilt 2026 ejecutado localmente, chi2/dof=1.04",
+      "delta": 0.17330000000000004,
+      "tension_sigma": 2.081916379638111,
+      "tension_signed": 2.081916379638111,
+      "cita": {
+        "cita_completa": "Este analisis (FASE E, pipeline Eskilt 2026, SACC oficial ACT DR6).",
+        "doi": null,
+        "arxiv": null,
+        "verificado": true,
+        "fuente_verificacion": "ejecucion local del pipeline",
+        "valor_confirmado": "0.207 +/- 0.073 deg (chi2/dof = 1.04)"
+      }
+    }
+  ],
+  "analisis_propios": {
+    "E3_C8f": {
+      "beta": 0.207,
+      "sigma": 0.073,
+      "tension_vs_THU": 2.082,
+      "pipeline": "Eskilt 2026 (SACC oficial ACT DR6)",
+      "chi2_dof": 1.04,
+      "limitaciones": [
+        "3000 pasos (paper usa 70000)",
+        "Covarianza diagonal (paper usa off-diagonal)",
+        "Sin modelo dust EB",
+        "Convergencia no verificada (G-R)"
+      ]
+    },
+    "F2e": {
+      "w0": -0.8424,
+      "sigma_w0": 0.0536,
+      "wa": -0.414,
+      "tension_vs_cota_w_phi": 0.52,
+      "datos": "DESI DR2 + Pantheon+ (covarianza validada)",
+      "veredicto": "NO_FALSACION",
+      "limitaciones": [
+        "r_d fijado (sin marginalizar)",
+        "Sin priors BBN",
+        "Likelihood BAO simplificado"
+      ]
+    }
+  },
+  "trabajo_futuro": {
+    "convergencia_MCMC": {
+      "accion": "Correr E.3-C8f con 70000 pasos, off-diagonal cov, dust model",
+      "tiempo_estimado": "4-6 horas",
+      "impacto": "sigma de beta mas honesta"
+    },
+    "modo_joint": {
+      "accion": "Migrar a maquina con Fortran para ACT+Planck",
+      "tiempo_estimado": "1 dia",
+      "impacto": "beta con sigma ~0.057 (tension ~1.5 sigma)"
+    },
+    "tomografia_beta_z": {
+      "accion": "Requiere datos de LiteBIRD/SO",
+      "tiempo_estimado": "2030+",
+      "impacto": "test de la prediccion central del PDF"
+    }
+  },
+  "limitaciones_globales": [
+    "La mayoria de las mediciones no son independientes (Planck/ACT comparten datos)",
+    "El weighted average es una cota inferior de la tension real",
+    "La tension aumenta con la precision de los datos",
+    "La prediccion [D] del PDF (perfil beta(z)) no fue testeada",
+    "Solo se testeo la amplitud [P] beta_0 = 0.3803 deg"
+  ],
+  "conclusion_honesta": "THU-TBEA 5.0 no esta falsada por los datos actuales (maxima tension ~2.1 sigma vs umbral 3 sigma). Sin embargo, la tendencia es adversa: conforme mejora la precision, beta baja hacia ~0.20-0.25 deg, alejandose de la prediccion de 0.3803 deg. El programa sobrevive pero esta bajo tension empirica real. Las mediciones futuras (LiteBIRD, Simons Observatory) con sigma ~0.02-0.03 deg decidiran su destino."
+}

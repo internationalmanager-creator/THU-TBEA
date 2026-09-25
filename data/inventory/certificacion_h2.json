@@ -1,0 +1,79 @@
+{
+  "faltantes": [],
+  "fase": "H.2",
+  "archivos": [
+    {
+      "nombre": "act_dr6.02_spectra_and_cov_xtra.tar.gz",
+      "fecha_mod": "2026-09-21T07:19:09.5163275Z",
+      "bytes": 25899,
+      "ruta": "act_dr6\\act_dr6.02_spectra_and_cov_xtra.tar.gz",
+      "sha256": "ad78ca922d1e80f94e3e61c31022bd7ac36716604059147a28bd6c0e0eea05ea"
+    },
+    {
+      "nombre": "act_dr6.02_spectra_and_cov_binning_50.tar.gz",
+      "fecha_mod": "2026-09-21T07:19:11.2623271Z",
+      "bytes": 1092260,
+      "ruta": "act_dr6\\act_dr6.02_spectra_and_cov_binning_50.tar.gz",
+      "sha256": "c4289c259b4b6502bef02775926c153aab12580e0690f2641e36c3407bde6e5e"
+    },
+    {
+      "nombre": "beta_planck_pr4.csv",
+      "fecha_mod": "2026-09-21T04:08:15.8534509Z",
+      "bytes": 114,
+      "ruta": "planck_pr4\\beta_planck_pr4.csv",
+      "sha256": "dadb581268adf07ecf4286a3802088b3c705cb58cf664ff6fbd25e1b6620fb5d"
+    },
+    {
+      "nombre": "NPIPE_CB_spectra.csv",
+      "fecha_mod": "2026-09-21T04:37:15.4608849Z",
+      "bytes": 190608,
+      "ruta": "planck_pr4\\cb_spectra\\NPIPE_CB_spectra.csv",
+      "sha256": "c632e783107df2af519df0ac72b68c34a36d5cb0eca520bd2b47205f32f35d8c"
+    },
+    {
+      "nombre": "PR3_CB_spectra.csv",
+      "fecha_mod": "2026-09-21T04:37:16.4270950Z",
+      "bytes": 190504,
+      "ruta": "planck_pr4\\cb_spectra\\PR3_CB_spectra.csv",
+      "sha256": "8b2aea52000a109761c25ee92274e74af422a922bb698283ba3002544bbe2297"
+    },
+    {
+      "nombre": "desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "fecha_mod": "2026-09-21T04:11:41.3666980Z",
+      "bytes": 472,
+      "ruta": "desi_dr2\\desi_gaussian_bao_ALL_GCcomb_mean.txt",
+      "sha256": "9ac154ab583ce759c0f7eef3c978c7c70a6ead2d18774caceadf1a350a640585"
+    },
+    {
+      "nombre": "desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "fecha_mod": "2026-09-21T04:07:54.8378239Z",
+      "bytes": 2547,
+      "ruta": "desi_dr2\\desi_gaussian_bao_ALL_GCcomb_cov.txt",
+      "sha256": "252a143274c8a07c78694c119617d36594f6d7965d00319ca611c6ffb886e509"
+    },
+    {
+      "nombre": "Pantheon+SH0ES.dat",
+      "fecha_mod": "2026-09-21T04:01:28.8676327Z",
+      "bytes": 579283,
+      "ruta": "pantheon_plus\\Pantheon+SH0ES.dat",
+      "sha256": "1cb0fc379ef066afdc2ffd1857681cc478024570d8a3eba284fb645775198cf8"
+    },
+    {
+      "nombre": "Pantheon+SH0ES_STAT+SYS.cov",
+      "fecha_mod": "2026-09-21T04:01:34.9301224Z",
+      "bytes": 33284960,
+      "ruta": "pantheon_plus\\Pantheon+SH0ES_STAT+SYS.cov",
+      "sha256": "abf806d966485e64afdb359c87bffc0ecc00d05eff0a31ced66f247385df0fdc"
+    },
+    {
+      "nombre": "dr6_data.fits",
+      "fecha_mod": "2025-03-10T14:32:32.7579035Z",
+      "bytes": 896860800,
+      "ruta": "act_dr6_packages\\data\\ACTDR6MFLike\\v1.0\\dr6_data.fits",
+      "sha256": "eca996ddb1fc57750299bf5757a40f5d178c1a8b3446d3341a99ca5ba7378e8b"
+    }
+  ],
+  "total_faltantes": 0,
+  "total_ok": 10,
+  "fecha": "2026-09-21T23:46:46.5989241Z"
+}

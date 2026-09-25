@@ -1,0 +1,61 @@
+{
+  "h5": "C:\\Users\\kg4tr\\Documents\\Investigacion_lab_secreto\\data\\raw\\cosmic-birefringence-planck-act\\data\\computed\\mcmc_chain.h5",
+  "datasets": [
+    {
+      "path": "mcmc/accepted",
+      "shape": [
+        12
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "mcmc/chain",
+      "shape": [
+        30000,
+        12,
+        6
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "mcmc/log_prob",
+      "shape": [
+        30000,
+        12
+      ],
+      "dtype": "float64"
+    }
+  ],
+  "cols": [
+    {
+      "idx": 0,
+      "mean": 0.0032948209792477237,
+      "std": 0.001611133744839802
+    },
+    {
+      "idx": 1,
+      "mean": 0.0002539700562947369,
+      "std": 0.0014275917771115647
+    },
+    {
+      "idx": 2,
+      "mean": -0.00020370417228004854,
+      "std": 0.0011825775903496697
+    },
+    {
+      "idx": 3,
+      "mean": 0.00035396598472406876,
+      "std": 0.0011896105297333746
+    },
+    {
+      "idx": 4,
+      "mean": -0.0006753255966321563,
+      "std": 0.001321957805993858
+    },
+    {
+      "idx": 5,
+      "mean": -0.0004820447925605631,
+      "std": 0.0012780970113296793
+    }
+  ]
+}

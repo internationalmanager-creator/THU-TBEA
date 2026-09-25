@@ -1,4 +1,4 @@
-"""THU-TBEA 5.3 — Dashboard Streamlit dedicado.
+"""THU-TBEA 5.4 — Dashboard Streamlit dedicado.
 
 Ejecutar:
     streamlit run app_thu.py
@@ -36,10 +36,8 @@ ANNEXES_FILE = BASE / "registry" / "thu" / "annexes.json"
 DIST_DIR = BASE / "paper" / "thu" / "dist"
 SRC_DIR = BASE / "paper" / "thu" / "src"
 
-
-st.set_page_config(page_title="THU-TBEA 5.3", page_icon="🌀",
+st.set_page_config(page_title="THU-TBEA 5.4", page_icon="🌀",
                    layout="wide", initial_sidebar_state="expanded")
-
 
 # ============================================================
 # Helpers
@@ -55,12 +53,10 @@ def hero(t):
         unsafe_allow_html=True,
     )
 
-
 def section(title, theory=None):
     teo = f'<div class="theory">{theory}</div>' if theory else ""
     st.markdown(f'<div class="thu-sec"><h2>{title}</h2>{teo}</div>',
                 unsafe_allow_html=True)
-
 
 def kpi(label, value, detail=None):
     d = f'<div class="thu-kpi-detail">{detail}</div>' if detail else ""
@@ -70,26 +66,24 @@ def kpi(label, value, detail=None):
         unsafe_allow_html=True,
     )
 
-
 def eq(latex):
-    """Renderiza una ecuacion con st.latex nativo.
-    Acepta \\[...\\], $$...$$, $...$ o LaTeX puro sin delimitadores.
+    r"""Renderiza una ecuacion con st.latex nativo.
+    Acepta \[...\], $$...$$, $...$ o LaTeX puro sin delimitadores.
     """
     s = latex.strip()
-    for pre in (r"\\[", "$$", "$"):
+    # Prefijos: 2 backslash (raw), 1 backslash (del LaTeX), $$, $
+    for pre in ("\\\\[", "\\[", "$$", "$"):
         if s.startswith(pre):
             s = s[len(pre):].strip()
             break
-    for suf in (r"\\]", "$$", "$"):
+    for suf in ("\\\\]", "\\]", "$$", "$"):
         if s.endswith(suf):
             s = s[:-len(suf)].strip()
             break
     st.latex(s)
 
-
 def badge(label):
     return S.badge(label)
-
 
 # ============================================================
 # Seccion 1: Overview
@@ -99,7 +93,7 @@ def render_overview(t):
     hero(t)
     s = L.stats()
     c1, c2, c3, c4, c5, c6 = st.columns(6)
-    with c1: kpi(t["kpi_version"], s["version"], "family 4.3 -> 5.3")
+    with c1: kpi(t["kpi_version"], s["version"], "family 4.3 -> 5.4")
     with c2: kpi(t["kpi_closed"], s["problems_closed"], f"de {s['problems_total']}")
     with c3: kpi(t["kpi_open"], s["problems_open"], "[F] y [A]")
     with c4: kpi(t["kpi_predictions"], s["predictions"], f"{s['preds_prereg']} pre-reg")
@@ -144,7 +138,6 @@ def render_overview(t):
         fig = C.problems_bar(probs, t)
         if fig: st.plotly_chart(fig, use_container_width=True)
 
-
 # ============================================================
 # Seccion 2: Problems
 # ============================================================
@@ -182,7 +175,6 @@ def render_problems(t):
             f'</div>',
             unsafe_allow_html=True,
         )
-
 
 # ============================================================
 # Seccion 3: Predictions
@@ -252,7 +244,6 @@ def render_patches(t):
             unsafe_allow_html=True,
         )
 
-
 # ============================================================
 # Seccion 5: Versions
 # ============================================================
@@ -277,7 +268,6 @@ def render_versions(t):
             unsafe_allow_html=True,
         )
 
-
 # ============================================================
 # Seccion 6: Epistemic matrix
 # ============================================================
@@ -295,7 +285,6 @@ def render_epistemic(t):
         fig = C.epistemic_pie(data, t)
         if fig: st.plotly_chart(fig, use_container_width=True)
 
-
 # ============================================================
 # Seccion 7: Glossary
 # ============================================================
@@ -304,38 +293,83 @@ def render_glossary(t):
     hero(t)
     section(t["glossary_title"])
     data = L.glossary()
+
     for grupo in ("geometry", "constants", "observables"):
+        if grupo not in data:
+            continue
         st.markdown(f"#### {grupo.title()}")
-        rows = [{"Simbolo": r["sym"], "Significado": r["meaning"],
-                 "Dim.": r.get("dim", ""), "Def.": r.get("def", ""),
-                 "Valor": r.get("value", "")} for r in data[grupo]]
-        st.dataframe(rows, use_container_width=True, hide_index=True)
+        # Header
+        h1, h2, h3, h4, h5 = st.columns([2, 3, 1, 1, 2])
+        with h1: st.markdown("**Simbolo**")
+        with h2: st.markdown("**Significado**")
+        with h3: st.markdown("**Dim.**")
+        with h4: st.markdown("**Def.**")
+        with h5: st.markdown("**Valor**")
+        st.markdown("---")
+        for r in data[grupo]:
+            c1, c2, c3, c4, c5 = st.columns([2, 3, 1, 1, 2])
+            with c1:
+                # Usar sym_latex si existe, sino sym envuelto en $
+                latex = r.get("sym_latex") or ("$" + str(r.get("sym", "")) + "$")
+                st.markdown(latex)
+            with c2: st.markdown(str(r.get("meaning", "—")))
+            with c3: st.markdown(str(r.get("dim", "—")))
+            with c4: st.markdown(str(r.get("def", "—")))
+            with c5: st.markdown(str(r.get("value", "—")))
+        st.markdown("")
 
 
-# ============================================================
-# Seccion 8: References
-# ============================================================
 
 def render_refs(t):
     hero(t)
     section(t["refs_title"])
     data = L.references()
-    tags = sorted({r.get("tag", "otros") for r in data["refs"]})
-    sel = st.multiselect("Filtrar por tag", tags, default=[])
+
+    # Merge con doi_registry.json
+    doi_by_key = {}
+    try:
+        import json as _json
+        from pathlib import Path as _P
+        dr_path = _P(__file__).parent / "registry" / "thu" / "doi_registry.json"
+        if dr_path.exists():
+            dr = _json.loads(dr_path.read_text(encoding="utf-8"))
+            for e in dr.get("entries", []):
+                k = e.get("key") or e.get("bibkey") or ""
+                d = e.get("doi") or ""
+                if k and d:
+                    doi_by_key[k] = d
+    except Exception as _e:
+        pass
+
     refs = data["refs"]
+    tags = sorted({r.get("tag", "otros") for r in refs})
+    sel = st.multiselect("Filtrar por tag", tags, default=[])
     if sel:
         refs = [r for r in refs if r.get("tag") in sel]
-    rows = [{"#": r["n"], t["authors"]: r["authors"],
-             t["year"]: r.get("year", "—"),
-             t["journal"]: r.get("journal") or r.get("title", ""),
-             "Tag": r.get("tag", ""),
-             "DOI": r.get("doi") or "—"} for r in refs]
+
+    # Contar con/sin DOI
+    n_con_doi = sum(1 for r in refs if r.get("doi") or doi_by_key.get(r.get("key", "")))
+    n_sin_doi = len(refs) - n_con_doi
+    c1, c2, c3 = st.columns(3)
+    with c1: st.metric("Total", len(refs))
+    with c2: st.metric("Con DOI", n_con_doi)
+    with c3: st.metric("Sin DOI", n_sin_doi)
+
+    rows = []
+    for r in refs:
+        key = r.get("key") or r.get("bibkey") or ""
+        doi = r.get("doi") or doi_by_key.get(key, "")
+        rows.append({
+            "#": r["n"],
+            t["authors"]: r["authors"],
+            t["year"]: r.get("year", "—"),
+            t["journal"]: r.get("journal") or r.get("title", ""),
+            "Tag": r.get("tag", ""),
+            "DOI": doi if doi else "—",
+        })
     st.dataframe(rows, use_container_width=True, hide_index=True, height=600)
 
 
-# ============================================================
-# Seccion 9: PRISMA
-# ============================================================
 
 def render_prisma(t):
     hero(t)
@@ -353,7 +387,6 @@ def render_prisma(t):
         for b in data["search"]["bases"]:
             st.markdown(f"- {b}")
         st.markdown(f"**Periodo**: {data['search']['period'][0]} – {data['search']['period'][1]}")
-
 
 # ============================================================
 # Seccion 10: Datasets
@@ -378,7 +411,6 @@ def render_datasets(t):
     if fig: st.plotly_chart(fig, use_container_width=True)
     if data["chi2_breakdown"].get("warning"):
         st.warning(data["chi2_breakdown"]["warning"])
-
 
 # ============================================================
 # Seccion 11: Sections (estructura)
@@ -412,7 +444,6 @@ def _kpi_simple(label, value):
         f'<div class="thu-kpi-value">{value}</div></div>',
         unsafe_allow_html=True,
     )
-
 
 def render_annexes(t):
     hero(t)
@@ -491,7 +522,6 @@ def render_annexes(t):
                     except Exception as e:
                         st.error(f"Error: {e}")
 
-
 # ============================================================
 # Seccion 13: Compilar y descargar
 # ============================================================
@@ -514,6 +544,28 @@ def render_downloads(t):
             st.markdown(f"- **{k}**: `{v}`")
 
     st.markdown("---")
+    # === Abrir PDFs generados (D-38) ===
+    dist = BASE / "paper" / "thu" / "dist"
+    if dist.exists():
+        st.markdown("### 0. PDFs disponibles")
+        for lang_code, lang_name in [("es","Espanol"), ("en","English"), ("de","Deutsch")]:
+            pdf = dist / f"tesis_{lang_code}.pdf"
+            if pdf.exists():
+                mb = round(pdf.stat().st_size / (1024*1024), 2)
+                c1, c2 = st.columns([3, 1])
+                with c1:
+                    st.markdown(f"**{lang_name}** - `{pdf.name}` ({mb} MB)")
+                with c2:
+                    with open(pdf, "rb") as fh:
+                        st.download_button(
+                            f"Descargar {lang_code.upper()}",
+                            data=fh.read(),
+                            file_name=pdf.name,
+                            mime="application/pdf",
+                            key=f"dl_{lang_code}"
+                        )
+        st.markdown("---")
+
     st.markdown("### 1. Generar archivos LaTeX (.tex)")
     cA, cB, cC, cD = st.columns(4)
     with cA:
@@ -601,76 +653,9 @@ def render_downloads(t):
                                        use_container_width=True,
                                        key=f"dl_tex_{lang}")
 
-
 # ============================================================
 # Router y main
 # ============================================================
-
-# ============================================================
-# Seccion 14: Historia (retiros + trasplantes + etapas)
-# ============================================================
-
-def render_history(t):
-    hero(t)
-    chg = L.changelog()
-
-    # --- Etapas Lakatosianas ---
-    section("Bitacora Lakatosiana (10 etapas)",
-            "Desplazamientos de problema 1.0 -> 5.3 evaluados por capacidad predictiva nueva.")
-    for e in chg["etapas"]:
-        color = L.label_color(e["label"])
-        st.markdown(
-            f'<div class="thu-card" style="border-left-color:{color};">'
-            f'<div style="display:flex;justify-content:space-between;">'
-            f'<strong>Etapa {e["n"]} — {e["titulo"]}</strong>'
-            f'{S.badge(e["label"])}'
-            f'</div>'
-            f'<div style="color:#636E72;font-size:0.78rem;margin-top:4px;">'
-            f'{e["epoch"]} · tipo: {e["tipo"]}</div>'
-            f'</div>',
-            unsafe_allow_html=True,
-        )
-
-    st.markdown("---")
-
-    # --- Retiros del nucleo ---
-    section("Retiros del nucleo",
-            "Afirmaciones removidas del nucleo por v5.3 (Sec. 12.2). Se registran aqui para trazabilidad.")
-    for r in chg["retiros"]:
-        st.markdown(
-            f'<div class="thu-card">'
-            f'<div style="display:flex;justify-content:space-between;">'
-            f'<strong>{r["id"]} — {r["ubicacion"]}</strong>'
-            f'{S.badge(r["label_final"])}'
-            f'</div>'
-            f'<div style="margin-top:8px;">'
-            f'<span style="color:#E17055;">Retirado:</span> '
-            f'<em>{r["afirmacion_retirada"]}</em></div>'
-            f'<div style="margin-top:4px;">'
-            f'<span style="color:#00B894;">Reemplazo:</span> '
-            f'{r["reemplazo"]}</div>'
-            f'<div style="color:#A0A0A0;font-size:0.85rem;margin-top:6px;">'
-            f'Razon: {r["razon"]}</div>'
-            f'</div>',
-            unsafe_allow_html=True,
-        )
-
-    st.markdown("---")
-
-    # --- Tabla de trasplantes ---
-    section("Tabla de trasplantes",
-            "Trazabilidad fuente -> destino (Sec. 2.5 de v5.3). Garantia de no perdida de dato.")
-    rows = [{"Fuente": tr["fuente"], "Destino": tr["destino"], "Nota": tr["nota"]}
-            for tr in chg["trasplantes"]]
-    st.dataframe(rows, use_container_width=True, hide_index=True)
-
-    st.markdown("---")
-    st.caption(
-        f"Fuente: {chg['source']} · "
-        f"DOI: {chg['source_doi']} · "
-        f"Consolidado: {chg['fecha_consolidacion']}"
-    )
-
 
 # ============================================================
 # Seccion 15: Atlas de figuras (imagen + ecuacion + teoria + demo)
@@ -684,12 +669,35 @@ def _chapter_of(nombre):
     return m.group(1)
 
 
+
+
+def _find_figure_image(name_or_path):
+    """Devuelve el path al PNG real (con sufijo _150 o _300).
+    Acepta nombre simple, .png, .pdf, o path completo."""
+    from pathlib import Path as _P
+    figs = _P(__file__).parent / "paper" / "thu" / "figures"
+    # Extraer solo el stem (sin extension ni directorios)
+    base = _P(str(name_or_path)).stem
+    for suffix in ["_150.png", "_300.png", ".png", ".pdf"]:
+        p = figs / (base + suffix)
+        if p.exists():
+            try:
+                with open(p, "rb") as f:
+                    h = f.read(4)
+                if h == b"%PDF" and suffix == ".png":
+                    continue
+            except Exception:
+                continue
+            return p
+    return None
+
+
 def render_figures(t):
     hero(t)
     section(t["figures_title"], t["figures_theory"])
 
     from thu import figures as FIG
-    meta_all = L.figure_metadata().get("figures", {})
+    meta_all = L.figure_metadata(lang=st.session_state.get("lang", "es")).get("figures", {})
 
     todos = sorted(FIG.GENERADORES.keys())
     total = len(todos)
@@ -774,7 +782,11 @@ def render_figures(t):
         cols = st.columns([2, 1])
         with cols[0]:
             if png.exists():
-                st.image(str(png), use_container_width=True)
+                _img = _find_figure_image(png)
+                if _img:
+                    st.image(str(_img), use_container_width=True)
+                else:
+                    st.warning("PNG no encontrado para: " + str(png))
             else:
                 st.warning(f"PNG ausente: {png.name}")
         with cols[1]:
@@ -785,7 +797,6 @@ def render_figures(t):
                 st.markdown(f"**{t['figures_demo']}**")
                 st.markdown(m["demo"])
         st.markdown("---")
-
 
 def render_derivaciones(t):
     """Sección 15: Derivaciones simbólicas con desarrollo paso a paso."""
@@ -846,25 +857,23 @@ def render_derivaciones(t):
     for label, count in sorted(labels_count.items()):
         st.markdown(f"- **[{label}]**: {count} derivaciones")
 
-
 SECTIONS = {
+    "overview": ("nav_overview",   render_overview),
     "derivations": ("nav_derivations", render_derivaciones),
-    "overview":    ("nav_overview",   render_overview),
-    "problems":    ("nav_problems",   render_problems),
+    "problems": ("nav_problems",   render_problems),
     "predictions": ("nav_predictions", render_predictions),
-    "patches":     ("nav_patches",    render_patches),
-    "versions":    ("nav_versions",   render_versions),
-    "epistemic":   ("nav_epistemic",  render_epistemic),
-    "glossary":    ("nav_glossary",   render_glossary),
-    "refs":        ("nav_refs",       render_refs),
-    "prisma":      ("nav_prisma",     render_prisma),
-    "datasets":    ("nav_datasets",   render_datasets),
-    "sections":    ("nav_sections",   render_sections),
-    "annexes":     ("nav_annexes",    render_annexes),
-    "downloads":   ("nav_downloads",  render_downloads),
+    "patches": ("nav_patches",    render_patches),
+    "versions": ("nav_versions",   render_versions),
+    "epistemic": ("nav_epistemic",  render_epistemic),
+    "glossary": ("nav_glossary",   render_glossary),
+    "refs": ("nav_refs",       render_refs),
+    "prisma": ("nav_prisma",     render_prisma),
+    "datasets": ("nav_datasets",   render_datasets),
+    "sections": ("nav_sections",   render_sections),
+    "annexes": ("nav_annexes",    render_annexes),
+    "downloads": ("nav_downloads",  render_downloads),
     "figures": ("nav_figures", render_figures),
 }
-
 
 def main():
     S.inject()
@@ -895,9 +904,17 @@ def main():
 
     st.sidebar.markdown("---")
     st.sidebar.markdown(
-        "<small>THU-TBEA 5.3<br/>"
+        "<small>"
+        "<b>Erick Duque</b><br/>"
+        "<i>Investigador Independiente</i><br/>"
+        "ORCID: <code>0009-0004-1245-5464</code><br/>"
+        "Correo: <code>international_manager@comllcusa.com</code><br/>"
+        "<br/>"
+        "<b>THU-TBEA 5.4</b><br/>"
+        "Version 5.4 &middot; 2026-09-24<br/>"
         "DOI: <code>pendiente</code><br/>"
-        "Repo: <code>privado</code></small>",
+        "Repo: <code>privado</code>"
+        "</small>",
         unsafe_allow_html=True,
     )
 
@@ -909,6 +926,10 @@ def main():
         unsafe_allow_html=True,
     )
 
-
 if __name__ == "__main__":
+    # Auto-abrir navegador solo la primera vez (guard en variable de entorno)
+    import os, webbrowser, threading
+    if not os.environ.get("THU_BROWSER_OPENED"):
+        os.environ["THU_BROWSER_OPENED"] = "1"
+        threading.Timer(2.5, lambda: webbrowser.open("http://localhost:8501")).start()
     main()

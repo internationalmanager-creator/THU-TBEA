@@ -1,0 +1,56 @@
+{
+  "fecha_actualizacion": "2026-09-21T22:44:33Z",
+  "version_referencia": "v5.0 (PDF PROGRAMA_COMPLETO_v5.0.pdf)",
+  "predicciones": {
+    "P1": {
+      "titulo": "Oscilaciones helicoidales en H(z)",
+      "estado": "AUDITADA",
+      "metodo": "DESI DR2 BAO",
+      "resultado": "CONSISTENTE_CON_NULO (p=0.45)",
+      "referencia": "data/inventory/fase_p1_oscilaciones_hz.json",
+      "conclusion": "No detectable con datos actuales. No falsa THU."
+    },
+    "P2": {
+      "estado": "PENDIENTE",
+      "razon": "Requiere mapas Planck crudos"
+    },
+    "P3": {
+      "estado": "PENDIENTE",
+      "razon": "Requiere datos de lentes gravitacionales"
+    },
+    "P4": {
+      "estado": "PENDIENTE",
+      "razon": "Sin datos accesibles"
+    },
+    "P5": {
+      "titulo": "Residuo helicoidal de espin (STAR/HADES)",
+      "estado": "RETIRADA",
+      "razon": "4 problemas: valor STAR no verificado, THU sin derivacion, inconsistencia epistemica, acuerdo no discriminante",
+      "referencia": "registry/thu/P5_retirada_v5.0.json"
+    },
+    "P6": {
+      "estado": "PENDIENTE",
+      "razon": "Experimental"
+    },
+    "P7": {
+      "estado": "PENDIENTE",
+      "razon": "Requiere analisis teorico adicional"
+    },
+    "P8": {
+      "estado": "PENDIENTE",
+      "razon": "Auditoria pendiente (Tarea C)"
+    },
+    "P9": {
+      "estado": "PENDIENTE",
+      "razon": "Requiere datos experimentales"
+    },
+    "P10": {
+      "estado": "PENDIENTE",
+      "razon": "Requiere simulacion numerica"
+    },
+    "P11": {
+      "estado": "PENDIENTE",
+      "razon": "Experimental (microtubulos)"
+    }
+  }
+}
