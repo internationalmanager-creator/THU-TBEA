@@ -8,7 +8,7 @@ Ejecutar:
     2. Problemas A-1..A-17
     3. Predicciones P1-P12
     4. Parches (Etapas VII-X)
-    5. Bitacora Lakatosiana 1.0 -> 5.3
+    5. Bitacora Lakatosiana 1.0 -> 5.4
     6. Matriz epistemica (27 filas)
     7. Glosario (37 simbolos)
     8. Referencias (68)
@@ -101,7 +101,7 @@ def render_overview(t):
     with c6: kpi(t["kpi_patches"], s["patches"], "4 etapas")
 
     st.markdown("<br>", unsafe_allow_html=True)
-    section("Ecuaciones centrales", "Formalizacion del nucleo geometrico (v5.3)")
+    section("Ecuaciones centrales", "Formalizacion del nucleo geometrico (v5.4)")
     cA, cB = st.columns(2)
     with cA:
         st.markdown("**Torsion axial de Palatini**")
@@ -122,7 +122,7 @@ def render_overview(t):
         "           |\n"
         "Lambda_THU = M_P * phi^{-88}  ~  989.89 MeV\n"
         "           |\n"
-        "beta(z) tomografia  |  m_n  |  P1-P11\n"
+        "beta(z) tomografia  |  m_n  |  P1-P12\n"
         "```"
     )
 
