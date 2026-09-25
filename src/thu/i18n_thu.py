@@ -15,7 +15,7 @@ except (ImportError, ValueError):
 
 _T = {
     "es": {
-        "title": "THU-TBEA 5.3",
+        "title": "THU-TBEA 5.4",
         "subtitle": "Teoria Helicoidal Universal — Torsion Axial Riemann-Cartan",
         "tagline": "Programa de investigacion lakatosiano — Nucleo matematicamente blindado, frontera empirica declarada",
         "nav_overview": "Vision general",
@@ -101,11 +101,11 @@ _T = {
         "year": "Ano",
         "journal": "Revista",
         "reload": "Recargar",
-        "footer": "THU-TBEA 5.3 — Programa de investigacion rigurosa",
+        "footer": "THU-TBEA 5.4 — Programa de investigacion rigurosa",
         "no_data": "Sin datos todavia.",
     },
     "en": {
-        "title": "THU-TBEA 5.3",
+        "title": "THU-TBEA 5.4",
         "subtitle": "Universal Helical Theory — Riemann-Cartan Axial Torsion",
         "tagline": "Lakatosian research program — Mathematically sealed core, empirically declared frontier",
         "nav_overview": "Overview",
@@ -191,11 +191,11 @@ _T = {
         "year": "Year",
         "journal": "Journal",
         "reload": "Reload",
-        "footer": "THU-TBEA 5.3 — Rigorous research program",
+        "footer": "THU-TBEA 5.4 — Rigorous research program",
         "no_data": "No data yet.",
     },
     "de": {
-        "title": "THU-TBEA 5.3",
+        "title": "THU-TBEA 5.4",
         "subtitle": "Universelle Helikale Theorie — Riemann-Cartan Axiale Torsion",
         "tagline": "Lakatosianisches Forschungsprogramm — Mathematisch versiegelter Kern, empirisch erklarte Grenze",
         "nav_overview": "Ubersicht",
@@ -281,7 +281,7 @@ _T = {
         "year": "Jahr",
         "journal": "Zeitschrift",
         "reload": "Neu laden",
-        "footer": "THU-TBEA 5.3 — Rigoroses Forschungsprogramm",
+        "footer": "THU-TBEA 5.4 — Rigoroses Forschungsprogramm",
         "no_data": "Noch keine Daten.",
     },
 }
@@ -309,12 +309,12 @@ if __name__ == "__main__":
         t = get(lang)
         print(f"  {lang}: {len(t)} claves, {len(t['domain_names'])} dominios")
     t_es = get("es")
-    assert t_es["title"] == "THU-TBEA 5.3"
+    assert t_es["title"] == "THU-TBEA 5.4"
     assert "nav_overview" in t_es
     assert "nav_annexes" in t_es
     assert "nav_downloads" in t_es
     t_en = get("en")
-    assert t_en["title"] == "THU-TBEA 5.3"
+    assert t_en["title"] == "THU-TBEA 5.4"
     assert "Overview" in t_en["nav_overview"]
     t_de = get("de")
     assert "Ubersicht" in t_de["nav_overview"]
