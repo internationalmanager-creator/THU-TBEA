@@ -903,8 +903,7 @@ def main():
                 st.rerun()
 
     st.sidebar.markdown("---")
-
-          st.sidebar.markdown(
+    st.sidebar.markdown(
         """
         <small>
         <b>Erick Duque</b><br>
