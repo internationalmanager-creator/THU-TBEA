@@ -102,3 +102,6 @@ CLEANUP_BACKUP_*.zip
 
 !assets_hero.png
 !assets/*.png
+
+!assets_hero.png
+!assets/*.png
