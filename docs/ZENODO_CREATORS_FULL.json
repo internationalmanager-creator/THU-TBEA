@@ -1,0 +1,22 @@
+{
+  "creators": [
+    {
+      "person_or_org": {
+        "type": "personal",
+        "given_name": "Erick",
+        "family_name": "Duque",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0009-0004-1245-5464"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Independent Researcher"
+        }
+      ]
+    }
+  ]
+}

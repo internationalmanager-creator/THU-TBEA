@@ -912,8 +912,8 @@ def main():
         "<br/>"
         "<b>THU-TBEA 5.4</b><br/>"
         "Version 5.4 &middot; 2026-09-24<br/>"
-        "DOI: <code>pendiente</code><br/>"
-        "Repo: <code>privado</code>"
+        "DOI: <code>10.5281/zenodo.22949313</code><br/>"
+        "Repo: <a href="https://github.com/internationalmanager-creator/THU-TBEA">GitHub</a>"
         "</small>",
         unsafe_allow_html=True,
     )

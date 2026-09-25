@@ -1,5 +1,8 @@
 # PIR — Programa de Investigacion Rigurosa
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22949313.svg)](https://doi.org/10.5281/zenodo.22949313)
+
+
 **Investigador:** Erick Duque
 **ORCID:** 0009-0004-1245-5464
 **Contacto:** international_manager@comllcusa.com

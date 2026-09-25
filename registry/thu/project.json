@@ -13,11 +13,10 @@
     "affiliation_de": "Unabhängiger Forscher"
   },
   "doi_versions": {
-    "current": null,
-    "historical": [],
-    "related": [],
-    "status": "PENDIENTE",
-    "note": "El DOI se asignara cuando el trabajo sea publicado en Zenodo/GitHub. Hasta entonces, este campo permanece null. No se inventan identificadores."
+    "current": "10.5281/zenodo.22949313",
+    "all": [
+      "10.5281/zenodo.22949313"
+    ]
   },
   "repository": {
     "url": null,
