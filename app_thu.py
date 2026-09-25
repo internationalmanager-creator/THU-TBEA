@@ -6,7 +6,7 @@ Ejecutar:
 13 secciones navegables:
     1. Vision general      KPIs + ecuaciones + jerarquia + estado Lakatos
     2. Problemas A-1..A-17
-    3. Predicciones P1-P11
+    3. Predicciones P1-P12
     4. Parches (Etapas VII-X)
     5. Bitacora Lakatosiana 1.0 -> 5.3
     6. Matriz epistemica (27 filas)
