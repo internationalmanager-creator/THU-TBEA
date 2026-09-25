@@ -880,6 +880,7 @@ def main():
 
     if "lang" not in st.session_state:
         st.session_state.lang = "es"
+    st.sidebar.image("assets_hero.png", use_container_width=True)
     st.sidebar.selectbox("Idioma / Language / Sprache", I.available(),
                           format_func=I.lang_label, key="lang")
     t = I.get(st.session_state.lang)
