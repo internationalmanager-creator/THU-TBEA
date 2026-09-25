@@ -10,7 +10,7 @@ Secciones del documento:
     5. Capitulos 1-21 (titulo + ecuaciones clave)
     6. Apendices A-J
     7. Registro de problemas A-1..A-17
-    8. Predicciones P1-P11
+    8. Predicciones P1-P12
     9. Bitacora de parches (Etapas VII-X)
     10. Bitacora Lakatosiana 1.0 -> 5.3
     11. Referencias (68)

@@ -494,7 +494,7 @@ def _label_color(lab):
 
 
 def fig_17_01_matriz_falsacion():
-    """Fig 17.1: falsification matrix P1-P11."""
+    """Fig 17.1: falsification matrix P1-P12."""
     preds = [
         ("P1", "Helical osc. in H(z)", "Open"),
         ("P2", "Golden CMB modulation", "Open"),
@@ -521,7 +521,7 @@ def fig_17_01_matriz_falsacion():
     ax.set_yticks(ys)
     ax.set_yticklabels([p[0] for p in preds])
     ax.set_xticks([]); ax.set_xlim(0, 1)
-    ax.set_title(r"Falsification matrix P1-P11", color=THEME_PRINT["fg"])
+    ax.set_title(r"Falsification matrix P1-P12", color=THEME_PRINT["fg"])
     return _save(fig, "fig_17-01_matriz_falsacion", "D",
                  "Fig 17.1: falsification matrix")
 def fig_17_02_bitacora_lakatosiana():
