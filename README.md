@@ -7,7 +7,7 @@
 **ORCID:** 0009-0004-1245-5464
 **Contacto:** international_manager@comllcusa.com
 
-**Estado:** PRIVADO. No se publica hasta decision explicita del PI.
+**Estado:** PUBLICADO. DOI: [10.5281/zenodo.22949313](https://doi.org/10.5281/zenodo.22949313)
 
 ---
 
@@ -18,7 +18,7 @@ provenance completa (cita ISO 690 + DOI + instrumento + condiciones +
 hash SHA-256). Cada hipotesis se pre-registra antes de ver los datos.
 Cada decision queda encadenada en un log cronografico criptografico.
 
-El repositorio integra ademas el programa **THU-TBEA 5.3** (Teoria
+El repositorio integra ademas el programa **THU-TBEA 5.4** (Teoria
 Helicoidal Universal) como primer programa concreto de investigacion.
 
 ---
@@ -116,7 +116,7 @@ Los cuatro en verde = repositorio auditable.
 
 ## Licencia
 
-CC-BY-4.0 (aplicable solo tras publicacion explicita)
+CC-BY-4.0 (contenido) + MIT (codigo)
 
 ---
 

@@ -10,8 +10,8 @@ version: "5.4"
 doi: "10.5281/zenodo.22949313"
 date-released: "2026-09-24"
 license: "CC-BY-4.0"
-repository-code: "https://github.com/internationalmanager-creator/thu-tbea"
-type: software
+repository-code: "https://github.com/internationalmanager-creator/THU-TBEA"
+type: dataset
 keywords:
   - torsion
   - Riemann-Cartan
