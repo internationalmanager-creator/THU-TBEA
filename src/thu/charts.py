@@ -127,7 +127,7 @@ def prisma_funnel(prisma):
 def chi2_breakdown(datasets):
     """Barras de chi2 por dataset."""
     bd = datasets["chi2_breakdown"]
-    keys = [k for k in ["BAO", "SNe_PantheonPlus", "CMB_birefringence"] if k in bd]
+    keys = [k for k in ["BAO_DESI_DR2", "SNe_PantheonPlus", "CMB_birefringence"] if k in bd]
     vals = [bd.get(k, 0) for k in keys]
     fig = go.Figure(go.Bar(
         x=keys, y=vals, text=vals, textposition="outside",
