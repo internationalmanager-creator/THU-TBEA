@@ -50,7 +50,7 @@ citas_verificadas = {
     "ballardini_2025": {
         "cita_completa": "Ballardini, M., et al. (2025). Planck constraints on the scale dependence of isotropic cosmic birefringence. Journal of Cosmology and Astroparticle Physics, 2025(09), 075.",
         "doi": "10.1088/1475-7516/2025/09/075",
-        "arxiv": "2507.xxxxx",
+        "arxiv": null,
         "verificado": True,
         "fuente_verificacion": "abstract del paper",
         "valor_confirmado": "0.30 +/- 0.05 deg (68% CL, sin sistematicos)",
@@ -58,7 +58,7 @@ citas_verificadas = {
     "remazeilles_2025": {
         "cita_completa": "Remazeilles, M., et al. (2025). Field-level constraints on cosmic birefringence from hybrid ILC maps combining E- and B-mode channels. Journal of Cosmology and Astroparticle Physics, 2025(12), 013.",
         "doi": "10.1088/1475-7516/2025/12/013",
-        "arxiv": "2507.xxxxx",
+        "arxiv": null,
         "verificado": True,
         "fuente_verificacion": "abstract del paper",
         "valor_confirmado": "0.32 +/- 0.12 deg (2.7 sigma)",

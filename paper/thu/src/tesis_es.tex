@@ -145,7 +145,7 @@
 \section*{Resumen}
 \addcontentsline{toc}{section}{Resumen}
 
-Esta tesis construye, analiza y somete a pruebas falsables una teoria de campos efectiva sobre una variedad de Riemann-Cartan U4 en la que la torsion axial irreducible es la solucion exacta de Palatini, alimentada por el gradiente de un pseudoescalar con operador cinetico exponencial entero. El trabajo se organiza como un programa de investigacion lakatosiano con estatus epistemico explicito. Se establecen cinco resultados con derivaciones completas: (i) punto fijo IR g\_star = phi; (ii) cancelacion del vacio escalar modulado con N \textasciitilde{} 1.2202; (iii) termino torsional en Friedmann con w\_K = +1 y coeficiente canonico kappa\textasciicircum{}4/6; (iv) analisis Dirac-Bergmann con un grado de libertad y residuo positivo; (v) prediccion de birefringencia cosmica beta\_0 = 0.3803 +- 0.040 deg [P]. La tomografia beta(z) constituye la prediccion central falsable. El programa demuestra rigor autocorrectivo, ejemplificado por el retiro formal de la derivacion de \$m\_n - m\_p\$ y la declaracion explicita de las fronteras de validez de la EFT, priorizando la falsabilidad sobre la completitud prematura.
+Esta tesis construye, analiza y somete a pruebas falsables una teoria de campos efectiva sobre una variedad de Riemann-Cartan U4 en la que la torsion axial irreducible es la solucion exacta de Palatini, alimentada por el gradiente de un pseudoescalar con operador cinetico exponencial entero. El trabajo se organiza como un programa de investigacion lakatosiano con estatus epistemico explicito. Se establecen cinco resultados con derivaciones completas: (i) punto fijo IR g\_star = phi; (ii) cancelacion del vacio escalar modulado con N \textasciitilde{} 1.2202; (iii) termino torsional en Friedmann con w\_K = +1 y coeficiente canonico kappa\textasciicircum{}4/6; (iv) analisis Dirac-Bergmann con un grado de libertad y residuo positivo; (v) prediccion de birefringencia cosmica beta\_0 = 0.3803 +- 0.038 deg [P]. La tomografia beta(z) constituye la prediccion central falsable. El programa demuestra rigor autocorrectivo, ejemplificado por el retiro formal de la derivacion de \$m\_n - m\_p\$ y la declaracion explicita de las fronteras de validez de la EFT, priorizando la falsabilidad sobre la completitud prematura.
 
 \vspace{1em}
 \textbf{Palabras clave:} torsion, Riemann-Cartan, grupo de renormalizacion, birefringencia cosmica, energia de vacio, teoria de campos no local, falsabilidad
@@ -1637,7 +1637,7 @@ Con el coeficiente tras el ajuste $A = 1{,}819$ y la conversión $\beta[^\circ] 
 
 \textbf{Vinculación con Cap. 20.} Registrada en tabla de estatus. \textbf{[D]}
 
-\textbf{Comparación con el corpus PRISMA (v5.4).} El weighted average de 8 mediciones independientes es $\beta_{\text{avg}} = 0{,}3065^\circ \pm 0{,}0278^\circ$, con tensión de $1{,}51\sigma$ respecto a la predicción THU $\beta_0 = 0{,}3803^\circ \pm 0{,}038^\circ$. Ver auditoría completa en §18.4. \textbf{[D]}
+\textbf{Comparación con el corpus PRISMA (v5.4).} El weighted average de 8 mediciones del corpus es $\beta_{\text{avg}} = 0{,}3065^\circ \pm 0{,}0278^\circ$, con tensión de $1{,}51\sigma$ respecto a la predicción THU $\beta_0 = 0{,}3803^\circ \pm 0{,}038^\circ$. Ver auditoría completa en §18.4. \textbf{[D]}
 \subsection{Comparación con versiones exactas de datasets (2019–2026)}
 Comparación del valor central $\beta = 0{,}3803^\circ$ con las mediciones isotrópicas publicadas 2019--2026:
 
@@ -2675,7 +2675,7 @@ $\beta_0 = 0{,}3803^\circ \pm 0{,}038^\circ$:
     \bottomrule
   \end{tabular}
 }
-  \caption{Auditoría de 8 mediciones independientes de $\beta$.}
+  \caption{Auditoría de 8 mediciones del corpus de $\beta$.}
   \label{tab:beta-18}
 \end{table}
 
@@ -3170,7 +3170,7 @@ Cada archivo critico lleva un hash SHA-256 encadenado al log criptografico del r
 
 VERIFICACION NUMERICA DE RESULTADOS
 
-Los resultados de analisis empirico (Cap. 18) se preservan en data/inventory/ con hashes SHA-256 verificables: fase\_f2d\_w\_phi\_refinado.json (chi2 = 1441.01 vs Lambda-CDM 1471.14), fase\_f3\_auditoria\_beta.json (8 mediciones independientes), fase\_f4\_cierre\_final.json (weighted average beta = 0.3065). Los scripts que generan estos resultados estan en src/thu/analysis/ y son ejecutables con 'python' desde el repositorio.
+Los resultados de analisis empirico (Cap. 18) se preservan en data/inventory/ con hashes SHA-256 verificables: fase\_f2d\_w\_phi\_refinado.json (chi2 = 1441.01 vs Lambda-CDM 1471.14), fase\_f3\_auditoria\_beta.json (8 mediciones del corpus), fase\_f4\_cierre\_final.json (weighted average beta = 0.3065). Los scripts que generan estos resultados estan en src/thu/analysis/ y son ejecutables con 'python' desde el repositorio.
 
 REPRODUCIBILIDAD COMPLETA
 
@@ -3207,7 +3207,7 @@ La prediccion P5 (residuo helicoidal de espin, STAR/HADES) fue retirada formalme
 
 AUDITORIA BETA (BIREFRINGENCIA COSMICA)
 
-Las 8 mediciones independientes de birefringencia (Minami-Komatsu 2020, Eskilt-Komatsu 2022, Diego-Palazuelos 2022, Ballardini 2025, y 4 adicionales) dan un weighted average beta\_avg = 0.3065 +/- 0.0278 grados. La tension respecto a la prediccion THU beta\_0 = 0.3803 +/- 0.038 grados es de 1.51 sigma. THU-TBEA no es falsada por el corpus PRISMA actual. La auditoria completa se preserva en data/inventory/fase\_f3\_auditoria\_beta.json y data/inventory/fase\_f4\_cierre\_final.json.
+Las 8 mediciones del corpus de birefringencia (Minami-Komatsu 2020, Eskilt-Komatsu 2022, Diego-Palazuelos 2022, Ballardini 2025, y 4 adicionales) dan un weighted average beta\_avg = 0.3065 +/- 0.0278 grados. La tension respecto a la prediccion THU beta\_0 = 0.3803 +/- 0.038 grados es de 1.51 sigma. THU-TBEA no es falsada por el corpus PRISMA actual. La auditoria completa se preserva en data/inventory/fase\_f3\_auditoria\_beta.json y data/inventory/fase\_f4\_cierre\_final.json.
 
 REGISTRO DE ESTADOS
 
