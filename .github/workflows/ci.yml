@@ -24,7 +24,10 @@ jobs:
       - name: Run THU pipeline (skip LaTeX compile)
         run: |
           python src/run_all.py --skip-pir --skip-compile --skip-tests
-      - name: Verify symbolic + debts
+      - name: Symbolic verification (REAL, executes SymPy)
         run: |
-          python -c "import json, sys; d=json.load(open('data/inventory/verificacion_simbolica.json')); assert d['pass']==d['total_pasos'], 'symbolic FAIL'; print('symbolic 16/16 OK')"
+          python src/thu/verificacion_simbolica.py
+          python -c "import json; d=json.load(open('registry/thu/verificacion_simbolica.json')); assert d['pass']==d['total_pasos'], 'symbolic FAIL'; print('symbolic ' + str(d['pass']) + '/' + str(d['total_pasos']) + ' OK')"
+      - name: Check debts (non-blocking)
+        run: |
           python scripts/check_debts.py || true
