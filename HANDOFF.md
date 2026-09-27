@@ -217,3 +217,60 @@ git status --short
 ---
 
 **Fin del handoff.**
+
+
+---
+
+## 10. Sesion 2026-09-27 — Cierre PRISMA + Zenodo/ORCID + Fixes LaTeX
+
+### Resumen ejecutivo
+
+Sesion larga con 3 objetivos completados al 100%:
+
+1. **Critica #4 Elicit (PRISMA): CERRADA.** Reconstruccion efectiva sobre OpenAlex (sustituye WoS/ADS por falta de acceso institucional). 1.886 identificados -> 647 descargados -> 550 unicos -> 245 peer-reviewed -> 49 screening -> 21 mediciones reales. Exports crudos, log de screening por registro y clasificacion en `registry/prisma/`. Nota de reconstruccion efectiva anadida al final de Cap. 13 §13.1 en ES/EN/DE.
+
+2. **PDFs LaTeX: COMPILAN.** Se arreglaron 3 errores preexistentes:
+   - `\multirow` sin `\usepackage{multirow}`
+   - `beta_A` con `_` fuera de math mode (ES/DE)
+   - `fase_*.json` con `_` sin escapar
+   Solucion: `\usepackage{multirow}` + `\usepackage{underscore}` antes de `\begin{document}`.
+
+3. **Publicacion cerrada.** Zenodo: tesis (22949313) <-> repo (22950278) vinculados via Related Works. ORCID: ambos DOIs agregados como Works (9 total).
+
+### Commits de la sesion
+
+| Hash | Mensaje |
+|---|---|
+| 02e242f | Fix Elicit #4: PRISMA reconstruido con OpenAlex |
+| 0654f67 | Fix LaTeX: multirow + underscore, 3 PDFs compilan |
+| de9dfec | Fix latex_builder: multirow + underscore en preambulo |
+
+### Cambios importantes en el repo
+
+- **`registry/prisma/`**: 10 archivos nuevos (openalex_q*.json, prisma_master.csv, prisma_selection_log.csv, prisma_incluidos_auto.csv, prisma_clasificados.csv, prisma_2026_expandido.csv, prisma_queries.json)
+- **`registry/thu/prisma.json`**: flow real actualizado (estado = "reconstruido")
+- **`registry/thu/chapter_bodies.json`**: §18.4 sincronizado con la version corregida del .tex (categorias A/B/C en vez de weighted average)
+- **`src/thu/latex_builder.py`**: multirow + underscore en el preamble template
+- **`.gitignore`**: reglas para backups temporales
+
+### Pendientes (no bloqueantes)
+
+- Extraer beta/sigma de cada una de las 21 mediciones para poblar `prisma_2026_expandido.csv` en detalle.
+- Reemplazar ~50 rutas Windows absolutas en `src/thu/analysis/`.
+- Documentar decisiones de clasificacion manual de las 21 mediciones.
+
+### Estado de las 7 criticas Elicit (actualizado)
+
+- #1 Birefringencia A/B/C: RESUELTO
+- #2 Sigma unificado 0.038: RESUELTO
+- #3 CI ejecuta SymPy real: RESUELTO
+- #4 PRISMA CSV completo: **RESUELTO** (OpenAlex, 21 mediciones, log completo)
+- #5 DOIs placeholder: RESUELTO
+- #6 Tomografia declarada: RESUELTO
+- #7 DERIVATIONS.md: RESUELTO
+
+**Las 7 criticas cerradas.**
+
+---
+
+**Fin de la sesion 2026-09-27.**
