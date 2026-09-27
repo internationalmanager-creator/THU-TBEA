@@ -14,7 +14,7 @@ import numpy as np
 import camb
 from camb import model as camb_model
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 TOTAL = 6
 t0 = time.time()
 

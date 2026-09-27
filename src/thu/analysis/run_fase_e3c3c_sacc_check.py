@@ -3,7 +3,7 @@
 import sys, json, urllib.request, urllib.error
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 
 def hdr(t):
     print(); print("="*72); print(f"  {t}"); print("="*72); sys.stdout.flush()

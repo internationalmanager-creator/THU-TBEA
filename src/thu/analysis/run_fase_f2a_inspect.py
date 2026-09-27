@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 DESI_DIR = LAB / "data" / "raw" / "desi_dr2"
 PANTHEON_DIR = LAB / "data" / "raw" / "pantheon_plus"
 

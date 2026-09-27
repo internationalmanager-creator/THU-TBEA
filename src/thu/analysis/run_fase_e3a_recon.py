@@ -12,7 +12,7 @@ import sys, json, time
 from pathlib import Path
 import numpy as np
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 
 # Path segun handoff (se verifica, no se asume)
 SPT_ROOT = (LAB / "data" / "extracted" / "zen_runtime" /

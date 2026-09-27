@@ -7,7 +7,7 @@ import sys, json, time
 from pathlib import Path
 import numpy as np
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 ACT = LAB / "data" / "raw" / "act_dr6" / "act_dr6.02_spectra_and_cov_xtra" / "xtra"
 CL_FILE = LAB / "data" / "intermediate" / "cl_lcdm_planck18.npz"
 

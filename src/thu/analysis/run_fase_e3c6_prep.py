@@ -3,7 +3,7 @@
 import sys, shutil, re
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 REPO = LAB / "data" / "raw" / "cosmic-birefringence-planck-act"
 SACC_SRC = LAB / "data" / "raw" / "act_dr6_packages" / "data" / "ACTDR6MFLike" / "v1.0" / "dr6_data.fits"
 SACC_DST = REPO / "data" / "act_dr6" / "v1.0" / "dr6_data.fits"

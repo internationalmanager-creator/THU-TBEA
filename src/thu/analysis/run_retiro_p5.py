@@ -3,7 +3,7 @@
 import sys, json, time, hashlib
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 REG = LAB / "registry" / "thu"
 OUT = LAB / "data" / "inventory"
 REG.mkdir(parents=True, exist_ok=True)

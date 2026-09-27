@@ -9,7 +9,7 @@ import numpy as np
 import camb
 from camb import model as camb_model
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 ACT = LAB / "data" / "raw" / "act_dr6" / "act_dr6.02_spectra_and_cov_xtra" / "xtra"
 OUT = LAB / "data" / "inventory"
 

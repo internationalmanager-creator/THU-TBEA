@@ -3,7 +3,7 @@
 import sys, json, hashlib, time
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 REPO = LAB / "data" / "raw" / "cosmic-birefringence-planck-act"
 REG = LAB / "registry" / "thu"
 REG.mkdir(parents=True, exist_ok=True)

@@ -12,7 +12,7 @@ rcParams["axes.labelsize"] = 11
 rcParams["axes.titlesize"] = 12
 rcParams["figure.dpi"] = 120
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 OUT = LAB / "outputs" / "verificaciones"
 FIG = LAB / "paper" / "thu" / "figures"
 OUT.mkdir(parents=True, exist_ok=True)

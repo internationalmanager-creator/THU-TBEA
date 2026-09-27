@@ -3,7 +3,7 @@
 import sys, hashlib
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 PKG = LAB / "data" / "raw" / "act_dr6_packages"
 
 def hdr(t):

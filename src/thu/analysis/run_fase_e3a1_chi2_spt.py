@@ -6,7 +6,7 @@ import sys, json, time
 from pathlib import Path
 import numpy as np
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 SPT = (LAB / "data" / "extracted" / "zen_runtime" /
        "SPT_3G_D1_T_E_likelihood_runtime_data_for_SPTLikel" /
        "SPT3G_D1_TnE_v0_20260917")

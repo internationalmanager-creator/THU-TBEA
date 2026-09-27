@@ -14,7 +14,7 @@ from sympy import (
 )
 from sympy.abc import a, b, k, g, u, x, n, N as Nsym
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 OUT = LAB / "outputs" / "verificaciones"
 OUT.mkdir(parents=True, exist_ok=True)
 

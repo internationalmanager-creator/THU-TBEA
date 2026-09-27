@@ -6,7 +6,7 @@ import numpy as np
 from scipy.optimize import minimize
 from scipy.integrate import quad
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 DESI_DIR = LAB / "data" / "raw" / "desi_dr2"
 PANTHEON_DIR = LAB / "data" / "raw" / "pantheon_plus"
 OUT_DIR = LAB / "data" / "inventory"

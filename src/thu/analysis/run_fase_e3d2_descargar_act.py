@@ -5,7 +5,7 @@ FASE E.3-D2 — Listar repos ACT (fix) + descargar tar.gz + inspeccionar EB/TB.
 import sys, urllib.request, urllib.error, json, time, tarfile, hashlib, re
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 OUT = LAB / "data" / "raw" / "act_dr6"
 OUT.mkdir(parents=True, exist_ok=True)
 

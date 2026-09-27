@@ -4,7 +4,7 @@ import sys, json
 from pathlib import Path
 import numpy as np
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 PP4 = LAB / "data" / "raw" / "planck_pr4"
 
 def hdr(t):

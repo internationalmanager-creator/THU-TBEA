@@ -16,7 +16,7 @@ from sympy import (
 )
 from sympy.abc import a, b, k, g, u, x
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 resultados_globales = []
 t0 = time.time()
 

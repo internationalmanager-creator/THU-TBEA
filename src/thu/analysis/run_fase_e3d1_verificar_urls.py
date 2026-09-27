@@ -6,7 +6,7 @@ Regla: HEAD primero, descarga solo si 200 OK.
 import sys, urllib.request, urllib.error, json, time
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 OUT = LAB / "data" / "raw" / "act_dr6"
 OUT.mkdir(parents=True, exist_ok=True)
 

@@ -3,7 +3,7 @@
 import numpy as np
 from pathlib import Path
 
-LAB = Path(r"C:\Users\kg4tr\Documents\Investigacion_lab_secreto")
+LAB = Path(Path(__file__).resolve().parents[3])
 PAN = LAB / "data" / "raw" / "pantheon_plus"
 
 # Cargar datos con scale/add
