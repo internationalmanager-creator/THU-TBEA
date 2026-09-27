@@ -281,6 +281,8 @@ def _preambulo(lang, t, meta):
         r"\usepackage{xcolor}",
         r"\usepackage{hyperref}",
         r"\usepackage{fancyhdr}",
+        r"\usepackage{multirow}",
+        r"\usepackage{underscore}",
         r"\geometry{letterpaper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm}",
         r"\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}",
         r"\definecolor{Dgreen}{HTML}{00B894}",
