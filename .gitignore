@@ -111,3 +111,12 @@ backups_elicit_*/
 *.backup_*.py
 *.backup_*.json
 verificacion_elicit_*.txt
+
+# Artefactos temporales de sesion
+paper/thu/src/*.bak_before_*
+paper/thu/src/*.aux
+paper/thu/src/*.out
+paper/thu/src/*.toc
+registry/thu/*.bak_v*
+registry/thu/*.bak
+registry/prisma/*.bak

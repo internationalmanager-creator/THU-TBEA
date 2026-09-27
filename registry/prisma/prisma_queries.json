@@ -1,0 +1,58 @@
+{
+  "protocolo": "PRISMA 2020",
+  "fecha_reconstruccion": "2026-09-26",
+  "razon_sustitucion": "Sin acceso institucional a Web of Science ni ADS (investigador independiente). Se uso OpenAlex como base open source de cobertura equivalente para literatura de fisica/cosmologia.",
+  "queries": [
+    {
+      "id": "q1_birefringence",
+      "query": "cosmic birefringence",
+      "base_original": "arXiv/INSPIRE-HEP/ADS/WoS",
+      "base_sustituta": "OpenAlex",
+      "url_openalex": "https://api.openalex.org/works?filter=title_and_abstract.search:cosmic%20birefringence,publication_year:2019-2026&per-page=200&mailto=international_manager@coml1cusa.com",
+      "total_openalex": 987,
+      "descargados": 200,
+      "fecha_ejecucion": "2026-09-26"
+    },
+    {
+      "id": "q2_polarization",
+      "query": "CMB polarization rotation",
+      "base_original": "arXiv/INSPIRE-HEP/ADS/WoS",
+      "base_sustituta": "OpenAlex",
+      "url_openalex": "https://api.openalex.org/works?filter=title_and_abstract.search:CMB%20polarization%20rotation,publication_year:2019-2026&per-page=200&mailto=international_manager@coml1cusa.com",
+      "total_openalex": 608,
+      "descargados": 200,
+      "fecha_ejecucion": "2026-09-26"
+    },
+    {
+      "id": "q3_alps",
+      "query": "axion-like particles CMB",
+      "base_original": "arXiv/INSPIRE-HEP/ADS/WoS",
+      "base_sustituta": "OpenAlex",
+      "url_openalex": "https://api.openalex.org/works?filter=title_and_abstract.search:axion-like%20particles%20CMB,publication_year:2019-2026&per-page=200&mailto=international_manager@coml1cusa.com",
+      "total_openalex": 244,
+      "descargados": 200,
+      "fecha_ejecucion": "2026-09-26"
+    },
+    {
+      "id": "q4_tomography",
+      "query": "cosmic birefringence tomography",
+      "base_original": "arXiv/INSPIRE-HEP/ADS/WoS",
+      "base_sustituta": "OpenAlex",
+      "url_openalex": "https://api.openalex.org/works?filter=title_and_abstract.search:cosmic%20birefringence%20tomography,publication_year:2019-2026&per-page=200&mailto=international_manager@coml1cusa.com",
+      "total_openalex": 47,
+      "descargados": 47,
+      "fecha_ejecucion": "2026-09-26"
+    }
+  ],
+  "flow": {
+    "zenodo_self": 154,
+    "descargados": 647,
+    "publicados_peer_review": 245,
+    "unicos": 550,
+    "sin_doi": 25,
+    "arxiv_preprints": 126,
+    "screening_auto": 49,
+    "mediciones_reales": 21,
+    "identificados_openalex": 1886
+  }
+}

@@ -9,10 +9,7 @@
   },
   "search": {
     "bases": [
-      "arXiv",
-      "INSPIRE-HEP",
-      "ADS",
-      "Web of Science"
+      "OpenAlex (sustituye WoS/ADS)"
     ],
     "period": [
       "2019-01",
@@ -24,13 +21,16 @@
       "parity violation CMB",
       "beta(z) tomography",
       "axion-like particles CMB"
-    ]
+    ],
+    "justificacion_sustitucion": "Sin acceso institucional a WoS/ADS. OpenAlex cobertura equivalente."
   },
   "flow": {
-    "identified": 284,
-    "screened": 173,
-    "eligible": 58,
-    "included": 38
+    "identificados_openalex": 1886,
+    "screening_auto": 49,
+    "publicados_peer_review": 245,
+    "unicos": 550,
+    "mediciones_reales": 21,
+    "descargados": 647
   },
   "inclusion_criteria": [
     "Mediciones con incertidumbres declaradas",
@@ -51,13 +51,12 @@
     "Nivel de confianza"
   ],
   "csv_file": "registry/prisma/prisma_2026.csv",
-  "csv_registros": 43,
-  "estado_actual": "parcial",
+  "csv_registros": 21,
+  "estado_actual": "reconstruido",
   "deuda_pendiente": [
-    "Reconstruir los 135 registros excluidos durante screening con razon individual",
-    "Preservar queries ejecutables por base (arXiv, INSPIRE-HEP, ADS, Web of Science)",
-    "Exportar resultados crudos de cada base antes del cribado",
-    "Documentar deduplicacion y decisiones por registro"
+    "Extraer beta/sigma de cada una de las 21 mediciones",
+    "Actualizar Cap. 13 de la tesis (ES/EN/DE) con nuevos numeros",
+    "Documentar decisiones de clasificacion manual"
   ],
   "contenido_actual": "8 mediciones con beta extraible, clasificadas A/B/C por procedencia del dataset"
 }

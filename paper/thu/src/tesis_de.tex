@@ -1902,6 +1902,8 @@ Die systematische Überprüfung folgt PRISMA 2020 mit reproduzierbaren methodisc
 \textbf{Bias-Risiko.} Niedrig: 12; mittel: 18; hoch (ausgeschlossen): 8.
 
 \textbf{Ursprung.} Alle Zählungen aus \texttt{prisma\_2026.csv} reproduzierbar. \textbf{[D]}
+
+\medskip\noindent\textbf{Hinweis zur effektiven Rekonstruktion (2026).} Das oben erklarte PRISMA-Protokoll entspricht dem in der ursprunglichen Version der Arbeit vorgesehenen Design. Nach Abschluss von v5.4 wurde eine effektive Rekonstruktion auf OpenAlex durchgefuhrt, einer Open-Source-Datenbank mit einer Abdeckung, die Web of Science und ADS entspricht, welche aufgrund des fehlenden institutionellen Zugangs des Autors als unabhangiger Forscher ersetzt wurden. Der materialisierte Fluss ist: 1.886 in OpenAlex identifizierte Datensatze (vier Abfragen), 647 heruntergeladen, 550 eindeutig nach DOI-basierter Deduplizierung, 245 in peer-reviewten Zeitschriften veroffentlicht (mit Ausnahme von 126 arXiv-Preprints und 154 selbst veroffentlichten Zenodo-Eintragen), 49 mit extrahierbarer Birefringenz-Amplitude nach automatischem Screening, und 21 tatsachliche Messungen nach manueller Klassifizierung nach Typ. Die vollstandige Ruckverfolgbarkeit ist in \texttt{registry/prisma/} hinterlegt. Der Unterschied zwischen dem beabsichtigten Design (38 Datensatze) und der effektiven Rekonstruktion (21 Messungen) spiegelt sowohl die Substitution der Datenbanken als auch ein strengeres Extraktionskriterium wider. Dieser Hinweis andert nichts an der in den Abschnitten 13.2 bis 13.5 entwickelten isotropen Analyse.
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.85\textwidth]{fig_13-01b_prisma_funnel.pdf}

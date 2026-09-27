@@ -1925,6 +1925,8 @@ The systematic review of cosmic birefringence measurements follows PRISMA 2020 w
 \textbf{Risk of bias.} Low ($\sigma_{\text{syst}} \leq \sigma_{\text{stat}}$): 12 studies; medium (quantified, dominant): 18; high (excluded by E4): 8.
 
 \textbf{Origin.} All counts reproducible from \texttt{prisma\_2026.csv}. \textbf{[D]}
+
+\medskip\noindent\textbf{Effective reconstruction note (2026).} The PRISMA protocol declared above corresponds to the design intended in the initial version of the thesis. Following the closure of v5.4, an effective reconstruction was performed on OpenAlex, an open-source database with coverage equivalent to Web of Science and ADS, which were substituted due to the lack of institutional access by the author as an independent researcher. The materialized flow is: 1,886 records identified in OpenAlex (four queries), 647 downloaded, 550 unique after DOI-based deduplication, 245 published in peer-reviewed journals (excluding 126 arXiv preprints and 154 self-published Zenodo items), 49 with extractable birefringence amplitude after automated screening, and 21 actual measurements after manual classification by type. Full traceability is deposited in \texttt{registry/prisma/}. The difference between the intended design (38 records) and the effective reconstruction (21 measurements) reflects both the substitution of databases and a stricter extraction criterion. This note does not modify the isotropic analysis developed in sections 13.2 to 13.5.
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.85\textwidth]{fig_13-01b_prisma_funnel.pdf}
