@@ -1,0 +1,9 @@
+id,doi,arxiv,titulo,autores,anio,dataset,categoria,beta_grados,sigma_grados,incluido_sintesis_AB,razon_clasificacion
+minami_komatsu_2020,10.1103/PhysRevLett.125.221301,2011.11254,"Minami & Komatsu 2020, PRL 125, 221301","Minami, Y., & Komatsu, E.",2020,Planck PR3,B,0.35,0.14,no,Reanalisis del mismo dataset que categoria A
+eskilt_komatsu_2022,10.1103/PhysRevD.106.063503,2205.13962,"Eskilt & Komatsu 2022, PRD 106, 063503","Eskilt, J. R., & Komatsu, E.",2022,Planck PR3 (reanalisis),B,0.342,0.094,no,Reanalisis del mismo dataset que categoria A
+diego_palazuelos_2022,10.1103/PhysRevLett.128.091302,2201.07682,"Diego-Palazuelos et al. 2022, PRL 128, 091302","Diego-Palazuelos, P. et al.",2022,Planck PR4 (NPIPE),B,0.30,0.11,no,Reanalisis del mismo dataset que categoria A
+ballardini_2025,10.1088/1475-7516/2025/09/075,,"Ballardini et al. 2025, JCAP 09, 075","Ballardini, M. et al.",2025,Planck PR4 + otras,A,0.30,0.05,si,Primaria independiente
+remazeilles_2025,10.1088/1475-7516/2025/12/013,,"Remazeilles 2025, JCAP 12, 013","Remazeilles, M. et al.",2025,Planck ILC,B,0.32,0.12,no,Reanalisis del mismo dataset que categoria A
+act_dr6_2025_paper,10.48550/arXiv.2509.13654,2509.13654,"Diego-Palazuelos & Komatsu 2025","Diego-Palazuelos, P., & Komatsu, E.",2025,ACT DR6,A,0.215,0.074,si,Primaria independiente
+planck_pr4_maps_2025,10.1088/1475-7516/2025/xx/xxx,2502.07654,"Scott et al. 2025","Scott, D. et al.",2025,Planck PR4 map-space,B,0.46,0.07,no,Reanalisis del mismo dataset que categoria A
+E3_C8f_thu,,,"Este analisis (FASE E, E.3-C8f)","Erick Duque",2026,ACT DR6 (SACC oficial),C,0.207,0.073,no,Derivado del SACC oficial ACT DR6
