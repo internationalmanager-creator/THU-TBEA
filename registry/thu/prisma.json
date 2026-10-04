@@ -30,7 +30,11 @@
     "publicados_peer_review": 245,
     "unicos": 550,
     "mediciones_reales": 21,
-    "descargados": 647
+    "descargados": 647,
+    "identified": 1886,
+    "screened": 647,
+    "eligible": 245,
+    "included": 21
   },
   "inclusion_criteria": [
     "Mediciones con incertidumbres declaradas",
