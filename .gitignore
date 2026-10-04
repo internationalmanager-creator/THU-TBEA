@@ -123,3 +123,6 @@ registry/prisma/*.bak
 
 src/thu/_backup_paths_*/
 
+
+registry/thu/*.bak_*
+
