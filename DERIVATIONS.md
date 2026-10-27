@@ -1,4 +1,4 @@
-# Apéndice D — Derivaciones Mínimas del Núcleo THU-TBEA
+﻿# Apéndice D — Derivaciones Mínimas del Núcleo THU-TBEA
 
 **Autor:** Erick Duque (ORCID 0009-0004-1245-5464)
 **Versión:** v5.4-post-review | **Fecha:** 2026-09-26
@@ -230,16 +230,47 @@ P5 y P7 retiradas formalmente (ver `registry/HALLAZGOS_FALSADOS.md`).
 
 ---
 
-## D.10 — Invitación a verificación independiente
+## D.10 — Estado de la verificación simbólica
 
-El programa solicita revisión externa de:
+La verificación simbólica del núcleo se implementa en `src/thu/verificacion_simbolica.py`.
 
-1. Variación de Palatini completa (D.2), verificación simbólica en SymPy.
-2. Residuo del propagador (D.4.4), verificación numérica.
-3. Estabilidad del punto fijo áureo (D.5) al orden siguiente.
-4. Matriz de dependencias P1-P12 (D.7), para detectar hipótesis ocultas.
+### Verificaciones implementadas (4/4 PASS)
 
-Scripts en `src/thu/verificacion_simbolica.py`. Resultados con hash SHA-256 en `registry/thu/verificacion_simbolica.json`.
+| Código | Resultado | Método de verificación |
+|--------|-----------|------------------------|
+| D.2.2 | PASS | Derivada simbólica de T = (k/M_P) τ respecto a τ |
+| D.3.1 | PASS | Identidad algebraica del término cinético (1/2)(dτ_c/dτ)² = 3/2 |
+| D.4.4 | PASS | Desigualdad simbólica Res = e^(-a m²)/(1 + a m²) > 0 para a,m > 0 |
+| D.5.2 | PASS | Raíces de g² - g - 1 = 0 incluyen φ = (1+√5)/2 |
+
+El CI ejecuta este script en cada push y valida que `pass == total_pasos`.
+
+### Verificaciones pendientes (12)
+
+Las siguientes derivaciones requieren cálculo de loop completo o álgebra tensorial explícita que excede el alcance de una verificación simbólica simple. Se declaran como **fronteras abiertas [F]**:
+
+- D.1.2: Descomposición irreducible de la torsión (requiere álgebra de grupos de Lorentz)
+- D.2.1: Acción base completa (requiere convenciones de signo explícitas)
+- D.2.3: Sustitución en la acción (requiere integración por partes)
+- D.3.2: Normalización canónica completa (requiere análisis de fantasmas)
+- D.3.3: Fluido rígido w_K = +1 (requiere ecuación de estado cosmológica)
+- D.4.1: Operador cinético no local (postulado, no derivado)
+- D.4.2: Propagador en espacio de momentos (requiere transformada de Fourier)
+- D.4.3: Polos y función W de Lambert (requiere análisis de ramas)
+- D.5.1: Flujo RG (requiere integrales de loop)
+- D.5.3: Estabilidad IR (requiere derivada del flujo)
+- D.6.1: Factor N = 88 (postulado, no derivado)
+- D.6.2: Λ_THU (postulado, no derivado)
+
+### Invitación a verificación independiente
+
+Se solicita revisión externa de:
+
+1. Las 4 verificaciones implementadas (D.2.2, D.3.1, D.4.4, D.5.2), con verificación simbólica en SymPy.
+2. Las 12 derivaciones pendientes, con cálculo de loop completo o álgebra tensorial explícita.
+3. La matriz de dependencias P1-P12 (D.7), para detectar hipótesis ocultas.
+
+Los scripts de verificación simbólica están en `src/thu/verificacion_simbolica.py`. Los resultados se preservan con hash SHA-256 en `registry/thu/verificacion_simbolica.json`.
 
 ---
 
