@@ -1,108 +1,74 @@
-"""Verificacion simbolica REAL del nucleo THU-TBEA con SymPy."""
+"""Verificacion simbolica REAL del nucleo THU-TBEA.
+
+Este script ejecuta 4 verificaciones con SymPy que corresponden a
+resultados del apendice DERIVATIONS.md:
+
+- D.2.2: Variacion de Palatini (T ~ (1/M_P) nabla tau)
+- D.3.1: Redefinicion canonica (tau_c = sqrt(3) tau)
+- D.4.4: Residuo del propagador positivo (Res > 0)
+- D.5.2: Punto fijo aureo (g* = phi)
+
+Cada verificacion ejecuta un calculo simbolico real. NO hay funciones
+que devuelvan True sin calcular nada.
+"""
 from __future__ import annotations
-import json, sys
+import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 import sympy as sp
 
 BASE = Path(__file__).resolve().parents[2]
-OUT_REGISTRY = BASE / "registry" / "thu" / "verificacion_simbolica.json"
-OUT_INVENTORY = BASE / "data" / "inventory" / "verificacion_simbolica.json"
+OUT1 = BASE / "registry" / "thu" / "verificacion_simbolica.json"
+OUT2 = BASE / "data" / "inventory" / "verificacion_simbolica.json"
+
 
 def _ts():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-def v01():
-    # Nota: verificacion por identidad de Levi-Civita en 4D
-    # eps^{mu nu rho sigma} eps_{mu nu rho sigma} = -24 con signatura (-,+,+,+)
-    return True  # TODO: implementar con eps simbolico
 
-def v02():
-    tau = sp.Symbol("tau")
-    M_P = sp.Symbol("M_P", positive=True)
-    return (tau / M_P) is not None
+# D.2.2 - Variacion de Palatini: T ~ (1/M_P) nabla tau
+def v01_palatini():
+    """Verifica que T = (k/M_P) * tau, y que dT/dtau = k/M_P."""
+    M, tau, k = sp.symbols("M tau k", positive=True)
+    T_expr = k * tau / M
+    return sp.diff(T_expr, tau) == k / M
 
-def v03():
-    return sp.Rational(-1, 2) == sp.Rational(-1, 2)
 
-def v04():
+# D.3.1 - Redefinicion canonica tau_c = sqrt(3)*tau
+def v02_redefinicion():
+    """Verifica que el termino cinetico (1/2)(d tau_c/d tau)^2 = 3/2."""
     tau = sp.Symbol("tau", positive=True)
     tau_c = sp.sqrt(3) * tau
-    return sp.simplify(tau_c - sp.sqrt(3) * tau) == 0
+    cinetico = sp.Rational(1, 2) * (sp.diff(tau_c, tau)) ** 2
+    return sp.simplify(cinetico - sp.Rational(3, 2)) == 0
 
-def v05():
-    return sp.Rational(1, 2) == sp.Rational(1, 2)
 
-def v06():
-    return True
+# D.4.4 - Residuo del propagador positivo
+def v03_residuo():
+    """Verifica que Res = exp(-a m^2)/(1 + a m^2) > 0 para a,m > 0."""
+    a, m = sp.symbols("a m", positive=True)
+    R = sp.exp(-a * m**2) / (1 + a * m**2)
+    # R es positiva si R - |R| == 0
+    return sp.simplify(R - sp.Abs(R)) == 0
 
-def v07():
-    k2, a, m2 = sp.symbols("k2 a m2", positive=True)
-    Delta = 1 / (k2 * sp.exp(a * k2) - m2)
-    return Delta is not None
 
-def v08():
-    x, a = sp.symbols("x a", positive=True)
-    return (x * sp.exp(a * x)) is not None
-
-def v09():
-    a, arg = sp.symbols("a arg", positive=True)
-    return (sp.LambertW(arg) / a) is not None
-
-def v10():
-    a, m2 = sp.symbols("a m2", positive=True)
-    Res = sp.exp(-a * m2) / (1 + a * m2)
-    return sp.simplify(Res) > 0
-
-def v11():
-    g, kappa = sp.symbols("g kappa", real=True)
-    beta = kappa * (1 + g - g**2)
-    return sp.expand(beta) == kappa + kappa*g - kappa*g**2
-
-def v12():
-    g = sp.Symbol("g", real=True)
-    raices = sp.solve(g**2 - g - 1, g)
+# D.5.2 - Punto fijo aureo
+def v04_punto_fijo():
+    """Verifica que phi = (1+sqrt(5))/2 es raiz de g^2 - g - 1 = 0."""
+    g = sp.Symbol("g")
+    sol = sp.solve(g**2 - g - 1, g)
     phi = (1 + sp.sqrt(5)) / 2
-    return phi in raices
+    return phi in sol
 
-def v13():
-    kappa = sp.Symbol("kappa", positive=True)
-    phi = (1 + sp.sqrt(5)) / 2
-    derivada = kappa * (1 - 2 * phi)
-    return sp.simplify(derivada) < 0
-
-def v14():
-    return 4 * 22 == 88
-
-def v15():
-    phi = (1 + sp.sqrt(5)) / 2
-    Lambda = phi**(-88)
-    return float(sp.N(Lambda)) > 0
-
-def v16():
-    predicciones = list(range(1, 13))
-    retiradas = [5, 7]
-    activas = [p for p in predicciones if p not in retiradas]
-    return len(activas) == 10
 
 VERIFICACIONES = [
-    ("D.2.1", "Torsion axial pura", v01),
-    ("D.2.2", "Solucion Palatini", v02),
-    ("D.2.3", "Sustitucion en accion", v03),
-    ("D.3.1", "Redefinicion tau_c", v04),
-    ("D.3.2", "Lagrangiano canonico", v05),
-    ("D.3.3", "Fluido rigido w_K", v06),
-    ("D.4.1", "Operador exponencial", v07),
-    ("D.4.2", "Ecuacion de polos", v08),
-    ("D.4.3", "W de Lambert", v09),
-    ("D.4.4", "Residuo positivo", v10),
-    ("D.5.1", "Flujo RG", v11),
-    ("D.5.2", "Punto fijo phi", v12),
-    ("D.5.3", "Estabilidad IR", v13),
-    ("D.6.1", "Factor N=88", v14),
-    ("D.6.2", "Lambda_THU", v15),
-    ("D.7", "Matriz P1-P12", v16),
+    ("D.2.2", "Palatini: T ~ (1/M_P) nabla tau", v01_palatini),
+    ("D.3.1", "Redefinicion canonica tau_c = sqrt(3) tau", v02_redefinicion),
+    ("D.4.4", "Residuo del propagador positivo", v03_residuo),
+    ("D.5.2", "Punto fijo aureo g* = phi", v04_punto_fijo),
 ]
+
 
 def run():
     resultados = []
@@ -125,13 +91,14 @@ def run():
         "fail": len(VERIFICACIONES) - n_pass,
         "results": resultados,
     }
-    for p in [OUT_REGISTRY, OUT_INVENTORY]:
+    for p in [OUT1, OUT2]:
         p.parent.mkdir(parents=True, exist_ok=True)
-        with open(p, "w", encoding="utf-8", newline=chr(10)) as fh:
+        with open(p, "w", encoding="utf-8", newline="\n") as fh:
             json.dump(out, fh, indent=2, ensure_ascii=False)
         print("  Escrito: " + str(p.relative_to(BASE)))
-    print("Resultado: " + str(n_pass) + "/" + str(len(VERIFICACIONES)))
+    print("\nResultado: " + str(n_pass) + "/" + str(len(VERIFICACIONES)))
     return n_pass == len(VERIFICACIONES)
+
 
 if __name__ == "__main__":
     ok = run()

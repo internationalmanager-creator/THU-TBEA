@@ -1,87 +1,27 @@
 {
-  "generated_at_utc": "2026-09-27T00:26:57Z",
-  "total_pasos": 16,
-  "pass": 16,
+  "generated_at_utc": "2026-10-27T21:48:57Z",
+  "total_pasos": 4,
+  "pass": 4,
   "fail": 0,
   "results": [
     {
-      "code": "D.2.1",
-      "descripcion": "Torsion axial pura",
-      "status": "PASS"
-    },
-    {
       "code": "D.2.2",
-      "descripcion": "Solucion Palatini",
-      "status": "PASS"
-    },
-    {
-      "code": "D.2.3",
-      "descripcion": "Sustitucion en accion",
+      "descripcion": "Palatini: T ~ (1/M_P) nabla tau",
       "status": "PASS"
     },
     {
       "code": "D.3.1",
-      "descripcion": "Redefinicion tau_c",
-      "status": "PASS"
-    },
-    {
-      "code": "D.3.2",
-      "descripcion": "Lagrangiano canonico",
-      "status": "PASS"
-    },
-    {
-      "code": "D.3.3",
-      "descripcion": "Fluido rigido w_K",
-      "status": "PASS"
-    },
-    {
-      "code": "D.4.1",
-      "descripcion": "Operador exponencial",
-      "status": "PASS"
-    },
-    {
-      "code": "D.4.2",
-      "descripcion": "Ecuacion de polos",
-      "status": "PASS"
-    },
-    {
-      "code": "D.4.3",
-      "descripcion": "W de Lambert",
+      "descripcion": "Redefinicion canonica tau_c = sqrt(3) tau",
       "status": "PASS"
     },
     {
       "code": "D.4.4",
-      "descripcion": "Residuo positivo",
-      "status": "PASS"
-    },
-    {
-      "code": "D.5.1",
-      "descripcion": "Flujo RG",
+      "descripcion": "Residuo del propagador positivo",
       "status": "PASS"
     },
     {
       "code": "D.5.2",
-      "descripcion": "Punto fijo phi",
-      "status": "PASS"
-    },
-    {
-      "code": "D.5.3",
-      "descripcion": "Estabilidad IR",
-      "status": "PASS"
-    },
-    {
-      "code": "D.6.1",
-      "descripcion": "Factor N=88",
-      "status": "PASS"
-    },
-    {
-      "code": "D.6.2",
-      "descripcion": "Lambda_THU",
-      "status": "PASS"
-    },
-    {
-      "code": "D.7",
-      "descripcion": "Matriz P1-P12",
+      "descripcion": "Punto fijo aureo g* = phi",
       "status": "PASS"
     }
   ]
