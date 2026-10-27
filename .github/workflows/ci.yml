@@ -1,4 +1,4 @@
-name: CI
+﻿name: CI
 
 on:
   push:
@@ -28,6 +28,10 @@ jobs:
         run: |
           python src/thu/verificacion_simbolica.py
           python -c "import json; d=json.load(open('registry/thu/verificacion_simbolica.json')); assert d['pass']==d['total_pasos'], 'symbolic FAIL'; print('symbolic ' + str(d['pass']) + '/' + str(d['total_pasos']) + ' OK')"
+      - name: Dirac-Bergmann verification (8x8 Poisson matrix)
+        run: |
+          python scripts/dirac_bergmann_check.py
+
       - name: Check debts (non-blocking)
         run: |
           python scripts/check_debts.py || true
