@@ -2,12 +2,12 @@
     "fase":  "F.4 (verificacion final)",
     "fecha":  "2026-09-21T21:00:28Z",
     "resumen_ejecutivo":  {
-                              "estado_global":  "THU-TBEA 5.0 sobrevive tests empiricos con tension moderada",
+                              "estado_global":  "THU-TBEA 5.0 sobrevive con tension moderada (1.69 sigma, 5 mediciones independientes)",
                               "mediciones_verificadas":  8,
                               "weighted_average":  {
-                                                       "beta":  0.30648697224210675,
-                                                       "sigma":  0.027835484430799414,
-                                                       "tension_vs_THU":  1.5674
+                                                       "beta":  0.2798,
+                                                       "sigma":  0.0459,
+                                                       "tension_vs_THU":  1.69
                                                    },
                               "veredicto":  "NO_FALSACION"
                           },
