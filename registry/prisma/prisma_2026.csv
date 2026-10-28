@@ -1,9 +1,48 @@
-id,doi,arxiv,titulo,autores,anio,dataset,categoria,beta_grados,sigma_grados,incluido_sintesis_AB,razon_clasificacion
-minami_komatsu_2020,10.1103/PhysRevLett.125.221301,2011.11254,"Minami & Komatsu 2020, PRL 125, 221301","Minami, Y., & Komatsu, E.",2020,Planck PR3,B,0.35,0.14,no,Reanalisis del mismo dataset que categoria A
-eskilt_komatsu_2022,10.1103/PhysRevD.106.063503,2205.13962,"Eskilt & Komatsu 2022, PRD 106, 063503","Eskilt, J. R., & Komatsu, E.",2022,Planck PR3 (reanalisis),B,0.342,0.094,no,Reanalisis del mismo dataset que categoria A
-diego_palazuelos_2022,10.1103/PhysRevLett.128.091302,2201.07682,"Diego-Palazuelos et al. 2022, PRL 128, 091302","Diego-Palazuelos, P. et al.",2022,Planck PR4 (NPIPE),B,0.30,0.11,no,Reanalisis del mismo dataset que categoria A
-ballardini_2025,10.1088/1475-7516/2025/09/075,,"Ballardini et al. 2025, JCAP 09, 075","Ballardini, M. et al.",2025,Planck PR4 + otras,A,0.30,0.05,si,Primaria independiente
-remazeilles_2025,10.1088/1475-7516/2025/12/013,,"Remazeilles 2025, JCAP 12, 013","Remazeilles, M. et al.",2025,Planck ILC,B,0.32,0.12,no,Reanalisis del mismo dataset que categoria A
-act_dr6_2025_paper,10.48550/arXiv.2509.13654,2509.13654,"Diego-Palazuelos & Komatsu 2025","Diego-Palazuelos, P., & Komatsu, E.",2025,ACT DR6,A,0.215,0.074,si,Primaria independiente
-planck_pr4_maps_2025,10.1088/1475-7516/2025/xx/xxx,2502.07654,"Scott et al. 2025","Scott, D. et al.",2025,Planck PR4 map-space,B,0.46,0.07,no,Reanalisis del mismo dataset que categoria A
-E3_C8f_thu,,,"Este analisis (FASE E, E.3-C8f)","Erick Duque",2026,ACT DR6 (SACC oficial),C,0.207,0.073,no,Derivado del SACC oficial ACT DR6
+id,doi,titulo,beta,sigma,categoria,razon_clasificacion,grupo_dedup,incluido_sintesis
+10.1103_physrevlett.128.091302,10.1103/physrevlett.128.091302,Cosmic Birefringence from thePlanckData Release 4,0.3,0.11,A,Planck PR4 (Diego-Palazuelos 2022),planck_pr4_dp,si
+10.48550_arxiv.2609.25202,10.48550/arxiv.2609.25202,Cosmic Birefringence and Axiogenesis,0.3,,C,Axiogenesis (teorico),,no
+10.1103_physrevd.106.063503,10.1103/physrevd.106.063503,Improved constraints on cosmic birefringence from the WMAP and Planck cosmic microwave background polarization data,0.342,0.094,A,Planck PR3 (Eskilt & Komatsu 2022),planck_pr3_eskilt,si
+10.1103_physrevd.104.l101302,10.1103/physrevd.104.l101302,Cosmic birefringence and electroweak axion dark energy,0.35,0.14,C,Electroweak axion (teorico),,no
+10.1051_0004-6361_202243269,10.1051/0004-6361/202243269,Frequency-dependent constraints on cosmic birefringence from the LFI and HFI Planck Data Release 4,0.29,0.11,A,Planck LFI (frequency-dependent),planck_lfi,si
+10.1088_1475-7516_2025_06_025,10.1088/1475-7516/2025/06/025,Planck PR4 (NPIPE) map-space cosmic birefringence,0.46,0.28,A,Planck PR4 map-space (Scott 2025),planck_pr4_map,si
+10.1088_1475-7516_2025_07_009,10.1088/1475-7516/2025/07/009,Improving cosmic birefringence constraints via delensing,0.35,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.1103_physrevd.106.103529,10.1103/physrevd.106.103529,Can primordial parity violation explain the observed cosmic birefringence?,0.3,,C,Primordial parity violation (teorico),,no
+10.48550_arxiv.2608.05296,10.48550/arxiv.2608.05296,3-form dark energy and cosmic birefringence,0.3,,C,3-form dark energy (teorico),,no
+10.48550_arxiv.2608.06480,10.48550/arxiv.2608.06480,Cosmic birefringence from a joint analysis of ACT and Planck,0.277,0.057,C,Joint ACT+Planck (Qu 2026),,no
+10.1103_qgnn-6hsf,10.1103/qgnn-6hsf,Resolving the Negative Effective Neutrino Mass Parameter with Cosmic Birefringence,0.34,0.09,B,Reanalisis,,no
+10.1088_1475-7516_2022_10_043,10.1088/1475-7516/2022/10/043,"Power spectrum of domain-wall network, and its implications for isotropic and anisotropic cosmic birefringence",0.3,,C,Domain walls (teorico),,no
+10.1088_1475-7516_2025_07_083,10.1088/1475-7516/2025/07/083,LiteBIRD science goals and forecasts: constraining isotropic cosmic birefringence,0.3,,C,LiteBIRD forecast,,no
+10.1088_1475-7516_2022_08_033,10.1088/1475-7516/2022/08/033,Constraints on cosmic birefringence using E-mode polarisation,0.3,,C,E-mode polarisation (teorico),,no
+10.3847_2041-8213_aea401,10.3847/2041-8213/aea401,Differential Polarization Calibration: A Consistency Test for Cosmic Birefringence,0.37,0.12,C,Differential calibration (metodo),,no
+10.5281_zenodo.21392357,10.5281/zenodo.21392357,Cosmic Birefringence: A Geometric Prediction from the Tetrahedral Substrate of Spacetime,0.272,0.03,C,Prediccion geometrica (teorico),,no
+10.5281_zenodo.20172373,10.5281/zenodo.20172373,CPQ Theory: Cosmic Birefringence as a Signature of Matrix Chirality,0.307,,C,CPQ theory (teorico),,no
+10.1103_pbc3-t52s,10.1103/pbc3-t52s,Cosmic birefringence from the Atacama Cosmology Telescope Data Release 6,0.215,0.074,A,ACT DR6 (Diego-Palazuelos & Komatsu 2025),act_dr6,si
+10.48550_arxiv.2203.04830,10.48550/arxiv.2203.04830,Cosmic Birefringence from Planck Public Release 4,0.3,0.11,A,Planck PR4 (arXiv version) (duplicado de planck_pr4_dp),planck_pr4_dp,duplicado
+10.48550_arxiv.2607.02664,10.48550/arxiv.2607.02664,Limits on global cosmic birefringence using radio sources,0.2,1.0,B,Radio sources (no CMB),,no
+10.22323_1.454.0047,10.22323/1.454.0047,Axion field tomography: cosmic birefringence from the epochs of recombination and reionization,4.55,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.1103_5j64-ybm5,10.1103/5j64-ybm5,Limits on Global Cosmic Birefringence Using Radio Sources,0.2,1.0,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.48550_arxiv.2212.08007,10.48550/arxiv.2212.08007,Characterising cosmic birefringence in the presence of galactic foregrounds and instrumental systematic effects,0.35,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.1088_1475-7516_2023_06_044,10.1088/1475-7516/2023/06/044,Cross-correlation power spectra and cosmic birefringence of the CMB via photon-neutrino interaction,11.46,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.18928940,10.5281/zenodo.18928940,Cosmic Birefringence as a Quantum-Geometric Signature of the Universal Field Φ in MRUV Cosmology,0.3,0.11,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.1103_physrevd.106.042011,10.1103/physrevd.106.042011,Searching for axion-like time-dependent cosmic birefringence with data from SPT-3G,0.071,,A,SPTpol (primaria),spt_pol,no
+10.1103_pjf4-sn4v,10.1103/pjf4-sn4v,Isotropic cosmic birefringence from string axion domain walls without cosmic strings and DESI results,0.21,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.48550_arxiv.2606.02897,10.48550/arxiv.2606.02897,Field-level constraints on cosmic birefringence with a hybrid $E$-$B$ internal linear combination,0.32,0.12,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.1088_1475-7516_2024_10_028,10.1088/1475-7516/2024/10/028,A new solution for the observed isotropic cosmic birefringence angle and its implications for the anisotropic counterpart through a Boltzmann approach,0.3,0.11,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.1103_physrevd.108.023023,10.1103/physrevd.108.023023,Cosmic birefringence as a probe of the nature of dark matter: Sterile neutrino and dipolar dark matter,0.3,0.11,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.18535195,10.5281/zenodo.18535195,TFPT v2.8 Prediction Sheet: Cosmic Birefringence (CMB Polarization Rotation β = 0.2424°),0.2424,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.20925220,10.5281/zenodo.20925220,Observational silence of energy–non-conservation dark energy: no-go theorems for the equation of state and cosmic birefringence,0.013,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.19237982,10.5281/zenodo.19237982,Non-Local Cosmological Observables in MRUV Cosmology: A Unified Framework for H0 Estimator Drift and Cosmic Birefringence,0.3,0.11,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.21838839,10.5281/zenodo.21838839,"Signatures of a Chiral Kerr-Bounce: Torsion-Induced Cosmic Birefringence, CMB Anomalies, and Anisotropic Gravitational Waves",0.35,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.7910_dvn_idl5mq,10.7910/dvn/idl5mq,Scale-Dependent and Anisotropic Cosmic Birefringence: 8.5σ Isotropic and 4–5σ Directional Rotation in Planck Polarization Data (v1.0),0.232,0.027,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.7910_dvn_920ybk,10.7910/dvn/920ybk,Scale-Dependent and Anisotropic Cosmic Birefringence: 8.5σ Isotropic and 4–5σ Directional Rotation in Planck Polarization Data (v1.1),0.232,0.027,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.19144137,10.5281/zenodo.19144137,Cosmic Birefringence as D4/A3 Parity Offset: A Parameter-Free Derivation of β = 0.365◦ and the Planck–ACT Anisotropy Conjecture,0.3647,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.7910_dvn_coewud,10.7910/dvn/coewud,Verification of the 8.5σ Isotropic and 5σ Directional Two-Harmonic Cosmic Birefringence Dipole in Planck 2018 Polarization Data (v1.3),0.23,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.18823134,10.5281/zenodo.18823134,Cosmic Birefringence as an Observational Signature of the Self-Referential Universe: A Zero-Free-Parameter Prediction of the ASR–Mother Wave Framework,0.19,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.19340880,10.5281/zenodo.19340880,The Chiral Residue (Second Edition): Cosmic Birefringence as a Higher-Order Phase Residue of the MSDS Bipolar Vacuum Lattice,0.342,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.20568938,10.5281/zenodo.20568938,"Three Confrontations with the 2026 Sky: General Coherence Field Theory Tested Against the Lyman-α Forest, Cosmic Birefringence, and Dynamical Dark Energy",0.0,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.23264666,10.5281/zenodo.23264666,"CPT as the Physical Mirror of Array Cosmology The Sign-Group Theorem, Lattice and Interacting Antiunitary Symmetries, Chirality, Cosmic Birefringence and Black-Hole Seams",0.2108,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.23458461,10.5281/zenodo.23458461,"Relativistic Bitemporal Cosmology in Covariant Bitemporal Geometrodynamics (CBG): The Pre-Bounce Σ₄ Throat, Parameter-Free CMB Power Spectrum (A_s = Φ_∞² / 8π), Acoustic Peak Baryon Amplification, 0.302° Cosmic Birefringence, and the 234.8 Gyr Cyclic Universe",0.3,0.05,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.19338461,10.5281/zenodo.19338461,Paper LIV: Chiral Asymmetry and the Birefringence Fingerprint: MSDS Torsion as a Source of Cosmic Polarization Rotation,0.31,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.19391280,10.5281/zenodo.19391280,"Paper LXXII: The Hierarchy at n = 2.5: Birefringence, Baryon Asymmetry, and the MSDS Chern-Simons Scale",0.2159,,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.5281_zenodo.19394271,10.5281/zenodo.19394271,Geometric Birefringence: Octonionic Commutators in the Λ₂₄ Lattice as a Substitute for Axion-Photon Coupling,0.35,0.14,B,Reanalisis o derivado (sin mapeo especifico),,no
+10.1016_j.physletb.2020.135240,10.1016/j.physletb.2020.135240,Joint constraint on primordial gravitational waves and polarization rotation angle with current CMB polarization data,0.0,0.37,B,Reanalisis o derivado (sin mapeo especifico),,no

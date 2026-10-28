@@ -1,0 +1,26 @@
+[
+  {
+    "doi": "https://doi.org/10.1103/physrevlett.125.221301",
+    "titulo": "New Extraction of the Cosmic Birefringence from the Planck 2018 Polarization Data",
+    "anio": 2020,
+    "autores": [
+      "Y. Minami",
+      "Eiichiro Komatsu"
+    ],
+    "beta": 0.35,
+    "sigma": 0.14,
+    "abstract": "We search for evidence of parity-violating physics in the Planck 2018 polarization data and report on a new measurement of the cosmic birefringence angle β. The previous measurements are limited by the systematic uncertainty in the absolute polarization angles of the Planck detectors. We mitigate th"
+  },
+  {
+    "doi": "https://doi.org/10.5281/zenodo.19341308",
+    "titulo": "Cosmic Birefringence as Fossilized Bandwidth Decay: A Coherence Framework Derivation",
+    "anio": 2026,
+    "autores": [
+      "Jason Smith",
+      "Charles Borabon"
+    ],
+    "beta": 0.215,
+    "sigma": 0.074,
+    "abstract": "We derive cosmic birefringence — the observed ~0.2-0.35 degree rotation of CMB polarization — as a structural consequence of coherence bandwidth decay in the RMAxt framework. The derivation requires no new particles or fields. The mechanism proceeds through two invariants: the Asymmetric Input to Di"
+  }
+]

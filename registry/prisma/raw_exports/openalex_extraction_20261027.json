@@ -1,0 +1,24 @@
+[
+  {
+    "doi": "https://doi.org/10.1103/physrevlett.125.221301",
+    "titulo": "New Extraction of the Cosmic Birefringence from the Planck 2018 Polarization Data",
+    "anio": 2020,
+    "autores": [
+      "Y. Minami",
+      "Eiichiro Komatsu"
+    ],
+    "beta": 0.35,
+    "sigma": 0.14
+  },
+  {
+    "doi": "https://doi.org/10.5281/zenodo.19341308",
+    "titulo": "Cosmic Birefringence as Fossilized Bandwidth Decay: A Coherence Framework Derivation",
+    "anio": 2026,
+    "autores": [
+      "Jason Smith",
+      "Charles Borabon"
+    ],
+    "beta": 0.215,
+    "sigma": 0.074
+  }
+]

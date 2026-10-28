@@ -1,0 +1,1355 @@
+{
+  "con_beta": [
+    {
+      "doi": "https://doi.org/10.1103/physrevlett.128.091302",
+      "titulo": "Cosmic Birefringence from thePlanckData Release 4",
+      "beta": 0.3,
+      "sigma": 0.11,
+      "abstract_snippet": "birefringence angle of β = 0.30 ± 0.11 degrees (68% C.L.) for nearly full-sky data"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2609.25202",
+      "titulo": "Cosmic Birefringence and Axiogenesis",
+      "beta": 0.3,
+      "sigma": null,
+      "abstract_snippet": "report a 2-4σ hint of isotropic cosmic birefringence (β ≈ 0.3°), corresponding to a parity-violating rotation"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.106.063503",
+      "titulo": "Improved constraints on cosmic birefringence from the WMAP and Planck cosmic microwave background polarization data",
+      "beta": 0.342,
+      "sigma": 0.094,
+      "abstract_snippet": "We measure β = 0.342 degrees (+0.094/-0.091) at 68% confidence level for nearly full-sky data"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.104.l101302",
+      "titulo": "Cosmic birefringence and electroweak axion dark energy",
+      "beta": 0.35,
+      "sigma": 0.14,
+      "abstract_snippet": "nonzero rotation angle of the cosmic microwave background (CMB) linear polarization β = 0.35 ± 0.14 deg as the hint"
+    },
+    {
+      "doi": "https://doi.org/10.1051/0004-6361/202243269",
+      "titulo": "Frequency-dependent constraints on cosmic birefringence from the LFI and HFI Planck Data Release 4",
+      "beta": 0.29,
+      "sigma": 0.11,
+      "abstract_snippet": "At nearly full-sky, we measure β0 = 0.29° (+0.10/-0.11) and n = -0.35"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2025/06/025",
+      "titulo": "Planck PR4 (NPIPE) map-space cosmic birefringence",
+      "beta": 0.46,
+      "sigma": 0.28,
+      "abstract_snippet": "find β = 0.46° ± 0.04° (stat.) ± 0.28° (syst.) for SEVEM CMB maps"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2025/07/009",
+      "titulo": "Improving cosmic birefringence constraints via delensing",
+      "beta": 0.35,
+      "sigma": null,
+      "abstract_snippet": "assuming a constant rotation angle of β = 0.35°, delensing reduces the lensing-induced variance in the EB power spectrum"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.106.103529",
+      "titulo": "Can primordial parity violation explain the observed cosmic birefringence?",
+      "beta": 0.3,
+      "sigma": null,
+      "abstract_snippet": "cosmic birefringence with rotation angle β ≈ 0.3 deg, has been found in cosmic microwave background polarization data"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2608.05296",
+      "titulo": "3-form dark energy and cosmic birefringence",
+      "beta": 0.3,
+      "sigma": null,
+      "abstract_snippet": "a dimension-6 gauge-invariant operator necessitates an extremely large coupling to explain β ~ 0.3°, the value suggested by observations"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2608.06480",
+      "titulo": "Cosmic birefringence from a joint analysis of ACT and Planck",
+      "beta": 0.277,
+      "sigma": 0.057,
+      "abstract_snippet": "the joint analysis yields $β= 0.277^{\\circ} \\pm 0.057^{\\circ}$, which is non-zero with a statistical significance of $4.8σ$"
+    },
+    {
+      "doi": "https://doi.org/10.1103/qgnn-6hsf",
+      "titulo": "Resolving the Negative Effective Neutrino Mass Parameter with Cosmic Birefringence",
+      "beta": 0.34,
+      "sigma": 0.09,
+      "abstract_snippet": "the measured cosmic birefringence angle β_{0}=0.34±0.09(1σ) deg has the phase ambiguity"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2022/10/043",
+      "titulo": "Power spectrum of domain-wall network, and its implications for isotropic and anisotropic cosmic birefringence",
+      "beta": 0.3,
+      "sigma": null,
+      "abstract_snippet": "The suggested rotation angle of polarization of about 0.2–0.4 degrees is close to the fine-structure constant"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2025/07/083",
+      "titulo": "LiteBIRD science goals and forecasts: constraining isotropic cosmic birefringence",
+      "beta": 0.3,
+      "sigma": null,
+      "abstract_snippet": "LiteBIRD will be able to detect a CB angle of 0.3° with a statistical significance ranging from 5 to 13σ"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2022/08/033",
+      "titulo": "Constraints on cosmic birefringence using E-mode polarisation",
+      "beta": 0.3,
+      "sigma": null,
+      "abstract_snippet": "we could constrain a birefringence angle of 0.3° with 3σ statistical significance"
+    },
+    {
+      "doi": "https://doi.org/10.3847/2041-8213/aea401",
+      "titulo": "Differential Polarization Calibration: A Consistency Test for Cosmic Birefringence",
+      "beta": 0.37,
+      "sigma": 0.12,
+      "abstract_snippet": "A conditional common-mode reconstruction gives β = 0 . ° 37 ± 0 . ° 12."
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.21392357",
+      "titulo": "Cosmic Birefringence: A Geometric Prediction from the Tetrahedral Substrate of Spacetime",
+      "beta": 0.272,
+      "sigma": 0.03,
+      "abstract_snippet": "our model predicts a uniform rotation angle of: β = 0.272° ± 0.03°"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20172373",
+      "titulo": "CPQ Theory: Cosmic Birefringence as a Signature of Matrix Chirality",
+      "beta": 0.307,
+      "sigma": null,
+      "abstract_snippet": "The compact CPQ ansatz β_CMB ≈ 2α_fs·Ξ₀ gives β ≈ 0.307° for Ξ₀ = 1/e"
+    },
+    {
+      "doi": "https://doi.org/10.1103/pbc3-t52s",
+      "titulo": "Cosmic birefringence from the Atacama Cosmology Telescope Data Release 6",
+      "beta": 0.215,
+      "sigma": 0.074,
+      "abstract_snippet": "We measure β = 0.21 5 ° ± 0.07 4 ° (68% confidence level), which excludes β = 0 with a statistical significance of 2.9 σ"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2203.04830",
+      "titulo": "Cosmic Birefringence from Planck Public Release 4",
+      "beta": 0.3,
+      "sigma": 0.11,
+      "abstract_snippet": "we initially find a birefringence angle $β=0.30^\\circ\\pm0.11^\\circ$ ($68\\%$~C.L.)"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2607.02664",
+      "titulo": "Limits on global cosmic birefringence using radio sources",
+      "beta": 0.2,
+      "sigma": 1.0,
+      "abstract_snippet": "a Gaussian with mean $\\mu_\\beta=(0.2\\pm 1.0)^{\\circ}$ and standard deviation $\\sigma_\\beta=(14.7\\pm 1.1)^{\\circ}$"
+    },
+    {
+      "doi": "https://doi.org/10.22323/1.454.0047",
+      "titulo": "Axion field tomography: cosmic birefringence from the epochs of recombination and reionization",
+      "beta": 4.55,
+      "sigma": null,
+      "abstract_snippet": "deriving preliminary $|\\beta_\\mathrm{reio}| <4.55 ^\\circ$ ($68\\%$ CL) constraints on the CB angle from the reionization epoch"
+    },
+    {
+      "doi": "https://doi.org/10.1103/5j64-ybm5",
+      "titulo": "Limits on Global Cosmic Birefringence Using Radio Sources",
+      "beta": 0.2,
+      "sigma": 1.0,
+      "abstract_snippet": "a Gaussian with mean μ_{β}=(0.2±1.0)° and standard deviation σ_{β}=(14.7±1.1)°"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2212.08007",
+      "titulo": "Characterising cosmic birefringence in the presence of galactic foregrounds and instrumental systematic effects",
+      "beta": 0.35,
+      "sigma": null,
+      "abstract_snippet": "confirm or disprove the recently detected value of $β_b=0.35^\\circ$ with a significance between $3$ and $5 σ$"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/06/044",
+      "titulo": "Cross-correlation power spectra and cosmic birefringence of the CMB via photon-neutrino interaction",
+      "beta": 11.46,
+      "sigma": null,
+      "abstract_snippet": "the value of cosmic birefringence due to Majorana CνB medium is estimated at about β| ν ≃ 0.2 rad (0.2 rad convertido a grados = 11.46°)"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.18928940",
+      "titulo": "Cosmic Birefringence as a Quantum-Geometric Signature of the Universal Field Φ in MRUV Cosmology",
+      "beta": 0.3,
+      "sigma": 0.11,
+      "abstract_snippet": "report a non-zero rotation of the plane of linear polarisation of primordial radiation, β = 0.30° ± 0.11° (68% C.L.)"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.106.042011",
+      "titulo": "Searching for axion-like time-dependent cosmic birefringence with data from SPT-3G",
+      "beta": 0.071,
+      "sigma": null,
+      "abstract_snippet": "we set a median 95% C.L. upper limit on the amplitude of on-sky polarization rotation of 0.071 deg"
+    },
+    {
+      "doi": "https://doi.org/10.1103/pjf4-sn4v",
+      "titulo": "Isotropic cosmic birefringence from string axion domain walls without cosmic strings and DESI results",
+      "beta": 0.21,
+      "sigma": null,
+      "abstract_snippet": "The predicted rotation angle, β ≈ 0.21 c γ degrees (with anomaly coefficient c γ ≈ 1 )"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2606.02897",
+      "titulo": "Field-level constraints on cosmic birefringence with a hybrid $E$-$B$ internal linear combination",
+      "beta": 0.32,
+      "sigma": 0.12,
+      "abstract_snippet": "Applied to Planck PR4 data, we measure a birefringence angle $β\\simeq 0.32^\\circ \\pm 0.12^\\circ$"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2024/10/028",
+      "titulo": "A new solution for the observed isotropic cosmic birefringence angle and its implications for the anisotropic counterpart through a Boltzmann approach",
+      "beta": 0.3,
+      "sigma": 0.11,
+      "abstract_snippet": "which has provided a hint of detection of the CB angle, α = (0.30 ± 0.11)∘"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.108.023023",
+      "titulo": "Cosmic birefringence as a probe of the nature of dark matter: Sterile neutrino and dipolar dark matter",
+      "beta": 0.3,
+      "sigma": 0.11,
+      "abstract_snippet": "$\\ensuremath{\\beta}=0.30\\ifmmode^\\circ\\else\\textdegree\\fi{}\\ifmmode\\pm\\else\\textpm\\fi{}0.11\\ifmmode^\\circ\\else\\textdegree\\fi{}$ (68% C.L.)"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.18535195",
+      "titulo": "TFPT v2.8 Prediction Sheet: Cosmic Birefringence (CMB Polarization Rotation β = 0.2424°)",
+      "beta": 0.2424,
+      "sigma": null,
+      "abstract_snippet": "the TFPT v2.8 prediction for an achromatic cosmic birefringence rotation of the CMB linear polarization: β = 0.2424 degrees"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20925220",
+      "titulo": "Observational silence of energy–non-conservation dark energy: no-go theorems for the equation of state and cosmic birefringence",
+      "beta": 0.013,
+      "sigma": null,
+      "abstract_snippet": "(T1) if the injection tracks the matter density ... cosmic birefringence is bounded by β ≲ 0.013°"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19237982",
+      "titulo": "Non-Local Cosmological Observables in MRUV Cosmology: A Unified Framework for H0 Estimator Drift and Cosmic Birefringence",
+      "beta": 0.3,
+      "sigma": 0.11,
+      "abstract_snippet": "cosmic birefringence of the CMB (β = 0.30° ±0.11°, Diego-Palazuelos et al. 2022)"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.21838839",
+      "titulo": "Signatures of a Chiral Kerr-Bounce: Torsion-Induced Cosmic Birefringence, CMB Anomalies, and Anisotropic Gravitational Waves",
+      "beta": 0.35,
+      "sigma": null,
+      "abstract_snippet": "The observed cosmic birefringence angle (beta ≈ 0.35°)"
+    },
+    {
+      "doi": "https://doi.org/10.7910/dvn/idl5mq",
+      "titulo": "Scale-Dependent and Anisotropic Cosmic Birefringence: 8.5σ Isotropic and 4–5σ Directional Rotation in Planck Polarization Data (v1.0)",
+      "beta": 0.232,
+      "sigma": 0.027,
+      "abstract_snippet": "measuring α = 0.232° ± 0.027° for ℓ = 500–800"
+    },
+    {
+      "doi": "https://doi.org/10.7910/dvn/920ybk",
+      "titulo": "Scale-Dependent and Anisotropic Cosmic Birefringence: 8.5σ Isotropic and 4–5σ Directional Rotation in Planck Polarization Data (v1.1)",
+      "beta": 0.232,
+      "sigma": 0.027,
+      "abstract_snippet": "with α decreasing from 0.232° ± 0.027° (ℓ = 500–800) to 0.030° ± 0.013° (ℓ = 1100–1500)"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19144137",
+      "titulo": "Cosmic Birefringence as D4/A3 Parity Offset: A Parameter-Free Derivation of β = 0.365◦ and the Planck–ACT Anisotropy Conjecture",
+      "beta": 0.3647,
+      "sigma": null,
+      "abstract_snippet": "β = α_KK/N_D4 = (11/72)/24 = 11/1728 rad = 0.3647°"
+    },
+    {
+      "doi": "https://doi.org/10.7910/dvn/coewud",
+      "titulo": "Verification of the 8.5σ Isotropic and 5σ Directional Two-Harmonic Cosmic Birefringence Dipole in Planck 2018 Polarization Data (v1.3)",
+      "beta": 0.23,
+      "sigma": null,
+      "abstract_snippet": "with α(ℓ) decreasing from ≈ 0.23° to 0.03° between ℓ = 500–1500"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.18823134",
+      "titulo": "Cosmic Birefringence as an Observational Signature of the Self-Referential Universe: A Zero-Free-Parameter Prediction of the ASR–Mother Wave Framework",
+      "beta": 0.19,
+      "sigma": null,
+      "abstract_snippet": "The predicted value β ≈ 0.190° is fully compatible with the observed range"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19340880",
+      "titulo": "The Chiral Residue (Second Edition): Cosmic Birefringence as a Higher-Order Phase Residue of the MSDS Bipolar Vacuum Lattice",
+      "beta": 0.342,
+      "sigma": null,
+      "abstract_snippet": "a tiny chiral residue of \\beta = 0.342^{\\circ}"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20568938",
+      "titulo": "Three Confrontations with the 2026 Sky: General Coherence Field Theory Tested Against the Lyman-α Forest, Cosmic Birefringence, and Dynamical Dark Energy",
+      "beta": 0.0,
+      "sigma": null,
+      "abstract_snippet": "(II) Cosmic Birefringence: established GCFT forbids the observed isotropic rotation ... predicting β=0"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.23264666",
+      "titulo": "CPT as the Physical Mirror of Array Cosmology The Sign-Group Theorem, Lattice and Interacting Antiunitary Symmetries, Chirality, Cosmic Birefringence and Black-Hole Seams",
+      "beta": 0.2108,
+      "sigma": null,
+      "abstract_snippet": "the isotropic birefringence |β| = rt/φ2 = 0.2108◦ is CPT-covariant"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.23458461",
+      "titulo": "Relativistic Bitemporal Cosmology in Covariant Bitemporal Geometrodynamics (CBG): The Pre-Bounce Σ₄ Throat, Parameter-Free CMB Power Spectrum (A_s = Φ_∞² / 8π), Acoustic Peak Baryon Amplification, 0.302° Cosmic Birefringence, and the 234.8 Gyr Cyclic Universe",
+      "beta": 0.3,
+      "sigma": 0.05,
+      "abstract_snippet": "the unexplained 0.30° ± 0.05° isotropic cosmic birefringence rotation in Planck polarimetry"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19338461",
+      "titulo": "Paper LIV: Chiral Asymmetry and the Birefringence Fingerprint: MSDS Torsion as a Source of Cosmic Polarization Rotation",
+      "beta": 0.31,
+      "sigma": null,
+      "abstract_snippet": "required to earn the 0.31° prediction"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19391280",
+      "titulo": "Paper LXXII: The Hierarchy at n = 2.5: Birefringence, Baryon Asymmetry, and the MSDS Chern-Simons Scale",
+      "beta": 0.2159,
+      "sigma": null,
+      "abstract_snippet": "The n=2.5 hierarchy level, which predicts a cosmic birefringence floor of \\beta = 0.2159^\\circ"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19394271",
+      "titulo": "Geometric Birefringence: Octonionic Commutators in the Λ₂₄ Lattice as a Substitute for Axion-Photon Coupling",
+      "beta": 0.35,
+      "sigma": 0.14,
+      "abstract_snippet": "Recent analyses of Planck 2018 polarization data have isolated a parity-violating cosmic birefringence angle of β = 0.35° ± 0.14°."
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.physletb.2020.135240",
+      "titulo": "Joint constraint on primordial gravitational waves and polarization rotation angle with current CMB polarization data",
+      "beta": 0.0,
+      "sigma": 0.37,
+      "abstract_snippet": "we obtain the isotropic rotation angle α¯=0.0∘±0.37∘ at 68% CL"
+    }
+  ],
+  "sin_beta": [
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/11/017",
+      "titulo": "Cosmic birefringence from the Axiverse",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2021/04/007",
+      "titulo": "Kilobyte Cosmic Birefringence from ALP domain walls",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/10/007",
+      "titulo": "Is cosmic birefringence model-dependent?",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.101.123529",
+      "titulo": "Cosmic birefringence test of the Hubble tension",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.101.083527",
+      "titulo": "Atacama Cosmology Telescope: Constraints on cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.108.063525",
+      "titulo": "Gravitational lensing effect on cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.111.023501",
+      "titulo": "Tomographic constraint on anisotropic cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.102.083504",
+      "titulo": "Searching for anisotropic cosmic birefringence with polarization data from SPTpol",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevlett.127.181103",
+      "titulo": "Cosmic Birefringence Triggered by Dark Matter Domination",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2022/08/025",
+      "titulo": "Cosmic birefringence from monodromic axion dark energy",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physics.13.s149",
+      "titulo": "Hints of Cosmic Birefringence?",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.106.083518",
+      "titulo": "Probing cosmic birefringence with polarized Sunyaev-Zel’dovich tomography",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.107.l021302",
+      "titulo": "Consistency of the string inspired electroweak axion with cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.107.083529",
+      "titulo": "Redshift evolution of cosmic birefringence in CMB anisotropies",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.108.083510",
+      "titulo": "Cosmic birefringence tomography with polarized Sunyaev-Zel’dovich effect",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.100.023507",
+      "titulo": "Future CMB constraints on cosmic birefringence and implications for fundamental physics",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1093/ptep/ptz079",
+      "titulo": "Simultaneous determination of the cosmic birefringence and miscalibrated polarization angles from CMB experiments",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.107.l041302",
+      "titulo": "Isotropic cosmic birefringence from early dark energy",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2022/09/062",
+      "titulo": "Implications of the cosmic birefringence measurement for the axion dark matter search",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/6z1m-r1j5",
+      "titulo": "n π Phase Ambiguity of Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2024/05/034",
+      "titulo": "Planck constraints on cosmic birefringence and its cross-correlation with the CMB",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.09748",
+      "titulo": "Cosmic Birefringence from Large Lepton Asymmetry",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.3847/1538-4357/ac0e35",
+      "titulo": "The Origin of Parity Violation in Polarized Dust Emission and Implications for Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.105.123509",
+      "titulo": "Is cosmic birefringence due to dark energy or dark matter? A tomographic approach",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.2172/3412485",
+      "titulo": "Constraining Cosmic Birefringence with Polarization Angle Calibration",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/srfg-9fdy",
+      "titulo": "Universal Profile for Cosmic Birefringence Tomography with Radio Galaxies",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/05/026",
+      "titulo": "Probing axions through tomography of anisotropic cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1093/mnras/stac3146",
+      "titulo": "Cosmic birefringence tomography and calibration independence with reionization signals in the CMB",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/07/053",
+      "titulo": "Cosmic birefringence from neutrino and dark matter asymmetries",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2024/08/037",
+      "titulo": "Cosmic birefringence by dark photon",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.13140/rg.2.2.25402.86720",
+      "titulo": "THE FORBIDDEN ALGEBRA OF COSMIC BIREFRINGENCE",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.110.103525",
+      "titulo": "Constraining ultralight ALP dark matter in light of cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevlett.131.121001",
+      "titulo": "Constraints on Early Dark Energy from Isotropic Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20321179",
+      "titulo": "Shared-Pseudoscalar Spontaneous Baryogenesis and Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/01/044",
+      "titulo": "Robustness of cosmic birefringence measurement against Galactic foreground emission and instrumental systematics",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1007/jhep08(2024)038",
+      "titulo": "Cosmic birefringence from CP-violating axion interactions",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevlett.134.161001",
+      "titulo": "New Probe of Cosmic Birefringence Using Galaxy Polarization and Shapes",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.physletb.2023.137990",
+      "titulo": "Stability of domain wall network with initial inflationary fluctuations and its implications for cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2401.11973",
+      "titulo": "Planck constraints on Cosmic Birefringence and its cross-correlation with the CMB",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/07/052",
+      "titulo": "Testing charge quantization with axion string-induced cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.108.082005",
+      "titulo": "Characterizing cosmic birefringence in the presence of Galactic foregrounds and instrumental systematic effects",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.111.043514",
+      "titulo": "Isotropic cosmic birefringence from an oscillating axionlike field",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2022/09/075",
+      "titulo": "Planck constraints on cross-correlations between anisotropic cosmic birefringence and CMB polarization",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1093/ptep/ptaa130",
+      "titulo": "Simultaneous determination of the cosmic birefringence and miscalibrated polarization angles II: Including cross-frequency spectra",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.physletb.2025.139774",
+      "titulo": "Interpreting cosmic birefringence and DESI data with evolving axion in ΛCDM",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.22188197",
+      "titulo": "cosmic_birefringence: Differential polarization calibration for cosmic-birefringence analyses",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2026/02/079",
+      "titulo": "Forecasts of constraining isotropic cosmic birefringence on AliCPT-1",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2026/09/090",
+      "titulo": "Implications of cosmic birefringence for multi-field ALP dark matter",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.03876",
+      "titulo": "Anisotropic cosmic birefringence estimates for forthcoming CMB experiments",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.105.063536",
+      "titulo": "Computing microwave background polarization power spectra from cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2402.18568",
+      "titulo": "A New Probe of Cosmic Birefringence Using Galaxy Polarization and Shapes",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.109.123521",
+      "titulo": "Exact CMB B -mode power spectrum from anisotropic cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.1904.12440",
+      "titulo": "Simultaneous determination of the cosmic birefringence and miscalibrated polarisation angles from CMB experiments",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2025/04/077",
+      "titulo": "Forecasts on anisotropic cosmic birefringence constraints for CMB experiment in the northern hemisphere",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2026/09/130",
+      "titulo": "Constraints on cosmic birefringence from SPIDER, Planck , and ACT observations",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.103.043509",
+      "titulo": "Detection of isotropic cosmic birefringence and its implications for axionlike particles including dark energy",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.physletb.2021.136752",
+      "titulo": "Constraints on global symmetry breaking in quantum gravity from cosmic birefringence measurements",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/kc89-xjkb",
+      "titulo": "Planck constraints on axionlike particles through isotropic cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.2139/ssrn.5258781",
+      "titulo": "Cosmic Birefringence and the Concept of Spirits, Angels, and Demons",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.22933216",
+      "titulo": "Axion Sea Dark Energy × Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.22323/1.414.0126",
+      "titulo": "Redshift dependent cosmic birefringence from axion-like dark matter",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19099835",
+      "titulo": "Cosmic Birefringence as a Probe of Dark-Energy Field Excursions and UV Geometry",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2026/07/008",
+      "titulo": "Is cosmic birefringence due to dark energy or dark matter? Simulation-based inference",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.18732884",
+      "titulo": "Cosmic Birefringence and the Governance of Contested Rotation Signals: A TRIDENT Case Analysis",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/03/034",
+      "titulo": "Impact of half-wave plate systematics on the measurement of cosmic birefringence from CMB polarization",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/x1qj-t4jz",
+      "titulo": "Observational evidence for early dark energy as a unified explanation for cosmic birefringence and the Hubble tension",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/yxmh-rh9z",
+      "titulo": "Constraints on anisotropic cosmic birefringence from CMB B -mode polarization",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2602.12019",
+      "titulo": "Is cosmic birefringence due to dark energy or dark matter? Simulation-based inference",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/hcsm-39qw",
+      "titulo": "Cosmic birefringence from a joint analysis of ACT and Planck",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.111.083532",
+      "titulo": "Modeling parity-violating spectra in Galactic dust polarization with filaments and its applications to cosmic birefringence searches",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1007/jhep01(2024)057",
+      "titulo": "Can we explain cosmic birefringence without a new light field beyond Standard Model?",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/169s-4g17",
+      "titulo": "Implications of DESI data for dark matter and cosmic birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20147312",
+      "titulo": "A Shared-Pseudoscalar Target Surface for Cosmic Birefringence and Gravitational-Anomaly Baryogenesis",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.02667",
+      "titulo": "Distinguishing the origin of cosmic birefringence: dark energy, dark matter, and neutrino asymmetry",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2303.15369",
+      "titulo": "Constraint on Early Dark Energy from Isotropic Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1140/epjc/s10052-024-13004-0",
+      "titulo": "Generation of the CMB cosmic birefringence through axion-like particles, sterile and active neutrinos",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.27082",
+      "titulo": "Cosmic birefringence from a stiff axion field and its cosmological implications",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20754695",
+      "titulo": "Aether Tomography: Residual Cosmic Birefringence as a Probe of Organized Five-Dimensional Chronogeometric Structure",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19205529",
+      "titulo": "Dimensional Projection Kinematics: A Unified Geometric Perspective on the Hubble Tension, MOND, and Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2026/09/052",
+      "titulo": "Joint constraints on cosmic birefringence and early dark energy from ACT, Planck, DESI, and PantheonPlus",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.22045359",
+      "titulo": "Cosmic Birefringence from Finite-Response Photon Transport in an Emergent Condensate Superfluid Medium",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.21296933",
+      "titulo": "Forecasting Cosmic Birefringence via CMB TB Correlations: Fisher Sensitivity and Experimental Prospects",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.13140/rg.2.2.36493.70888",
+      "titulo": "Cosmic Birefringence-The Twisting of Light Polarization from the Early Universe",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.111.063505",
+      "titulo": "BICEP/ Keck XVIII: Measurement of BICEP3 polarization angles and consequences for constraining cosmic birefringence and inflation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.2139/ssrn.7392119",
+      "titulo": "Cosmic Birefringence from the Spectre Substrate: A 0.05σ Match at the Conformal Crossover",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.33232/001c.147459",
+      "titulo": "Probing Anisotropic Cosmic Birefringence with Foreground-Marginalised SPT B-mode Likelihoods",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2025/12/013",
+      "titulo": "Field-level constraints on cosmic birefringence from hybrid ILC maps combining E- and B-mode channels",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20753445",
+      "titulo": "Temporal Torque Memory and Galactic-Scale Aether Organization: A Predictive Framework for Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2410.12089",
+      "titulo": "BICEP/Keck XVIII: Measurement of BICEP3 polarization angles and consequences for constraining cosmic birefringence and inflation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.18030580",
+      "titulo": "Python Codes for Figures 1–3: Cosmic Birefringence and Ultralight Vector Phenomenology in IG–RUEQFT",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/tsff-hz9m",
+      "titulo": "Optimal joint reconstruction from CMB observations: Application to cosmic birefringence, patchy reionization, and CMB lensing",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.7910/dvn/sun0sd",
+      "titulo": "Two-Harmonic Extension of Scale-Dependent Cosmic Birefringence in Planck 2018 Polarization Data (v1.2)",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.13140/rg.2.2.24217.17769",
+      "titulo": "Reconstructing Primordial Magnetic Helicity Through Circular Polarisation and Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.7910/dvn/byavvr",
+      "titulo": "Rotation Field of the Cosmic Microwave Background — MASTER-Calibrated Dipole and Anisotropic Cosmic Birefringence (v1.4)",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.7910/dvn/k9hute",
+      "titulo": "Rotation Field of the Cosmic Microwave Background — Extended MASTER Calibration and Robustness Validation of the Anisotropic Cosmic Birefringence Dipole (v1.41)",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19570322",
+      "titulo": "Arithmetic Derivation of Cosmic Birefringence: A Spectral-Topological Prediction of beta = 0,35 degrees within the AToE Framework",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.18794859",
+      "titulo": "TRIDENT Case Card: Cosmic Birefringence–Large-Scale Structure Cross-Correlation (Null Result as Constraint Operator)",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.2139/ssrn.6877220",
+      "titulo": "Constraining the Potential Index $n$ of the Early Dark Energy Model Using Cosmic Birefringence from Planck and ACT",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.7910/dvn/ddh4fo",
+      "titulo": "Rotation Field of the Cosmic Microwave Background — Dependence-Aware Joint Validation of Anisotropic Cosmic Birefringence (v1.42)",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.dark.2026.102465",
+      "titulo": "Constraining the potential index n of the early dark energy model using cosmic birefringence from planck and ACT",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20779503",
+      "titulo": "Numerical Reconstruction of Organized Temporal-Torque Domains and Simulated Residual Cosmic Birefringence Maps",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.29764",
+      "titulo": "Alleviating CMB-BAO tension with a large cosmic birefringence angle during reionization induced by energy injection to axion-like particles",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2609.24085",
+      "titulo": "Constraints on Axion-like Dark Matter from Cosmic Birefringence with a Polarization Array of Repeating Fast Radio Bursts",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.13140/rg.2.2.33214.34880",
+      "titulo": "The Emergence of Cosmic Birefringence: A Rigorous Verification of the Entanglement-Weighted Operator Geometry (EWOG) Framework",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.100.063506",
+      "titulo": "Cross-correlation between 21-cm radiation and CMB B modes from the cosmic birefringence in the presence of a light scalar field",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.1906.00721",
+      "titulo": "Cross-correlation between 21-cm radiation and CMB B modes from the cosmic birefringence in the presence of a light scalar field",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1140/epjc/s10052-024-13444-8",
+      "titulo": "Erratum to: Generation of the CMB cosmic birefringence through axion-like particles, sterile and active neutrinos",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.3847/1538-4357/acc85c",
+      "titulo": "BICEP/Keck. XVII. Line-of-sight Distortion Analysis: Estimates of Gravitational Lensing, Anisotropic Cosmic Birefringence, Patchy Reionization, and Systematic Errors",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.21453154",
+      "titulo": "The Khôra Scar Tensor: A Single Spin-2 Object Unifying the CMB Axis Alignment, Dark-Energy Subdominance, and Cosmic Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.23064330",
+      "titulo": "Quantum Geometry & Turbulent Cosmic Birefringence. First-Principles Framework, Connecting Field Topology, Chiral Shear and Anomalous CMB B-Mode",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.18795045",
+      "titulo": "Null Cross-Correlation as a Constraint Operator: Bounding Axion–Photon Coupling from Anisotropic Cosmic Birefringence Measurements",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.19049",
+      "titulo": "The Atacama Cosmology Telescope: DR6 Constraints on Isotropic Time-Dependent Cosmic Birefringence from Axion-like Particles",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19485745",
+      "titulo": "From Global Parity Bias to Collapse Variability: A Structural Link Between Cosmic Birefringence, Chirality, and Non-Collapse Regimes",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.70675/7419cffbzbb30z40e6z8c39zf19a18cccbcb",
+      "titulo": "Constraining Isotropic Cosmic Birefringence with the polarised CMB in the presence of galactic foregrounds and systematic effects",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.13140/rg.2.2.31870.09288/1",
+      "titulo": "Cosmic Birefringence from Transient Pseudoaxions: Persistent Pseudo-Cycles and a Tomographic Parity-Violation Signature in String Cosmology",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.22725772",
+      "titulo": "The Unified Non-Markovian Operator Geometry of Open Biological Systems: Linking Cosmic Birefringence to Cortical Dynamics, Genomic Fidelity, and Macromolecular Homochirality",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.13140/rg.2.2.12178.21446",
+      "titulo": "External-Dimension Mechanics and the September-October 2026 Physics Concordance - Cosmic Birefringence, Altermagnetism, and Pure-Tensor Torsion Validation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.22323/1.507.0016",
+      "titulo": "Constraining ALPs with Cosmic Microwave Background Polarization Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.107.043513",
+      "titulo": "Impact of anisotropic birefringence on measuring cosmic microwave background lensing",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19010671",
+      "titulo": "Cosmic Birefringence as Direct Evidence of Spacetime Substrate Folding: Derivation of α−1 ≈137 from Elasto-Gravity Theory, Emergence of Maxwell's Equations, and Falsifiable Predictions",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20820886",
+      "titulo": "Observational Confrontation of QMU Chronogeometry: Testing Temporal-Torque Memory with Cosmic Filaments and Residual Birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2607.27318",
+      "titulo": "Wading the String Bog: CMB Birefringence in the Swampland",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2024/05/066",
+      "titulo": "Axionic defects in the CMB: birefringence and gravitational waves",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2022/06/033",
+      "titulo": "Probing cosmic strings by reconstructing polarization rotation of the cosmic microwave background",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.22323/1.454.0016",
+      "titulo": "Birefringence in CMB anisotropies due to cosmological pseudoscalar fields",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.22323/1.331.0021",
+      "titulo": "Constraints on parity violation from the Cosmic Microwave Background",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2024/10/101",
+      "titulo": "Conversations in the dark: cross-correlating birefringence and LSS to constrain axions",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2020/11/066",
+      "titulo": "Planck 2018 constraints on anisotropic birefringence and its cross-correlation with CMB anisotropy",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1142/s0218271825400085",
+      "titulo": "Cosmic Polarization Rotation from CMB data: A review for GR110",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2608.27458",
+      "titulo": "The Atacama Cosmology Telescope: Constraints on the anisotropic screening and birefringence effects with DR6",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2022/10/090",
+      "titulo": "Searching for axion-like particles through CMB birefringence from string-wall networks",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/v8y3-m75b",
+      "titulo": "BICEP/ Keck XXI: Constraints on early-Universe parity violation from multipole-dependent birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2026/08/008",
+      "titulo": "Study the nature of dynamical dark energy by measuring the CMB polarization rotation angle",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2022/01/030",
+      "titulo": "Reconstructing cosmic polarization rotation with ResUNet-CMB",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1093/mnras/stab1796",
+      "titulo": "CMB mode coupling with isotropic polarization rotation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2020/12/051",
+      "titulo": "The effects on CMB power spectra and bispectra from the polarization rotation and its correlations with temperature and E-polarization",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19508712",
+      "titulo": "Global Polarization Rotation in the CMB: Observational Evidence and Structural Compatibility",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2601.03925",
+      "titulo": "Polarization rotation through differential transmission in refractive CMB telescopes identified using a hybrid physical optics method",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2607.17500",
+      "titulo": "Simultaneous inference of isotropic and anisotropic polarization rotation angles for next-generation cosmic microwave background experiments",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2021/05/055",
+      "titulo": "CMB birefringence from ultralight-axion string networks",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/cyz7-kplp",
+      "titulo": "CMB birefringence from vacuum interfaces",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.1912.12903",
+      "titulo": "Dark Ultra-Light Scalars and Cosmic Parity Violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2020/09/006",
+      "titulo": "Constraining cosmic polarization rotation and implications for primordial B-modes",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.29182",
+      "titulo": "Parity-odd CMB Correlations induced by a Chiral Gravitational Wave Background",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.17561419",
+      "titulo": "Annual Modulation of Polarization: The Hidden Observable of Parity Violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.23367872",
+      "titulo": "Geometric Birefringence and High-Multipole CMB B-Modes in Thermo-Relativistic Finsler Gravity",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2023/09/024",
+      "titulo": "Measures of non-Gaussianity in axion-string-induced CMB birefringence",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2505.15789",
+      "titulo": "CMB Lensing Trispectrum as a Probe of Parity Violation in LSS",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1209/0295-5075/ae075d",
+      "titulo": "Chaotic parity violation around baryogenesis epoch and its traces in CMB radiation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19825250",
+      "titulo": "Spin-Alignment Induced Parity Violation in the Early Universe: A Pre-Thermal Origin Model for CMB EB Correlations",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.19827729",
+      "titulo": "Spin-Alignment Induced Parity Violation in the Early Universe A Pre-Thermal Origin Model for CMB EB Correlations",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20454538",
+      "titulo": "Dual-Vortex Holographic Universe: A Cyclic Cosmology Unifying CMB Parity Violation and Hubble Tension",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.21445138",
+      "titulo": "Multi-Messenger Constraints on Parity-Violating Chern-Simons Gravity: From Analytical Birefringence to CMB-S4 and LISA Forecasts",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.21208155",
+      "titulo": "LQC-USR Bounds on Primordial Non-Gaussianity, Parity Violation, and SIGW Peaks from LISA, DECIGO, and CMB-S4",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2024/11/020",
+      "titulo": "Cosmic topology. Part IIIa. Microwave background parity violation without parity-violating microphysics",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.22704775",
+      "titulo": "The Cosmic Information Field Theory (CIFT): Empirical Evidence for Dynamic Dark Energy, Gauge Information Fields, and Topological Parity Violation in the CMB",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2024/08/044",
+      "titulo": "No evidence for parity violation in BOSS",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.29252/ijpr.18.4.571",
+      "titulo": "Compton scattering with parity violation and polarization of cosmic microwave background",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.106.063501",
+      "titulo": "Probing parity violation with the four-point correlation function of BOSS galaxies",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1093/mnras/stae1924",
+      "titulo": "Parity-odd power spectra: concise statistics for cosmological parity violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.32388/pz51ar.2",
+      "titulo": "Parity Violation and Magnetic Helicity on Cosmological Scales: From Turbulent Baryogenesis to Galaxy Clusters",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.32388/pz51ar",
+      "titulo": "Parity Violation and Magnetic Helicity on Cosmological Scales: From Turbulent Baryogenesis to Galaxy Clusters",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.108.123523",
+      "titulo": "Parity violation from emergent nonlocality during inflation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1007/s10701-019-00240-8",
+      "titulo": "Non-smooth Gravity and Parity Violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2024/07/039",
+      "titulo": "Parity violation in primordial tensor non-Gaussianities from matter bounce cosmology",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1007/jhep02(2023)021",
+      "titulo": "Parity violation in the scalar trispectrum: no-go theorems and yes-go examples",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2607.26046",
+      "titulo": "Probing Parity Violation with Weak Lensing Trispectrum",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2608.09299",
+      "titulo": "Correlated parity violation in gravity and electromagnetism from five-dimensional spacetime",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.21935801",
+      "titulo": "SECTOR PAPER XVIII — Zero‑Parameter Cosmological Parity Violation and Horizon Dynamics in the Unified Information Substrate",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2021/03/069",
+      "titulo": "Measuring parity violation in the Stochastic Gravitational Wave Background with the LISA-Taiji network",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1016/j.physletb.2020.135961",
+      "titulo": "Parity violation and chiral oscillation of cosmological relic neutrinos",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevlett.133.121001",
+      "titulo": "Apparent Parity Violation in the Observed Galaxy Trispectrum",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.109.083028",
+      "titulo": "Probing parity violation in the stochastic gravitational wave background with astrometry",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.108.123507",
+      "titulo": "Scalar-induced gravitational waves from ghost inflation and parity violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2026/06/054",
+      "titulo": "Nonlinear evolution of the matter trispectrum with primordial parity violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/fxh6-hpmk",
+      "titulo": "Parity violation in galaxy shapes: Primordial non-Gaussianity",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.22157467",
+      "titulo": "Topological Evolution of Cosmic DNA and Parity Violation in the Next-Generation Universe via Spacetime Inversion",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.110.103534",
+      "titulo": "Searching for parity violation in SDSS DR16 Lyman- α forest data",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1007/jhep11(2021)210",
+      "titulo": "R-parity violation axiogenesis",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.20673416",
+      "titulo": "A Geometric Mechanism for Weak Chirality: Deriving Parity Violation from the TUT Boundary Condition in Perfect GMaTT",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2112.04794",
+      "titulo": "Parity violation in stochastic gravitational wave background from inflation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.111.123528",
+      "titulo": "Spatial distribution of the large-scale structure: An unsupervised search for parity violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2112.04650",
+      "titulo": "Detecting parity violation from axion inflation with third generation detectors",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevlett.130.201002",
+      "titulo": "Test for Cosmological Parity Violation Using the 3D Distribution of Galaxies",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2210.02907",
+      "titulo": "Parity violation in the scalar trispectrum: no-go theorems and yes-go examples",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2026/10/011",
+      "titulo": "Oscillations and parity violation in gravitational wave background from extra tensor modes",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2609.09106",
+      "titulo": "A Two-Dimensional Test of Cosmological Parity Violation with the 3-Point Correlation Function",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2401.14452",
+      "titulo": "The Kalb-Ramond field and Gravitational Parity Violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1007/jhep04(2026)057",
+      "titulo": "Opening the parameter space of sub-GeV inelastic dark matter through parity violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5445/ir/1000192651",
+      "titulo": "Opening the parameter space of sub-GeV inelastic dark matter through parity violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.18707",
+      "titulo": "Testing the 4-Point Correlation Function as a Probe of Parity Violation with the Quijote-Odd Simulations",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2403.06053",
+      "titulo": "Spinfoams, $γ$-duality and parity violation in primordial gravitational waves",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.32388/qfwiu8",
+      "titulo": "Review of: \"Parity Violation and Magnetic Helicity on Cosmological Scales: From Turbulent Baryogenesis to Galaxy Clusters\"",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2110.12004",
+      "titulo": "A Test for Cosmological Parity Violation Using the 3D Distribution of Galaxies",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2505.15169",
+      "titulo": "Stability Analysis of the Possible Consistent Model of Parity Violations in the Symmetric Teleparallel Gravity: Generalized Background Solutions",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.23327456",
+      "titulo": "Non-Equilibrium Holographic Brane Cosmology in AdS5. II: Bulk Angular Momentum, Bianchi Type IX Regular Bounce, and CMB Parity-Odd Imprints",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1103/physrevd.109.083518",
+      "titulo": "Unsupervised searches for cosmological parity violation: An investigation with convolutional neural networks",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2610.08671",
+      "titulo": "Boosted Odds: Lower-Point Probes of Parity Violation with Momentum Fields",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2604.26513",
+      "titulo": "Transient Parity Violation during Inflation: Implications for PTA Gravitational Waves",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1051/0004-6361/202558550",
+      "titulo": "The multiphase interstellar medium as a common origin for magnetic misalignment and TB parity violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2512.11656",
+      "titulo": "The multiphase interstellar medium as a common origin for magnetic misalignment and TB parity violation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.1088/1475-7516/2025/03/001",
+      "titulo": "Extracting axion string network parameters from simulated CMB birefringence maps using convolutional neural networks",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.48550/arxiv.2608.24456",
+      "titulo": "CMB Birefringence from Axion String Networks Calibrated to an AMR Simulation",
+      "razon": "No se encontro valor numerico de beta"
+    },
+    {
+      "doi": "https://doi.org/10.5281/zenodo.18817455",
+      "titulo": "Information Conservation in Cyclic Cosmology: Entropy Functional Definition, CEFE Weyl–Φ Coupling, and Parity-Odd CMB Signatures\"",
+      "razon": "No se encontro valor numerico de beta"
+    }
+  ]
+}

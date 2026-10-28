@@ -1,66 +1,75 @@
-{
-  "source": "Ap. C + Cap. 13",
-  "review_id": "REV-THU-BIREFRINGENCIA-2026",
-  "question_pico": {
-    "population": "Mediciones del CMB y LSS con sensibilidad a paridad",
-    "intervention": "Analisis de birefringencia isotropica/anisotropica o tomografia beta(z)",
-    "comparison": "Modelos nulos y competidores (ALPs, quinta fuerza)",
-    "outcome": "Amplitud beta, incertidumbres, robustez"
-  },
-  "search": {
-    "bases": [
-      "OpenAlex (sustituye WoS/ADS)"
-    ],
-    "period": [
-      "2019-01",
-      "2026-06"
-    ],
-    "keywords": [
-      "cosmic birefringence",
-      "CMB polarization rotation",
-      "parity violation CMB",
-      "beta(z) tomography",
-      "axion-like particles CMB"
-    ],
-    "justificacion_sustitucion": "Sin acceso institucional a WoS/ADS. OpenAlex cobertura equivalente."
-  },
-  "flow": {
-    "identificados_openalex": 1886,
-    "screening_auto": 49,
-    "publicados_peer_review": 245,
-    "unicos": 550,
-    "mediciones_reales": 21,
-    "descargados": 647,
-    "identified": 1886,
-    "screened": 647,
-    "eligible": 245,
-    "included": 21
-  },
-  "inclusion_criteria": [
-    "Mediciones con incertidumbres declaradas",
-    "Datos publicos o reproducibles",
-    "Peer-reviewed",
-    "Periodo 2019-2026"
-  ],
-  "exclusion_criteria": [
-    "Sin incertidumbres cuantificadas",
-    "Analisis duplicados sin dato primario",
-    "Sin acceso a datos ni metodologia"
-  ],
-  "extracted_variables": [
-    "beta central",
-    "Incertidumbre estadistica",
-    "Sistematica dominante",
-    "Metodo de calibracion",
-    "Nivel de confianza"
-  ],
-  "csv_file": "registry/prisma/prisma_2026.csv",
-  "csv_registros": 21,
-  "estado_actual": "reconstruido",
-  "deuda_pendiente": [
-    "Extraer beta/sigma de cada una de las 21 mediciones",
-    "Actualizar Cap. 13 de la tesis (ES/EN/DE) con nuevos numeros",
-    "Documentar decisiones de clasificacion manual"
-  ],
-  "contenido_actual": "8 mediciones con beta extraible, clasificadas A/B/C por procedencia del dataset"
+﻿{
+    "source":  "Ap. C + Cap. 13",
+    "review_id":  "REV-THU-BIREFRINGENCIA-2026",
+    "question_pico":  {
+                          "population":  "Mediciones del CMB y LSS con sensibilidad a paridad",
+                          "intervention":  "Analisis de birefringencia isotropica/anisotropica o tomografia beta(z)",
+                          "comparison":  "Modelos nulos y competidores (ALPs, quinta fuerza)",
+                          "outcome":  "Amplitud beta, incertidumbres, robustez"
+                      },
+    "search":  {
+                   "bases":  [
+                                 "OpenAlex (sustituye WoS/ADS)"
+                             ],
+                   "period":  [
+                                  "2019-01",
+                                  "2026-06"
+                              ],
+                   "keywords":  [
+                                    "cosmic birefringence",
+                                    "CMB polarization rotation",
+                                    "parity violation CMB",
+                                    "beta(z) tomography",
+                                    "axion-like particles CMB"
+                                ],
+                   "justificacion_sustitucion":  "Sin acceso institucional a WoS/ADS. OpenAlex cobertura equivalente."
+               },
+    "flow":  {
+                 "identificados_openalex":  1886,
+                 "screening_auto":  49,
+                 "publicados_peer_review":  245,
+                 "unicos":  550,
+                 "mediciones_reales":  21,
+                 "descargados":  647,
+                 "identified":  845,
+                 "screened":  253,
+                 "eligible":  47,
+                 "included":  5
+             },
+    "inclusion_criteria":  [
+                               "Mediciones con incertidumbres declaradas",
+                               "Datos publicos o reproducibles",
+                               "Peer-reviewed",
+                               "Periodo 2019-2026"
+                           ],
+    "exclusion_criteria":  [
+                               "Sin incertidumbres cuantificadas",
+                               "Analisis duplicados sin dato primario",
+                               "Sin acceso a datos ni metodologia"
+                           ],
+    "extracted_variables":  [
+                                "beta central",
+                                "Incertidumbre estadistica",
+                                "Sistematica dominante",
+                                "Metodo de calibracion",
+                                "Nivel de confianza"
+                            ],
+    "csv_file":  "registry/prisma/prisma_2026.csv",
+    "csv_registros":  21,
+    "estado_actual":  "reconstruido",
+    "deuda_pendiente":  [
+                            "Extraer beta/sigma de cada una de las 21 mediciones",
+                            "Actualizar Cap. 13 de la tesis (ES/EN/DE) con nuevos numeros",
+                            "Documentar decisiones de clasificacion manual"
+                        ],
+    "contenido_actual":  "8 mediciones con beta extraible, clasificadas A/B/C por procedencia del dataset",
+    "nota_flujo":  "Flujo reconstruido con OpenAlex (2026-10-27). 845 identificados, 253 candidatos, 47 con beta extraible (LLM con auditoria), 7 categoria A, 5 incluidas en sintesis (A + sigma + sin duplicar).",
+    "fuente_actual":  "OpenAlex API + DeepSeek Harness (2026-10-27)",
+    "beta_analysis":  {
+                          "mediciones_incluidas":  5,
+                          "tension_vs_THU":  1.69,
+                          "sigma_promedio":  0.0459,
+                          "archivo":  "registry/prisma/beta_analysis_honest.json",
+                          "beta_promedio":  0.2798
+                      }
 }
