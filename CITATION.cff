@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "Si usas este repositorio en tu investigacion, por favor citelo."
-title: "THU-TBEA 5.4 - Torsion Axial Helicoidal en Cosmologia Riemann-Cartan"
+title: "THU-TBEA 5.5 - Torsion Axial Helicoidal en Cosmologia Riemann-Cartan"
 abstract: "Teoria de campos efectiva sobre U4 con torsion axial, punto fijo aureo, cancelacion del vacio escalar modulado, y predicciones falsables de birefringencia cosmica."
 authors:
   - family-names: "Duque"
     given-names: "Erick"
     orcid: "https://orcid.org/0009-0004-1245-5464"
-version: "5.4"
-doi: "10.5281/zenodo.22949313"
-date-released: "2026-09-24"
+version: "5.5"
+doi: "10.5281/zenodo.22949312"
+date-released: "2026-10-29"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/internationalmanager-creator/THU-TBEA"
 type: dataset

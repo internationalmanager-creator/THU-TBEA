@@ -1,4 +1,4 @@
-"""THU-TBEA 5.4 — Dashboard Streamlit dedicado.
+"""THU-TBEA 5.5 — Dashboard Streamlit dedicado.
 
 Ejecutar:
     streamlit run app_thu.py
@@ -37,7 +37,7 @@ ANNEXES_FILE = BASE / "registry" / "thu" / "annexes.json"
 DIST_DIR = BASE / "paper" / "thu" / "dist"
 SRC_DIR = BASE / "paper" / "thu" / "src"
 
-st.set_page_config(page_title="THU-TBEA 5.4", page_icon="🌀",
+st.set_page_config(page_title="THU-TBEA 5.5", page_icon="🌀",
                    layout="wide", initial_sidebar_state="expanded")
 
 # ============================================================
@@ -928,9 +928,9 @@ def main():
         ORCID: <code>0009-0004-1245-5464</code><br>
         Correo: <code>international_manager@comllcusa.com</code><br>
         <br>
-        <b>THU-TBEA 5.4</b><br>
-        Version 5.4 &middot; 2026-09-24<br>
-        DOI: <code>10.5281/zenodo.22949313</code><br>
+        <b>THU-TBEA 5.5</b><br>
+        Version 5.5 &middot; 2026-10-29<br>
+        DOI: <code>10.5281/zenodo.22949312</code><br>
         Repo: <a href='https://github.com/internationalmanager-creator/THU-TBEA'>GitHub</a>
         </small>
         """,
