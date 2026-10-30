@@ -1,4 +1,4 @@
-﻿"""THU-TBEA 5.4 — Dashboard Streamlit dedicado.
+"""THU-TBEA 5.4 — Dashboard Streamlit dedicado.
 
 Ejecutar:
     streamlit run app_thu.py
@@ -535,14 +535,17 @@ def render_downloads(t):
 
     diag = latex_compile.doctor()
     c1, c2, c3 = st.columns(3)
-    with c1: _kpi_simple("Motor LaTeX", diag["motor"] or "NO DISPONIBLE")
+    with c1: _kpi_simple("Motor LaTeX", diag["motor"] or "Nube (PDFs precompilados)")
     with c2: _kpi_simple("Archivos .tex", len(diag["tex_files"]))
     with c3: _kpi_simple("PDFs generados", len(diag["pdfs_generados"]))
 
     if not diag["motor"]:
-        st.error("**No hay motor LaTeX instalado.**")
-        for k, v in diag["instalar"].items():
-            st.markdown(f"- **{k}**: `{v}`")
+        if len(diag["pdfs_generados"]) == 0:
+            st.error("**No hay motor LaTeX instalado y no se encontraron PDFs precompilados.**")
+            for k, v in diag["instalar"].items():
+                st.markdown(f"- **{k}**: `{v}`")
+        else:
+            st.success("✅ **PDFs precompilados disponibles.** El motor LaTeX no es necesario para visualizar y descargar.")
 
     st.markdown("---")
     # === Abrir PDFs generados (D-38) ===
@@ -949,6 +952,7 @@ if __name__ == "__main__":
         os.environ["THU_BROWSER_OPENED"] = "1"
         threading.Timer(2.5, lambda: webbrowser.open("http://localhost:8501")).start()
     main()
+
 
 
 
