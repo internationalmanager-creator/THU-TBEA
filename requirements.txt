@@ -27,3 +27,4 @@ tqdm>=4.66,<5
 
 # --- Testing
 pytest>=8.0,<9
+streamlit-pdf
