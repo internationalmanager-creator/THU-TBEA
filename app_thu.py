@@ -134,10 +134,10 @@ def render_overview(t):
     cL, cR = st.columns(2)
     with cL:
         fig = C.problems_timeline(probs)
-        if fig: st.plotly_chart(fig, use_container_width=True)
+        if fig: st.plotly_chart(fig, width="stretch")
     with cR:
         fig = C.problems_bar(probs, t)
-        if fig: st.plotly_chart(fig, use_container_width=True)
+        if fig: st.plotly_chart(fig, width="stretch")
 
 # ============================================================
 # Seccion 2: Problems
@@ -196,7 +196,7 @@ def render_predictions(t):
             t["status"]: p["status"],
             t["chapter"]: p.get("chapter", "—"),
         })
-    st.dataframe(rows, use_container_width=True, hide_index=True)
+    st.dataframe(rows, width="stretch", hide_index=True)
 
     st.markdown("---")
     st.markdown("### Detalles con valor pre-registrado")
@@ -206,7 +206,7 @@ def render_predictions(t):
     for p in con_valor:
         st.markdown(f"**{p['id']}** — {p['observable']}")
         for k, v in p.items():
-            if k.startswith("value_"):
+            if k.startswith("value_") and p.get("status") != "RETIRADA":
                 st.markdown(f"- `{k}` = `{v}`")
 
 # === PARTE 2 se agrega a continuacion ===
@@ -220,7 +220,7 @@ def render_patches(t):
     section(t["patches_title"], t["patches_theory"])
     data = L.patches()
     fig = C.patches_by_stage(data)
-    if fig: st.plotly_chart(fig, use_container_width=True)
+    if fig: st.plotly_chart(fig, width="stretch")
 
     stages = data["stages"]
     stage_names = {k: f"Etapa {k} — {v['label']}" for k, v in stages.items()}
@@ -254,7 +254,7 @@ def render_versions(t):
     section(t["versions_title"], t["versions_theory"])
     data = L.versions()
     fig = C.versions_timeline(data)
-    if fig: st.plotly_chart(fig, use_container_width=True)
+    if fig: st.plotly_chart(fig, width="stretch")
     for v in data["versions"]:
         st.markdown(
             f'<div class="thu-card">'
@@ -281,10 +281,10 @@ def render_epistemic(t):
     with c1:
         rows = [{"Claim": r["claim"], "Label": r["label"],
                  "Chapter": r["chapter"]} for r in data["rows"]]
-        st.dataframe(rows, use_container_width=True, hide_index=True)
+        st.dataframe(rows, width="stretch", hide_index=True)
     with c2:
         fig = C.epistemic_pie(data, t)
-        if fig: st.plotly_chart(fig, use_container_width=True)
+        if fig: st.plotly_chart(fig, width="stretch")
 
 # ============================================================
 # Seccion 7: Glossary
@@ -368,7 +368,7 @@ def render_refs(t):
             "Tag": r.get("tag", ""),
             "DOI": doi if doi else "—",
         })
-    st.dataframe(rows, use_container_width=True, hide_index=True, height=600)
+    st.dataframe(rows, width="stretch", hide_index=True, height=600)
 
 
 
@@ -379,7 +379,7 @@ def render_prisma(t):
     c1, c2 = st.columns([1, 1])
     with c1:
         fig = C.prisma_funnel(data)
-        if fig: st.plotly_chart(fig, use_container_width=True)
+        if fig: st.plotly_chart(fig, width="stretch")
     with c2:
         st.markdown("**PICO**")
         for k, v in data["question_pico"].items():
@@ -401,7 +401,7 @@ def render_datasets(t):
              "SHA-256 (trunc)": d["sha256_trunc"],
              "Ano": d["year"], "Ref": f"[{d['ref']}]",
              "N": d["n"]} for d in data["datasets"]]
-    st.dataframe(rows, use_container_width=True, hide_index=True)
+    st.dataframe(rows, width="stretch", hide_index=True)
 
     st.markdown(f"**Semilla global**: `{data['seed_global']}`")
     st.markdown("**Modulos del pipeline**")
@@ -409,7 +409,7 @@ def render_datasets(t):
         st.markdown(f"- `{m}`")
 
     fig = C.chi2_breakdown(data)
-    if fig: st.plotly_chart(fig, use_container_width=True)
+    if fig: st.plotly_chart(fig, width="stretch")
     if data["chi2_breakdown"].get("warning"):
         st.warning(data["chi2_breakdown"]["warning"])
 
@@ -426,12 +426,12 @@ def render_sections(t):
              "Parte": c["part"],
              "Paginas": f"{c['pages'][0]}-{c['pages'][-1]}"}
             for c in data["chapters"]]
-    st.dataframe(rows, use_container_width=True, hide_index=True, height=400)
+    st.dataframe(rows, width="stretch", hide_index=True, height=400)
     st.markdown("### Apendices")
     rows = [{"Letra": a["letter"], "Titulo": a["title"],
              "Paginas": f"{a['pages'][0]}-{a['pages'][-1]}"}
             for a in data["appendices"]]
-    st.dataframe(rows, use_container_width=True, hide_index=True)
+    st.dataframe(rows, width="stretch", hide_index=True)
 
 # === PARTE 3 se agrega a continuacion ===
 
@@ -585,19 +585,19 @@ def render_downloads(t):
     st.markdown("### 1. Generar archivos LaTeX (.tex)")
     cA, cB, cC, cD = st.columns(4)
     with cA:
-        if st.button("Generar ES", use_container_width=True):
+        if st.button("Generar ES", width="stretch"):
             p = latex_builder.build("es")
             st.success(f"-> {p.name} ({p.stat().st_size} B)")
     with cB:
-        if st.button("Generar EN", use_container_width=True):
+        if st.button("Generar EN", width="stretch"):
             p = latex_builder.build("en")
             st.success(f"-> {p.name} ({p.stat().st_size} B)")
     with cC:
-        if st.button("Generar DE", use_container_width=True):
+        if st.button("Generar DE", width="stretch"):
             p = latex_builder.build("de")
             st.success(f"-> {p.name} ({p.stat().st_size} B)")
     with cD:
-        if st.button("Generar todo", use_container_width=True, type="primary"):
+        if st.button("Generar todo", width="stretch", type="primary"):
             paths = latex_builder.build_all()
             st.success(f"Generados {len(paths)} .tex")
 
@@ -606,19 +606,19 @@ def render_downloads(t):
     cA, cB, cC, cD = st.columns(4)
     disabled = not diag["motor"]
     with cA:
-        if st.button("Compilar ES", use_container_width=True, disabled=disabled):
+        if st.button("Compilar ES", width="stretch", disabled=disabled):
             r = latex_compile.compilar("es", force=True)
             st.success(r["pdf"] if r["status"] == "OK" else r["razon"])
     with cB:
-        if st.button("Compilar EN", use_container_width=True, disabled=disabled):
+        if st.button("Compilar EN", width="stretch", disabled=disabled):
             r = latex_compile.compilar("en", force=True)
             st.success(r["pdf"] if r["status"] == "OK" else r["razon"])
     with cC:
-        if st.button("Compilar DE", use_container_width=True, disabled=disabled):
+        if st.button("Compilar DE", width="stretch", disabled=disabled):
             r = latex_compile.compilar("de", force=True)
             st.success(r["pdf"] if r["status"] == "OK" else r["razon"])
     with cD:
-        if st.button("Compilar todo", use_container_width=True, type="primary",
+        if st.button("Compilar todo", width="stretch", type="primary",
                      disabled=disabled):
             rs = latex_compile.compilar_all(force=True)
             for r in rs:
@@ -640,7 +640,7 @@ def render_downloads(t):
                 with open(pdf, "rb") as f:
                     st.download_button(f"PDF {lang.upper()}", data=f.read(),
                                        file_name=pdf.name, mime="application/pdf",
-                                       use_container_width=True,
+                                       width="stretch",
                                        key=f"dl_pdf_{lang}")
         with col3:
             if pdf.exists():
@@ -666,7 +666,7 @@ def render_downloads(t):
                 with open(tex, "rb") as f:
                     st.download_button(f".tex {lang.upper()}", data=f.read(),
                                        file_name=tex.name, mime="text/x-tex",
-                                       use_container_width=True,
+                                       width="stretch",
                                        key=f"dl_tex_{lang}")
 
 # ============================================================
@@ -765,7 +765,7 @@ def render_figures(t):
     with cA:
         if st.button(t["figures_prev"], key="fig_prev",
                      disabled=(st.session_state.fig_page <= 1),
-                     use_container_width=True):
+                     width="stretch"):
             st.session_state.fig_page -= 1
             st.rerun()
     with cB:
@@ -778,7 +778,7 @@ def render_figures(t):
     with cC:
         if st.button(t["figures_next"], key="fig_next",
                      disabled=(st.session_state.fig_page >= n_pages),
-                     use_container_width=True):
+                     width="stretch"):
             st.session_state.fig_page += 1
             st.rerun()
 
@@ -800,7 +800,7 @@ def render_figures(t):
             if png.exists():
                 _img = _find_figure_image(png)
                 if _img:
-                    st.image(str(_img), use_container_width=True)
+                    st.image(str(_img), width="stretch")
                 else:
                     st.warning("PNG no encontrado para: " + str(png))
             else:
@@ -896,13 +896,13 @@ def main():
 
     if "lang" not in st.session_state:
         st.session_state.lang = "es"
-    st.sidebar.image("assets_hero.png", use_container_width=True)
+    st.sidebar.image("assets_hero.png", width="stretch")
     st.sidebar.selectbox("Idioma / Language / Sprache", I.available(),
                           format_func=I.lang_label, key="lang")
     t = I.get(st.session_state.lang)
 
     st.sidebar.markdown("---")
-    if st.sidebar.button("Recargar", use_container_width=True):
+    if st.sidebar.button("Recargar", width="stretch"):
         L.clear_cache()
         st.rerun()
 
@@ -913,7 +913,7 @@ def main():
     for sid, (label_key, _) in SECTIONS.items():
         active = st.session_state.sec == sid
         if st.sidebar.button(t[label_key], key=f"btn_{sid}",
-                              use_container_width=True,
+                              width="stretch",
                               type="primary" if active else "secondary"):
             if not active:
                 st.session_state.sec = sid
@@ -952,6 +952,7 @@ if __name__ == "__main__":
         os.environ["THU_BROWSER_OPENED"] = "1"
         threading.Timer(2.5, lambda: webbrowser.open("http://localhost:8501")).start()
     main()
+
 
 
 
