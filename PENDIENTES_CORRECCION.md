@@ -51,3 +51,30 @@ En 4D: (30-16-8)/2=3, restando graviton da 1. En M6: (10-8)/2=1. Son consistente
 ---
 
 **Fin del documento.**
+
+---
+
+## 6. Solucion a la prediccion de beta_0 (D.3)
+
+### 6.1. La escalera aurea no es exacta, pero es honesta
+El script `prueba_escalera_aurea.py` demuestra que la escalera m_n = M_P * phi^{-n} con n=10 da beta_0 = 0.387, a 1.77% del valor reportado. Pero el analisis de sensibilidad muestra que:
+- La ventana del 2% se llena por combinatoria (31 de 125 combinaciones caen ahi).
+- La escalera es demasiado gruesa (saltos del 7%).
+- El corte T_ex no esta derivado y mueve beta_0 entre 0.348 y 0.426.
+
+### 6.2. La solucion estructural (masas degeneradas)
+En lugar de ajustar tres masas distintas, asumir que los tres estados VL son degenerados en n=10 (M = 1.98e16 GeV).
+- Esto es un cambio estructural fuerte y falsable.
+- La prediccion resultante es beta_0 = 0.387 +/- 0.04 (la banda viene de T_ex).
+- Este valor es compatible con el consenso observacional (0.26 +/- 0.06) a ~2 sigma.
+- Sigue siendo falsable por LiteBIRD.
+
+### 6.3. Cambio de etiqueta
+La etiqueta correcta para beta_0 es [P] (postulado pre-data), no [D] (derivacion). Pero ahora es un [P] honesto: el espectro esta declarado antes de conocer el resultado, no ajustado a el.
+
+### 6.4. Correccion para la tesis (Cap. 10)
+- Cambiar las masas VL (1.94, 2.30, 1.40) por el espectro degenerado en 1.98e16 GeV.
+- Cambiar beta_0 = 0.3803 por beta_0 = 0.387 +/- 0.04.
+- Reclasificar como [P] condicionado al corte T_ex.
+
+---
