@@ -26,7 +26,7 @@ BASE = Path(__file__).parent
 sys.path.insert(0, str(BASE / "src"))
 
 import streamlit as st
-from streamlit_pdf import show_pdf
+
 
 from thu import loader as L
 from thu import i18n_thu as I
@@ -561,7 +561,7 @@ def render_downloads(t):
                     
                     # Visualizador de PDF
                     try:
-                        show_pdf(pdf)
+                        st.pdf(pdf, height=600)
                     except Exception as e:
                         st.warning(f"No se pudo mostrar el PDF embebido: {e}")
                         st.info("Usa el boton de descarga de abajo.")
@@ -949,5 +949,6 @@ if __name__ == "__main__":
         os.environ["THU_BROWSER_OPENED"] = "1"
         threading.Timer(2.5, lambda: webbrowser.open("http://localhost:8501")).start()
     main()
+
 
 
