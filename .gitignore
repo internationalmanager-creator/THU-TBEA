@@ -126,3 +126,10 @@ src/thu/_backup_paths_*/
 
 registry/thu/*.bak_*
 
+
+# === Artefactos locales de sesion (no versionar) ===
+TinyTeX/
+backups_tesis_*/
+backups_tex_*/
+install-tinytex.bat
+scripts/_*.py
