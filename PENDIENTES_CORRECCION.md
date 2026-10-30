@@ -78,3 +78,33 @@ La etiqueta correcta para beta_0 es [P] (postulado pre-data), no [D] (derivacion
 - Reclasificar como [P] condicionado al corte T_ex.
 
 ---
+
+---
+
+## 7. Alternativas cosmologicas (D.4)
+
+### 7.1. Resultado del ajuste con torsion extendida
+Se probaron tres alternativas para evitar el colapso a Omega_tau = 0:
+- Torsion + potencial V(Phi)
+- Acoplamiento no minimo torsion-DM
+- Torsion-DE interactuante
+
+**Ninguna evita el colapso.** Los datos (BAO + SNe) no requieren ningun componente de fluido rigido.
+
+### 7.2. El colapso es de los datos, no del modelo
+Un fluido que escala como a^{-6} es invisible a z < 2. El limite es Omega_tau <~ 2e-4. No es un fracaso del programa, es que el fondo FLRW no puede ver la torsion.
+
+### 7.3. La alternativa que parece mejorar lo hace por la razon equivocada
+Torsion + potencial da dAIC = -8.4, pero con Omega_tau=0.2997 (pegado al borde) y w=-0.69. El componente extra se comporta como energia oscura, no como torsion. Pierde contra wCDM (dAIC = -11.2 con un parametro menos).
+
+### 7.4. La solucion estructural
+Aceptar que Omega_tau = 0 es la prediccion correcta de THU-TBEA en el fondo FLRW (la torsion es algebraica, no dinamica).
+- El discriminante esta en la tomografia beta(z) (Cap. 11) y en el crecimiento (f*sigma8).
+- Un componente rigido deja firma en el crecimiento aunque sea despreciable en H(z).
+
+### 7.5. Correccion para la tesis (Cap. 8)
+- Declarar que Omega_tau = 0 es la prediccion de THU-TBEA tras eliminar algebraicamente la torsion.
+- Los datos de BAO + SNe confirman esta prediccion (dAIC = +2.32 a favor de Lambda-CDM, pero compatible con Omega_tau=0).
+- El test discriminante es la tomografia beta(z), no el fondo.
+
+---
