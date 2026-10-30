@@ -1,4 +1,4 @@
-"""Carga los JSON de registry/thu/ y expone estructura validada."""
+﻿"""Carga los JSON de registry/thu/ y expone estructura validada."""
 import json
 from functools import lru_cache
 from pathlib import Path
@@ -11,7 +11,7 @@ def _load(name):
     p = THU_DIR / name
     if not p.exists():
         raise FileNotFoundError(f"Falta {p}")
-    return json.loads(p.read_text(encoding="utf-8"))
+    return json.loads(p.read_text(encoding="utf-8-sig"))
 
 
 @lru_cache(maxsize=None)
@@ -67,7 +67,7 @@ def _figure_metadata_raw():
     p2 = THU_DIR / "figures_metadata.json"
     if not p2.exists():
         return {"figures": {}, "source": None, "note": None}
-    return json.loads(p2.read_text(encoding="utf-8"))
+    return json.loads(p2.read_text(encoding="utf-8-sig"))
 
 
 def figure_metadata(lang="es"):
