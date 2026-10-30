@@ -1,4 +1,4 @@
-"""THU-TBEA 5.4 — Dashboard Streamlit dedicado.
+﻿"""THU-TBEA 5.4 — Dashboard Streamlit dedicado.
 
 Ejecutar:
     streamlit run app_thu.py
@@ -26,6 +26,7 @@ BASE = Path(__file__).parent
 sys.path.insert(0, str(BASE / "src"))
 
 import streamlit as st
+import streamlit_pdf
 
 from thu import loader as L
 from thu import i18n_thu as I
@@ -547,15 +548,25 @@ def render_downloads(t):
     # === Abrir PDFs generados (D-38) ===
     dist = BASE / "paper" / "thu" / "dist"
     if dist.exists():
-        st.markdown("### 0. PDFs disponibles")
-        for lang_code, lang_name in [("es","Espanol"), ("en","English"), ("de","Deutsch")]:
-            pdf = dist / f"tesis_{lang_code}.pdf"
-            if pdf.exists():
-                mb = round(pdf.stat().st_size / (1024*1024), 2)
-                c1, c2 = st.columns([3, 1])
-                with c1:
+        st.markdown("### 0. PDFs disponibles y visualizador")
+        
+        # Visualizador embebido
+        tabs = st.tabs(["Espanol", "English", "Deutsch"])
+        for tab, lang_code, lang_name in zip(tabs, ["es","en","de"], ["Espanol", "English", "Deutsch"]):
+            with tab:
+                pdf = dist / f"tesis_{lang_code}.pdf"
+                if pdf.exists():
+                    mb = round(pdf.stat().st_size / (1024*1024), 2)
                     st.markdown(f"**{lang_name}** - `{pdf.name}` ({mb} MB)")
-                with c2:
+                    
+                    # Visualizador de PDF
+                    try:
+                        streamlit_pdf.show_pdf(pdf)
+                    except Exception as e:
+                        st.warning(f"No se pudo mostrar el PDF embebido: {e}")
+                        st.info("Usa el boton de descarga de abajo.")
+                    
+                    # Boton de descarga
                     with open(pdf, "rb") as fh:
                         st.download_button(
                             f"Descargar {lang_code.upper()}",
@@ -564,6 +575,8 @@ def render_downloads(t):
                             mime="application/pdf",
                             key=f"dl_{lang_code}"
                         )
+                else:
+                    st.info(f"No hay PDF generado para {lang_name}. Compilalo primero.")
         st.markdown("---")
 
     st.markdown("### 1. Generar archivos LaTeX (.tex)")
@@ -936,3 +949,4 @@ if __name__ == "__main__":
         os.environ["THU_BROWSER_OPENED"] = "1"
         threading.Timer(2.5, lambda: webbrowser.open("http://localhost:8501")).start()
     main()
+
