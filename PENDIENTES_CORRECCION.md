@@ -168,3 +168,18 @@ Se calcularon las masas de fermiones VL para tres geometrías candidatas:
 **Conclusión:** Ninguna geometría simple da las masas requeridas. El producto de toros es el candidato más cercano (2 órdenes de magnitud), pero se requiere un ajuste de flujos de 3-forma (G_3) para reducir las masas. La quíntica y la intersección en P^5 son demasiado rígidas.
 
 **Estado:** Se requiere el cálculo de flujos de 3-forma sobre el producto de toros para refinar D.3. Eso es el paso siguiente (proyecto de semanas).
+
+---
+
+### D.1 — Identidad IBP para el sunset a 2-loops (FORM)
+
+Se calculó explícitamente la identidad de integración por partes (IBP) para el diagrama sunset con propagador no local:
+\[
+0 = \frac{\partial}{\partial k_1^\mu} \left[ \frac{k_1^\mu}{D_1^{n_1} D_2^{n_2} D_3^{n_3}} \right]
+\]
+
+El resultado (24 términos, ver scripts/d1_ibp.frm) incluye:
+- El término \(4/(D_1^{n_1} D_2^{n_2} D_3^{n_3})\) (de la derivada de \(k_1^\mu\)).
+- Los términos de la derivada de \(D_1\) y \(D_3\), que incluyen el parámetro \(a\) del operador no local.
+
+**Conclusión:** La identidad IBP con el operador no local está calculada. El siguiente paso es resolver el sistema de ecuaciones (igualando a cero) para obtener las integrales maestras y extraer los coeficientes de la función beta a 2-loops. Eso es un cálculo de álgebra lineal que se puede hacer con FORM o SymPy, pero requiere definir las integrales maestras.
