@@ -183,3 +183,25 @@ El resultado (24 términos, ver scripts/d1_ibp.frm) incluye:
 - Los términos de la derivada de \(D_1\) y \(D_3\), que incluyen el parámetro \(a\) del operador no local.
 
 **Conclusión:** La identidad IBP con el operador no local está calculada. El siguiente paso es resolver el sistema de ecuaciones (igualando a cero) para obtener las integrales maestras y extraer los coeficientes de la función beta a 2-loops. Eso es un cálculo de álgebra lineal que se puede hacer con FORM o SymPy, pero requiere definir las integrales maestras.
+
+---
+
+### D.1 — Polo líder del sunset no local (Punto 3, cerrado)
+
+**Resultado analítico (derivado a mano):**
+
+S(1,1,1)|p=0 ~ -3*pi^4*m^2/(2*eps^2) + O(1/eps)
+
+**Verificación numérica (python/d1_sunset_pole_verify.py):**
+
+eps^2 * S(eps) converge a -146.11 = -3*pi^4/2 conforme eps -> 0.
+Datos: eps=0.06 -> -143.36; eps=0.04 -> -144.00; eps=0.02 -> -144.92; extrapola a -146.11.
+
+**Combinado con identidad del operador no local:**
+
+I_nl = S(1,1,1) * [1 - a*(d-3)/m^2]
+      ~ -3*pi^4*(m^2 - a)/(2*eps^2) - 3*pi^4*a/eps + O(1)
+
+El operador no local desplaza la masa efectiva m^2 -> m^2 - a en el polo líder y agrega un polo sublíder proporcional a 'a'.
+
+**Frontera [F]:** Falta el polo sublíder de S(1,1,1) (coeficiente finito) y la suma sobre TODOS los diagramas de 2 loops (sunset + double-bubble + etc.). El cálculo completo de la función beta a 2 loops es proyecto aparte.
