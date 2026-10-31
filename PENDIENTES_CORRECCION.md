@@ -108,3 +108,4 @@ Aceptar que Omega_tau = 0 es la prediccion correcta de THU-TBEA en el fondo FLRW
 - El test discriminante es la tomografia beta(z), no el fondo.
 
 ---
+
