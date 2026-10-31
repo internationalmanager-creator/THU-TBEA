@@ -136,3 +136,19 @@ Se calculó el período fundamental de la hipersuperficie quíntica en P^4 (h^{1
 Las masas necesarias para generar eta_0 = 0.387° (según ERRATA) son ~ 1.4 - 2.3e16 GeV.
 
 **Conclusión:** La geometría de la quíntica simple genera masas 6 órdenes de magnitud mayores que las requeridas. El CY3 real de THU-TBEA (h^{1,1}=22) debe tener una estructura de períodos y flujos de 3-forma que cancelen parte de la contribución. El valor eta_0 = 0.387° es un ajuste condicional **[P]**, no una predicción derivada **[D]** de la geometría. Esto confirma lo declarado en el ERRATA v5.5 (E-02).
+
+---
+
+### D.3 — Screening de geometrías CY3 (SageMath)
+
+Se calcularon las masas de fermiones VL para tres geometrías candidatas:
+
+| Geometría | Masa estimada (GeV) | Diferencia con 10^16 |
+|---|---|---|
+| Quíntica en P^4 (h11=1) | 3.53e22 | 3.5e6 |
+| Intersección en P^5 (h11=2) | 9.70e20 | 9.7e4 |
+| **Producto de toros T^6 (h11=3)** | **2.44e18** | **2.42e2** |
+
+**Conclusión:** Ninguna geometría simple da las masas requeridas. El producto de toros es el candidato más cercano (2 órdenes de magnitud), pero se requiere un ajuste de flujos de 3-forma (G_3) para reducir las masas. La quíntica y la intersección en P^5 son demasiado rígidas (sus períodos crecen rápido y los flujos no pueden compensar 6 órdenes de magnitud).
+
+**Estado:** Se requiere el cálculo de flujos de 3-forma sobre el producto de toros para refinar D.3. Eso es el paso siguiente (proyecto de semanas).
