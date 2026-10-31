@@ -121,3 +121,18 @@ Se calcularon los integrandos de la función beta a 1-loop en FORM 5.0.0 (WSL) p
 2. **Operador no local (expansión a primer orden):** El propagador es i / (k^2 (1 + a k^2) - m^2). Los integrandos contienen  k^4 en el denominador, lo que suprime los modos UV.
 
 **Conclusión:** El operador no local cambia la estructura del integrando. Para extraer los coeficientes (1, +1, -1) de `β_eff(g) = κ(1 + g - g²)`, se requiere integrar explícitamente estos denominadores (IBP o integración numérica a 2-loops). Eso se deja como frontera abierta [F].
+
+---
+
+### D.3 — Cálculo de masas VL desde el CY3 (SageMath)
+
+Se calculó el período fundamental de la hipersuperficie quíntica en P^4 (h^{1,1}=1) usando SageMath en CoCalc.
+
+**Resultado:**
+- Período: 14112000*z^3 + 37800*z^2 + 120*z + 1
+- Masas VL (evaluando en z=0.1): ~ 3.5e22 a 1.0e23 GeV.
+
+**Comparación con el requisito de beta_0:**
+Las masas necesarias para generar eta_0 = 0.387° (según ERRATA) son ~ 1.4 - 2.3e16 GeV.
+
+**Conclusión:** La geometría de la quíntica simple genera masas 6 órdenes de magnitud mayores que las requeridas. El CY3 real de THU-TBEA (h^{1,1}=22) debe tener una estructura de períodos y flujos de 3-forma que cancelen parte de la contribución. El valor eta_0 = 0.387° es un ajuste condicional **[P]**, no una predicción derivada **[D]** de la geometría. Esto confirma lo declarado en el ERRATA v5.5 (E-02).
