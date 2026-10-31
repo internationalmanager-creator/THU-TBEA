@@ -110,3 +110,14 @@ Aceptar que Omega_tau = 0 es la prediccion correcta de THU-TBEA en el fondo FLRW
 ---
 
 
+
+---
+
+### D.1 — Cálculo de loop con operador no local (Opción 3)
+
+Se calcularon los integrandos de la función beta a 1-loop en FORM 5.0.0 (WSL) para dos casos:
+
+1. **Teoría local (phi^4):** Tadpole ~ g, Bubble ~ g^2. No hay términos g^0 ni g^1.
+2. **Operador no local (expansión a primer orden):** El propagador es i / (k^2 (1 + a k^2) - m^2). Los integrandos contienen  k^4 en el denominador, lo que suprime los modos UV.
+
+**Conclusión:** El operador no local cambia la estructura del integrando. Para extraer los coeficientes (1, +1, -1) de `β_eff(g) = κ(1 + g - g²)`, se requiere integrar explícitamente estos denominadores (IBP o integración numérica a 2-loops). Eso se deja como frontera abierta [F].
