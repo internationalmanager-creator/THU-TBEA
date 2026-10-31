@@ -1,0 +1,7 @@
+kinematics:
+  incoming_momenta: []
+  outgoing_momenta: []
+  momentum_conservation: []
+  kinematic_invariants:
+    - [m2, 2]
+  symbol_to_replace_by_one: m2
